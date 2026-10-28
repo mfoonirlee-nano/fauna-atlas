@@ -1,6 +1,6 @@
 # 制作清单：100 种新奇动物与分类补充
 
-2026-10-27 更新：本轮选定 100 种新动物，已完成 25 种，待制作 75 种。前次推荐的 15 种已包含在这 100 种内。正式目录现有 825 份物种档案；本轮已完成的 25 种包含 25 份档案、150 张配图，来源与验收见[首批记录](research/todo-novel-first-five-2026-10-23.md)、[第二批记录](research/todo-novel-second-five-2026-10-23.md)、[第三批记录](research/todo-novel-third-five-2026-10-23.md)、[第四批记录](research/todo-novel-fourth-five-2026-10-24.md)及[第五批记录](research/todo-novel-fifth-five-2026-10-27.md)。
+2026-10-27 复核更新：本轮已完成 33/100，待制作或返修 67。目录保留 835 份物种档案；本次十种中，八种经参考对照或重画后恢复配图，两种继续返修。当前完成的 33 种对应 198 张配图；十种的全球保护评估均改为待核实。详见[十种动物复核修复记录](research/ten-animal-review-fix-2026-10-27.md)。
 
 ## 选题范围与核查
 
@@ -17,13 +17,13 @@
 
 | 制作分组 | 已完成 | 待制作 |
 | --- | ---: | ---: |
-| 软体动物 | 11 | 10 |
+| 软体动物 | 19 | 2 |
 | 刺胞与栉水母动物 | 7 | 4 |
 | 棘皮动物 | 1 | 7 |
 | 环节、海绵及其他动物 | 0 | 16 |
 | 节肢动物 | 4 | 24 |
 | 脊索动物 | 2 | 14 |
-| 合计 | 25 | 75 |
+| 合计 | 33 | 67 |
 
 ## 制作顺序与完成条件
 
@@ -50,14 +50,14 @@
 | [x] | N020 | 七腕章鱼 | *Haliphron atlanticus* | 找出名字中的谜题：雄性藏起交接腕，看着像七条；雌性曾抱着水母进食 | 比较雌雄差异及水母食物网 | [来源](https://www.mbari.org/animal/seven-arm-octopus/) |
 | [x] | N021 | 拟态章鱼 | *Thaumoctopus mimicus* | 比较把腕收拢成扁鱼状与伸展成狮子鱼状的姿势 | 加入多种姿势的拟态行为 | [来源](https://www.amnh.org/explore/news-blogs/mimic-octopus-behavior) |
 | [x] | N022 | 椰子章鱼 | *Amphioctopus marginatus* | 搬着椰壳走路，再把壳拼成藏身处 | 补充软体动物携带物体及搭建庇护所 | [来源](https://ocean.si.edu/ocean-life/invertebrates/veined-octopus-anilao-batangas-pier-philippines) |
-| [ ] | N023 | 条纹睡衣乌贼 | *Sepioloidea lineolata* | 黑白条纹、黄色眼睛；把沙拨到身上，露出眼睛 | 加入瓶尾乌贼科 Sepiadariidae 的选题 | [来源](https://www.aquariumofpacific.org/onlinelearningcenter/species/pajama_squid) |
-| [ ] | N024 | 长突太阳能海蛞蝓 | *Phyllodesmium longicirrum* | 扁平背突上有褐色小斑，放大看共生藻所在区域 | 与叶羊、绿海天牛比较不同的光合伙伴关系 | [来源](https://seaslugforum.net/showall/phyllong) |
-| [ ] | N025 | 绿叶海天牛 | *Elysia chlorotica* | 像叶片的绿色侧足，放大观察分枝消化腺 | 加入不同种的盗食叶绿体现象，比较藻类食物 | [来源](https://seaslugforum.net/showall/elyschlo) |
-| [ ] | N026 | 火烈鸟舌螺 | *Cyphoma gibbosum* | 橙黄黑斑在包覆贝壳的活外套膜上，缩回后壳面不同 | 加入梭螺科 Ovulidae，比较壳色与软组织颜色 | [来源](https://www.shellmuseum.org/post/flamingo-tongue-goth-lips) |
-| [ ] | N027 | 女王凤凰螺 | *Aliger gigas* | 粉橙色壳口，两根长眼柄分别转动 | 加入大型凤凰螺及成体、幼体壳形比较 | [来源](https://www.fisheries.noaa.gov/species/queen-conch/science) |
-| [ ] | N028 | 线纹石鳖 | *Tonicella lineata* | 数八块背板，观察锯齿状线纹，与橡胶靴石鳖比较 | 在多板纲内增加可对照的小型石鳖 | [来源](https://inverts.wallawalla.edu/Mollusca/Polyplacophora/Tonicella_lineata.html) |
-| [ ] | N029 | 大蓝环章鱼 | *Hapalochlaena lunulata* | 对比平时体色与显现蓝环的警戒图案 | 补蓝环章鱼属并解释可见图案的用途 | [来源](https://www.aquariumofpacific.org/onlinelearningcenter/species/greater_blue_ringed_octopus1) |
-| [ ] | N030 | 西班牙舞娘海蛞蝓 | *Hexabranchus sanguineus* | 宽大外套膜边缘翻动游泳；背上可见分离的鳃 | 加入大型可游泳裸鳃类与六鳃海蛞蝓科 | [来源](https://seaslugforum.net/find/hexasang) |
+| [x] | N023 | 条纹睡衣乌贼 | *Sepioloidea lineolata* | 黑白条纹、黄色眼睛；把沙拨到身上，露出眼睛 | 加入瓶尾乌贼科 Sepiadariidae 的选题 | [来源](https://www.aquariumofpacific.org/onlinelearningcenter/species/pajama_squid) |
+| [x] | N024 | 长突太阳能海蛞蝓 | *Phyllodesmium longicirrum* | 扁平背突上有褐色小斑，放大看共生藻所在区域 | 与叶羊、绿海天牛比较不同的光合伙伴关系 | [来源](https://seaslugforum.net/showall/phyllong) |
+| [x] | N025 | 绿叶海天牛 | *Elysia chlorotica* | 像叶片的绿色侧足，放大观察分枝消化腺 | 加入不同种的盗食叶绿体现象，比较藻类食物 | [来源](https://seaslugforum.net/showall/elyschlo) |
+| [x] | N026 | 火烈鸟舌螺 | *Cyphoma gibbosum* | 橙黄黑斑在包覆贝壳的活外套膜上，缩回后壳面不同 | 加入梭螺科 Ovulidae，比较壳色与软组织颜色 | [来源](https://www.shellmuseum.org/post/flamingo-tongue-goth-lips) |
+| [x] | N027 | 女王凤凰螺 | *Aliger gigas* | 粉橙色壳口，两根长眼柄分别转动 | 加入大型凤凰螺及成体、幼体壳形比较 | [来源](https://www.fisheries.noaa.gov/species/queen-conch/science) |
+| [x] | N028 | 线纹石鳖 | *Tonicella lineata* | 数八块背板，观察锯齿状线纹，与橡胶靴石鳖比较 | 在多板纲内增加可对照的小型石鳖 | [来源](https://inverts.wallawalla.edu/Mollusca/Polyplacophora/Tonicella_lineata.html) |
+| [x] | N029 | 大蓝环章鱼 | *Hapalochlaena lunulata* | 对比平时体色与显现蓝环的警戒图案 | 补蓝环章鱼属并解释可见图案的用途 | [来源](https://www.aquariumofpacific.org/onlinelearningcenter/species/greater_blue_ringed_octopus1) |
+| [x] | N030 | 西班牙舞娘海蛞蝓 | *Hexabranchus sanguineus* | 宽大外套膜边缘翻动游泳；背上可见分离的鳃 | 加入大型可游泳裸鳃类与六鳃海蛞蝓科 | [来源](https://seaslugforum.net/find/hexasang) |
 
 ### 刺胞与栉水母动物（11 种）
 

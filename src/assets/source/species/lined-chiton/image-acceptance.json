@@ -1,0 +1,80 @@
+[
+  {
+    "file": "01-cover.webp",
+    "sourceDimensions": [
+      1536,
+      1024
+    ],
+    "runtimeDimensions": [
+      1536,
+      1024
+    ],
+    "sourceSha256": "e5e4641ca3725b0106910a62155687dc947b31ec91eb1c9924d601d4982f7b92",
+    "runtimeSha256": "223baa9a4955a58bbe213a745f9cd96f2a1cf2f82c1c78bb49fb031a79ff7eaa"
+  },
+  {
+    "file": "02-observation.webp",
+    "sourceDimensions": [
+      1536,
+      1024
+    ],
+    "runtimeDimensions": [
+      1536,
+      1024
+    ],
+    "sourceSha256": "c0c050afe16fbdacba4a87eb9eec4137c05f0d12f4ebab08688a98a064e538f1",
+    "runtimeSha256": "01f1714ca0fcb7817c7de3e59ed00adbf46203051e708ed9e176b9d932a94cf9"
+  },
+  {
+    "file": "03-observation.webp",
+    "sourceDimensions": [
+      1536,
+      1024
+    ],
+    "runtimeDimensions": [
+      1536,
+      1024
+    ],
+    "sourceSha256": "c0ec5a011e295ce0cb8be428883c1e2f6c07e6f49db4a5d9700d79e8685c5e28",
+    "runtimeSha256": "772c4069dc0bd1ce6375c9d29b2b7fe094763315fad32333e81fedd22b2bb79c"
+  },
+  {
+    "file": "04-observation.webp",
+    "sourceDimensions": [
+      1536,
+      1024
+    ],
+    "runtimeDimensions": [
+      1536,
+      1024
+    ],
+    "sourceSha256": "4e8281116123265aca477ba52968a2c08a5b1e0708588aa5c50e333b132c7337",
+    "runtimeSha256": "72d97efb54f88ae33a8e0fa412786370315328e851a27db4125ba6c1faf6afdf"
+  },
+  {
+    "file": "05-observation.webp",
+    "sourceDimensions": [
+      1536,
+      1024
+    ],
+    "runtimeDimensions": [
+      1536,
+      1024
+    ],
+    "sourceSha256": "48e99f70d57eddf35d3bd4e9c42f5f4275cd90245fe64f40413b83807625a63b",
+    "runtimeSha256": "e461a149e1dc786cb478b6890b39257455ada9b26cd3b933d9f1e862928f7aa1"
+  },
+  {
+    "file": "06-observation.webp",
+    "sourceDimensions": [
+      1536,
+      1024
+    ],
+    "runtimeDimensions": [
+      1536,
+      1024
+    ],
+    "sourceSha256": "3705075ed30926085955854e088ae3c6c98d77a78d2393c25685e91560c82103",
+    "runtimeSha256": "506722040bb8e532ebc9b0ac4abfe7b6486737bcee896adfe898f91479485306"
+  }
+]

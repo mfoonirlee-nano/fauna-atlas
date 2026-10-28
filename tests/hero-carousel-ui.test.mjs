@@ -148,3 +148,39 @@ test('unreviewed covers retain contain fallback after resize', async (context) =
   await act(() => observers[0].callback([{ contentRect: { width: 700, height: 500 } }]));
   assert.equal(cover().classList.contains('hero__image--fitted'), false);
 });
+
+test('unverified assessments and draft illustrations never appear as an IUCN result or public image', async (context) => {
+  const { renderToStaticMarkup } = await import('react-dom/server');
+  const server = await createServer({ server: { middlewareMode: true, watch: null, hmr: false }, appType: 'custom' });
+  context.after(() => server.close());
+  const { SpeciesDetail, HeroCarousel, default: App } = await server.ssrLoadModule('/src/App.tsx');
+  const { species, loadSpecies } = await server.ssrLoadModule('virtual:species-catalogue');
+  const unverified = species.filter((item) => item.conservation.code === 'UNVERIFIED');
+  assert.equal(unverified.length, 10);
+  const pending = [];
+  for (const summary of unverified) {
+    const item = await loadSpecies(summary.slug);
+    const html = renderToStaticMarkup(createElement(SpeciesDetail, { item, index: 0, saved: false, onClose() {}, onToggleSaved() {} }));
+    assert.match(html, /保护评估待核实/);
+    assert.match(html, /尚未核实可追溯的保护评估/);
+    assert.doesNotMatch(html, /IUCN 尚未评估/);
+    if (item.pendingMedia) {
+      pending.push(summary);
+      assert.equal(summary.media.image, undefined, summary.slug);
+      assert.match(html, /配图正在核验，暂不展示/);
+      assert.ok(!html.includes('images/species/' + item.slug + '/'), `${item.slug}: no draft image in rendered detail`);
+      assert.doesNotMatch(html, /class="detail-gallery"/);
+    } else {
+      assert.ok(html.includes(summary.media.image));
+      assert.doesNotMatch(html, /配图正在核验，暂不展示/);
+    }
+  }
+  assert.equal(pending.length, 2);
+  const published = unverified.find((item) => item.media.image);
+  const carousel = renderToStaticMarkup(createElement(HeroCarousel, { items: [...pending, published], isObscured: false, onOpenSpecies() {} }));
+  assert.ok(carousel.includes(published.media.image));
+  for (const item of pending) assert.ok(!carousel.includes('images/species/' + item.slug + '/'));
+  const app = renderToStaticMarkup(createElement(App));
+  assert.match(app, /value="UNVERIFIED"/);
+  assert.match(app, /value="NE"/);
+});

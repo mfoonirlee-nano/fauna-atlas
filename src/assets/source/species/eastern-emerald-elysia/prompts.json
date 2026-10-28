@@ -1,0 +1,140 @@
+[
+  {
+    "file": "01-cover.webp",
+    "prompt": "Natural history educational scientific reconstruction, Elysia chlorotica sea slug, bright green broad leaflike parapodia with branching darker green digestive diverticula, small head with two rolled rhinophores, no dorsal gill plume, shallow Atlantic salt marsh algae. Complete single animal on RIGHT center 70 percent width, silhouette wholly within x=650..1450 y=130..900 on 1536x1024 landscape image. Left 40 percent calm background.. One coherent landscape illustration 1536x1024. Anatomically restrained and realistic, no labels no text no borders, not collage. No invented behavior or scale bars. Full main subject safely inside image.",
+    "biologicalReviewEdits": [
+      {
+        "date": "2026-10-27",
+        "prompt": "Correct this educational Elysia chlorotica reconstruction using the attached TWO verified live animal photographs for anatomy. Preserve first image landscape habitat and orientation but replace plant-like fantasy anatomy: show an elongated soft green sacoglossan with TWO connected lateral parapodia emerging from narrow central body, naturally folded or partially spread and meeting toward tapered tail, irregular gently undulating pale margins. Head small and broad, pair of short rolled/tubular rhinophores with open folded groove, NOT round balls on stalks. Green tissue with fine irregular mottling, tiny red and pale specks. Remove pronounced symmetrical embossed tree leaf veins and rigid central leaf midrib; use subtle uneven internal digestive branching visible through translucent tissue, never a botanical leaf. No thick plant petioles. Use restrained natural history scientific illustration, complete soft animal visible, no text, one landscape1536x1024. Cover whole animal on RIGHT with horizontal center70%width, quiet left40%, full outline withinx650..1460 y140..880 with real background margin.",
+        "inputRuntimeSha256": "d755f0ce228ce9423d669865a04c093f0bda8013f67ba1de3cfa97bdbbec2089",
+        "outputSourceSha256": "c794a3812434219519096127641160c101ae7c94a2b124fe674c80c97ab93a7d",
+        "references": [
+          {
+            "path": "verified-elysia-photo.jpg",
+            "sha256": "751df3e381200549a5fdde886520e5009f7f4211457c909e358c63efbc4b0419"
+          },
+          {
+            "path": "ref-elysia-head.jpg",
+            "sha256": "8af7715b4c43b469b0f5764e99ac2cee5bad6374e5ed5a282fa8f6b729d8b3c2"
+          }
+        ]
+      }
+    ],
+    "currentPrompt": "Correct this educational Elysia chlorotica reconstruction using the attached TWO verified live animal photographs for anatomy. Preserve first image landscape habitat and orientation but replace plant-like fantasy anatomy: show an elongated soft green sacoglossan with TWO connected lateral parapodia emerging from narrow central body, naturally folded or partially spread and meeting toward tapered tail, irregular gently undulating pale margins. Head small and broad, pair of short rolled/tubular rhinophores with open folded groove, NOT round balls on stalks. Green tissue with fine irregular mottling, tiny red and pale specks. Remove pronounced symmetrical embossed tree leaf veins and rigid central leaf midrib; use subtle uneven internal digestive branching visible through translucent tissue, never a botanical leaf. No thick plant petioles. Use restrained natural history scientific illustration, complete soft animal visible, no text, one landscape1536x1024. Cover whole animal on RIGHT with horizontal center70%width, quiet left40%, full outline withinx650..1460 y140..880 with real background margin."
+  },
+  {
+    "file": "02-observation.webp",
+    "prompt": "Natural history educational scientific reconstruction, Elysia chlorotica sea slug, bright green broad leaflike parapodia with branching darker green digestive diverticula, small head with two rolled rhinophores, no dorsal gill plume, shallow Atlantic salt marsh algae. open leaflike parapodia dorsal view. One coherent landscape illustration 1536x1024. Anatomically restrained and realistic, no labels no text no borders, not collage. No invented behavior or scale bars. Full main subject safely inside image.",
+    "biologicalReviewEdits": [
+      {
+        "date": "2026-10-27",
+        "prompt": "Correct this educational Elysia chlorotica reconstruction using the attached TWO verified live animal photographs for anatomy. Preserve first image landscape habitat and orientation but replace plant-like fantasy anatomy: show an elongated soft green sacoglossan with TWO connected lateral parapodia emerging from narrow central body, naturally folded or partially spread and meeting toward tapered tail, irregular gently undulating pale margins. Head small and broad, pair of short rolled/tubular rhinophores with open folded groove, NOT round balls on stalks. Green tissue with fine irregular mottling, tiny red and pale specks. Remove pronounced symmetrical embossed tree leaf veins and rigid central leaf midrib; use subtle uneven internal digestive branching visible through translucent tissue, never a botanical leaf. No thick plant petioles. Use restrained natural history scientific illustration, complete soft animal visible, no text, one landscape1536x1024. Keep full parapodial and rhinophore edges inside picture.",
+        "inputRuntimeSha256": "8bd8e0b568d1a945d7455054a06bf3ceb2bd048c3794b0615938ed266103086f",
+        "outputSourceSha256": "2d57e1a4a6684f80c349e5838d8eb516ddff4e9ec5d51b9619ab4a06f2ed8765",
+        "references": [
+          {
+            "path": "verified-elysia-photo.jpg",
+            "sha256": "751df3e381200549a5fdde886520e5009f7f4211457c909e358c63efbc4b0419"
+          },
+          {
+            "path": "ref-elysia-head.jpg",
+            "sha256": "8af7715b4c43b469b0f5764e99ac2cee5bad6374e5ed5a282fa8f6b729d8b3c2"
+          }
+        ]
+      }
+    ],
+    "currentPrompt": "Correct this educational Elysia chlorotica reconstruction using the attached TWO verified live animal photographs for anatomy. Preserve first image landscape habitat and orientation but replace plant-like fantasy anatomy: show an elongated soft green sacoglossan with TWO connected lateral parapodia emerging from narrow central body, naturally folded or partially spread and meeting toward tapered tail, irregular gently undulating pale margins. Head small and broad, pair of short rolled/tubular rhinophores with open folded groove, NOT round balls on stalks. Green tissue with fine irregular mottling, tiny red and pale specks. Remove pronounced symmetrical embossed tree leaf veins and rigid central leaf midrib; use subtle uneven internal digestive branching visible through translucent tissue, never a botanical leaf. No thick plant petioles. Use restrained natural history scientific illustration, complete soft animal visible, no text, one landscape1536x1024. Keep full parapodial and rhinophore edges inside picture."
+  },
+  {
+    "file": "03-observation.webp",
+    "prompt": "Natural history educational scientific reconstruction, Elysia chlorotica sea slug, bright green broad leaflike parapodia with branching darker green digestive diverticula, small head with two rolled rhinophores, no dorsal gill plume, shallow Atlantic salt marsh algae. head and rolled rhinophores detail. One coherent landscape illustration 1536x1024. Anatomically restrained and realistic, no labels no text no borders, not collage. No invented behavior or scale bars. Full main subject safely inside image.",
+    "biologicalReviewEdits": [
+      {
+        "date": "2026-10-27",
+        "prompt": "Correct this educational Elysia chlorotica reconstruction using the attached TWO verified live animal photographs for anatomy. Preserve first image landscape habitat and orientation but replace plant-like fantasy anatomy: show an elongated soft green sacoglossan with TWO connected lateral parapodia emerging from narrow central body, naturally folded or partially spread and meeting toward tapered tail, irregular gently undulating pale margins. Head small and broad, pair of short rolled/tubular rhinophores with open folded groove, NOT round balls on stalks. Green tissue with fine irregular mottling, tiny red and pale specks. Remove pronounced symmetrical embossed tree leaf veins and rigid central leaf midrib; use subtle uneven internal digestive branching visible through translucent tissue, never a botanical leaf. No thick plant petioles. Use restrained natural history scientific illustration, complete soft animal visible, no text, one landscape1536x1024. Keep full parapodial and rhinophore edges inside picture.",
+        "inputRuntimeSha256": "fde236b72a38b37143a4033e8856a9df15bfb3b2242de4df73433238caca4d26",
+        "outputSourceSha256": "eb811fadc124525a5dad80a6fbdcbb860fa8c751b8627c1ebc36a3e558efcf69",
+        "references": [
+          {
+            "path": "verified-elysia-photo.jpg",
+            "sha256": "751df3e381200549a5fdde886520e5009f7f4211457c909e358c63efbc4b0419"
+          },
+          {
+            "path": "ref-elysia-head.jpg",
+            "sha256": "8af7715b4c43b469b0f5764e99ac2cee5bad6374e5ed5a282fa8f6b729d8b3c2"
+          }
+        ]
+      }
+    ],
+    "currentPrompt": "Correct this educational Elysia chlorotica reconstruction using the attached TWO verified live animal photographs for anatomy. Preserve first image landscape habitat and orientation but replace plant-like fantasy anatomy: show an elongated soft green sacoglossan with TWO connected lateral parapodia emerging from narrow central body, naturally folded or partially spread and meeting toward tapered tail, irregular gently undulating pale margins. Head small and broad, pair of short rolled/tubular rhinophores with open folded groove, NOT round balls on stalks. Green tissue with fine irregular mottling, tiny red and pale specks. Remove pronounced symmetrical embossed tree leaf veins and rigid central leaf midrib; use subtle uneven internal digestive branching visible through translucent tissue, never a botanical leaf. No thick plant petioles. Use restrained natural history scientific illustration, complete soft animal visible, no text, one landscape1536x1024. Keep full parapodial and rhinophore edges inside picture."
+  },
+  {
+    "file": "04-observation.webp",
+    "prompt": "Natural history educational scientific reconstruction, Elysia chlorotica sea slug, bright green broad leaflike parapodia with branching darker green digestive diverticula, small head with two rolled rhinophores, no dorsal gill plume, shallow Atlantic salt marsh algae. side view with folded parapodia. One coherent landscape illustration 1536x1024. Anatomically restrained and realistic, no labels no text no borders, not collage. No invented behavior or scale bars. Full main subject safely inside image.",
+    "biologicalReviewEdits": [
+      {
+        "date": "2026-10-27",
+        "prompt": "Correct this educational Elysia chlorotica reconstruction using the attached TWO verified live animal photographs for anatomy. Preserve first image landscape habitat and orientation but replace plant-like fantasy anatomy: show an elongated soft green sacoglossan with TWO connected lateral parapodia emerging from narrow central body, naturally folded or partially spread and meeting toward tapered tail, irregular gently undulating pale margins. Head small and broad, pair of short rolled/tubular rhinophores with open folded groove, NOT round balls on stalks. Green tissue with fine irregular mottling, tiny red and pale specks. Remove pronounced symmetrical embossed tree leaf veins and rigid central leaf midrib; use subtle uneven internal digestive branching visible through translucent tissue, never a botanical leaf. No thick plant petioles. Use restrained natural history scientific illustration, complete soft animal visible, no text, one landscape1536x1024. Keep full parapodial and rhinophore edges inside picture.",
+        "inputRuntimeSha256": "4671447c187df98a0e77e80e4dcc5195c37f48fb345c1da2c199d907ad93b8f8",
+        "outputSourceSha256": "ae0f0ff2cfcc5d7606c58082b1f8ecd37390a0867adad3537d809a604910bb3d",
+        "references": [
+          {
+            "path": "verified-elysia-photo.jpg",
+            "sha256": "751df3e381200549a5fdde886520e5009f7f4211457c909e358c63efbc4b0419"
+          },
+          {
+            "path": "ref-elysia-head.jpg",
+            "sha256": "8af7715b4c43b469b0f5764e99ac2cee5bad6374e5ed5a282fa8f6b729d8b3c2"
+          }
+        ]
+      }
+    ],
+    "currentPrompt": "Correct this educational Elysia chlorotica reconstruction using the attached TWO verified live animal photographs for anatomy. Preserve first image landscape habitat and orientation but replace plant-like fantasy anatomy: show an elongated soft green sacoglossan with TWO connected lateral parapodia emerging from narrow central body, naturally folded or partially spread and meeting toward tapered tail, irregular gently undulating pale margins. Head small and broad, pair of short rolled/tubular rhinophores with open folded groove, NOT round balls on stalks. Green tissue with fine irregular mottling, tiny red and pale specks. Remove pronounced symmetrical embossed tree leaf veins and rigid central leaf midrib; use subtle uneven internal digestive branching visible through translucent tissue, never a botanical leaf. No thick plant petioles. Use restrained natural history scientific illustration, complete soft animal visible, no text, one landscape1536x1024. Keep full parapodial and rhinophore edges inside picture."
+  },
+  {
+    "file": "05-observation.webp",
+    "prompt": "Natural history educational scientific reconstruction, Elysia chlorotica sea slug, bright green broad leaflike parapodia with branching darker green digestive diverticula, small head with two rolled rhinophores, no dorsal gill plume, shallow Atlantic salt marsh algae. feeding on filamentous Vaucheria algae schematic. One coherent landscape illustration 1536x1024. Anatomically restrained and realistic, no labels no text no borders, not collage. No invented behavior or scale bars. Full main subject safely inside image.",
+    "biologicalReviewEdits": [
+      {
+        "date": "2026-10-27",
+        "prompt": "Correct this educational Elysia chlorotica reconstruction using the attached TWO verified live animal photographs for anatomy. Preserve first image landscape habitat and orientation but replace plant-like fantasy anatomy: show an elongated soft green sacoglossan with TWO connected lateral parapodia emerging from narrow central body, naturally folded or partially spread and meeting toward tapered tail, irregular gently undulating pale margins. Head small and broad, pair of short rolled/tubular rhinophores with open folded groove, NOT round balls on stalks. Green tissue with fine irregular mottling, tiny red and pale specks. Remove pronounced symmetrical embossed tree leaf veins and rigid central leaf midrib; use subtle uneven internal digestive branching visible through translucent tissue, never a botanical leaf. No thick plant petioles. Use restrained natural history scientific illustration, complete soft animal visible, no text, one landscape1536x1024. Keep full parapodial and rhinophore edges inside picture.",
+        "inputRuntimeSha256": "4139866d360d232684c93c1ac82a73b7207c3be6fd0a76ce58fdc4cafd5c6897",
+        "outputSourceSha256": "900efe0495f3fe150e0d0ac301415c6bc4235017c2546c16e0708a74ef5df59d",
+        "references": [
+          {
+            "path": "verified-elysia-photo.jpg",
+            "sha256": "751df3e381200549a5fdde886520e5009f7f4211457c909e358c63efbc4b0419"
+          },
+          {
+            "path": "ref-elysia-head.jpg",
+            "sha256": "8af7715b4c43b469b0f5764e99ac2cee5bad6374e5ed5a282fa8f6b729d8b3c2"
+          }
+        ]
+      }
+    ],
+    "currentPrompt": "Correct this educational Elysia chlorotica reconstruction using the attached TWO verified live animal photographs for anatomy. Preserve first image landscape habitat and orientation but replace plant-like fantasy anatomy: show an elongated soft green sacoglossan with TWO connected lateral parapodia emerging from narrow central body, naturally folded or partially spread and meeting toward tapered tail, irregular gently undulating pale margins. Head small and broad, pair of short rolled/tubular rhinophores with open folded groove, NOT round balls on stalks. Green tissue with fine irregular mottling, tiny red and pale specks. Remove pronounced symmetrical embossed tree leaf veins and rigid central leaf midrib; use subtle uneven internal digestive branching visible through translucent tissue, never a botanical leaf. No thick plant petioles. Use restrained natural history scientific illustration, complete soft animal visible, no text, one landscape1536x1024. Keep full parapodial and rhinophore edges inside picture."
+  },
+  {
+    "file": "06-observation.webp",
+    "prompt": "Natural history educational scientific reconstruction, Elysia chlorotica sea slug, bright green broad leaflike parapodia with branching darker green digestive diverticula, small head with two rolled rhinophores, no dorsal gill plume, shallow Atlantic salt marsh algae. branching digestive gland in translucent green parapodia conceptual view. One coherent landscape illustration 1536x1024. Anatomically restrained and realistic, no labels no text no borders, not collage. No invented behavior or scale bars. Full main subject safely inside image.",
+    "biologicalReviewEdits": [
+      {
+        "date": "2026-10-27",
+        "prompt": "Correct this educational Elysia chlorotica reconstruction using the attached TWO verified live animal photographs for anatomy. Preserve first image landscape habitat and orientation but replace plant-like fantasy anatomy: show an elongated soft green sacoglossan with TWO connected lateral parapodia emerging from narrow central body, naturally folded or partially spread and meeting toward tapered tail, irregular gently undulating pale margins. Head small and broad, pair of short rolled/tubular rhinophores with open folded groove, NOT round balls on stalks. Green tissue with fine irregular mottling, tiny red and pale specks. Remove pronounced symmetrical embossed tree leaf veins and rigid central leaf midrib; use subtle uneven internal digestive branching visible through translucent tissue, never a botanical leaf. No thick plant petioles. Use restrained natural history scientific illustration, complete soft animal visible, no text, one landscape1536x1024. Keep full parapodial and rhinophore edges inside picture.",
+        "inputRuntimeSha256": "c96775d4532aa33789a5a7a3f5f04ca4c4ec795dd5acafc4ff0d3462e1a9e5f7",
+        "outputSourceSha256": "f5a7db4ddf394143986ebdba599e98397411ee96f2e196997f1ef6a1cf08c6c3",
+        "references": [
+          {
+            "path": "verified-elysia-photo.jpg",
+            "sha256": "751df3e381200549a5fdde886520e5009f7f4211457c909e358c63efbc4b0419"
+          },
+          {
+            "path": "ref-elysia-head.jpg",
+            "sha256": "8af7715b4c43b469b0f5764e99ac2cee5bad6374e5ed5a282fa8f6b729d8b3c2"
+          }
+        ]
+      }
+    ],
+    "currentPrompt": "Correct this educational Elysia chlorotica reconstruction using the attached TWO verified live animal photographs for anatomy. Preserve first image landscape habitat and orientation but replace plant-like fantasy anatomy: show an elongated soft green sacoglossan with TWO connected lateral parapodia emerging from narrow central body, naturally folded or partially spread and meeting toward tapered tail, irregular gently undulating pale margins. Head small and broad, pair of short rolled/tubular rhinophores with open folded groove, NOT round balls on stalks. Green tissue with fine irregular mottling, tiny red and pale specks. Remove pronounced symmetrical embossed tree leaf veins and rigid central leaf midrib; use subtle uneven internal digestive branching visible through translucent tissue, never a botanical leaf. No thick plant petioles. Use restrained natural history scientific illustration, complete soft animal visible, no text, one landscape1536x1024. Keep full parapodial and rhinophore edges inside picture."
+  }
+]

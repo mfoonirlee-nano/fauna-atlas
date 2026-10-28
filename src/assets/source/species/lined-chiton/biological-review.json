@@ -1,0 +1,40 @@
+{
+  "reviewedAt": "2026-10-27",
+  "status": "reviewed-reconstruction",
+  "scope": "可见外形、来源与已识别错误；AI 重建不是摄影、鉴定标本或显微证据",
+  "findings": "对照 Walla Walla 大学的说明与照片，检查八块连续壳板、粉色底与深色锯齿纹、周围环带。该页明确提示 T. undocaerulea 色型混用，不能把蓝纹照片全部当成本种；当前图保留粉底深纹表达，不把生成图当作鉴定证据。",
+  "conservation": "UNVERIFIED is editorial; no verified global IUCN assessment",
+  "references": [
+    {
+      "url": "https://inverts.wallawalla.edu/Mollusca/Polyplacophora/Tonicella_lineata.html",
+      "responseSha256": "e0e6e3884f0aec4dea6cbba32bfca22230c2979169185beb31e2a81112d8cd34",
+      "contentAvailable": true
+    }
+  ],
+  "assets": [
+    {
+      "file": "01-cover.webp",
+      "sha256": "223baa9a4955a58bbe213a745f9cd96f2a1cf2f82c1c78bb49fb031a79ff7eaa"
+    },
+    {
+      "file": "02-observation.webp",
+      "sha256": "01f1714ca0fcb7817c7de3e59ed00adbf46203051e708ed9e176b9d932a94cf9"
+    },
+    {
+      "file": "03-observation.webp",
+      "sha256": "772c4069dc0bd1ce6375c9d29b2b7fe094763315fad32333e81fedd22b2bb79c"
+    },
+    {
+      "file": "04-observation.webp",
+      "sha256": "72d97efb54f88ae33a8e0fa412786370315328e851a27db4125ba6c1faf6afdf"
+    },
+    {
+      "file": "05-observation.webp",
+      "sha256": "e461a149e1dc786cb478b6890b39257455ada9b26cd3b933d9f1e862928f7aa1"
+    },
+    {
+      "file": "06-observation.webp",
+      "sha256": "506722040bb8e532ebc9b0ac4abfe7b6486737bcee896adfe898f91479485306"
+    }
+  ]
+}

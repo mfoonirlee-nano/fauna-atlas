@@ -58,16 +58,18 @@ test('autoplay runs only while the carousel can change unobtrusively', () => {
   assert.equal(shouldAutoplayCarousel({ ...ready, obscured: true }), false);
 });
 
-test('every catalogue animal contributes one local cover to the hero rotation', () => {
-  assert.ok(species.length > 1);
-  assert.equal(species.filter((item) => item.media.image).length, species.length);
-  assert.equal(new Set(species.map((item) => item.media.image)).size, species.length);
-  for (const item of species) {
-    assert.match(item.media.image, /^\.\/images\/.+\.webp$/);
-    if (!item.media.focalPoint) continue;
-    assert.ok(item.media.focalPoint.x >= 0 && item.media.focalPoint.x <= 1, `${item.slug} focal x`);
-    assert.ok(item.media.focalPoint.y >= 0 && item.media.focalPoint.y <= 1, `${item.slug} focal y`);
+test('only published covers contribute to the hero rotation; pending assets stay archived', () => {
+  const published = species.filter((item) => item.media.image);
+  const pending = species.filter((item) => item.pendingMedia);
+  assert.equal(pending.length, 2);
+  assert.equal(published.length + pending.length, species.length);
+  assert.equal(new Set(published.map((item) => item.media.image)).size, published.length);
+  for (const item of pending) {
+    assert.equal(item.media.image, undefined, item.slug);
+    assert.equal(item.media.gallery, undefined, item.slug);
+    assert.equal(item.pendingMedia.assets.gallery.length, 5);
   }
+  for (const item of published) assert.match(item.media.image, /^\.\/images\/.+\.webp$/);
 });
 
 test('hero carousel exposes controls and disables automatic motion when requested', () => {
@@ -92,7 +94,7 @@ test('hero carousel exposes controls and disables automatic motion when requeste
   assert.match(stylesSource, /\.hero__title-line > span \{\s*animation: none;/);
 });
 
-test('reviewed covers retain exactly six images per species and use the canonical cover', async () => {
+test('retained cover records bind six published or archived images to the canonical hash', async () => {
   const { readdir } = await import('node:fs/promises');
   const reviewed = reviewedCovers;
   for (const [slug, { cover }] of Object.entries(reviewed)) {
@@ -100,8 +102,8 @@ test('reviewed covers retain exactly six images per species and use the canonica
     const directory = new URL(`../public/images/species/${slug}/`, import.meta.url);
     const files = (await readdir(directory)).filter((file) => /\.(webp|png|jpe?g)$/i.test(file));
     assert.equal(files.length, 6, `${slug} has six images`);
-    assert.ok(files.includes(item.media.image.split('/').at(-1)), `${slug} retains its canonical cover`);
-    const bytes = await readFile(new URL(`../public/${item.media.image.slice(2)}`, import.meta.url));
+    assert.ok(files.includes((item.pendingMedia?.assets ?? item.media).image.split('/').at(-1)), `${slug} retains its canonical cover`);
+    const bytes = await readFile(new URL(`../public/${(item.pendingMedia?.assets ?? item.media).image.slice(2)}`, import.meta.url));
     assert.equal(createHash('sha256').update(bytes).digest('hex'), cover.sha256);
   }
   assert.match(appSource, /src=\{item.media.image/);
@@ -178,7 +180,7 @@ for (const [slug, { cover }] of Object.entries(reviewedCovers)) {
 
 
 test('subject dimensions match actual runtime WebP dimensions', () => {
-  const paths = species.map((item) => fileURLToPath(new URL(`../public/${item.media.image.slice(2)}`, import.meta.url)));
+  const paths = species.map((item) => fileURLToPath(new URL(`../public/${(item.pendingMedia?.assets ?? item.media).image.slice(2)}`, import.meta.url)));
   const dimensions = execFileSync('magick', ['identify', '-ping', '-format', '%w %h\n', ...paths], { encoding: 'utf8' }).trim().split('\n');
   assert.equal(dimensions.length, species.length);
   species.forEach((item, index) => {

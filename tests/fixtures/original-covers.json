@@ -8071,5 +8071,135 @@
       },
       "sha256": "0987703295c80d984d9f300be869f772b661aad70ab1feed0120ec8027e837d9"
     }
+  },
+  "violet-blanket-octopus": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 438,
+        "top": 14,
+        "right": 1502,
+        "bottom": 946
+      },
+      "sha256": "988d08e50aa243f6138e700f9330987b92fbb9f1b51ff23ae3dc92827cf7875f"
+    }
+  },
+  "neomenia-carinata": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 580,
+        "top": 185,
+        "right": 1420,
+        "bottom": 760
+      },
+      "sha256": "209a2347a54fa4596cc99383f7db50c79c3a657f0a7b30907eb577ea4933d215"
+    }
+  },
+  "striped-pyjama-squid": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 650,
+        "top": 105,
+        "right": 1485,
+        "bottom": 820
+      },
+      "sha256": "0b61937f3ae06b0357729f147a257d35d5a17b8090ae3c55af5e2b02f1eacbc0"
+    }
+  },
+  "solar-powered-nudibranch": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 552,
+        "top": 235,
+        "right": 1432,
+        "bottom": 750
+      },
+      "sha256": "ab6704f230c797b38d51555b724c700f29aa2e148a601b3bf51cca81b13f5581"
+    }
+  },
+  "eastern-emerald-elysia": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 512,
+        "top": 160,
+        "right": 1507,
+        "bottom": 867
+      },
+      "sha256": "9eaf683a8ed2ca459d732da26d915f5a142c455d2ede1aabccdd74be33342322"
+    }
+  },
+  "flamingo-tongue-snail": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 654,
+        "top": 160,
+        "right": 1375,
+        "bottom": 742
+      },
+      "sha256": "4489ff57c3b2373d66a90b0b3ec6748f86e1a8f5dafaf17647b7ebce6c09b84b"
+    }
+  },
+  "queen-conch": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 628,
+        "top": 88,
+        "right": 1475,
+        "bottom": 752
+      },
+      "sha256": "1b269d0f3ab69e71c74f1bd1c7c71014f5e9228d52579795d2b2c9609cf8c1f8"
+    }
+  },
+  "lined-chiton": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 800,
+        "top": 60,
+        "right": 1335,
+        "bottom": 935
+      },
+      "sha256": "223baa9a4955a58bbe213a745f9cd96f2a1cf2f82c1c78bb49fb031a79ff7eaa"
+    }
+  },
+  "greater-blue-ringed-octopus": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 615,
+        "top": 240,
+        "right": 1385,
+        "bottom": 827
+      },
+      "sha256": "c4e3417821a493e07c627706e4d2a8096b9283a4d9e2d87c7f53992256b882df"
+    }
+  },
+  "spanish-dancer-nudibranch": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 535,
+        "top": 203,
+        "right": 1480,
+        "bottom": 882
+      },
+      "sha256": "72f3d0065e0b2638184acf039d5723cc8ce47c3dea9dfcd7f7a9c5f4a58b4247"
+    }
   }
 }

@@ -20,6 +20,10 @@ Each species has exactly six retained images: one cover and five gallery images.
 
 Keep desktop and mobile presentation on that single cover. Do not add `hero-desktop`, `hero-mobile`, or other device-specific image variants. Temporary generation candidates stay outside the retained image set and leave the repository after acceptance.
 
+## Withdrawn biological review
+
+When an image set fails or awaits biological review, retain the six source assets and technical provenance in `Species.pendingMedia.assets`, with a concrete `reason`. Public `Species.media` must have neither `image` nor `gallery`; use the existing taxon artwork or missing-image fallback. Pending images must not enter cards, map previews, hero rotation, profile galleries or the image viewer. Hash-bound cover fixtures may still describe retained draft bytes; passing geometry or hash checks does not approve their biology. Restore public images only after authoritative reference comparison and renewed structural, source-composition and runtime acceptance.
+
 ## Species cover rule
 
 Apply this rule whenever you add, generate, replace, or crop a species cover. `Species.media.image` points to the retained WebP species cover, and the landing-page hero includes that image in its carousel.
@@ -1171,3 +1175,19 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [绒球海葵图片集](./species/pom-pom-anemone/README.md)
 - [米尔斯十字水母图片集](./species/psychedelic-jelly/README.md)
 - [深渊瓜水母图片集](./species/abyssal-comb-jelly/README.md)
+
+## 2026-10-27 新奇动物第六批五种
+
+- [violet-blanket-octopus 图片集](./species/violet-blanket-octopus/README.md)
+- [neomenia-carinata 图片集](./species/neomenia-carinata/README.md)
+- [striped-pyjama-squid 图片集](./species/striped-pyjama-squid/README.md)
+- [solar-powered-nudibranch 图片集](./species/solar-powered-nudibranch/README.md)
+- [eastern-emerald-elysia 图片集](./species/eastern-emerald-elysia/README.md)
+
+## 2026-10-27 新奇动物第七批五种
+
+- [flamingo-tongue-snail 图片集](./species/flamingo-tongue-snail/README.md)
+- [queen-conch 图片集](./species/queen-conch/README.md)
+- [lined-chiton 图片集](./species/lined-chiton/README.md)
+- [greater-blue-ringed-octopus 图片集](./species/greater-blue-ringed-octopus/README.md)
+- [spanish-dancer-nudibranch 图片集](./species/spanish-dancer-nudibranch/README.md)

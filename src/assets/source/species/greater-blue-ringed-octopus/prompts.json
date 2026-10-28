@@ -1,0 +1,35 @@
+[
+  {
+    "file": "01-cover.webp",
+    "prompt": "Reframe this Hapalochlaena lunulata greater blue-ringed octopus scientific reconstruction so the COMPLETE visible silhouette is inside the source. The current rightmost arm is cut by the right edge. Regenerate the same animal and underwater habitat with ALL visible arm tips and outer body edges completely shown. Move the animal a little left and reduce it slightly only as needed, with full silhouette between x=640 and x=1435, y=140 and y=875 on a landscape 1536x1024 canvas. Leave at least 80 pixels of real natural background beyond EVERY arm tip and shell-free mantle, especially on the right. Animal centered at 69 percent width, left 40 percent quiet sand. Eight anatomically plausible arms, some can overlap, never more. Preserve yellow beige skin and discrete blue rings, no glowing light no blue halos. No labels no text no border.",
+    "initialPrompt": "Educational natural-history scientific reconstruction of Hapalochlaena lunulata greater blue-ringed octopus, small round mantle, eight slender arms with suckers, yellow beige skin with dark-edged electric blue rings, shallow Indo-Pacific rubble sandy sea floor. Blue rings reflect ambient light and MUST NOT glow or emit light, no blue halo no underwater neon effects. Canonical cover. Place entire animal on the RIGHT at horizontal center 72 percent of source width. Keep ALL body parts within x 670..1460 y 140..870 of a 1536x1024 canvas. Left 40 percent calm low-detail natural background. Large clear full animal, real background margin on every side.. One coherent landscape image 1536x1024, restrained realistic anatomy, no text, no labels, no border, not a collage. No invented structures or behavior. Keep every visible outer part inside image.",
+    "editInputSha256": "fd3460ff403fb1a015a6b17fc5bc3ac3bebed4c2e4c90c077a3ef59357050918",
+    "editHistory": [
+      {
+        "prompt": "Reframe this Hapalochlaena lunulata greater blue-ringed octopus scientific reconstruction so the COMPLETE visible silhouette is inside the source. The current rightmost arm is cut by the right edge. Regenerate the same animal and underwater habitat with ALL visible arm tips and outer body edges completely shown. Move the animal a little left and reduce it slightly only as needed, with full silhouette between x=640 and x=1435, y=140 and y=875 on a landscape 1536x1024 canvas. Leave at least 80 pixels of real natural background beyond EVERY arm tip and shell-free mantle, especially on the right. Animal centered at 69 percent width, left 40 percent quiet sand. Eight anatomically plausible arms, some can overlap, never more. Preserve yellow beige skin and discrete blue rings, no glowing light no blue halos. No labels no text no border.",
+        "inputSha256": "fd3460ff403fb1a015a6b17fc5bc3ac3bebed4c2e4c90c077a3ef59357050918",
+        "outputSha256": "1fb67785eb5b2153b9f4e4c878eaafcb78a6d4b261be889ea88ee0784fb6c091"
+      }
+    ]
+  },
+  {
+    "file": "02-observation.webp",
+    "prompt": "Educational natural-history scientific reconstruction of Hapalochlaena lunulata greater blue-ringed octopus, small round mantle, eight slender arms with suckers, yellow beige skin with dark-edged electric blue rings, shallow Indo-Pacific rubble sandy sea floor. Blue rings reflect ambient light and MUST NOT glow or emit light, no blue halo no underwater neon effects. relaxed animal with subdued small blue rings, whole body on rubble. One coherent landscape image 1536x1024, restrained realistic anatomy, no text, no labels, no border, not a collage. No invented structures or behavior. Keep every visible outer part inside image."
+  },
+  {
+    "file": "03-observation.webp",
+    "prompt": "Educational natural-history scientific reconstruction of Hapalochlaena lunulata greater blue-ringed octopus, small round mantle, eight slender arms with suckers, yellow beige skin with dark-edged electric blue rings, shallow Indo-Pacific rubble sandy sea floor. Blue rings reflect ambient light and MUST NOT glow or emit light, no blue halo no underwater neon effects. alert animal with sharply defined blue rings without glowing, entire body visible. One coherent landscape image 1536x1024, restrained realistic anatomy, no text, no labels, no border, not a collage. No invented structures or behavior. Keep every visible outer part inside image."
+  },
+  {
+    "file": "04-observation.webp",
+    "prompt": "Educational natural-history scientific reconstruction of Hapalochlaena lunulata greater blue-ringed octopus, small round mantle, eight slender arms with suckers, yellow beige skin with dark-edged electric blue rings, shallow Indo-Pacific rubble sandy sea floor. Blue rings reflect ambient light and MUST NOT glow or emit light, no blue halo no underwater neon effects. sucker-bearing arm surface close view with a few blue rings. One coherent landscape image 1536x1024, restrained realistic anatomy, no text, no labels, no border, not a collage. No invented structures or behavior. Keep every visible outer part inside image."
+  },
+  {
+    "file": "05-observation.webp",
+    "prompt": "Educational natural-history scientific reconstruction of Hapalochlaena lunulata greater blue-ringed octopus, small round mantle, eight slender arms with suckers, yellow beige skin with dark-edged electric blue rings, shallow Indo-Pacific rubble sandy sea floor. Blue rings reflect ambient light and MUST NOT glow or emit light, no blue halo no underwater neon effects. whole animal partly sheltered in a natural rock crevice without any human objects. One coherent landscape image 1536x1024, restrained realistic anatomy, no text, no labels, no border, not a collage. No invented structures or behavior. Keep every visible outer part inside image."
+  },
+  {
+    "file": "06-observation.webp",
+    "prompt": "Educational natural-history scientific reconstruction of Hapalochlaena lunulata greater blue-ringed octopus, small round mantle, eight slender arms with suckers, yellow beige skin with dark-edged electric blue rings, shallow Indo-Pacific rubble sandy sea floor. Blue rings reflect ambient light and MUST NOT glow or emit light, no blue halo no underwater neon effects. oblique dorsal full-body pose showing rounded mantle and eight arms, no dramatic color effects. One coherent landscape image 1536x1024, restrained realistic anatomy, no text, no labels, no border, not a collage. No invented structures or behavior. Keep every visible outer part inside image."
+  }
+]

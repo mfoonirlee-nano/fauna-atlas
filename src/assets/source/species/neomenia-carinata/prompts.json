@@ -1,0 +1,36 @@
+[
+  {
+    "file": "01-cover.webp",
+    "prompt": "Natural history educational scientific reconstruction, Neomenia carinata solenogaster mollusc, tiny plump pink reddish wormlike shell-less body, dorsal longitudinal keel, no eyes no tentacles no legs, on seabed. Complete single animal on RIGHT center 70 percent width, silhouette wholly within x=650..1450 y=130..900 on 1536x1024 landscape image. Left 40 percent calm background.. One coherent landscape illustration 1536x1024. Anatomically restrained and realistic, no labels no text no borders, not collage. No invented behavior or scale bars. Full main subject safely inside image."
+  },
+  {
+    "file": "02-observation.webp",
+    "prompt": "Natural history educational scientific reconstruction, Neomenia carinata solenogaster mollusc, tiny plump pink reddish wormlike shell-less body, dorsal longitudinal keel, no eyes no tentacles no legs, on seabed. side view showing dorsal keel. One coherent landscape illustration 1536x1024. Anatomically restrained and realistic, no labels no text no borders, not collage. No invented behavior or scale bars. Full main subject safely inside image."
+  },
+  {
+    "file": "03-observation.webp",
+    "prompt": "Natural history educational scientific reconstruction, Neomenia carinata solenogaster mollusc, tiny plump pink reddish wormlike shell-less body, dorsal longitudinal keel, no eyes no tentacles no legs, on seabed. ventral view of narrow longitudinal pedal groove schematic. One coherent landscape illustration 1536x1024. Anatomically restrained and realistic, no labels no text no borders, not collage. No invented behavior or scale bars. Full main subject safely inside image."
+  },
+  {
+    "file": "04-observation.webp",
+    "prompt": "Natural history educational scientific reconstruction, Neomenia carinata solenogaster mollusc, tiny plump pink reddish wormlike shell-less body, dorsal longitudinal keel, no eyes no tentacles no legs, on seabed. body surface spicules conceptual inset without scale claims. One coherent landscape illustration 1536x1024. Anatomically restrained and realistic, no labels no text no borders, not collage. No invented behavior or scale bars. Full main subject safely inside image.",
+    "biologicalReviewEdits": [
+      {
+        "date": "2026-10-27",
+        "prompt": "Edit this retained draft illustration ONLY to remove the upper-right circular microscopic spicule inset and all its invented pointed crystals. Fill its former location with ordinary distant out-of-focus seafloor matching surrounding background. Preserve whole animal and all other anatomy unchanged. No diagram, no circle, no crystals, no text. This image remains an unverified exterior reconstruction, do not invent any new microscopic detail. Landscape1536x1024.",
+        "inputRuntimeSha256": "2fa28b853a15cd89c9a266d0317d859e1ad2920a5007aa55039cbb81f5a99704",
+        "outputSourceSha256": "6b2c5bb9134eac849f725fda1cb14fe65cdedeb05f0547c4ba09e0e763b84b4b",
+        "references": []
+      }
+    ],
+    "currentPrompt": "Edit this retained draft illustration ONLY to remove the upper-right circular microscopic spicule inset and all its invented pointed crystals. Fill its former location with ordinary distant out-of-focus seafloor matching surrounding background. Preserve whole animal and all other anatomy unchanged. No diagram, no circle, no crystals, no text. This image remains an unverified exterior reconstruction, do not invent any new microscopic detail. Landscape1536x1024."
+  },
+  {
+    "file": "05-observation.webp",
+    "prompt": "Natural history educational scientific reconstruction, Neomenia carinata solenogaster mollusc, tiny plump pink reddish wormlike shell-less body, dorsal longitudinal keel, no eyes no tentacles no legs, on seabed. curled posture on sediment. One coherent landscape illustration 1536x1024. Anatomically restrained and realistic, no labels no text no borders, not collage. No invented behavior or scale bars. Full main subject safely inside image."
+  },
+  {
+    "file": "06-observation.webp",
+    "prompt": "Natural history educational scientific reconstruction, Neomenia carinata solenogaster mollusc, tiny plump pink reddish wormlike shell-less body, dorsal longitudinal keel, no eyes no tentacles no legs, on seabed. whole animal oblique view. One coherent landscape illustration 1536x1024. Anatomically restrained and realistic, no labels no text no borders, not collage. No invented behavior or scale bars. Full main subject safely inside image."
+  }
+]

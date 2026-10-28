@@ -1,0 +1,35 @@
+[
+  {
+    "file": "01-cover.webp",
+    "prompt": "Educational natural-history scientific reconstruction of Tonicella lineata lined chiton, small flattened oval northeastern Pacific mollusc clinging to pink encrusting coralline algae rock, exactly eight overlapping dorsal shell plates in a single longitudinal row, narrow leathery girdle, pink yellow cream plates with fine dark reddish zigzag lines, no visible eyes or antennae. Canonical cover. Place entire animal on the RIGHT at horizontal center 72 percent of source width. Keep ALL body parts within x 670..1460 y 140..870 of a 1536x1024 canvas. Left 40 percent calm low-detail natural background. Large clear full animal, real background margin on every side.. One coherent landscape image 1536x1024, restrained realistic anatomy, no text, no labels, no border, not a collage. No invented structures or behavior. Keep every visible outer part inside image."
+  },
+  {
+    "file": "02-observation.webp",
+    "prompt": "Correct this natural-history illustration of Tonicella lineata. The current animal has NINE shell plates, which is anatomically wrong. It must have EXACTLY EIGHT shell plates total in one row: one head end cap, SIX middle transverse plates, and one tail end cap. Remove ONE middle plate by merging the two central plates into a single broad middle plate, giving exactly eight. Count the external overlapping shell plate boundaries, not colored zigzag markings. Keep the complete oval chiton, narrow leathery girdle and pink coralline algae substrate, no text no labels no numbers. Preserve realistic colors and full visible body; landscape 1536x1024.",
+    "initialPrompt": "Educational natural-history scientific reconstruction of Tonicella lineata lined chiton, small flattened oval northeastern Pacific mollusc clinging to pink encrusting coralline algae rock, exactly eight overlapping dorsal shell plates in a single longitudinal row, narrow leathery girdle, pink yellow cream plates with fine dark reddish zigzag lines, no visible eyes or antennae. precise dorsal natural-history view showing EXACTLY eight plates, one head plate six middle plates one tail plate. One coherent landscape image 1536x1024, restrained realistic anatomy, no text, no labels, no border, not a collage. No invented structures or behavior. Keep every visible outer part inside image.",
+    "editInputSha256": "d49e2f3656d718399eea15dda06e409240ec796ad84980c4377b1da9f537fa21",
+    "editHistory": [
+      {
+        "prompt": "Correct this natural-history illustration of Tonicella lineata. The current animal has NINE shell plates, which is anatomically wrong. It must have EXACTLY EIGHT shell plates total in one row: one head end cap, SIX middle transverse plates, and one tail end cap. Remove ONE middle plate by merging the two central plates into a single broad middle plate, giving exactly eight. Count the external overlapping shell plate boundaries, not colored zigzag markings. Keep the complete oval chiton, narrow leathery girdle and pink coralline algae substrate, no text no labels no numbers. Preserve realistic colors and full visible body; landscape 1536x1024.",
+        "inputSha256": "d49e2f3656d718399eea15dda06e409240ec796ad84980c4377b1da9f537fa21",
+        "outputSha256": "c0c050afe16fbdacba4a87eb9eec4137c05f0d12f4ebab08688a98a064e538f1"
+      }
+    ]
+  },
+  {
+    "file": "03-observation.webp",
+    "prompt": "Educational natural-history scientific reconstruction of Tonicella lineata lined chiton, small flattened oval northeastern Pacific mollusc clinging to pink encrusting coralline algae rock, exactly eight overlapping dorsal shell plates in a single longitudinal row, narrow leathery girdle, pink yellow cream plates with fine dark reddish zigzag lines, no visible eyes or antennae. oblique side view showing overlapping low shell plates and girdle. One coherent landscape image 1536x1024, restrained realistic anatomy, no text, no labels, no border, not a collage. No invented structures or behavior. Keep every visible outer part inside image."
+  },
+  {
+    "file": "04-observation.webp",
+    "prompt": "Educational natural-history scientific reconstruction of Tonicella lineata lined chiton, small flattened oval northeastern Pacific mollusc clinging to pink encrusting coralline algae rock, exactly eight overlapping dorsal shell plates in a single longitudinal row, narrow leathery girdle, pink yellow cream plates with fine dark reddish zigzag lines, no visible eyes or antennae. close view of dark wavy zigzag lines on cream pink plates. One coherent landscape image 1536x1024, restrained realistic anatomy, no text, no labels, no border, not a collage. No invented structures or behavior. Keep every visible outer part inside image."
+  },
+  {
+    "file": "05-observation.webp",
+    "prompt": "Educational natural-history scientific reconstruction of Tonicella lineata lined chiton, small flattened oval northeastern Pacific mollusc clinging to pink encrusting coralline algae rock, exactly eight overlapping dorsal shell plates in a single longitudinal row, narrow leathery girdle, pink yellow cream plates with fine dark reddish zigzag lines, no visible eyes or antennae. underside anatomy conceptual natural-history diagram with broad oval muscular foot and narrow surrounding mantle groove, no visible head or tentacles. One coherent landscape image 1536x1024, restrained realistic anatomy, no text, no labels, no border, not a collage. No invented structures or behavior. Keep every visible outer part inside image."
+  },
+  {
+    "file": "06-observation.webp",
+    "prompt": "Educational natural-history scientific reconstruction of Tonicella lineata lined chiton, small flattened oval northeastern Pacific mollusc clinging to pink encrusting coralline algae rock, exactly eight overlapping dorsal shell plates in a single longitudinal row, narrow leathery girdle, pink yellow cream plates with fine dark reddish zigzag lines, no visible eyes or antennae. whole animal on encrusting pink coralline algae, oblique top view. One coherent landscape image 1536x1024, restrained realistic anatomy, no text, no labels, no border, not a collage. No invented structures or behavior. Keep every visible outer part inside image."
+  }
+]

@@ -52,7 +52,7 @@ import {
   buildSpeciesImageFrames,
   type SpeciesImageFrame,
 } from './domain/image-viewer';
-import type { IucnStatusCode, Species, SpeciesSummary } from './types';
+import type { ConservationCode, Species, SpeciesSummary } from './types';
 
 type Theme = 'light' | 'dark';
 type HeroDirection = -1 | 1;
@@ -68,7 +68,7 @@ const HERO_ROTATION_DELAY_MS = 6500;
 const HERO_TRANSITION_DURATION_MS = 900;
 
 const statusMeta: Record<
-  IucnStatusCode,
+  ConservationCode,
   { short: string; label: string; tone: 'safe' | 'watch' | 'risk' | 'critical' | 'muted' }
 > = {
   EX: { short: 'EX', label: '灭绝', tone: 'critical' },
@@ -80,6 +80,7 @@ const statusMeta: Record<
   LC: { short: 'LC', label: '无危', tone: 'safe' },
   DD: { short: 'DD', label: '数据缺乏', tone: 'muted' },
   NE: { short: 'NE', label: '未评估', tone: 'muted' },
+  UNVERIFIED: { short: '待核实', label: '保护评估待核实', tone: 'muted' },
 };
 
 const trendLabels = {
@@ -528,7 +529,7 @@ interface SpeciesDetailProps {
   onToggleSaved: (slug: string) => void;
 }
 
-function SpeciesDetail({ item, index, saved, onClose, onToggleSaved }: SpeciesDetailProps) {
+export function SpeciesDetail({ item, index, saved, onClose, onToggleSaved }: SpeciesDetailProps) {
   const status = statusMeta[item.conservation.code];
   const imageFrames = useMemo(() => buildSpeciesImageFrames(item), [item]);
   const [activeImageIndex, setActiveImageIndex] = useState<number | null>(null);
@@ -696,6 +697,9 @@ function SpeciesDetail({ item, index, saved, onClose, onToggleSaved }: SpeciesDe
         </div>
 
         <div className="detail-body">
+          {item.pendingMedia && (
+            <p className="detail-lead__copy" role="status">配图正在核验，暂不展示。</p>
+          )}
           <div className="detail-lead">
             <p className="section-kicker">FIELD NOTE · 物种手记</p>
             <p className="detail-lead__copy">{item.description}</p>
@@ -834,6 +838,8 @@ function SpeciesDetail({ item, index, saved, onClose, onToggleSaved }: SpeciesDe
               最近更新于 {formatDate(item.updatedAt)} ·{' '}
               {item.conservation.system === 'Historical and fossil evidence'
                 ? '灭绝依据：历史记录或化石研究'
+                : item.conservation.system === 'Unverified'
+                  ? '尚未核实可追溯的保护评估'
                 : item.conservation.assessedYear === undefined
                   ? item.conservation.code === 'NE'
                     ? 'IUCN 尚未评估'
@@ -1489,6 +1495,7 @@ function App() {
                 <option value="LC">LC · 无危</option>
                 <option value="DD">DD · 数据缺乏</option>
                 <option value="NE">NE · 未评估</option>
+                <option value="UNVERIFIED">保护评估待核实</option>
               </select>
               <ChevronDown size={16} aria-hidden="true" />
             </label>

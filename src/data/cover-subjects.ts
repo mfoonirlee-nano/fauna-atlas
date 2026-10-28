@@ -8251,5 +8251,105 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1410,
       "bottom": 850
     }
+  },
+  "violet-blanket-octopus": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 438,
+      "top": 14,
+      "right": 1502,
+      "bottom": 946
+    }
+  },
+  "neomenia-carinata": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 580,
+      "top": 185,
+      "right": 1420,
+      "bottom": 760
+    }
+  },
+  "striped-pyjama-squid": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 650,
+      "top": 105,
+      "right": 1485,
+      "bottom": 820
+    }
+  },
+  "solar-powered-nudibranch": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 552,
+      "top": 235,
+      "right": 1432,
+      "bottom": 750
+    }
+  },
+  "eastern-emerald-elysia": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 512,
+      "top": 160,
+      "right": 1507,
+      "bottom": 867
+    }
+  },
+  "flamingo-tongue-snail": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 654,
+      "top": 160,
+      "right": 1375,
+      "bottom": 742
+    }
+  },
+  "queen-conch": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 628,
+      "top": 88,
+      "right": 1475,
+      "bottom": 752
+    }
+  },
+  "lined-chiton": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 800,
+      "top": 60,
+      "right": 1335,
+      "bottom": 935
+    }
+  },
+  "greater-blue-ringed-octopus": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 615,
+      "top": 240,
+      "right": 1385,
+      "bottom": 827
+    }
+  },
+  "spanish-dancer-nudibranch": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 535,
+      "top": 203,
+      "right": 1480,
+      "bottom": 882
+    }
   }
 };

@@ -158,7 +158,9 @@ export function speciesBundle(): Plugin {
           // Keep punctuation with Chinese clauses so repeated sentences share
           // dictionary entries without changing their restored text. Include spaces
           // and hyphens so recurring English names can share whole phrases too.
-          for (const run of (packedRows + packedTaxaText).match(/[\u3400-\u9FFF，。；：、（）]{2,}|[A-Za-z][A-Za-z -]{2,}/gu) ?? []) {
+          // Numeric tuples repeat too (taxonomy indexes, coordinates, and flags).
+          // Restore these tokens before parsing JSON, just like text phrases.
+          for (const run of (packedRows + packedTaxaText).match(/[\u3400-\u9FFF，。；：、（）]{2,}|[A-Za-z][A-Za-z -]{2,}|[0-9,\[\]:.\-]{3,}/gu) ?? []) {
             for (let size = 2; size <= Math.min(16, run.length); size++) {
               for (let start = 0; start + size <= run.length; start++) {
                 const phrase = run.slice(start, start + size);
@@ -194,7 +196,7 @@ export function speciesBundle(): Plugin {
           const restoreLabels=(values,name)=>(Array.isArray(values)?values:[values]).map(value=>value===-1?name:typeof value==='number'?labels[value]:value);
           const [labels,altSuffixes,rows]=JSON.parse(restoreText(${JSON.stringify(packedRows)}));
           export const species=rows.map(row=>{if(Array.isArray(row[0])) row[0]=row[0].map(word=>typeof word==='number'?slugWords[word]:word).join('-');if(typeof row[7]==='number') row[7]=mediaPresets[row[7]];return row;}).map(([slug,l,n,s,c,d,t,m,h,g,id])=>{const name=Array.isArray(n)?n[0]:taxa[t[2]].scientificName+' '+n;return {slug,id:id===1?'species-'+name.toLowerCase().replaceAll(' ','-'):id??slug,names:{zh:l[0],en:l[1]===2?name:l[1]===1?slug.split('-').map(word=>word[0].toUpperCase()+word.slice(1)).join(' '):l[1],...(l.length>2?{aliases:l[2]}:{})},scientificName:name,summary:Array.isArray(s)?s[0]:l[0]+s,
-            conservation:{code:conservationCodes[c]},distribution:{regions:restoreLabels(d[0]),realms:realmSets[d[1]],...(d.length>2?{center:{lat:d[2][0],lng:d[2][1]}}:{})},media:{image:m[0]===1||(m[0]&&!m[0].includes('/'))?'./images/species/'+slug+'/'+(m[0]===1?'01-cover':m[0])+'.webp':m[0]??undefined,alt:typeof m[1]==='number'?l[0]+altSuffixes[m[1]]:m[1],focalPoint:m[2]===1?{x:0.7,y:0.5}:m[2]?{x:m[2][0],y:m[2][1]}:undefined},habitats:restoreLabels(h).map(name=>({name})),tags:g===1?[l[0],restoreLabels(h)[0]]:restoreLabels(g,l[0]),
+            conservation:{code:conservationCodes[c]},distribution:{regions:restoreLabels(d[0]),realms:realmSets[d[1]],...(d.length>2?{center:{lat:d[2][0],lng:d[2][1]}}:{})},media:{...(m[0]?{image:m[0]===1||!m[0].includes('/')?'./images/species/'+slug+'/'+(m[0]===1?'01-cover':m[0])+'.webp':m[0]}:{}),alt:typeof m[1]==='number'?l[0]+altSuffixes[m[1]]:m[1],...(m[2]?{focalPoint:m[2]===1?{x:0.7,y:0.5}:{x:m[2][0],y:m[2][1]}}:{})},habitats:restoreLabels(h).map(name=>({name})),tags:g===1?[l[0],restoreLabels(h)[0]]:restoreLabels(g,l[0]),
             taxonomy:Object.fromEntries([...lineages[t[0]],...t.slice(1)].flatMap((taxon,index)=>taxon===null?[]:[[ranks[index],taxa[taxon]]]))}});
           const indexes=new Map(species.map((item,index)=>[item.slug,index]));
           export async function loadSpecies(slug){
