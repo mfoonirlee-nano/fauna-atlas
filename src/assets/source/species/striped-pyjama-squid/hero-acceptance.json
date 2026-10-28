@@ -1,0 +1,581 @@
+{
+  "date": "2026-10-28",
+  "source": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 585,
+      "top": 205,
+      "right": 1495,
+      "bottom": 855
+    }
+  },
+  "focalPoint": {
+    "x": 0.7,
+    "y": 0.5
+  },
+  "minClearance": 23.999999999999886,
+  "cases": [
+    {
+      "viewport": [
+        320,
+        760
+      ],
+      "panel": [
+        320,
+        260
+      ],
+      "fit": {
+        "scale": 0.17708333333333334,
+        "left": 24.0,
+        "top": 39.33333333333333
+      },
+      "edges": {
+        "left": 127.59375,
+        "top": 75.63541666666666,
+        "right": 288.73958333333337,
+        "bottom": 190.73958333333331
+      },
+      "clearance": [
+        127.59375,
+        75.63541666666666,
+        31.26041666666663,
+        69.26041666666669
+      ],
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ]
+    },
+    {
+      "viewport": [
+        390,
+        760
+      ],
+      "panel": [
+        390,
+        292.5
+      ],
+      "fit": {
+        "scale": 0.22265625,
+        "left": 24.0,
+        "top": 32.25
+      },
+      "edges": {
+        "left": 154.25390625,
+        "top": 77.89453125,
+        "right": 356.87109375,
+        "bottom": 222.62109375
+      },
+      "clearance": [
+        154.25390625,
+        77.89453125,
+        33.12890625,
+        69.87890625
+      ],
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ]
+    },
+    {
+      "viewport": [
+        761,
+        760
+      ],
+      "panel": [
+        416.47200000000004,
+        760
+      ],
+      "fit": {
+        "scale": 0.4049142857142858,
+        "left": -212.87485714285717,
+        "top": 165.39542857142854
+      },
+      "edges": {
+        "left": 24.00000000000003,
+        "top": 248.40285714285713,
+        "right": 392.4720000000001,
+        "bottom": 511.5971428571429
+      },
+      "clearance": [
+        24.00000000000003,
+        248.40285714285713,
+        23.999999999999943,
+        248.4028571428571
+      ],
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ]
+    },
+    {
+      "viewport": [
+        761,
+        760
+      ],
+      "panel": [
+        416.47200000000004,
+        920
+      ],
+      "fit": {
+        "scale": 0.4049142857142858,
+        "left": -212.87485714285717,
+        "top": 245.39542857142854
+      },
+      "edges": {
+        "left": 24.00000000000003,
+        "top": 328.4028571428571,
+        "right": 392.4720000000001,
+        "bottom": 591.5971428571429
+      },
+      "clearance": [
+        24.00000000000003,
+        328.4028571428571,
+        23.999999999999943,
+        328.4028571428571
+      ],
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ]
+    },
+    {
+      "viewport": [
+        900,
+        760
+      ],
+      "panel": [
+        493.2,
+        760
+      ],
+      "fit": {
+        "scale": 0.4892307692307692,
+        "left": -262.19999999999993,
+        "top": 120.70769230769235
+      },
+      "edges": {
+        "left": 24.000000000000057,
+        "top": 221.00000000000006,
+        "right": 469.20000000000005,
+        "bottom": 539.0
+      },
+      "clearance": [
+        24.000000000000057,
+        221.00000000000006,
+        23.999999999999943,
+        221.0
+      ],
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ]
+    },
+    {
+      "viewport": [
+        900,
+        760
+      ],
+      "panel": [
+        493.2,
+        920
+      ],
+      "fit": {
+        "scale": 0.4892307692307692,
+        "left": -262.19999999999993,
+        "top": 200.70769230769235
+      },
+      "edges": {
+        "left": 24.000000000000057,
+        "top": 301.00000000000006,
+        "right": 469.20000000000005,
+        "bottom": 619.0
+      },
+      "clearance": [
+        24.000000000000057,
+        301.00000000000006,
+        23.999999999999943,
+        301.0
+      ],
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ]
+    },
+    {
+      "viewport": [
+        1100,
+        768
+      ],
+      "panel": [
+        603.6,
+        768
+      ],
+      "fit": {
+        "scale": 0.6105494505494505,
+        "left": -333.1714285714285,
+        "top": 60.40879120879123
+      },
+      "edges": {
+        "left": 24.000000000000057,
+        "top": 185.57142857142858,
+        "right": 579.6000000000001,
+        "bottom": 582.4285714285713
+      },
+      "clearance": [
+        24.000000000000057,
+        185.57142857142858,
+        23.999999999999886,
+        185.57142857142867
+      ],
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ]
+    },
+    {
+      "viewport": [
+        1100,
+        768
+      ],
+      "panel": [
+        603.6,
+        928
+      ],
+      "fit": {
+        "scale": 0.6105494505494505,
+        "left": -333.1714285714285,
+        "top": 140.40879120879123
+      },
+      "edges": {
+        "left": 24.000000000000057,
+        "top": 265.57142857142856,
+        "right": 579.6000000000001,
+        "bottom": 662.4285714285713
+      },
+      "clearance": [
+        24.000000000000057,
+        265.57142857142856,
+        23.999999999999886,
+        265.57142857142867
+      ],
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ]
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "panel": [
+        750.432,
+        768
+      ],
+      "fit": {
+        "scale": 0.7719032967032967,
+        "left": -427.56342857142863,
+        "top": -25.108747252747264
+      },
+      "edges": {
+        "left": 23.999999999999943,
+        "top": 133.13142857142856,
+        "right": 726.432,
+        "bottom": 634.8685714285714
+      },
+      "clearance": [
+        23.999999999999943,
+        133.13142857142856,
+        24.0,
+        133.13142857142861
+      ],
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ]
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "panel": [
+        750.432,
+        928
+      ],
+      "fit": {
+        "scale": 0.7719032967032967,
+        "left": -427.56342857142863,
+        "top": 54.891252747252736
+      },
+      "edges": {
+        "left": 23.999999999999943,
+        "top": 213.13142857142856,
+        "right": 726.432,
+        "bottom": 714.8685714285714
+      },
+      "clearance": [
+        23.999999999999943,
+        213.13142857142856,
+        24.0,
+        213.13142857142861
+      ],
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ]
+    },
+    {
+      "viewport": [
+        1920,
+        900
+      ],
+      "panel": [
+        1035.8400000000001,
+        900
+      ],
+      "fit": {
+        "scale": 1.0855384615384618,
+        "left": -611.0400000000002,
+        "top": -125.33538461538478
+      },
+      "edges": {
+        "left": 24.0,
+        "top": 97.19999999999987,
+        "right": 1011.8400000000001,
+        "bottom": 802.8000000000001
+      },
+      "clearance": [
+        24.0,
+        97.19999999999987,
+        24.0,
+        97.19999999999993
+      ],
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ]
+    },
+    {
+      "viewport": [
+        1920,
+        900
+      ],
+      "panel": [
+        1035.8400000000001,
+        1060
+      ],
+      "fit": {
+        "scale": 1.0855384615384618,
+        "left": -611.0400000000002,
+        "top": -45.33538461538478
+      },
+      "edges": {
+        "left": 24.0,
+        "top": 177.19999999999987,
+        "right": 1011.8400000000001,
+        "bottom": 882.8000000000001
+      },
+      "clearance": [
+        24.0,
+        177.19999999999987,
+        24.0,
+        177.19999999999993
+      ],
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ]
+    },
+    {
+      "viewport": [
+        2560,
+        900
+      ],
+      "panel": [
+        1354.0,
+        900
+      ],
+      "fit": {
+        "scale": 1.3107692307692307,
+        "left": -686.1999999999998,
+        "top": -244.70769230769224
+      },
+      "edges": {
+        "left": 80.60000000000014,
+        "top": 24.000000000000057,
+        "right": 1273.4,
+        "bottom": 876.0
+      },
+      "clearance": [
+        80.60000000000014,
+        24.000000000000057,
+        80.59999999999991,
+        24.0
+      ],
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ]
+    },
+    {
+      "viewport": [
+        2560,
+        900
+      ],
+      "panel": [
+        1354.0,
+        1060
+      ],
+      "fit": {
+        "scale": 1.4351648351648352,
+        "left": -815.5714285714287,
+        "top": -230.63736263736268
+      },
+      "edges": {
+        "left": 23.999999999999886,
+        "top": 63.5714285714285,
+        "right": 1329.9999999999998,
+        "bottom": 996.4285714285713
+      },
+      "clearance": [
+        23.999999999999886,
+        63.5714285714285,
+        24.000000000000227,
+        63.57142857142867
+      ],
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ]
+    },
+    {
+      "viewport": [
+        3840,
+        900
+      ],
+      "panel": [
+        1994.0,
+        900
+      ],
+      "fit": {
+        "scale": 1.3107692307692307,
+        "left": -366.1999999999998,
+        "top": -244.70769230769224
+      },
+      "edges": {
+        "left": 400.60000000000014,
+        "top": 24.000000000000057,
+        "right": 1593.4,
+        "bottom": 876.0
+      },
+      "clearance": [
+        400.60000000000014,
+        24.000000000000057,
+        400.5999999999999,
+        24.0
+      ],
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ]
+    },
+    {
+      "viewport": [
+        3840,
+        900
+      ],
+      "panel": [
+        1994.0,
+        1060
+      ],
+      "fit": {
+        "scale": 1.5569230769230769,
+        "left": -622.1999999999998,
+        "top": -295.1692307692307
+      },
+      "edges": {
+        "left": 288.60000000000014,
+        "top": 24.000000000000057,
+        "right": 1705.4,
+        "bottom": 1036.0
+      },
+      "clearance": [
+        288.60000000000014,
+        24.000000000000057,
+        288.5999999999999,
+        24.0
+      ],
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ]
+    }
+  ],
+  "limitation": "Static geometry and image-panel simulations do not verify browser typography, full-page layout or actual content height."
+}

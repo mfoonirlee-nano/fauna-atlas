@@ -1,6 +1,57 @@
 // Visually measured complete silhouettes. Update the matching hash-bound
 // fixture and species acceptance record whenever a cover changes.
 export const coverSubjects: Record<string, { width: number; height: number; bounds: { left: number; top: number; right: number; bottom: number } }> = {
+  "violet-blanket-octopus": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 625,
+      "top": 95,
+      "right": 1505,
+      "bottom": 940
+    }
+  },
+  "neomenia-carinata": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 560,
+      "top": 240,
+      "right": 1510,
+      "bottom": 745
+    }
+  },
+  "striped-pyjama-squid": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 585,
+      "top": 205,
+      "right": 1495,
+      "bottom": 855
+    }
+  },
+  "long-cirrus-solar-slug": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 540,
+      "top": 135,
+      "right": 1515,
+      "bottom": 850
+    }
+  },
+  "eastern-emerald-elysia": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 675,
+      "top": 90,
+      "right": 1475,
+      "bottom": 925
+    }
+  },
+
   "common-wombat": {
     "width": 1536,
     "height": 1024,

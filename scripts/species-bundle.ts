@@ -32,9 +32,18 @@ export function speciesBundle(): Plugin {
           media: { image: item.media.image, alt: item.media.alt, focalPoint: item.media.focalPoint },
         }));
         // Reuse taxonomy objects shared by many species instead of serializing every lineage.
-        const taxa = [...new Map(summaries.flatMap(({ taxonomy }) =>
-          Object.values(taxonomy).map((taxon) => [JSON.stringify(taxon), taxon] as const),
-        )).values()];
+        const taxonCounts = new Map<string, number>();
+        const taxonEntries = summaries.flatMap(({ taxonomy }) =>
+          Object.values(taxonomy).map((taxon) => {
+            const key = JSON.stringify(taxon);
+            taxonCounts.set(key, (taxonCounts.get(key) ?? 0) + 1);
+            return [key, taxon] as const;
+          }),
+        );
+        // Frequent taxa get short indexes without changing the restored lineages.
+        const taxa = [...new Map(taxonEntries)]
+          .sort(([a], [b]) => taxonCounts.get(b)! - taxonCounts.get(a)!)
+          .map(([, taxon]) => taxon);
         const indexes = new Map(taxa.map((taxon, index) => [JSON.stringify(taxon), index]));
         // Intern repeated labels; unique text costs less when kept inline.
         // A tag equal to the Chinese name reuses that name through the -1 sentinel.
@@ -70,7 +79,7 @@ export function speciesBundle(): Plugin {
         const catalogue = summaries.map(({ id, names, scientificName, summary, conservation, distribution, taxonomy, media, habitats, tags, ...item }) => ({ ...item,
           // Some species use their scientific name as the English label.
           l: [names.zh, names.en === scientificName ? 2 : names.en === item.slug.split('-').map((word) => word[0].toUpperCase() + word.slice(1)).join(' ')
-            ? 1 : names.en, ...(names.aliases === undefined ? [] : [names.aliases])],
+            ? 1 : names.en, ...(names.aliases === undefined ? [] : [names.aliases.length === 0 ? 0 : names.aliases])],
           // The genus already exists in the shared taxonomy; retain unusual names verbatim.
           n: scientificName.startsWith(`${taxonomy.genus.scientificName} `)
             ? scientificName.slice(taxonomy.genus.scientificName.length + 1) : [scientificName],
@@ -116,6 +125,17 @@ export function speciesBundle(): Plugin {
           [slug, l, n, s, c, d, [lineageIndexes.get(JSON.stringify(t.slice(0, 4))), ...t.slice(4)], mediaIndexes.get(JSON.stringify(m)) ?? m, compactLabels(h),
             g.length === 2 && g[0] === -1 && g[1] === h[0] ? 1 : g, ...(id === undefined ? [] : [id])],
         );
+        // Species in the same genus often share the entire taxonomic path.
+        // Only intern repeated paths so unique genera pay no dictionary cost.
+        const pathCounts = new Map<string, number>();
+        for (const row of rows) {
+          const key = JSON.stringify(row[6]);
+          pathCounts.set(key, (pathCounts.get(key) ?? 0) + 1);
+        }
+        const taxonomyPresets = [...pathCounts].filter(([, count]) => count > 1)
+          .sort((a, b) => b[1] - a[1]).map(([path]) => JSON.parse(path));
+        const pathIndexes = new Map(taxonomyPresets.map((path, index) => [JSON.stringify(path), index]));
+        for (const row of rows) row[6] = pathIndexes.get(JSON.stringify(row[6])) ?? row[6];
         // Species slugs share words across the catalogue. Keep repeated words once.
         const wordCounts = new Map<string, number>();
         for (const { slug } of catalogue) for (const word of slug.split('-')) {
@@ -187,13 +207,14 @@ export function speciesBundle(): Plugin {
           const taxa=(typeof packedTaxa==='string'?packedTaxa.split('\\n'):packedTaxa).map(pair=>{if(Array.isArray(pair))return pair;const [name,label=name]=pair.split('|');return [name,label.endsWith('~')?label.slice(0,-1)+'属':label];}).map(([scientificName,zhName=scientificName])=>({scientificName,zhName}));
           const ranks=${JSON.stringify(taxonomyRanks)};
           const lineages=${JSON.stringify(lineages)};
+          const taxonomyPresets=${JSON.stringify(taxonomyPresets)};
           const conservationCodes=${JSON.stringify(conservationCodes)};
           const realmSets=${JSON.stringify(realmSets)};
           const mediaPresets=${JSON.stringify(mediaPresets)};
           const slugWords=${JSON.stringify(slugWords)};
           const restoreLabels=(values,name)=>(Array.isArray(values)?values:[values]).map(value=>value===-1?name:typeof value==='number'?labels[value]:value);
           const [labels,altSuffixes,rows]=JSON.parse(restoreText(${JSON.stringify(packedRows)}));
-          export const species=rows.map(row=>{if(Array.isArray(row[0])) row[0]=row[0].map(word=>typeof word==='number'?slugWords[word]:word).join('-');if(typeof row[7]==='number') row[7]=mediaPresets[row[7]];return row;}).map(([slug,l,n,s,c,d,t,m,h,g,id])=>{const name=Array.isArray(n)?n[0]:taxa[t[2]].scientificName+' '+n;return {slug,id:id===1?'species-'+name.toLowerCase().replaceAll(' ','-'):id??slug,names:{zh:l[0],en:l[1]===2?name:l[1]===1?slug.split('-').map(word=>word[0].toUpperCase()+word.slice(1)).join(' '):l[1],...(l.length>2?{aliases:l[2]}:{})},scientificName:name,summary:Array.isArray(s)?s[0]:l[0]+s,
+          export const species=rows.map(row=>{if(typeof row[6]==='number') row[6]=taxonomyPresets[row[6]];if(Array.isArray(row[0])) row[0]=row[0].map(word=>typeof word==='number'?slugWords[word]:word).join('-');if(typeof row[7]==='number') row[7]=mediaPresets[row[7]];return row;}).map(([slug,l,n,s,c,d,t,m,h,g,id])=>{const name=Array.isArray(n)?n[0]:taxa[t[2]].scientificName+' '+n;return {slug,id:id===1?'species-'+name.toLowerCase().replaceAll(' ','-'):id??slug,names:{zh:l[0],en:l[1]===2?name:l[1]===1?slug.split('-').map(word=>word[0].toUpperCase()+word.slice(1)).join(' '):l[1],...(l.length>2?{aliases:l[2]===0?[]:l[2]}:{})},scientificName:name,summary:Array.isArray(s)?s[0]:l[0]+s,
             conservation:{code:conservationCodes[c]},distribution:{regions:restoreLabels(d[0]),realms:realmSets[d[1]],...(d.length>2?{center:{lat:d[2][0],lng:d[2][1]}}:{})},media:{image:m[0]===1||(m[0]&&!m[0].includes('/'))?'./images/species/'+slug+'/'+(m[0]===1?'01-cover':m[0])+'.webp':m[0]??undefined,alt:typeof m[1]==='number'?l[0]+altSuffixes[m[1]]:m[1],focalPoint:m[2]===1?{x:0.7,y:0.5}:m[2]?{x:m[2][0],y:m[2][1]}:undefined},habitats:restoreLabels(h).map(name=>({name})),tags:g===1?[l[0],restoreLabels(h)[0]]:restoreLabels(g,l[0]),
             taxonomy:Object.fromEntries([...lineages[t[0]],...t.slice(1)].flatMap((taxon,index)=>taxon===null?[]:[[ranks[index],taxa[taxon]]]))}});
           const indexes=new Map(species.map((item,index)=>[item.slug,index]));

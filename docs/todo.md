@@ -1,6 +1,6 @@
 # 制作清单：100 种新奇动物与分类补充
 
-2026-10-27 更新：本轮选定 100 种新动物，已完成 25 种，待制作 75 种。前次推荐的 15 种已包含在这 100 种内。正式目录现有 825 份物种档案；本轮已完成的 25 种包含 25 份档案、150 张配图，来源与验收见[首批记录](research/todo-novel-first-five-2026-10-23.md)、[第二批记录](research/todo-novel-second-five-2026-10-23.md)、[第三批记录](research/todo-novel-third-five-2026-10-23.md)、[第四批记录](research/todo-novel-fourth-five-2026-10-24.md)及[第五批记录](research/todo-novel-fifth-five-2026-10-27.md)。
+2026-10-28 更新：本轮选定 100 种新动物，已完成 30 种，待制作 70 种。前次推荐的 15 种已包含在这 100 种内。正式目录现有 830 份物种档案；本轮已完成的 30 种包含 30 份档案、180 张配图，来源与验收见[首批记录](research/todo-novel-first-five-2026-10-23.md)、[第二批记录](research/todo-novel-second-five-2026-10-23.md)、[第三批记录](research/todo-novel-third-five-2026-10-23.md)、[第四批记录](research/todo-novel-fourth-five-2026-10-24.md)、[第五批记录](research/todo-novel-fifth-five-2026-10-27.md)及[第六批记录](research/todo-novel-sixth-five-2026-10-28.md)。
 
 ## 选题范围与核查
 
@@ -17,13 +17,13 @@
 
 | 制作分组 | 已完成 | 待制作 |
 | --- | ---: | ---: |
-| 软体动物 | 11 | 10 |
+| 软体动物 | 16 | 5 |
 | 刺胞与栉水母动物 | 7 | 4 |
 | 棘皮动物 | 1 | 7 |
 | 环节、海绵及其他动物 | 0 | 16 |
 | 节肢动物 | 4 | 24 |
 | 脊索动物 | 2 | 14 |
-| 合计 | 25 | 75 |
+| 合计 | 30 | 70 |
 
 ## 制作顺序与完成条件
 
@@ -39,10 +39,10 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | [x] | N006 | 火焰乌贼 | *Ascarosepion pfefferi* | 皮肤颜色变化，以及腹侧腕帮助在海底行走 | 已有乌贼科内新增物种与属，不能宣称新增科。 | [来源](https://new-www.mbl.edu/research/resources-research-facilities/marine-resources-center/cephalopods/cephalopod-breeding-center) |
 | [x] | N007 | 夏威夷短尾乌贼 | *Euprymna scolopes* | 沙中藏身与腹部光器；用图示讲共生细菌如何帮助匹配上方光线 | 补 Sepiolida、Sepiolidae。 | [来源](https://doi.org/10.1073/pnas.0904571106) |
-| [ ] | N008 | 紫毯章鱼 | *Tremoctopus violaceus* | 雌性展开背侧腕间的大膜，像一件披风 | 补 Tremoctopodidae。 | [来源](https://pmc.ncbi.nlm.nih.gov/articles/PMC7854555/) |
+| [x] | N008 | 紫毯章鱼 | *Tremoctopus violaceus* | 雌性展开背侧腕间的大膜，像一件披风 | 补 Tremoctopodidae。 | [来源](https://pmc.ncbi.nlm.nih.gov/articles/PMC7854555/) |
 | [x] | N009 | 狮鬃海蛞蝓 | *Melibe leonina* | 口罩状口兜像小捞网，向下合拢抓取浮游动物 | 补 Tethydidae。 | [来源](https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/melibe) |
 | [x] | N010 | 海兔兔 | *Jorunna parva* | 两根嗅角像兔耳，背部鳃簇像小尾巴；比较动物外形与功能 | 补 Discodorididae。 | [来源](https://www.godac.jamstec.go.jp/bismal/e/view/9024943) |
-| [ ] | N013 | 龙骨新月贝 | *Neomenia carinata* | 像小蠕虫却属于软体动物；寻找腹部沟及细小骨针 | 补沟腹纲 Solenogastres、Neomeniidae。 | [来源](https://www.eu-nomen.eu/portal/taxon.php?GUID=urn%3Alsid%3Amarinespecies.org%3Ataxname%3A140560) |
+| [x] | N013 | 龙骨新月贝 | *Neomenia carinata* | 像小蠕虫却属于软体动物；寻找腹部沟及细小骨针 | 补沟腹纲 Solenogastres、Neomeniidae。 | [来源](https://www.eu-nomen.eu/portal/taxon.php?GUID=urn%3Alsid%3Amarinespecies.org%3Ataxname%3A140560) |
 | [x] | N016 | 深海兜帽海蛞蝓 | *Bathydevius caudactylus* | 透明身体一端有捕食兜帽，另一端有指状尾突；游在深海水层 | 裸鳃类中加入远离海底的生活方式 | [来源](https://www.mbari.org/animal/mystery-mollusc/) |
 | [x] | N017 | 透明中层章鱼 | *Japetella diaphana* | 对比近透明与不透明橙色身体；妈妈抱着卵漂游 | 比较中层章鱼与底栖章鱼的隐蔽和育幼 | [来源](https://www.mbari.org/animal/midwater-octopus/) |
 | [x] | N018 | 八腕鱿鱼 | *Octopoteuthis deletron* | 成年个体只有八条腕，腕尖有发光器 | 比较鱿鱼不同发育阶段的附肢数量 | [来源](https://www.mbari.org/animal/octopus-squid/) |
@@ -50,9 +50,9 @@
 | [x] | N020 | 七腕章鱼 | *Haliphron atlanticus* | 找出名字中的谜题：雄性藏起交接腕，看着像七条；雌性曾抱着水母进食 | 比较雌雄差异及水母食物网 | [来源](https://www.mbari.org/animal/seven-arm-octopus/) |
 | [x] | N021 | 拟态章鱼 | *Thaumoctopus mimicus* | 比较把腕收拢成扁鱼状与伸展成狮子鱼状的姿势 | 加入多种姿势的拟态行为 | [来源](https://www.amnh.org/explore/news-blogs/mimic-octopus-behavior) |
 | [x] | N022 | 椰子章鱼 | *Amphioctopus marginatus* | 搬着椰壳走路，再把壳拼成藏身处 | 补充软体动物携带物体及搭建庇护所 | [来源](https://ocean.si.edu/ocean-life/invertebrates/veined-octopus-anilao-batangas-pier-philippines) |
-| [ ] | N023 | 条纹睡衣乌贼 | *Sepioloidea lineolata* | 黑白条纹、黄色眼睛；把沙拨到身上，露出眼睛 | 加入瓶尾乌贼科 Sepiadariidae 的选题 | [来源](https://www.aquariumofpacific.org/onlinelearningcenter/species/pajama_squid) |
-| [ ] | N024 | 长突太阳能海蛞蝓 | *Phyllodesmium longicirrum* | 扁平背突上有褐色小斑，放大看共生藻所在区域 | 与叶羊、绿海天牛比较不同的光合伙伴关系 | [来源](https://seaslugforum.net/showall/phyllong) |
-| [ ] | N025 | 绿叶海天牛 | *Elysia chlorotica* | 像叶片的绿色侧足，放大观察分枝消化腺 | 加入不同种的盗食叶绿体现象，比较藻类食物 | [来源](https://seaslugforum.net/showall/elyschlo) |
+| [x] | N023 | 条纹睡衣乌贼 | *Sepioloidea lineolata* | 黑白条纹、黄色眼睛；把沙拨到身上，露出眼睛 | 加入瓶尾乌贼科 Sepiadariidae 的选题 | [来源](https://www.aquariumofpacific.org/onlinelearningcenter/species/pajama_squid) |
+| [x] | N024 | 长突太阳能海蛞蝓 | *Phyllodesmium longicirrum* | 扁平背突上有褐色小斑，放大看共生藻所在区域 | 与叶羊、绿海天牛比较不同的光合伙伴关系 | [来源](https://seaslugforum.net/showall/phyllong) |
+| [x] | N025 | 绿叶海天牛 | *Elysia chlorotica* | 像叶片的绿色侧足，放大观察分枝消化腺 | 加入不同种的盗食叶绿体现象，比较藻类食物 | [来源](https://seaslugforum.net/showall/elyschlo) |
 | [ ] | N026 | 火烈鸟舌螺 | *Cyphoma gibbosum* | 橙黄黑斑在包覆贝壳的活外套膜上，缩回后壳面不同 | 加入梭螺科 Ovulidae，比较壳色与软组织颜色 | [来源](https://www.shellmuseum.org/post/flamingo-tongue-goth-lips) |
 | [ ] | N027 | 女王凤凰螺 | *Aliger gigas* | 粉橙色壳口，两根长眼柄分别转动 | 加入大型凤凰螺及成体、幼体壳形比较 | [来源](https://www.fisheries.noaa.gov/species/queen-conch/science) |
 | [ ] | N028 | 线纹石鳖 | *Tonicella lineata* | 数八块背板，观察锯齿状线纹，与橡胶靴石鳖比较 | 在多板纲内增加可对照的小型石鳖 | [来源](https://inverts.wallawalla.edu/Mollusca/Polyplacophora/Tonicella_lineata.html) |

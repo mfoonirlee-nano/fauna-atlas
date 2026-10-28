@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-28",
+  "tool": "built-in image_gen",
+  "conversion": "cwebp -q 82 -m 6 -mt; decoded with ImageMagick",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "kind": "AI-generated scientific reconstruction",
+      "prompt": "Create one landscape 1536x1024 image for a scientific children's animal atlas. High-quality realistic natural history illustration with natural photographic lighting, not a cartoon. Species: Sepioloidea lineolata. Anatomy: Striped pyjama squid, small rounded cuttlefish-like Australian cephalopod. Cream white plump oval mantle with distinctive dark brown-black longitudinal wavy stripes, rounded yellowish eyes, short compact arm crown and small lateral fins, NO elongated torpedo squid body, NO sea slug rabbit ears. Shallow sandy Australian sea floor. Scene: entire animal on sand, all arm ends within image. COVER composition: entire complete subject on the RIGHT, center at 70% width. Keep full animal silhouette inside x=720..1450 and y=110..920, leaving visible natural background on all sides. Maximize subject inside this region. LEFT 40% quiet background for separate title. All appendages and tail fully in frame. No text, logos, collage, border, scale bar, arrows or made-up labels. Scientific reconstruction, not documentary evidence; avoid fanciful colors and anthropomorphic features.",
+      "source": {
+        "sha256": "7003a7777358613424308ffecbb7a4ff01c394bb2b86257c47fcee7069fa0786",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 2947516
+      },
+      "runtime": {
+        "sha256": "1f8b54fac6f824c96a0fe9d63a9b55d32d0cc09a7699158ddeb72742bcb3a7e7",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 280004
+      }
+    },
+    {
+      "file": "02-observation.webp",
+      "kind": "AI-generated scientific reconstruction",
+      "prompt": "Create one landscape 1536x1024 image for a scientific children's animal atlas. High-quality realistic natural history illustration with natural photographic lighting, not a cartoon. Species: Sepioloidea lineolata. Anatomy: Striped pyjama squid, small rounded cuttlefish-like Australian cephalopod. Cream white plump oval mantle with distinctive dark brown-black longitudinal wavy stripes, rounded yellowish eyes, short compact arm crown and small lateral fins, NO elongated torpedo squid body, NO sea slug rabbit ears. Shallow sandy Australian sea floor. Scene: dorsal view showing wavy black and cream longitudinal stripes. OBSERVATION image: clear subject, coherent natural background, carefully observed biological structures; complete or close detail as specified. No text, logos, collage, border, scale bar, arrows or made-up labels. Scientific reconstruction, not documentary evidence; avoid fanciful colors and anthropomorphic features.",
+      "source": {
+        "sha256": "01605426f97f63f5687f2666045ee6880d91f42496528773865e7fbd1c94d33e",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 3412777
+      },
+      "runtime": {
+        "sha256": "7c6b9cd8a9d936d6e28072d607bde8fa37f37e3499ff77f1ce63215839ce2c39",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 377860
+      }
+    },
+    {
+      "file": "03-observation.webp",
+      "kind": "AI-generated scientific reconstruction",
+      "prompt": "Create one landscape 1536x1024 image for a scientific children's animal atlas. High-quality realistic natural history illustration with natural photographic lighting, not a cartoon. Species: Sepioloidea lineolata. Anatomy: Striped pyjama squid, small rounded cuttlefish-like Australian cephalopod. Cream white plump oval mantle with distinctive dark brown-black longitudinal wavy stripes, rounded yellowish eyes, short compact arm crown and small lateral fins, NO elongated torpedo squid body, NO sea slug rabbit ears. Shallow sandy Australian sea floor. Scene: oblique close view of eye and mantle stripes, no dissection. OBSERVATION image: clear subject, coherent natural background, carefully observed biological structures; complete or close detail as specified. No text, logos, collage, border, scale bar, arrows or made-up labels. Scientific reconstruction, not documentary evidence; avoid fanciful colors and anthropomorphic features.",
+      "source": {
+        "sha256": "e89f07f639455ff4110a8b64b19c2201bbcbc64429dc21c61f65cb550d444d33",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 3177664
+      },
+      "runtime": {
+        "sha256": "074c16200313c52fa439ef37eaa78304b6982144547b77e70e045c85db08cb46",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 326066
+      }
+    },
+    {
+      "file": "04-observation.webp",
+      "kind": "AI-generated scientific reconstruction",
+      "prompt": "Create one landscape 1536x1024 image for a scientific children's animal atlas. High-quality realistic natural history illustration with natural photographic lighting, not a cartoon. Species: Sepioloidea lineolata. Anatomy: Striped pyjama squid, small rounded cuttlefish-like Australian cephalopod. Cream white plump oval mantle with distinctive dark brown-black longitudinal wavy stripes, rounded yellowish eyes, short compact arm crown and small lateral fins, NO elongated torpedo squid body, NO sea slug rabbit ears. Shallow sandy Australian sea floor. Scene: animal partly covered in fine sand with eyes exposed. OBSERVATION image: clear subject, coherent natural background, carefully observed biological structures; complete or close detail as specified. No text, logos, collage, border, scale bar, arrows or made-up labels. Scientific reconstruction, not documentary evidence; avoid fanciful colors and anthropomorphic features.",
+      "source": {
+        "sha256": "a79b0f118ae7154e8379d236771d417fb076db5b4a3701b72ecb095cdbcf2b34",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 2842795
+      },
+      "runtime": {
+        "sha256": "e073a3917629d29b53829afef635bcd5a2f4a73d31cfe03d65c6d8036d819f4a",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 253208
+      }
+    },
+    {
+      "file": "05-observation.webp",
+      "kind": "AI-generated scientific reconstruction",
+      "prompt": "Create one landscape 1536x1024 image for a scientific children's animal atlas. High-quality realistic natural history illustration with natural photographic lighting, not a cartoon. Species: Sepioloidea lineolata. Anatomy: Striped pyjama squid, small rounded cuttlefish-like Australian cephalopod. Cream white plump oval mantle with distinctive dark brown-black longitudinal wavy stripes, rounded yellowish eyes, short compact arm crown and small lateral fins, NO elongated torpedo squid body, NO sea slug rabbit ears. Shallow sandy Australian sea floor. Scene: animal using short arms at sand surface, still image not motion sequence. OBSERVATION image: clear subject, coherent natural background, carefully observed biological structures; complete or close detail as specified. No text, logos, collage, border, scale bar, arrows or made-up labels. Scientific reconstruction, not documentary evidence; avoid fanciful colors and anthropomorphic features.",
+      "source": {
+        "sha256": "e0bd53e378b1886292882933fa74dc12eed61c919344a687dd81cce5d4b5dafd",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 2869269
+      },
+      "runtime": {
+        "sha256": "55d7c4a3f07fcd8ecc499167227bf2360327110f2ad55b63f907c66e0fb12cc4",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 249498
+      }
+    },
+    {
+      "file": "06-observation.webp",
+      "kind": "AI-generated scientific reconstruction",
+      "prompt": "Create one landscape 1536x1024 image for a scientific children's animal atlas. High-quality realistic natural history illustration with natural photographic lighting, not a cartoon. Species: Sepioloidea lineolata. Anatomy: Striped pyjama squid, small rounded cuttlefish-like Australian cephalopod. Cream white plump oval mantle with distinctive dark brown-black longitudinal wavy stripes, rounded yellowish eyes, short compact arm crown and small lateral fins, NO elongated torpedo squid body, NO sea slug rabbit ears. Shallow sandy Australian sea floor. Scene: whole animal in wide seagrass-edge sandy habitat. OBSERVATION image: clear subject, coherent natural background, carefully observed biological structures; complete or close detail as specified. No text, logos, collage, border, scale bar, arrows or made-up labels. Scientific reconstruction, not documentary evidence; avoid fanciful colors and anthropomorphic features.",
+      "source": {
+        "sha256": "e2b03680f7baa74a3b824dc52957331727420def468fba05ff24149c5d63d16d",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 2945628
+      },
+      "runtime": {
+        "sha256": "c47d7fe4764149caf1afcc97e1534ffa4a5189a3be2cee64a850025341939c52",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 266774
+      }
+    }
+  ]
+}
