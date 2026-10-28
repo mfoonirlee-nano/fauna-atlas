@@ -1191,3 +1191,11 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [lined-chiton 图片集](./species/lined-chiton/README.md)
 - [greater-blue-ringed-octopus 图片集](./species/greater-blue-ringed-octopus/README.md)
 - [spanish-dancer-nudibranch 图片集](./species/spanish-dancer-nudibranch/README.md)
+
+## 2026-10-28 新奇动物第八批五种
+
+- [红色马鲁管水母图片集](./species/red-siphonophore/README.md)
+- [泡泡糖珊瑚图片集](./species/bubblegum-coral/README.md)
+- [蘑菇软珊瑚图片集](./species/mushroom-soft-coral/README.md)
+- [鳞甲海参图片集](./species/armored-sea-cucumber/README.md)
+- [加州太阳海星图片集](./species/california-sun-star/README.md)

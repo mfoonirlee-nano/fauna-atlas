@@ -1,6 +1,6 @@
 # 制作清单：100 种新奇动物与分类补充
 
-2026-10-27 复核更新：本轮已完成 33/100，待制作或返修 67。目录保留 835 份物种档案；本次十种中，八种经参考对照或重画后恢复配图，两种继续返修。当前完成的 33 种对应 198 张配图；十种的全球保护评估均改为待核实。详见[十种动物复核修复记录](research/ten-animal-review-fix-2026-10-27.md)。
+2026-10-28 更新：本轮已完成 38/100，待制作或返修 62。目录保留 840 份物种档案，第八批新增五种动物与 30 张配图；本轮完成的 38 项对应 228 张公开配图。紫毯章鱼和龙骨新月贝仍待返修。详见[第八批研究记录](research/todo-novel-eighth-five-2026-10-28.md)与[此前十种动物复核记录](research/ten-animal-review-fix-2026-10-27.md)。
 
 ## 选题范围与核查
 
@@ -18,12 +18,12 @@
 | 制作分组 | 已完成 | 待制作 |
 | --- | ---: | ---: |
 | 软体动物 | 19 | 2 |
-| 刺胞与栉水母动物 | 7 | 4 |
-| 棘皮动物 | 1 | 7 |
+| 刺胞与栉水母动物 | 10 | 1 |
+| 棘皮动物 | 3 | 5 |
 | 环节、海绵及其他动物 | 0 | 16 |
 | 节肢动物 | 4 | 24 |
 | 脊索动物 | 2 | 14 |
-| 合计 | 33 | 67 |
+| 合计 | 38 | 62 |
 
 ## 制作顺序与完成条件
 
@@ -70,17 +70,17 @@
 | [ ] | N034 | 双列管水母 | *Nanomia bijuga* | 前方一串游泳钟，后方不同形状个员分工；触手张开成网 | 丰富群体动物的运动与摄食例子；制作前按 2024 年修订厘清 N. bijuga 与 N. septata 的旧记录。 | [来源](https://www.mbari.org/animal/common-siphonophore/) |
 | [x] | N035 | 绒球海葵 | *Liponema brevicorne* | 圆绒球状身体会卷起，随海流在海底滚动 | 比较固定和可移位的海葵生活方式 | [来源](https://www.mbari.org/animal/pom-pom-anemone/) |
 | [x] | N036 | 米尔斯十字水母 | *Crossota millsae* | 透明伞内侧能看到依附的小水母，大小不同 | 加入水螅水母育幼及幼体、成体对照 | [来源](https://www.mbari.org/animal/psychedelic-jelly/) |
-| [ ] | N037 | 红色马鲁管水母 | *Marrus claudanielis* | 猩红身体上有一列透明游泳钟；比较游泳钟与营养个员 | 在管水母内增加不同体形和颜色的比较 | [来源](https://www.mbari.org/animal/red-siphonophore/) |
-| [ ] | N038 | 泡泡糖珊瑚 | *Paragorgia arborea* | 粉红枝丫上放大看羽状珊瑚虫；比较伸出与收起 | 补深海八放珊瑚、冷水珊瑚环境 | [来源](https://www.mbari.org/animal/bubblegum-coral/) |
-| [ ] | N039 | 蘑菇软珊瑚 | *Heteropolypus ritteri* | 触手伸开像花，收回像蘑菇；小动物在旁栖身 | 与分枝珊瑚比较软珊瑚群体形状 | [来源](https://www.mbari.org/animal/mushroom-soft-coral/) |
+| [x] | N037 | 红色马鲁管水母 | *Marrus claudanielis* | 猩红身体上有一列透明游泳钟；比较游泳钟与营养个员 | 在管水母内增加不同体形和颜色的比较 | [来源](https://www.mbari.org/animal/red-siphonophore/) |
+| [x] | N038 | 泡泡糖珊瑚 | *Paragorgia arborea* | 粉红枝丫上放大看羽状珊瑚虫；比较伸出与收起 | 补深海八放珊瑚、冷水珊瑚环境 | [来源](https://www.mbari.org/animal/bubblegum-coral/) |
+| [x] | N039 | 蘑菇软珊瑚 | *Heteropolypus ritteri* | 触手伸开像花，收回像蘑菇；小动物在旁栖身 | 与分枝珊瑚比较软珊瑚群体形状 | [来源](https://www.mbari.org/animal/mushroom-soft-coral/) |
 | [x] | N040 | 深渊瓜水母 | *Beroe abyssicola* | 张开大口吃其他栉水母；粉红身体和红色胃 | 与已有卵形瓜水母对照深海摄食与体色 | [来源](https://www.mbari.org/animal/abyssal-comb-jelly/) |
 
 ### 棘皮动物（8 种）
 
 | 状态 | 编号 | 中文选题名 | 学名 | 儿童观察点 | 分类与比较价值 | 资料 |
 | --- | --- | --- | --- | --- | --- | --- |
-| [ ] | N041 | 鳞甲海参 | *Psolus squamatus* | 背上像铠甲，底面贴岩；分枝触手逐根送入口 | 比较行走海参与固着、悬浮摄食海参 | [来源](https://www.mbari.org/animal/armored-sea-cucumber/) |
-| [ ] | N042 | 加州太阳海星 | *Rathbunaster californicus* | 举腕接住游过的小动物；放大看表面小钳子 | 丰富海星的摄食方式及叉棘结构 | [来源](https://www.mbari.org/animal/california-sun-star/) |
+| [x] | N041 | 鳞甲海参 | *Psolus squamatus* | 背上像铠甲，底面贴岩；分枝触手逐根送入口 | 比较行走海参与固着、悬浮摄食海参 | [来源](https://www.mbari.org/animal/armored-sea-cucumber/) |
+| [x] | N042 | 加州太阳海星 | *Rathbunaster californicus* | 举腕接住游过的小动物；放大看表面小钳子 | 丰富海星的摄食方式及叉棘结构 | [来源](https://www.mbari.org/animal/california-sun-star/) |
 | [ ] | N043 | 脆壳粉红海胆 | *Strongylocentrotus fragilis* | 粉红海胆成群走过软泥，吃沉到海底的腐败海带 | 与浅海紫海胆比较食物和海底环境 | [来源](https://www.mbari.org/animal/fragile-pink-sea-urchin/) |
 | [x] | N044 | 向日葵海星 | *Pycnopodia helianthoides* | 比较五腕幼体和最多二十四腕的成体；看密集管足 | 加入多腕海星的生长变化 | [来源](https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/sunflower-star) |
 | [ ] | N045 | 赭色海星 | *Pisaster ochraceus* | 观察海星和贻贝的位置，比较橙、紫个体 | 丰富潮间带海星与食物网选题 | [来源](https://linnet.geog.ubc.ca/efauna/Atlas/Atlas.aspx?sciname=Pisaster+ochraceus) |

@@ -1,0 +1,50 @@
+{
+  "reviewedAt": "2026-10-28",
+  "status": "reviewed-reconstruction",
+  "reviewScope": "编辑性可见形态对照；不构成标本鉴定或专家审签",
+  "checks": [
+    "对照粗短柄、肉质圆顶、圆顶表面多个相互分离的摄食珊瑚虫，开放小冠具有羽状触手。",
+    "没有把整顶画成一个海葵口周的触手圈；普通外观图不表现尚未解释功能的蓝色发光。"
+  ],
+  "referencePage": "https://www.mbari.org/animal/mushroom-soft-coral/",
+  "referencePhotos": [
+    {
+      "url": "https://www.mbari.org/wp-content/uploads/Heteropolypus_ritteri_community_D1163__03_1150.jpg",
+      "sha256": "bf0bbc4f9d2a812ce0ccbfba8283c92ae6443703f65d174e45b8e527e534a7f1"
+    },
+    {
+      "url": "https://www.mbari.org/wp-content/uploads/Heteropolypus_ritteri_T629_01_1150.jpg",
+      "sha256": "5e47b41da2ff4b47537ca8396a374ed543c9d0a802ff4206c405eb5103fcba41"
+    },
+    {
+      "url": "https://www.mbari.org/wp-content/uploads/MontereyBayAquarium_MOD075_Heteropolypus_ritteri_closed_1150.jpg",
+      "sha256": "e4bd896a9b35d20bd9f6d452175a7a9c76e5ec1b01495145494b32d31b190e41"
+    }
+  ],
+  "assets": [
+    {
+      "file": "01-cover.webp",
+      "sha256": "cf2e75a674c77214d295d389d2cc169f18e5246e42d49c01de355bb5f8c7f872"
+    },
+    {
+      "file": "02-observation.webp",
+      "sha256": "dfdf4d05a8a1169c51d68e341fb657780b14e9462ac1955b32fa0ba27a9caf12"
+    },
+    {
+      "file": "03-observation.webp",
+      "sha256": "302b9a156ad05eacd5da86ddf2e4ff206c3831f8154facbf4d784299a781fe67"
+    },
+    {
+      "file": "04-observation.webp",
+      "sha256": "f666a88aab9f94763d33da782597eec1f6a8fee77ac498b0292056f0c30e801d"
+    },
+    {
+      "file": "05-observation.webp",
+      "sha256": "5e8ef284ce676fffdef81afe22d257df5b87b5693b00288ab69358017d5ef039"
+    },
+    {
+      "file": "06-observation.webp",
+      "sha256": "ba79c589ccc50be97d3a3c371b15cf0578239d7c50833365fb088843d56c5c7e"
+    }
+  ]
+}

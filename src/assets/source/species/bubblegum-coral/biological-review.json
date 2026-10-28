@@ -1,0 +1,50 @@
+{
+  "reviewedAt": "2026-10-28",
+  "status": "reviewed-reconstruction",
+  "reviewScope": "编辑性可见形态对照；不构成标本鉴定或专家审签",
+  "checks": [
+    "对照共同附着基部、粗厚不规则粉红枝丫、圆钝枝端、伸出或收拢的珊瑚虫；不画叶片或真菌菌盖。",
+    "枝上的小冠代表独立珊瑚虫。生成图不作个员计数、寿命或生长速度测量。"
+  ],
+  "referencePage": "https://www.mbari.org/animal/bubblegum-coral/",
+  "referencePhotos": [
+    {
+      "url": "https://www.mbari.org/wp-content/uploads/Paragorgia_arborea_D0571_04_1150.jpg",
+      "sha256": "80779787a2d2988c3810705d506f71a3346646a5650c727860dc095c0844b0ba"
+    },
+    {
+      "url": "https://www.mbari.org/wp-content/uploads/Paragorgia_arborea_T0628_02_cropped_1150.jpg",
+      "sha256": "96cf71c98e21fcf974ee3fd9bc67c56a0e033090467eb160ac858008cdd76ac6"
+    },
+    {
+      "url": "https://www.mbari.org/wp-content/uploads/Paragorgia_arborea_polyps_D0571_10_1150.jpg",
+      "sha256": "c3763785d7358746abd4e00fdc3a8cd0f06611e053ebc1c700e1b00081964964"
+    }
+  ],
+  "assets": [
+    {
+      "file": "01-cover.webp",
+      "sha256": "be7c08c6dc877d463cdf53b79c0cecdb890afe323201a0dd6edf3b89caf087e7"
+    },
+    {
+      "file": "02-observation.webp",
+      "sha256": "ddb5d04cbf66875ec187415864bb26f599deb9eaf31648dcd6a86d26abdfa907"
+    },
+    {
+      "file": "03-observation.webp",
+      "sha256": "d26e4e0057bcf8aabc28c995c478e7f1854832ecb7d3949ba506e4ada6af4dbd"
+    },
+    {
+      "file": "04-observation.webp",
+      "sha256": "8d93d57a5aa25d965e07e908eb9ec8411e0c0868260aa921dc1e1192c764a83d"
+    },
+    {
+      "file": "05-observation.webp",
+      "sha256": "b3d0cebf16744bbedc15a740566925577075ccc47f1892460ecdd94dc2903f02"
+    },
+    {
+      "file": "06-observation.webp",
+      "sha256": "b960994f76addf00043cb1b08685701e409130957db19fe65fe92b21939c288b"
+    }
+  ]
+}

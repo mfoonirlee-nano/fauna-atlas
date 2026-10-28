@@ -1,0 +1,115 @@
+{
+  "accessedAt": "2026-10-28",
+  "pageResponses": [
+    {
+      "file": "rathbunaster.html",
+      "sha256": "b073ae18407496364e395f67a8028d115616dd4c858410f607cc238f733a1057"
+    },
+    {
+      "file": "paragorgia.html",
+      "sha256": "34ebf2ea866d8003ceaa79eb6b27848be531a9d53dd104eecd0c7a8676cea7ec"
+    },
+    {
+      "file": "psolus.html",
+      "sha256": "74e84fcacc821b0cbb2a9a28ed8931ca223e19527b2cd2c86dc7a43efd47c9ff"
+    },
+    {
+      "file": "marrus.html",
+      "sha256": "b99ba0e167a39789597b04321fa5ab7e4a45825402254faf19831d1d21931044"
+    },
+    {
+      "file": "nanomia.html",
+      "sha256": "2a8f455c0b14ed71bf97bfe3862aa299b40c130d492edfcf63b4fa6a17234b7b"
+    },
+    {
+      "file": "heteropolypus.html",
+      "sha256": "9382948310a09169855ffb1e4b5ab4e1b2181e2e6dc5c9d42b419ba0366c990c"
+    }
+  ],
+  "photographs": [
+    {
+      "url": "https://www.mbari.org/wp-content/uploads/Marrus_claudanielis_T0596_01_1150.jpg",
+      "sha256": "2a21935d738667f3652b4bd9199fff4ae40710ab7e1a21ce443ce23d746dad2b",
+      "credit": "MBARI / individual credits as on linked reference page",
+      "usage": "anatomical comparison only; reference bytes not included in repository"
+    },
+    {
+      "url": "https://www.mbari.org/wp-content/uploads/Marrus_claudanielis_D1019_01_1150.jpg",
+      "sha256": "0815d789bb465f9dfd68b1c564eb2d6616fbc6a48173aa127bde013a4bf6e7bc",
+      "credit": "MBARI / individual credits as on linked reference page",
+      "usage": "anatomical comparison only; reference bytes not included in repository"
+    },
+    {
+      "url": "https://www.mbari.org/wp-content/uploads/Marrus_claudanielis_D0718_01_1150.jpg",
+      "sha256": "f6810d471508be1ad76d7c630cc8a081ac91ff2fbc56dc854546c5b4a05c5b21",
+      "credit": "MBARI / individual credits as on linked reference page",
+      "usage": "anatomical comparison only; reference bytes not included in repository"
+    },
+    {
+      "url": "https://www.mbari.org/wp-content/uploads/Paragorgia_arborea_D0571_04_1150.jpg",
+      "sha256": "80779787a2d2988c3810705d506f71a3346646a5650c727860dc095c0844b0ba",
+      "credit": "MBARI / individual credits as on linked reference page",
+      "usage": "anatomical comparison only; reference bytes not included in repository"
+    },
+    {
+      "url": "https://www.mbari.org/wp-content/uploads/Paragorgia_arborea_T0628_02_cropped_1150.jpg",
+      "sha256": "96cf71c98e21fcf974ee3fd9bc67c56a0e033090467eb160ac858008cdd76ac6",
+      "credit": "MBARI / individual credits as on linked reference page",
+      "usage": "anatomical comparison only; reference bytes not included in repository"
+    },
+    {
+      "url": "https://www.mbari.org/wp-content/uploads/Paragorgia_arborea_polyps_D0571_10_1150.jpg",
+      "sha256": "c3763785d7358746abd4e00fdc3a8cd0f06611e053ebc1c700e1b00081964964",
+      "credit": "MBARI / individual credits as on linked reference page",
+      "usage": "anatomical comparison only; reference bytes not included in repository"
+    },
+    {
+      "url": "https://www.mbari.org/wp-content/uploads/Heteropolypus_ritteri_community_D1163__03_1150.jpg",
+      "sha256": "bf0bbc4f9d2a812ce0ccbfba8283c92ae6443703f65d174e45b8e527e534a7f1",
+      "credit": "MBARI / individual credits as on linked reference page",
+      "usage": "anatomical comparison only; reference bytes not included in repository"
+    },
+    {
+      "url": "https://www.mbari.org/wp-content/uploads/Heteropolypus_ritteri_T629_01_1150.jpg",
+      "sha256": "5e47b41da2ff4b47537ca8396a374ed543c9d0a802ff4206c405eb5103fcba41",
+      "credit": "MBARI / individual credits as on linked reference page",
+      "usage": "anatomical comparison only; reference bytes not included in repository"
+    },
+    {
+      "url": "https://www.mbari.org/wp-content/uploads/MontereyBayAquarium_MOD075_Heteropolypus_ritteri_closed_1150.jpg",
+      "sha256": "e4bd896a9b35d20bd9f6d452175a7a9c76e5ec1b01495145494b32d31b190e41",
+      "credit": "MBARI / individual credits as on linked reference page",
+      "usage": "anatomical comparison only; reference bytes not included in repository"
+    },
+    {
+      "url": "https://www.mbari.org/wp-content/uploads/Psolus_squamatus_Octopus_Garden_4Kaux_01_1150.jpg",
+      "sha256": "3780b0fe7dc8dafae23f4ed2f28c6914b35cbb06010dc785fb93c74da8d4992c",
+      "credit": "MBARI / individual credits as on linked reference page",
+      "usage": "anatomical comparison only; reference bytes not included in repository"
+    },
+    {
+      "url": "https://www.mbari.org/wp-content/uploads/Psolus_squamatus_T0630_01_1150.jpg",
+      "sha256": "68c4067d2df4ec6f9b50c8279103ba6240a5079f9a9296cfae92923ff777be8b",
+      "credit": "MBARI / individual credits as on linked reference page",
+      "usage": "anatomical comparison only; reference bytes not included in repository"
+    },
+    {
+      "url": "https://www.mbari.org/wp-content/uploads/Psolus_squamatus_V4583_02_cc_1150.jpg",
+      "sha256": "a47128e0ea1226b39121dbcf5a33b1176434a6f1f295fe4ce3ad940b30e4d16b",
+      "credit": "MBARI / individual credits as on linked reference page",
+      "usage": "anatomical comparison only; reference bytes not included in repository"
+    },
+    {
+      "url": "https://www.mbari.org/wp-content/uploads/2020/07/Rathbunaster_californicus_and_Chrysaora_fuscescens_01_chrysaora.jpg",
+      "sha256": "eb5a7e3268a0231f258ea94c8b83634fe1044222ac114632eb8265323b487b34",
+      "credit": "MBARI / individual credits as on linked reference page",
+      "usage": "anatomical comparison only; reference bytes not included in repository"
+    },
+    {
+      "url": "https://www.mbari.org/wp-content/uploads/2020/07/Rathbunaster-californicus_sunstar-1_high.jpg",
+      "sha256": "c5113c9eb678b21330cc05fb1eb1bcb26c3dd8c93dfbd7bc13b2e66c7ec2b1c8",
+      "credit": "MBARI / individual credits as on linked reference page",
+      "usage": "anatomical comparison only; reference bytes not included in repository"
+    }
+  ]
+}

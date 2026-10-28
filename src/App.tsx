@@ -755,7 +755,7 @@ export function SpeciesDetail({ item, index, saved, onClose, onToggleSaved }: Sp
               <dl className="detail-facts">
                 <div>
                   <dt>主要食物</dt>
-                  <dd>{item.diet.foods.join('、')}</dd>
+                  <dd>{item.diet.foods.length > 0 ? item.diet.foods.join('、') : '尚未核实'}</dd>
                 </div>
                 {item.activity && item.activity.length > 0 && (
                   <div>

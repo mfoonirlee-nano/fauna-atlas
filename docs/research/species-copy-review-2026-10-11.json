@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "reviewedAt": "2026-10-11",
   "baselineCommit": "b8503db3275420b53b3385fa1e6c1ca048443329",
-  "scope": "835 animal species profiles; microbial topics excluded",
+  "scope": "840 animal species profiles; microbial topics excluded",
   "skill": "humanizer:humanizer",
   "requiredTopics": [
     "habits",
@@ -21,9 +21,9 @@
     "descriptionOnlyRegionEdits": [
       "common-flying-dragon: geographic scope preserved"
     ],
-    "addedProfiles": 265,
-    "addedProfilesReviewDate": "2026-10-27",
-    "addedProfilesReviewSkill": "stop-slop"
+    "addedProfiles": 280,
+    "addedProfilesReviewDate": "2026-10-28",
+    "addedProfilesReviewSkill": "humanizer-zh"
   },
   "species": [
     {
@@ -38257,8 +38257,208 @@
           ]
         }
       }
+    },
+    {
+      "slug": "red-siphonophore",
+      "scientificName": "Marrus claudanielis",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.mbari.org/animal/red-siphonophore/"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.mbari.org/animal/red-siphonophore/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.mbari.org/animal/red-siphonophore/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.mbari.org/animal/red-siphonophore/",
+            "https://api.gbif.org/v1/species/2264878",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=287287"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.mbari.org/animal/red-siphonophore/",
+            "https://api.gbif.org/v1/species/2264878",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=287287"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "bubblegum-coral",
+      "scientificName": "Paragorgia arborea",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.mbari.org/animal/bubblegum-coral/"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.mbari.org/animal/bubblegum-coral/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.mbari.org/animal/bubblegum-coral/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.mbari.org/animal/bubblegum-coral/",
+            "https://api.gbif.org/v1/species/2262087",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=125418"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.mbari.org/animal/bubblegum-coral/",
+            "https://api.gbif.org/v1/species/2262087",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=125418"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "mushroom-soft-coral",
+      "scientificName": "Heteropolypus ritteri",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.mbari.org/animal/mushroom-soft-coral/"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.mbari.org/animal/mushroom-soft-coral/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.mbari.org/animal/mushroom-soft-coral/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.mbari.org/animal/mushroom-soft-coral/",
+            "https://api.gbif.org/v1/species/8381611",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=724715"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.mbari.org/animal/mushroom-soft-coral/",
+            "https://api.gbif.org/v1/species/8381611",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=724715"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "armored-sea-cucumber",
+      "scientificName": "Psolus squamatus",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.mbari.org/animal/armored-sea-cucumber/"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.mbari.org/animal/armored-sea-cucumber/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.mbari.org/animal/armored-sea-cucumber/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.mbari.org/animal/armored-sea-cucumber/",
+            "https://api.gbif.org/v1/species/9749286",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=124713"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.mbari.org/animal/armored-sea-cucumber/",
+            "https://api.gbif.org/v1/species/9749286",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=124713"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "california-sun-star",
+      "scientificName": "Rathbunaster californicus",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.mbari.org/animal/california-sun-star/"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.mbari.org/animal/california-sun-star/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.mbari.org/animal/california-sun-star/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.mbari.org/animal/california-sun-star/",
+            "https://api.gbif.org/v1/species/2274548",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=254844"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.mbari.org/animal/california-sun-star/",
+            "https://api.gbif.org/v1/species/2274548",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=254844"
+          ]
+        }
+      }
     }
   ],
   "updatedAt": "2026-10-17",
-  "lastExtendedAt": "2026-10-23"
+  "lastExtendedAt": "2026-10-28"
 }

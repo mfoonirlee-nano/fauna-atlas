@@ -8201,5 +8201,70 @@
       },
       "sha256": "72f3d0065e0b2638184acf039d5723cc8ce47c3dea9dfcd7f7a9c5f4a58b4247"
     }
+  },
+  "red-siphonophore": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 508,
+        "top": 106,
+        "right": 1504,
+        "bottom": 1002
+      },
+      "sha256": "d6b37b802218fdddbf647a3783ec888f27f8ec8a12b696740590f4f63f28e165"
+    }
+  },
+  "bubblegum-coral": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 475,
+        "top": 20,
+        "right": 1518,
+        "bottom": 929
+      },
+      "sha256": "be7c08c6dc877d463cdf53b79c0cecdb890afe323201a0dd6edf3b89caf087e7"
+    }
+  },
+  "mushroom-soft-coral": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 512,
+        "top": 78,
+        "right": 1504,
+        "bottom": 925
+      },
+      "sha256": "cf2e75a674c77214d295d389d2cc169f18e5246e42d49c01de355bb5f8c7f872"
+    }
+  },
+  "armored-sea-cucumber": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 554,
+        "top": 10,
+        "right": 1488,
+        "bottom": 958
+      },
+      "sha256": "d04014e31e4c23e1ab7e6c5909077878830821fc790a2e12c8d23d327b0ae3e6"
+    }
+  },
+  "california-sun-star": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 477,
+        "top": 28,
+        "right": 1510,
+        "bottom": 945
+      },
+      "sha256": "68baa4b60d057300c15362c5feb5a40a1a0cfdebb717a991d87562823fe2891c"
+    }
   }
 }

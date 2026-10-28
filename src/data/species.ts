@@ -1,3 +1,8 @@
+import profile835 from './species/red-siphonophore.js';
+import profile836 from './species/bubblegum-coral.js';
+import profile837 from './species/mushroom-soft-coral.js';
+import profile838 from './species/armored-sea-cucumber.js';
+import profile839 from './species/california-sun-star.js';
 import profile820 from './species/giant-phantom-jelly.js';
 import profile821 from './species/bumpy-jelly.js';
 import profile822 from './species/pom-pom-anemone.js';
@@ -1718,6 +1723,11 @@ export const species: readonly Species[] = [
   profile832,
   profile833,
   profile834,
+  profile835,
+  profile836,
+  profile837,
+  profile838,
+  profile839,
 ];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

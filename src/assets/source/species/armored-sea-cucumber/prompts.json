@@ -1,0 +1,86 @@
+[
+  {
+    "file": "01-cover.webp",
+    "prompt": "Create an ORIGINAL educational natural-history scientific reconstruction using attached correctly identified photographs for anatomical reference only, do not copy original photographic composition. Psolus squamatus armored sea cucumber. Follow MBARI specimen reference: low pale ivory to tan ovoid body covered with irregular overlapping hard CALCAREOUS PLATES, broad flat attachment sole resting flush on rock. Mouth at one raised end, from it a crown of pale translucent FINELY TREE-BRANCHED oral tentacles; NOT simple smooth anemone tentacles, NOT fish scales, no shell spiral, no legs, no external eyes. Tentacles can retract into raised oral end. A sea cucumber animal not coral colony. Scene: one complete attached sea cucumber with low plated body and complete branched oral tentacle crown. CANONICAL COVER on1536x1024 landscape: place the COMPLETE primary animal or entire primary colony on RIGHT, center70%width. All visible appendages, branches, base, filaments and arm tips safely inside x650..1440,y120..900, with substantial real background margin. Left40%quiet low-detail habitat. Make subject as large and clear as possible within these boundaries. Restrained lifelike anatomical illustration. No lettering, no labels, no border, no scale bar, no inset, no collage. No speculative behavior or invented microscopic structures.",
+    "references": [
+      {
+        "file": "psolus-ref-0.jpg",
+        "sha256": "3780b0fe7dc8dafae23f4ed2f28c6914b35cbb06010dc785fb93c74da8d4992c"
+      },
+      {
+        "file": "psolus-ref-1.jpg",
+        "sha256": "68c4067d2df4ec6f9b50c8279103ba6240a5079f9a9296cfae92923ff777be8b"
+      }
+    ]
+  },
+  {
+    "file": "02-observation.webp",
+    "prompt": "Create an ORIGINAL educational natural-history scientific reconstruction using attached correctly identified photographs for anatomical reference only, do not copy original photographic composition. Psolus squamatus armored sea cucumber. Follow MBARI specimen reference: low pale ivory to tan ovoid body covered with irregular overlapping hard CALCAREOUS PLATES, broad flat attachment sole resting flush on rock. Mouth at one raised end, from it a crown of pale translucent FINELY TREE-BRANCHED oral tentacles; NOT simple smooth anemone tentacles, NOT fish scales, no shell spiral, no legs, no external eyes. Tentacles can retract into raised oral end. A sea cucumber animal not coral colony. Scene: low side whole-animal view emphasizing plated back and flat attachment against rock. One coherent landscape1536x1024. Keep main illustrated subject wholly within frame with background margins; regional detail scenes explicitly show a region rather than a microscopic diagram. Restrained lifelike anatomical illustration. No lettering, no labels, no border, no scale bar, no inset, no collage. No speculative behavior or invented microscopic structures.",
+    "references": [
+      {
+        "file": "psolus-ref-0.jpg",
+        "sha256": "3780b0fe7dc8dafae23f4ed2f28c6914b35cbb06010dc785fb93c74da8d4992c"
+      },
+      {
+        "file": "psolus-ref-1.jpg",
+        "sha256": "68c4067d2df4ec6f9b50c8279103ba6240a5079f9a9296cfae92923ff777be8b"
+      }
+    ]
+  },
+  {
+    "file": "03-observation.webp",
+    "prompt": "Create an ORIGINAL educational natural-history scientific reconstruction using attached correctly identified photographs for anatomical reference only, do not copy original photographic composition. Psolus squamatus armored sea cucumber. Follow MBARI specimen reference: low pale ivory to tan ovoid body covered with irregular overlapping hard CALCAREOUS PLATES, broad flat attachment sole resting flush on rock. Mouth at one raised end, from it a crown of pale translucent FINELY TREE-BRANCHED oral tentacles; NOT simple smooth anemone tentacles, NOT fish scales, no shell spiral, no legs, no external eyes. Tentacles can retract into raised oral end. A sea cucumber animal not coral colony. Scene: regional dorsal armor view showing natural overlapping irregular plates, tentacles mostly retracted. One coherent landscape1536x1024. Keep main illustrated subject wholly within frame with background margins; regional detail scenes explicitly show a region rather than a microscopic diagram. Restrained lifelike anatomical illustration. No lettering, no labels, no border, no scale bar, no inset, no collage. No speculative behavior or invented microscopic structures.",
+    "references": [
+      {
+        "file": "psolus-ref-0.jpg",
+        "sha256": "3780b0fe7dc8dafae23f4ed2f28c6914b35cbb06010dc785fb93c74da8d4992c"
+      },
+      {
+        "file": "psolus-ref-1.jpg",
+        "sha256": "68c4067d2df4ec6f9b50c8279103ba6240a5079f9a9296cfae92923ff777be8b"
+      }
+    ]
+  },
+  {
+    "file": "04-observation.webp",
+    "prompt": "Create an ORIGINAL educational natural-history scientific reconstruction using attached correctly identified photographs for anatomical reference only, do not copy original photographic composition. Psolus squamatus armored sea cucumber. Follow MBARI specimen reference: low pale ivory to tan ovoid body covered with irregular overlapping hard CALCAREOUS PLATES, broad flat attachment sole resting flush on rock. Mouth at one raised end, from it a crown of pale translucent FINELY TREE-BRANCHED oral tentacles; NOT simple smooth anemone tentacles, NOT fish scales, no shell spiral, no legs, no external eyes. Tentacles can retract into raised oral end. A sea cucumber animal not coral colony. Scene: complete animal with tentacle crown partly withdrawn at oral end, no feeding item. One coherent landscape1536x1024. Keep main illustrated subject wholly within frame with background margins; regional detail scenes explicitly show a region rather than a microscopic diagram. Restrained lifelike anatomical illustration. No lettering, no labels, no border, no scale bar, no inset, no collage. No speculative behavior or invented microscopic structures.",
+    "references": [
+      {
+        "file": "psolus-ref-0.jpg",
+        "sha256": "3780b0fe7dc8dafae23f4ed2f28c6914b35cbb06010dc785fb93c74da8d4992c"
+      },
+      {
+        "file": "psolus-ref-1.jpg",
+        "sha256": "68c4067d2df4ec6f9b50c8279103ba6240a5079f9a9296cfae92923ff777be8b"
+      }
+    ]
+  },
+  {
+    "file": "05-observation.webp",
+    "prompt": "Create an ORIGINAL educational natural-history scientific reconstruction using attached correctly identified photographs for anatomical reference only, do not copy original photographic composition. Psolus squamatus armored sea cucumber. Follow MBARI specimen reference: low pale ivory to tan ovoid body covered with irregular overlapping hard CALCAREOUS PLATES, broad flat attachment sole resting flush on rock. Mouth at one raised end, from it a crown of pale translucent FINELY TREE-BRANCHED oral tentacles; NOT simple smooth anemone tentacles, NOT fish scales, no shell spiral, no legs, no external eyes. Tentacles can retract into raised oral end. A sea cucumber animal not coral colony. Scene: whole animal from oblique above with pale branching tentacle crown extended, a few natural overlaps. One coherent landscape1536x1024. Keep main illustrated subject wholly within frame with background margins; regional detail scenes explicitly show a region rather than a microscopic diagram. Restrained lifelike anatomical illustration. No lettering, no labels, no border, no scale bar, no inset, no collage. No speculative behavior or invented microscopic structures.",
+    "references": [
+      {
+        "file": "psolus-ref-0.jpg",
+        "sha256": "3780b0fe7dc8dafae23f4ed2f28c6914b35cbb06010dc785fb93c74da8d4992c"
+      },
+      {
+        "file": "psolus-ref-1.jpg",
+        "sha256": "68c4067d2df4ec6f9b50c8279103ba6240a5079f9a9296cfae92923ff777be8b"
+      }
+    ]
+  },
+  {
+    "file": "06-observation.webp",
+    "prompt": "Create an ORIGINAL educational natural-history scientific reconstruction using attached correctly identified photographs for anatomical reference only, do not copy original photographic composition. Psolus squamatus armored sea cucumber. Follow MBARI specimen reference: low pale ivory to tan ovoid body covered with irregular overlapping hard CALCAREOUS PLATES, broad flat attachment sole resting flush on rock. Mouth at one raised end, from it a crown of pale translucent FINELY TREE-BRANCHED oral tentacles; NOT simple smooth anemone tentacles, NOT fish scales, no shell spiral, no legs, no external eyes. Tentacles can retract into raised oral end. A sea cucumber animal not coral colony. Scene: single complete attached specimen in rocky deep-sea habitat, tentacles gently spread. One coherent landscape1536x1024. Keep main illustrated subject wholly within frame with background margins; regional detail scenes explicitly show a region rather than a microscopic diagram. Restrained lifelike anatomical illustration. No lettering, no labels, no border, no scale bar, no inset, no collage. No speculative behavior or invented microscopic structures.",
+    "references": [
+      {
+        "file": "psolus-ref-0.jpg",
+        "sha256": "3780b0fe7dc8dafae23f4ed2f28c6914b35cbb06010dc785fb93c74da8d4992c"
+      },
+      {
+        "file": "psolus-ref-1.jpg",
+        "sha256": "68c4067d2df4ec6f9b50c8279103ba6240a5079f9a9296cfae92923ff777be8b"
+      }
+    ]
+  }
+]
