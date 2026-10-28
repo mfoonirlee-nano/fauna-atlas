@@ -1,0 +1,40 @@
+{
+  "reviewedAt": "2026-10-27",
+  "status": "reviewed-reconstruction",
+  "scope": "可见外形、来源与已识别错误；AI 重建不是摄影、鉴定标本或显微证据",
+  "findings": "对照太平洋水族馆的正文及本种照片，检查短圆外套膜、侧鳍、黄色眼和黑白纵纹。八腕、两条捕食触腕存在视角遮挡，不作逐张计数展示；保留原图。",
+  "conservation": "UNVERIFIED is editorial; no verified global IUCN assessment",
+  "references": [
+    {
+      "url": "https://www.aquariumofpacific.org/onlinelearningcenter/species/pajama_squid",
+      "responseSha256": "de0a69ba98a9013071e84c1300d07e8c270c76409b8615922f25d8029f3f7714",
+      "contentAvailable": true
+    }
+  ],
+  "assets": [
+    {
+      "file": "01-cover.webp",
+      "sha256": "0b61937f3ae06b0357729f147a257d35d5a17b8090ae3c55af5e2b02f1eacbc0"
+    },
+    {
+      "file": "02-observation.webp",
+      "sha256": "355ca3c72fb332c2c48f6995d94f1efb74160f56c2f0b6031468da8b2b41c7d2"
+    },
+    {
+      "file": "03-observation.webp",
+      "sha256": "13eed5d842f88472ba38339fc60c51fcbd7a14f91060494a5a9aad845a7ed9ae"
+    },
+    {
+      "file": "04-observation.webp",
+      "sha256": "9c4db5fdd1e4f93974dab26331fee0c54bc20e424cff1669e06cd7b5845c0545"
+    },
+    {
+      "file": "05-observation.webp",
+      "sha256": "75ab7ac07ae7b052e8e360d4ef9eee09e15638e573bdccec65cabdfe466aa381"
+    },
+    {
+      "file": "06-observation.webp",
+      "sha256": "561475ba20df2ec0644bc769e8a2370e72819ef4e0436c7d127f94a199bb849c"
+    }
+  ]
+}

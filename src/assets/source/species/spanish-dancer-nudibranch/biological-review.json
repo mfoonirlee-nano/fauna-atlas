@@ -1,0 +1,40 @@
+{
+  "reviewedAt": "2026-10-27",
+  "status": "reviewed-reconstruction",
+  "scope": "可见外形、来源与已识别错误；AI 重建不是摄影、鉴定标本或显微证据",
+  "findings": "按 Sea Slug Forum 专家说明及组合照片下半幅的红海个体重画六张。鳃位于背后部，分别插入体壁、没有共同收缩鳃袋；用紧凑不规则的后部弧形鳃区替代整齐树列。部分鳃自然遮挡，不以六簇计数代替鉴定。旧页广义分布与上半幅菲律宾照片不作当前本种的种级依据。",
+  "conservation": "UNVERIFIED is editorial; no verified global IUCN assessment",
+  "references": [
+    {
+      "url": "https://seaslugforum.net/find/hexasang",
+      "responseSha256": "9db404866382fdab06a5328d5574039b8f2fd727661e7df70ff2c417b0d4ad6c",
+      "contentAvailable": true
+    }
+  ],
+  "assets": [
+    {
+      "file": "01-cover.webp",
+      "sha256": "72f3d0065e0b2638184acf039d5723cc8ce47c3dea9dfcd7f7a9c5f4a58b4247"
+    },
+    {
+      "file": "02-observation.webp",
+      "sha256": "9d1d2f707c61bcb90edfb0a485036b1a533e9e7addf9043c7ebfa3cafa061118"
+    },
+    {
+      "file": "03-observation.webp",
+      "sha256": "55a22a45a79069d294c29f279de8e76af34023b05a3706ffbc7f301c59e12984"
+    },
+    {
+      "file": "04-observation.webp",
+      "sha256": "41c9e2bfc189eebfad02368bf5498b1ccbdf1e7ffddde3f2f31a4bbb72d71dfc"
+    },
+    {
+      "file": "05-observation.webp",
+      "sha256": "14ce340349bdf50616ed674da9bfec1efd33b96f863a41bc5b3fcf2b5047d18a"
+    },
+    {
+      "file": "06-observation.webp",
+      "sha256": "9da3c7233565d57dc89c0f3e7a94f47a4091f55a4787a0efd12ee8553c54973f"
+    }
+  ]
+}

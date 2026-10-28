@@ -1,0 +1,86 @@
+[
+  {
+    "file": "01-cover.webp",
+    "sourceDimensions": [
+      1536,
+      1024
+    ],
+    "runtimeDimensions": [
+      1536,
+      1024
+    ],
+    "sourceSha256": "c92266ce239d5e7f4462e19a999e4b0e00dcaf57f09c95f203c08fc1cc9bab00",
+    "runtimeSha256": "ab6704f230c797b38d51555b724c700f29aa2e148a601b3bf51cca81b13f5581",
+    "supersededRuntimeSha256": "31b27a3c01b28051fe0cb8b30b49f387859f8788a1ae2c3f1bd2158326cffa8c"
+  },
+  {
+    "file": "02-observation.webp",
+    "sourceDimensions": [
+      1536,
+      1024
+    ],
+    "runtimeDimensions": [
+      1536,
+      1024
+    ],
+    "sourceSha256": "9f52d4d820dd09d21e460f598f067950b9b6672b12898efa7f7d4d08c9b5ad57",
+    "runtimeSha256": "88dbbfbe8a3b4ed7ba2c63154815507f046c28149a41905be7244e85ff34b5f0",
+    "supersededRuntimeSha256": "d1d9b84874c137af0e38c370567ff496735012bcb6dd51c67e63e799f47f4075"
+  },
+  {
+    "file": "03-observation.webp",
+    "sourceDimensions": [
+      1536,
+      1024
+    ],
+    "runtimeDimensions": [
+      1536,
+      1024
+    ],
+    "sourceSha256": "ccb96e12115062ce3e966ce83ba1dd5532d2a22dc4a1820e004788ad6acf0172",
+    "runtimeSha256": "93fc9bcbae940ddceeac888d4ef7087348367e60921caf31c4bbf07108f4ce7d",
+    "supersededRuntimeSha256": "9b50dbb561a4bd53e183a3762af335dffff51445fd81292c052612e0cf15eb14"
+  },
+  {
+    "file": "04-observation.webp",
+    "sourceDimensions": [
+      1536,
+      1024
+    ],
+    "runtimeDimensions": [
+      1536,
+      1024
+    ],
+    "sourceSha256": "f5cbc9c4c2e19ac1bde8b97c2526aaeb9e236747e64c34df0780c04e88e50681",
+    "runtimeSha256": "d1bedefb160056d1195435f4d8f930550fa175d1fb41013b154c91f2419f6a8d",
+    "supersededRuntimeSha256": "886fd0ba37cdcd3e653ad23c6c12648f12de1c735d883346dad9b79e91bdef6a"
+  },
+  {
+    "file": "05-observation.webp",
+    "sourceDimensions": [
+      1536,
+      1024
+    ],
+    "runtimeDimensions": [
+      1536,
+      1024
+    ],
+    "sourceSha256": "620670000ada0b9ae94ecd5f3b029cfa2cd77e67838b92ca7bafd609f7bb16e6",
+    "runtimeSha256": "b0cc4ffae001a7757b5694216b18e3ad126ea786ad272b9d95a77521829780d9",
+    "supersededRuntimeSha256": "969925f9ec8c4fceaf1f18095595f08eecc8df0ec0d4c64680d1abf350f84a2b"
+  },
+  {
+    "file": "06-observation.webp",
+    "sourceDimensions": [
+      1536,
+      1024
+    ],
+    "runtimeDimensions": [
+      1536,
+      1024
+    ],
+    "sourceSha256": "7394164983e20e7c6a665d7b6bab27c673ef244060956f6605ad7e10bf2c73ee",
+    "runtimeSha256": "4a525b3fd09cf1030c3e760f758019b07b41a524fa11a6d773b793dfdaa7d097",
+    "supersededRuntimeSha256": "81eda884398b93697ff80afbf44173a3c91db7ff17f80e42eba76fdb09159f95"
+  }
+]

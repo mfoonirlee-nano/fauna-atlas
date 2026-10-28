@@ -1,0 +1,68 @@
+{
+  "reviewedAt": "2026-10-27",
+  "status": "pending",
+  "scope": "可见外形、来源与已识别错误；AI 重建不是摄影、鉴定标本或显微证据",
+  "findings": "关键论文已通过 Europe PMC 官方接口读取，先前网页验证码是历史访问结果。现有保留图仍需逐张核对本种体形与结构，继续撤下。",
+  "conservation": "UNVERIFIED is editorial; no verified global IUCN assessment",
+  "references": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7854555/",
+      "responseSha256": "e1c856c79f11a15575b70f44f85ebf5be17c453266083997338c9cb584477011",
+      "contentAvailable": false
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8749848/fullTextXML",
+      "responseSha256": "4db7323386df605341e35db9d262d9b9529dac6b5c8442231419c72f034b85f0",
+      "contentAvailable": true,
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7854555/fullTextXML",
+      "responseSha256": "f48507cea160f8d1a1e9e36e58e0b651d550709333fa07f95a05a0454cd4f025",
+      "contentAvailable": true,
+      "checkedAt": "2026-10-28"
+    }
+  ],
+  "assets": [
+    {
+      "file": "01-cover.webp",
+      "sha256": "988d08e50aa243f6138e700f9330987b92fbb9f1b51ff23ae3dc92827cf7875f"
+    },
+    {
+      "file": "02-observation.webp",
+      "sha256": "097648eacbb6ecdf18c5f959f19ca54dba118c5418e1efeea8a09c4ce001fea7"
+    },
+    {
+      "file": "03-observation.webp",
+      "sha256": "5bd9ae9ad7279aac51c6cb324ac1fd0b20e4ce1672a168b5bc6a9b4a0da7ff23"
+    },
+    {
+      "file": "04-observation.webp",
+      "sha256": "bab929783a674013548e6ea207daed47b4c7e7de648420e1eae65d22f42760d7"
+    },
+    {
+      "file": "05-observation.webp",
+      "sha256": "52fdf2f764bca6d9241e2dd370a51b80051c79b81052bdc5f4779078eab75c80"
+    },
+    {
+      "file": "06-observation.webp",
+      "sha256": "cab7a7fbe13a7852f49c60e0852cdfc627d353812fe7b198b927b215996d8923"
+    }
+  ],
+  "blockedReferences": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7854555/",
+      "httpStatus": 200,
+      "body": "reCAPTCHA; article and figures unavailable",
+      "responseSha256": "e1c856c79f11a15575b70f44f85ebf5be17c453266083997338c9cb584477011"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8749848/",
+      "httpStatus": 200,
+      "body": "reCAPTCHA; article and figures unavailable",
+      "responseSha256": "1059e07d5b35e3dbc3af4bfa382cfc3a72a61924fc1d0d71d6eeb6639493efdb"
+    }
+  ],
+  "lastEvidenceUpdateAt": "2026-10-28",
+  "evidenceUpdate": "已取得官方全文并核对相关文字；未完成保留六图的逐张标本结构对照。维持 pending，不以技术检查或正文可读授予图片合格状态。"
+}

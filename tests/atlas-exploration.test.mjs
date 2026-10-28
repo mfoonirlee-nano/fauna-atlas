@@ -294,9 +294,16 @@ test('classification overview shows every phylum and its actual children with re
       assert.equal(card.querySelector('strong').textContent, child.taxon.zhName);
       assert.equal(card.querySelector('small').textContent, { class: '纲', order: '目', family: '科', genus: '属' }[child.rank]);
       const image = card.querySelector('.atlas-image__photo');
-      assert.ok(descendants(child).some((item) => item.media.image === image.getAttribute('src')));
-      assert.equal(image.loading || image.getAttribute('loading'), 'lazy');
-      assert.match(card.textContent, /图中：/);
+      const published = descendants(child).filter((item) => item.media.image);
+      if (published.length) {
+        assert.ok(image, 'published representative has a photo');
+        assert.ok(published.some((item) => item.media.image === image.getAttribute('src')));
+        assert.equal(image.loading || image.getAttribute('loading'), 'lazy');
+        assert.match(card.textContent, /图中：/);
+      } else {
+        assert.equal(image, null, 'a taxon with only pending images uses the missing-image fallback');
+        assert.match(card.querySelector('.taxonomy-portrait__missing').textContent, /暂无图片/);
+      }
     });
   }
   const chordates = sections.find((section) => section.getAttribute('aria-label') === '脊索动物门');

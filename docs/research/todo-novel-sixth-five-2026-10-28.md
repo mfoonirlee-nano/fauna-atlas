@@ -1,59 +1,45 @@
-# 新奇动物第六批五种
+# 重复软体动物档案整合记录
 
-本批选择 N008 紫毯章鱼、N013 龙骨新月贝、N023 条纹睡衣乌贼、N024 长突太阳能海蛞蝓和 N025 绿叶海天牛。已完成五份独立档案、五张封面和二十五张观察图。正式目录由 825 增至 830 份，本轮制作进度由 25/100 增至 30/100，TODO 已按验证结果勾选。
+2026-10-28 将 PR #3 的并行实现与 main 的 `5d5ebb87` 整合。main 已收录第六、七批十种动物及后续复核，本次不再增加五份档案，不增加完成数量。当前目录保留 835 份文字档案，TODO 保持 33/100 完成、67 项待制作或返修。
 
-## 名称、分类与来源
+本文件替代该路径先前关于“新增五种、830 份档案、30/100 完成”的并行分支报告。先前的技术测试与生成图记录不能代替生物学核验；最终公开状态以 main 的复核结果和本次整合后的模型为准。
 
-2026-10-28 重新查询 GBIF 接受名、完整异名列表和 IUCN 类别转录，保存[本批快照](../../src/assets/source/todo-novel-sixth-five-taxonomy.json)。五种均精确匹配接受种；历史选题快照保留在[先前研究草稿](todo-novel-sixth-five-draft-2026-10-28/README.md)，不以旧快照冒充本次查询。
+## 唯一档案与稳定路径
 
-| 编号 | 学名 | 采用的纲 / 目 / 科 |
+| 学名 | 统一保留的 slug | 配图决定 |
 | --- | --- | --- |
-| N008 | Tremoctopus violaceus | Cephalopoda / Octopoda / Tremoctopodidae |
-| N013 | Neomenia carinata | Solenogastres / 省略目 / Neomeniidae |
-| N023 | Sepioloidea lineolata | Cephalopoda / Sepiida / Sepiadariidae |
-| N024 | Phyllodesmium longicirrum | Gastropoda / Nudibranchia / Myrrhinidae |
-| N025 | Elysia chlorotica | Gastropoda / Sacoglossa / Plakobranchidae |
+| Tremoctopus violaceus | violet-blanket-octopus | 保留 main 的六张素材和 pendingMedia，公开 media 不含图片 |
+| Neomenia carinata | neomenia-carinata | 保留 main 的六张素材和 pendingMedia，公开 media 不含图片 |
+| Sepioloidea lineolata | striped-pyjama-squid | 保留 main 已复核的六张公开配图 |
+| Phyllodesmium longicirrum | solar-powered-nudibranch | 保留 main 已修正嗅角及背突的六张公开配图 |
+| Elysia chlorotica | eastern-emerald-elysia | 保留 main 已修正侧足与内部纹理的六张公开配图 |
 
-复用项目已有阶元的中文名。Neomenia 的中文选题名未确认为规范名；新设科、属没有核实通行中文名时保留拉丁名称加阶元。Neomenia 不补旧目名。Elysia 的 GBIF 路径未设置目级，采用 Sea Slug Forum 的 Sacoglossa 与项目既有叶羊海天牛的囊舌目口径；不将这个补充解释为新增目。
+删除并行分支独有的 `long-cirrus-solar-slug` 模块、图片目录和来源验收目录，移除对应目录注册、封面主体表和 fixture。其内容不作为第二份相同学名的档案保留。该 slug 从未合入 main，无需新增第二个目录项来兼容它。
 
-### 逐种证据边界
+同名动物的图片、主体边界、fixture、提示词和生物学复核记录全部使用 main 同一版本，避免把一套图片与另一套哈希或验收记录拼在一起。并行分支生成的替代 WebP 与 generation-records 不再出现在最终树中，历史仍可从提交 `48e56c06` 恢复。
 
-- **紫毯章鱼：** [2022 年地中海形态与遗传研究](https://pmc.ncbi.nlm.nih.gov/articles/PMC8749848/)与[墨西哥湾研究](https://pmc.ncbi.nlm.nih.gov/articles/PMC7854555/)核对严格种义。雌性的大腕膜、性别差异与远洋生活分开说明。不根据色彩鉴定 T. violaceus 与 T. gracilis，不把少数胃内容物残留推广成全种稳定食谱。图集为雌性形态重建，不是经过遗传鉴定的本种照片。
-- **龙骨新月贝：** [WoRMS](https://www.marinespecies.org/aphia.php?p=taxdetails&id=140560)与 [PESI](https://www.eu-nomen.eu/portal/taxon.php?GUID=urn%3Alsid%3Amarinespecies.org%3Ataxname%3A140560)核对 Tullberg 1875 年命名与原始文献。[2024 年遗传研究](https://pmc.ncbi.nlm.nih.gov/articles/PMC11488289/)解释沟腹类在软体动物中的位置。查看了 WoRMS 所列阿尔沃兰海标本影像作为体型参考，未将其复制进运行资源。体表、腹面图是结构重建；标本的 7 mm 长度及 350–365 m 深度不填成全种成体指标。未核实本种食谱，食物、测量和地图坐标均不臆填。
-- **条纹睡衣乌贼：** [澳大利亚博物馆](https://australian.museum/learn/animals/molluscs/striped-pyjama-squid-sepioloidea-lineolata-quoy-and-gaimard-1832/)核实条纹、黄色眼部、沙底海草环境和埋沙伏击虾鱼的行为。[CSIRO](https://www.cmar.csiro.au/data/caab/taxon_report.cfm?caab_code=23608001)提供接受名、标本位置与书目。水族馆、MarineBio 的访问失败没有记成成功访问，也没有用于替代已读取的博物馆来源。
-- **长突太阳能海蛞蝓：** [Sea Slug Forum](https://seaslugforum.net/showall/phyllong)支持扁平背突、Sarcophyton 食物及完整共生藻。共生藻来自软珊瑚的具体途径仍按原文保留推测。旧页面使用 Glaucidae，档案采用本次 GBIF 的 Myrrhinidae；不照搬旧科名。没有核实规范英文俗名时以学名作为英文标签。
-- **绿叶海天牛：** [Sea Slug Forum](https://seaslugforum.net/showall/elyschlo)核实叶状侧足、分枝消化腺、Vaucheria 食物及北美盐沼环境。[2022 年研究综述](https://pmc.ncbi.nlm.nih.gov/articles/PMC9642861/)讨论盗食叶绿体及基因转移假说的证据争议，避免沿用旧论坛讨论中已被质疑的确定语气。保留叶绿体不等于保留整个共生藻，更不等于动物成为植物。
+同时保留 main 后续五种动物、UNVERIFIED 编辑状态、pendingMedia 的公开隔离逻辑、分类总览无图占位，以及压缩目录对缺失图片字段的还原修复。没有将 main 的数值压缩实现替换成并行分支较早的编码实现，也没有提高 JS 预算。
 
-## 保护状态
+## 合并来源证据，不自动恢复图片
 
-GBIF 转录的 IUCN 条目给条纹睡衣乌贼 DD，指向[评估 903030](https://www.iucnredlist.org/species/162499/903030)。[GBIF 来源条目](https://api.gbif.org/v1/species/176600347)与[类别查询](https://api.gbif.org/v1/species/2290668/iucnRedListCategory)均读取成功；IUCN 原页返回 403。因此保留 DD，同时明确独立评估日期、种群趋势未核实，不把名录抓取时间当评估年份。
+[本次来源访问记录](../../src/assets/source/todo-novel-sixth-five-integration-sources-2026-10-28.json)区分普通网页与官方全文接口。PMC 普通网页本次虽返回 200，未取得文章正文；Europe PMC 官方 `fullTextXML` 接口成功返回四篇论文，已经解析标题、正文并读取相关段落，保存响应字节数与 SHA-256。没有把验证码页算作正文，也没有绕过站点验证。
 
-其余四种 GBIF 类别查询为 NE。档案用 NE 表示本次未核实可追溯评估的资料缺口，不据此证明全球没有评估，也不声称没有保护风险。没有可靠来源的体重、寿命、速度和繁殖数量不填入指标。
+- 紫毯章鱼：将 2021 年墨西哥湾记录与 2022 年地中海形态/遗传鉴定的官方全文链接加入现有档案，补充幼体近似种难以单靠外形区分的说明。两篇论文可读，不代表现存六张生成图已经逐张对照通过。
+- 龙骨新月贝：合入 WoRMS 原始文献入口及 2024 年沟腹类研究全文，补充 Tullberg 1875 年命名文献说明。保留省略目级和未核实食谱的处理，不把类群食性当作本种观察。
+- 绿叶海天牛：合入 2022 年盗食叶绿体综述，支持现有正文对旧基因转移假说证据边界的说明。保留 main 已重画的柔软侧足图集。
+- 条纹睡衣乌贼：将 GBIF 转录的 DD 类别和原始评估链接证据并入来源，仍保留 UNVERIFIED。尚未直接核实原始全球评估内容与日期，不能把转录类别等同于完成评估核实，更不能恢复 NE 占位。
+- 长突太阳能海蛞蝓：保留 canonical slug、main 的共生藻获取途径限定语及修订后配图，不重复登记。
 
-## 目录编码
+[2026-10-28 名称查询](../../src/assets/source/todo-novel-sixth-five-taxonomy-2026-10-28.json)作为补充历史查询单独保存，没有覆盖 main 的[原第六批分类快照](../../src/assets/source/todo-novel-sixth-five-taxonomy.json)。查询中的自动阶元和 IUCN 转录不直接替代当前采用的分类口径或编辑状态。
 
-新增物种后，首轮构建的动物页面静态依赖 JS 总量为 550,775 字节，超过原有 550,000 字节限制。分类字典优先给高频分类单元分配短索引，重复的完整分类路径共享元组，空别名数组使用可逆标记。保留字段还原检查与原有体积上限，未靠提高预算通过检查。
+紫毯章鱼、龙骨新月贝的 pendingMedia.reason 与生物学复核记录已更新，说明现在可取得论文正文，但保留六图仍缺逐张结构对照。其状态保持 pending，公开图库、首页轮播、卡片和地图不回退引用待修复素材，TODO 不重新勾选。这是保留 main 的审核决定，不是整合遗留的代码冲突。
 
-## 配图与验证
+## 验证
 
-使用内置 image_gen 制作，全部运行图为 1536 × 1024 WebP。没有把生成图当作已鉴定的自然照片、显微图或连续行为记录。逐种提示词、源图/运行图哈希、实际尺寸与完整主体边界见：
+整合后完整 `npm test` 通过：1171 项通过，失败、跳过和取消均为 0。类型检查、生产构建、分类与文案、地图、轮播、图片查看器、物种列表及生产子路径检查全部执行。最后三处档案措辞调整后，重新执行五项生产检查、两项整合/待核实状态回归和三项文案检查，均通过。
 
-- [紫毯章鱼](../../src/assets/source/species/violet-blanket-octopus/README.md)
-- [龙骨新月贝](../../src/assets/source/species/neomenia-carinata/README.md)
-- [条纹睡衣乌贼](../../src/assets/source/species/striped-pyjama-squid/README.md)
-- [长突太阳能海蛞蝓](../../src/assets/source/species/long-cirrus-solar-slug/README.md)
-- [绿叶海天牛](../../src/assets/source/species/eastern-emerald-elysia/README.md)
+生产动物页面及静态依赖为 541,140 字节，小于原有 550,000 字节限制；保留 main 的编码与缺失字段还原行为。完整目录和延迟加载档案逐字段还原检查通过。
 
-紫毯章鱼封面初稿左侧腕影响安静背景区，重新编辑了完整构图。长突太阳能海蛞蝓初稿的嗅角被画出明显片状环纹，封面和五张观察图均重新编辑；检查最终源图和 WebP 后保留。最终逐种检查六图联系表和封面原分辨率，30 张图均验证尺寸、哈希和解码。原始生成 PNG 留在工作区仓库外，项目不保留临时 PNG。
+新增回归检查确保五个学名各只有一份 canonical 档案，保留已发布 slug，各自只有同一目录中的六张素材；确认旧的 `long-cirrus-solar-slug` 源模块及图片目录不存在。新的论文正文来源不会自动恢复两个 pendingMedia 集合。
 
-每张封面按最终 WebP 测量完整主体边界，绑定运行主体表和唯一 fixture。九档规定视口及桌面内容增高 160px 组成每种 16 个视口/高度组合，每项覆盖六种端点，共 480 项几何检查；最小净距为 24 CSS px，允许浮点误差 1e-6。另检查了每种在 390、761、1920、3840 宽下的图片栏模拟。静态几何与模拟不验证浏览器字体、整页排版或实际内容高度，未启动浏览器。
-
-## 测试结果
-
-执行完整 `npm test` 工作流。首轮分类测试发现原目录总数断言仍为 825，更新为 830，并按新增五种更新相关软体动物分支计数及新增分支断言。新增回归检查覆盖省略目级、未知食谱不臆填、共生藻与叶绿体区别、近似种证据边界及 DD 日期缺口。
-
-重新执行后，部署脚本、图片转换、分类/文案/档案、分类浏览和地图子套件共 275 项通过。轮播曾在资源及主体元数据还未全部写入时失败；完成资源后重跑轮播及工作流剩余所有子套件，共 887 项通过。最终各子套件合计 1162 项通过，无剩余失败、跳过或取消；并非声称第一次完整命令就通过。
-
-`npm run test:dist-subpath` 包含类型检查、生产构建及五项生产检查，均通过：目录逐字段还原、独立档案加载、子路径图片访问及 JS 预算得到验证。动物页面静态依赖 JS 总量为 549,982 字节，小于 550,000 字节上限；余量仅 18 字节，后续增加目录仍需重新检查编码预算。没有提高预算。
-
-`git diff --check` 通过，最终复核本批图片数量、哈希、实际尺寸、相对文档链接及 TODO 的 30/70 数量。
+独立核对 835 个学名及 ID 全部唯一、TODO 为 33/67，N008 与 N013 保持未完成。相关 30 张保留图哈希与 main 生物学复核记录一致；全部图片字节、封面主体表和两个 fixture 相对 main 无变化。文档相对链接、合并冲突标记扫描及 `git diff --check` 均通过。未启动浏览器；本次没有重新授予图片生物学合格状态。

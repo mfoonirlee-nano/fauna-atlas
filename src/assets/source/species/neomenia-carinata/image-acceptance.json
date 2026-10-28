@@ -1,0 +1,81 @@
+[
+  {
+    "file": "01-cover.webp",
+    "sourceDimensions": [
+      1536,
+      1024
+    ],
+    "runtimeDimensions": [
+      1536,
+      1024
+    ],
+    "sourceSha256": "009b7349c48ab7a08d6b0d8db797c6ab0e9c7d896d763a1e57d03579602889ed",
+    "runtimeSha256": "209a2347a54fa4596cc99383f7db50c79c3a657f0a7b30907eb577ea4933d215"
+  },
+  {
+    "file": "02-observation.webp",
+    "sourceDimensions": [
+      1536,
+      1024
+    ],
+    "runtimeDimensions": [
+      1536,
+      1024
+    ],
+    "sourceSha256": "fc81be26f5ea326463e7697d0b3cce730329afc4e90d30d61937e580f5fa2eff",
+    "runtimeSha256": "3d5cea0d3acdeefa27df341b08e8bdb8ef8a9b2631e21178d5f470cd1b7869ce"
+  },
+  {
+    "file": "03-observation.webp",
+    "sourceDimensions": [
+      1536,
+      1024
+    ],
+    "runtimeDimensions": [
+      1536,
+      1024
+    ],
+    "sourceSha256": "55152e0079be0e6c45d1d489069183b65916b9cdc82512abc02eeb16a1c019be",
+    "runtimeSha256": "90b8d93c8f58f9f9556137c8626686df4d7507db1110879164c8f5c21d13682b"
+  },
+  {
+    "file": "04-observation.webp",
+    "sourceDimensions": [
+      1536,
+      1024
+    ],
+    "runtimeDimensions": [
+      1536,
+      1024
+    ],
+    "sourceSha256": "6b2c5bb9134eac849f725fda1cb14fe65cdedeb05f0547c4ba09e0e763b84b4b",
+    "runtimeSha256": "6842f5d25b5bcc82860917fbea096cc118fb409db37b19a4c81438e77085728e",
+    "supersededRuntimeSha256": "2fa28b853a15cd89c9a266d0317d859e1ad2920a5007aa55039cbb81f5a99704"
+  },
+  {
+    "file": "05-observation.webp",
+    "sourceDimensions": [
+      1536,
+      1024
+    ],
+    "runtimeDimensions": [
+      1536,
+      1024
+    ],
+    "sourceSha256": "9021de15dc8011ab1975e38b41d4cc84183e21f531811f11dea4b7a3ab0d1747",
+    "runtimeSha256": "63732ef7ea96f3b9445f1fc2efa3ca77a5e2e18eee0c5502f4b38abe05785931"
+  },
+  {
+    "file": "06-observation.webp",
+    "sourceDimensions": [
+      1536,
+      1024
+    ],
+    "runtimeDimensions": [
+      1536,
+      1024
+    ],
+    "sourceSha256": "d377813bfc15bb8527d4f1a4d4888c0c7e6e5636aebe44f73addab6f4cb59e3d",
+    "runtimeSha256": "e8e514a458c811366999ea4754d9cb8bcad15beac5b5fc8d09e73467740eaed4"
+  }
+]

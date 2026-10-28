@@ -1,0 +1,93 @@
+{
+  "checkedAt": "2026-10-28",
+  "webPages": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8749848/",
+      "status": 200,
+      "bytes": 21406,
+      "sha256": "9c16fa9135735b5ea888c74a43bc655834ed9e57857b0f2125f4b0b4cf0c5dea",
+      "articleContentAvailable": false
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7854555/",
+      "status": 200,
+      "bytes": 21406,
+      "sha256": "d4045cf5e24290c4698b0e617642641f9cca4051fcd1400fff95ab5c7839ce1f",
+      "articleContentAvailable": false
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11488289/",
+      "status": 200,
+      "bytes": 21408,
+      "sha256": "00f1b16e7232acdab18e75f2546615a6f0b335179d30e79d864948e42e3e365e",
+      "articleContentAvailable": false
+    },
+    {
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=140560",
+      "status": 200,
+      "bytes": 130420,
+      "sha256": "f30834443bea5cea95b7ee84ce997dcefd128649d58d42f2c3106a31cd5ea51b",
+      "articleContentAvailable": true
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9642861/",
+      "status": 200,
+      "bytes": 21405,
+      "sha256": "1bb66eb5e8bf1459fc7c957371d954bdf8bdfed8b86157b7d9565ec990f94953",
+      "articleContentAvailable": false
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/2290668/iucnRedListCategory",
+      "status": 200,
+      "bytes": 178,
+      "sha256": "ffec51feaea207b687eb4e05da43e34710507c997996eff8a1cfaa3d8dc4ac2b",
+      "articleContentAvailable": true
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/176600347",
+      "status": 200,
+      "bytes": 972,
+      "sha256": "78c93ef49f64064e4c514a507aa45c6df09c27d44765083e120743ec1a91359c",
+      "articleContentAvailable": true
+    }
+  ],
+  "officialFullTextAPI": [
+    {
+      "id": "PMC8749848",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8749848/fullTextXML",
+      "sha256": "4db7323386df605341e35db9d262d9b9529dac6b5c8442231419c72f034b85f0",
+      "bytes": 122642,
+      "bodyCharacters": 27017,
+      "title": "First Integrative Morphological and Genetic Characterization of  Tremoctopus violaceus \n sensu stricto  in the Mediterranean Sea",
+      "articleContentAvailable": true
+    },
+    {
+      "id": "PMC7854555",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7854555/fullTextXML",
+      "sha256": "f48507cea160f8d1a1e9e36e58e0b651d550709333fa07f95a05a0454cd4f025",
+      "bytes": 87928,
+      "bodyCharacters": 33404,
+      "title": "The first record of  Tremoctopus \n violaceus sensu stricto  Delle Chiaje,1830 in southwestern Gulf of Mexico gives a hint of the taxonomic status of  Tremoctopus \n gracilis",
+      "articleContentAvailable": true
+    },
+    {
+      "id": "PMC11488289",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11488289/fullTextXML",
+      "sha256": "66eb450717ea2d3f8790ad446fdf11dcd4e0ff3d1866ae8bdbcfacae689a55c6",
+      "bytes": 159938,
+      "bodyCharacters": 64332,
+      "title": "Complementing aculiferan mitogenomics: comparative characterization of mitochondrial genomes of Solenogastres (Mollusca, Aplacophora)",
+      "articleContentAvailable": true
+    },
+    {
+      "id": "PMC9642861",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9642861/fullTextXML",
+      "sha256": "e052c9539b570475396cebd4b792a12a2b4b9e6aaedd767cd5f41fb70a012c7d",
+      "bytes": 138475,
+      "bodyCharacters": 27183,
+      "title": "Kleptoplasty: Getting away with stolen chloroplasts",
+      "articleContentAvailable": true
+    }
+  ],
+  "interpretation": "HTTP 200 alone is insufficient. PMC webpage responses contained no verified article body; Europe PMC XML was parsed and article titles and body text were read. Full text availability does not approve retained illustrations."
+}

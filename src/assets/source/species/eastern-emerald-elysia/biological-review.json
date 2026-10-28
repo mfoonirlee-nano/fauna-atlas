@@ -1,0 +1,40 @@
+{
+  "reviewedAt": "2026-10-27",
+  "status": "reviewed-reconstruction",
+  "scope": "可见外形、来源与已识别错误；AI 重建不是摄影、鉴定标本或显微证据",
+  "findings": "按 Sea Slug Forum 本种全身照片重画六张：侧足为与身体相连的柔软组织，去除凸起植物叶脉和僵硬中肋，改为不规则斑驳内部分枝与小斑点，嗅角呈卷管状。",
+  "conservation": "UNVERIFIED is editorial; no verified global IUCN assessment",
+  "references": [
+    {
+      "url": "https://seaslugforum.net/showall/elyschlo",
+      "responseSha256": "de87009c3cb4446a3d12d72c3b4504b2b4a7f41b6758a02a70767ed86af6b028",
+      "contentAvailable": true
+    }
+  ],
+  "assets": [
+    {
+      "file": "01-cover.webp",
+      "sha256": "9eaf683a8ed2ca459d732da26d915f5a142c455d2ede1aabccdd74be33342322"
+    },
+    {
+      "file": "02-observation.webp",
+      "sha256": "94a1fb9317c2ccf2dff0ea2663e2acf3eae34a8f7ad7f03e83920e9035a09104"
+    },
+    {
+      "file": "03-observation.webp",
+      "sha256": "eef19f99338dde346a4d664297efad11469982cc8082b20d4c0f04e8ee10efe1"
+    },
+    {
+      "file": "04-observation.webp",
+      "sha256": "2eed3fbcdb1bd20546720574205fa5d9abbb50dc7c2e163400276d99cc6a9eee"
+    },
+    {
+      "file": "05-observation.webp",
+      "sha256": "6e3302bebc2fa9ee22bc16f0eaf38f3c426710b461115e43bdd20a11c646490c"
+    },
+    {
+      "file": "06-observation.webp",
+      "sha256": "73b5826ce97e897598d169377a069371394625c082c51a51668385ca56908392"
+    }
+  ]
+}

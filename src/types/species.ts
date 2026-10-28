@@ -16,6 +16,9 @@ export type IucnStatusCode =
   | 'NE';
 
 export type PopulationTrend = 'increasing' | 'stable' | 'decreasing' | 'unknown';
+
+/** UNVERIFIED is an editorial evidence state, never an IUCN category. */
+export type ConservationCode = IucnStatusCode | 'UNVERIFIED';
 export type EcologicalRealm = 'terrestrial' | 'freshwater' | 'marine';
 export type MeasurementUnit = 'mm' | 'cm' | 'm' | 'g' | 'kg' | 't';
 
@@ -54,6 +57,13 @@ interface ConservationEvidence {
 }
 
 export type ConservationStatus = ConservationEvidence & (
+  | {
+    readonly system: 'Unverified';
+    readonly code: 'UNVERIFIED';
+    readonly trend: 'unknown';
+    readonly assessedYear?: never;
+    readonly criteria?: never;
+  }
   | {
     readonly system: 'IUCN Red List';
     readonly code: IucnStatusCode;
@@ -200,6 +210,11 @@ export interface Species {
   readonly metrics: SpeciesMetrics;
   readonly featuredStats: readonly FeaturedStat[];
   readonly media: SpeciesMedia;
+  /** Retained draft assets; never use these in public image surfaces. */
+  readonly pendingMedia?: {
+    readonly reason: string;
+    readonly assets: SpeciesMedia;
+  };
   readonly sources: readonly SpeciesSource[];
   readonly featured?: boolean;
   readonly publishedAt: `${number}-${number}-${number}`;

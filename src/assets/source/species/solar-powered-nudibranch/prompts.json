@@ -1,0 +1,226 @@
+[
+  {
+    "file": "01-cover.webp",
+    "prompt": "Natural history educational scientific reconstruction, Phyllodesmium longicirrum aeolid nudibranch, cream translucent body with many broad flattened paddlelike cerata covered in brown dots of symbiotic zooxanthellae, two long rhinophores, on soft coral. Complete single animal on RIGHT center 70 percent width, silhouette wholly within x=650..1450 y=130..900 on 1536x1024 landscape image. Left 40 percent calm background.. One coherent landscape illustration 1536x1024. Anatomically restrained and realistic, no labels no text no borders, not collage. No invented behavior or scale bars. Full main subject safely inside image.",
+    "biologicalReviewEdits": [
+      {
+        "date": "2026-10-27",
+        "prompt": "Correct this educational Phyllodesmium longicirrum illustration using the attached live reference photographs for anatomy only. Preserve the first image scene, framing and complete animal boundary exactly. Replace BOTH rhinophores: smooth slender elongated cylindrical stalks, no lamellae, no rings, no stacked plates, subtle blunt/club tips, irregular brown speckling continuing up stalks. Also make cerata realistically broad flattened solar paddles as in photos, fewer naturally irregular and curved rather than a dense formal fan of identical narrow leaves. Preserve two separate long smooth oral tentacles at the mouth. Do not reproduce photographic backgrounds. Restrained natural history reconstruction, no text. Output one landscape image 1536x1024. Cover: preserve full animal on RIGHT, all appendages included, quiet left40%, animal center at least60% of image width, real margins.",
+        "inputRuntimeSha256": "db94852f42ea56306a0d8d542b02dd46aa668d53a6adcf2ae3b6ef951be4d973",
+        "outputSourceSha256": "e143a2f34b5968811d13fb6aaf53eb4f7604e6d3ce43a1a1e4dbf9525e2d3cc7",
+        "references": [
+          {
+            "path": "ref-phyllodesmium-head.jpg",
+            "sha256": "81078cf4627da7daed9b19d3fdb73d74ff37051e76c55d7d51d5df27c1e04ca6"
+          },
+          {
+            "path": "ref-phyllodesmium-photo.jpg",
+            "sha256": "96cfde9194a5118ccc39283aaf3decb613254522fefa13f03d9e4a1abbaed59e"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-27",
+        "prompt": "Fix composition only: the animal is TOO BIG and its rightmost paddle is clipped. REDUCE THE ENTIRE ANIMAL TO 65 PERCENT OF ITS CURRENT WIDTH AND HEIGHT while keeping its center on the RIGHT at 70 percent of the canvas width. Show ALL appendages, body and tail completely, including the rightmost paddles. Leave a substantial empty background gap at the RIGHT EDGE, about 10 percent of canvas width. The left rhinophore tips must end around45percent of width, never past left40percent. Do not crop any part. Animal still clear main subject on right. Preserve species morphology: two extremely long thin SMOOTH NON-RINGED rhinophores, two lower oral tentacles, large broad curved brown-spotted paddles. Keep smooth stalks. Extend ordinary background around reduced animal. One image landscape1536x1024. No text.",
+        "inputRuntimeSha256": "31b27a3c01b28051fe0cb8b30b49f387859f8788a1ae2c3f1bd2158326cffa8c",
+        "outputSourceSha256": "c92266ce239d5e7f4462e19a999e4b0e00dcaf57f09c95f203c08fc1cc9bab00",
+        "inputImageSha256": "f7a5be67b1603b56db4d20d186251cdb1ca459578d0644e63fc48b575bc77114",
+        "references": [
+          {
+            "path": "exec-476053f3-48a1-4042-8b78-a376350dfdeb.png",
+            "sha256": "f7a5be67b1603b56db4d20d186251cdb1ca459578d0644e63fc48b575bc77114"
+          }
+        ]
+      }
+    ],
+    "candidateReview": [
+      {
+        "prompt": "Correct this educational Phyllodesmium longicirrum illustration using the attached live reference photographs for anatomy only. Preserve the first image scene, framing and complete animal boundary exactly. Replace BOTH rhinophores: smooth slender elongated cylindrical stalks, no lamellae, no rings, no stacked plates, subtle blunt/club tips, irregular brown speckling continuing up stalks. Also make cerata realistically broad flattened solar paddles as in photos, fewer naturally irregular and curved rather than a dense formal fan of identical narrow leaves. Preserve two separate long smooth oral tentacles at the mouth. Do not reproduce photographic backgrounds. Restrained natural history reconstruction, no text. Output one landscape image 1536x1024. Cover: preserve full animal on RIGHT, all appendages included, quiet left40%, animal center at least60% of image width, real margins.",
+        "sourceSha256": "e143a2f34b5968811d13fb6aaf53eb4f7604e6d3ce43a1a1e4dbf9525e2d3cc7",
+        "inputFiles": [
+          {
+            "name": "ref-phyllodesmium-head.jpg",
+            "sha256": "81078cf4627da7daed9b19d3fdb73d74ff37051e76c55d7d51d5df27c1e04ca6"
+          },
+          {
+            "name": "ref-phyllodesmium-photo.jpg",
+            "sha256": "96cfde9194a5118ccc39283aaf3decb613254522fefa13f03d9e4a1abbaed59e"
+          }
+        ],
+        "decision": "rejected or superseded"
+      },
+      {
+        "prompt": "Localized anatomy correction ONLY to the TWO forward/upward sensory RHINOPHORES at the front left of the nudibranch. KEEP ALL OTHER PIXELS AND POSE COMPOSITION as close as possible. On BOTH of those two stalks eliminate every transverse annulation, every ring, every disk, every lamella, every sculpted ridge. They must be long THIN featureless smooth cylindrical cream stalks with irregular brown pigment dots, small blunt tips. Absolutely no rings of any kind: pigment irregular separate dots, not bands. Look at the thin smooth stalks in reference photographs. No sphere tips, only slight natural rounding. Preserve other smooth oral tentacles, every ceras, tail, subject scale and full source margins. One landscape1536x1024 natural history illustration, no text.",
+        "sourceSha256": "c873ddcb84deede5de6658e88c595ad9cc98145423f9784fc4a8895d315dfb62",
+        "inputFiles": [
+          {
+            "name": "exec-f50c68a4-1ab3-429f-9461-ff1c706accff.png",
+            "sha256": "e143a2f34b5968811d13fb6aaf53eb4f7604e6d3ce43a1a1e4dbf9525e2d3cc7"
+          },
+          {
+            "name": "ref-phyllodesmium-head.jpg",
+            "sha256": "81078cf4627da7daed9b19d3fdb73d74ff37051e76c55d7d51d5df27c1e04ca6"
+          },
+          {
+            "name": "ref-phyllodesmium-photo.jpg",
+            "sha256": "96cfde9194a5118ccc39283aaf3decb613254522fefa13f03d9e4a1abbaed59e"
+          }
+        ],
+        "decision": "rejected or superseded"
+      },
+      {
+        "prompt": "Create a NEW educational natural history illustration of the actual species Phyllodesmium longicirrum based on these two expert-identified live reference photos. This is NOT a generic aeolid. Its TWO RHINOPHORES are extremely slender, very long, perfectly SMOOTH unsegmented stalks like thin spaghetti with gently rounded tips. No ring-shaped folds, no transverse ridges, no annulations, no disks, no lamellae anywhere on either rhinophore. The attached photo thin long smooth stalks are the model. Oral tentacles separate thin curved smooth pointed pair below them. Irregular brown pigment patches on cream translucent animal. Cerata are broad, large flattened curved solar paddles, variable in size and posture, brown spotted, not identical straight leaves. Restrained scientific reconstruction on coral surface underwater. Cover composition1536x1024: complete one animal at RIGHT, anatomical head facing left at x800, tail atx1400, all outermost tentacles and cerata withinx650..1450,y150..880. Full subject horizontal center70%width, real background on all sides. Left40% quiet soft blue sea. No text, no labels. Show complete animal large and clear with naturally few overlapping paddles. Reference anatomy takes priority over generic nudibranch stereotypes.",
+        "sourceSha256": "918d6a9c5a152a1a1421abbf2f295525ced1dcb6a65ad2cbdf120b0d5b9e609d",
+        "inputFiles": [
+          {
+            "name": "ref-phyllodesmium-head.jpg",
+            "sha256": "81078cf4627da7daed9b19d3fdb73d74ff37051e76c55d7d51d5df27c1e04ca6"
+          },
+          {
+            "name": "ref-phyllodesmium-photo.jpg",
+            "sha256": "96cfde9194a5118ccc39283aaf3decb613254522fefa13f03d9e4a1abbaed59e"
+          }
+        ],
+        "decision": "rejected or superseded"
+      },
+      {
+        "prompt": "Recompose this anatomically corrected illustration for the site COVER. Preserve this EXACT nudibranch morphology, especially TWO LONG SMOOTH NON-RINGED rhinophores and natural broad curved brown-spotted paddles. Move the ENTIRE animal including ALL the long rhinophore tips onto the RIGHT side. Scale/repose the animal as necessary so ALL animal pixels fit within x=650 to1460 and y=150 to880 on a1536x1024 landscape canvas. Both leftmost rhinophore tips MUST be to the RIGHT of x650. Target full-animal bounding box centeredx1060 (69%width). The LEFT40% x0..614 MUST contain only quiet blue underwater background, NO animal parts. Entire animal visible and large within the right-half composition. Maintain natural curved thin smooth long rhinophores, don't shorten or ring them. Real habitat margin on all sides. No text or diagram. One single animal, one coherent landscape illustration.",
+        "sourceSha256": "f7a5be67b1603b56db4d20d186251cdb1ca459578d0644e63fc48b575bc77114",
+        "inputFiles": [
+          {
+            "name": "exec-d9efa222-35cd-4aa6-86e3-c43fbad42b4c.png",
+            "sha256": "918d6a9c5a152a1a1421abbf2f295525ced1dcb6a65ad2cbdf120b0d5b9e609d"
+          }
+        ],
+        "decision": "rejected or superseded"
+      },
+      {
+        "prompt": "Fix composition only: the animal is TOO BIG and its rightmost paddle is clipped. REDUCE THE ENTIRE ANIMAL TO 65 PERCENT OF ITS CURRENT WIDTH AND HEIGHT while keeping its center on the RIGHT at 70 percent of the canvas width. Show ALL appendages, body and tail completely, including the rightmost paddles. Leave a substantial empty background gap at the RIGHT EDGE, about 10 percent of canvas width. The left rhinophore tips must end around45percent of width, never past left40percent. Do not crop any part. Animal still clear main subject on right. Preserve species morphology: two extremely long thin SMOOTH NON-RINGED rhinophores, two lower oral tentacles, large broad curved brown-spotted paddles. Keep smooth stalks. Extend ordinary background around reduced animal. One image landscape1536x1024. No text.",
+        "sourceSha256": "c92266ce239d5e7f4462e19a999e4b0e00dcaf57f09c95f203c08fc1cc9bab00",
+        "inputFiles": [
+          {
+            "name": "exec-476053f3-48a1-4042-8b78-a376350dfdeb.png",
+            "sha256": "f7a5be67b1603b56db4d20d186251cdb1ca459578d0644e63fc48b575bc77114"
+          }
+        ],
+        "decision": "retained"
+      }
+    ],
+    "currentPrompt": "Fix composition only: the animal is TOO BIG and its rightmost paddle is clipped. REDUCE THE ENTIRE ANIMAL TO 65 PERCENT OF ITS CURRENT WIDTH AND HEIGHT while keeping its center on the RIGHT at 70 percent of the canvas width. Show ALL appendages, body and tail completely, including the rightmost paddles. Leave a substantial empty background gap at the RIGHT EDGE, about 10 percent of canvas width. The left rhinophore tips must end around45percent of width, never past left40percent. Do not crop any part. Animal still clear main subject on right. Preserve species morphology: two extremely long thin SMOOTH NON-RINGED rhinophores, two lower oral tentacles, large broad curved brown-spotted paddles. Keep smooth stalks. Extend ordinary background around reduced animal. One image landscape1536x1024. No text."
+  },
+  {
+    "file": "02-observation.webp",
+    "prompt": "Natural history educational scientific reconstruction, Phyllodesmium longicirrum aeolid nudibranch, cream translucent body with many broad flattened paddlelike cerata covered in brown dots of symbiotic zooxanthellae, two long rhinophores, on soft coral. broad flattened cerata detail with brown spots. One coherent landscape illustration 1536x1024. Anatomically restrained and realistic, no labels no text no borders, not collage. No invented behavior or scale bars. Full main subject safely inside image.",
+    "biologicalReviewEdits": [
+      {
+        "date": "2026-10-27",
+        "prompt": "Correct this educational Phyllodesmium longicirrum illustration using the attached live reference photographs for anatomy only. Preserve the first image scene, framing and complete animal boundary exactly. Replace BOTH rhinophores: smooth slender elongated cylindrical stalks, no lamellae, no rings, no stacked plates, subtle blunt/club tips, irregular brown speckling continuing up stalks. Also make cerata realistically broad flattened solar paddles as in photos, fewer naturally irregular and curved rather than a dense formal fan of identical narrow leaves. Preserve two separate long smooth oral tentacles at the mouth. Do not reproduce photographic backgrounds. Restrained natural history reconstruction, no text. Output one landscape image 1536x1024.",
+        "inputRuntimeSha256": "d1d9b84874c137af0e38c370567ff496735012bcb6dd51c67e63e799f47f4075",
+        "outputSourceSha256": "9f52d4d820dd09d21e460f598f067950b9b6672b12898efa7f7d4d08c9b5ad57",
+        "references": [
+          {
+            "path": "ref-phyllodesmium-head.jpg",
+            "sha256": "81078cf4627da7daed9b19d3fdb73d74ff37051e76c55d7d51d5df27c1e04ca6"
+          },
+          {
+            "path": "ref-phyllodesmium-photo.jpg",
+            "sha256": "96cfde9194a5118ccc39283aaf3decb613254522fefa13f03d9e4a1abbaed59e"
+          }
+        ]
+      }
+    ],
+    "currentPrompt": "Correct this educational Phyllodesmium longicirrum illustration using the attached live reference photographs for anatomy only. Preserve the first image scene, framing and complete animal boundary exactly. Replace BOTH rhinophores: smooth slender elongated cylindrical stalks, no lamellae, no rings, no stacked plates, subtle blunt/club tips, irregular brown speckling continuing up stalks. Also make cerata realistically broad flattened solar paddles as in photos, fewer naturally irregular and curved rather than a dense formal fan of identical narrow leaves. Preserve two separate long smooth oral tentacles at the mouth. Do not reproduce photographic backgrounds. Restrained natural history reconstruction, no text. Output one landscape image 1536x1024."
+  },
+  {
+    "file": "03-observation.webp",
+    "prompt": "Natural history educational scientific reconstruction, Phyllodesmium longicirrum aeolid nudibranch, cream translucent body with many broad flattened paddlelike cerata covered in brown dots of symbiotic zooxanthellae, two long rhinophores, on soft coral. side view crawling on soft coral. One coherent landscape illustration 1536x1024. Anatomically restrained and realistic, no labels no text no borders, not collage. No invented behavior or scale bars. Full main subject safely inside image.",
+    "biologicalReviewEdits": [
+      {
+        "date": "2026-10-27",
+        "prompt": "Correct this educational Phyllodesmium longicirrum illustration using the attached live reference photographs for anatomy only. Preserve the first image scene, framing and complete animal boundary exactly. Replace BOTH rhinophores: smooth slender elongated cylindrical stalks, no lamellae, no rings, no stacked plates, subtle blunt/club tips, irregular brown speckling continuing up stalks. Also make cerata realistically broad flattened solar paddles as in photos, fewer naturally irregular and curved rather than a dense formal fan of identical narrow leaves. Preserve two separate long smooth oral tentacles at the mouth. Do not reproduce photographic backgrounds. Restrained natural history reconstruction, no text. Output one landscape image 1536x1024.",
+        "inputRuntimeSha256": "9b50dbb561a4bd53e183a3762af335dffff51445fd81292c052612e0cf15eb14",
+        "outputSourceSha256": "ccb96e12115062ce3e966ce83ba1dd5532d2a22dc4a1820e004788ad6acf0172",
+        "references": [
+          {
+            "path": "ref-phyllodesmium-head.jpg",
+            "sha256": "81078cf4627da7daed9b19d3fdb73d74ff37051e76c55d7d51d5df27c1e04ca6"
+          },
+          {
+            "path": "ref-phyllodesmium-photo.jpg",
+            "sha256": "96cfde9194a5118ccc39283aaf3decb613254522fefa13f03d9e4a1abbaed59e"
+          }
+        ]
+      }
+    ],
+    "currentPrompt": "Correct this educational Phyllodesmium longicirrum illustration using the attached live reference photographs for anatomy only. Preserve the first image scene, framing and complete animal boundary exactly. Replace BOTH rhinophores: smooth slender elongated cylindrical stalks, no lamellae, no rings, no stacked plates, subtle blunt/club tips, irregular brown speckling continuing up stalks. Also make cerata realistically broad flattened solar paddles as in photos, fewer naturally irregular and curved rather than a dense formal fan of identical narrow leaves. Preserve two separate long smooth oral tentacles at the mouth. Do not reproduce photographic backgrounds. Restrained natural history reconstruction, no text. Output one landscape image 1536x1024."
+  },
+  {
+    "file": "04-observation.webp",
+    "prompt": "Natural history educational scientific reconstruction, Phyllodesmium longicirrum aeolid nudibranch, cream translucent body with many broad flattened paddlelike cerata covered in brown dots of symbiotic zooxanthellae, two long rhinophores, on soft coral. dorsal view symmetric rows of flattened cerata. One coherent landscape illustration 1536x1024. Anatomically restrained and realistic, no labels no text no borders, not collage. No invented behavior or scale bars. Full main subject safely inside image.",
+    "biologicalReviewEdits": [
+      {
+        "date": "2026-10-27",
+        "prompt": "Correct this educational Phyllodesmium longicirrum illustration using the attached live reference photographs for anatomy only. Preserve the first image scene, framing and complete animal boundary exactly. Replace BOTH rhinophores: smooth slender elongated cylindrical stalks, no lamellae, no rings, no stacked plates, subtle blunt/club tips, irregular brown speckling continuing up stalks. Also make cerata realistically broad flattened solar paddles as in photos, fewer naturally irregular and curved rather than a dense formal fan of identical narrow leaves. Preserve two separate long smooth oral tentacles at the mouth. Do not reproduce photographic backgrounds. Restrained natural history reconstruction, no text. Output one landscape image 1536x1024.",
+        "inputRuntimeSha256": "886fd0ba37cdcd3e653ad23c6c12648f12de1c735d883346dad9b79e91bdef6a",
+        "outputSourceSha256": "f5cbc9c4c2e19ac1bde8b97c2526aaeb9e236747e64c34df0780c04e88e50681",
+        "references": [
+          {
+            "path": "ref-phyllodesmium-head.jpg",
+            "sha256": "81078cf4627da7daed9b19d3fdb73d74ff37051e76c55d7d51d5df27c1e04ca6"
+          },
+          {
+            "path": "ref-phyllodesmium-photo.jpg",
+            "sha256": "96cfde9194a5118ccc39283aaf3decb613254522fefa13f03d9e4a1abbaed59e"
+          }
+        ]
+      }
+    ],
+    "currentPrompt": "Correct this educational Phyllodesmium longicirrum illustration using the attached live reference photographs for anatomy only. Preserve the first image scene, framing and complete animal boundary exactly. Replace BOTH rhinophores: smooth slender elongated cylindrical stalks, no lamellae, no rings, no stacked plates, subtle blunt/club tips, irregular brown speckling continuing up stalks. Also make cerata realistically broad flattened solar paddles as in photos, fewer naturally irregular and curved rather than a dense formal fan of identical narrow leaves. Preserve two separate long smooth oral tentacles at the mouth. Do not reproduce photographic backgrounds. Restrained natural history reconstruction, no text. Output one landscape image 1536x1024."
+  },
+  {
+    "file": "05-observation.webp",
+    "prompt": "Natural history educational scientific reconstruction, Phyllodesmium longicirrum aeolid nudibranch, cream translucent body with many broad flattened paddlelike cerata covered in brown dots of symbiotic zooxanthellae, two long rhinophores, on soft coral. head rhinophores and oral tentacles detail. One coherent landscape illustration 1536x1024. Anatomically restrained and realistic, no labels no text no borders, not collage. No invented behavior or scale bars. Full main subject safely inside image.",
+    "biologicalReviewEdits": [
+      {
+        "date": "2026-10-27",
+        "prompt": "Correct this educational Phyllodesmium longicirrum illustration using the attached live reference photographs for anatomy only. Preserve the first image scene, framing and complete animal boundary exactly. Replace BOTH rhinophores: smooth slender elongated cylindrical stalks, no lamellae, no rings, no stacked plates, subtle blunt/club tips, irregular brown speckling continuing up stalks. Also make cerata realistically broad flattened solar paddles as in photos, fewer naturally irregular and curved rather than a dense formal fan of identical narrow leaves. Preserve two separate long smooth oral tentacles at the mouth. Do not reproduce photographic backgrounds. Restrained natural history reconstruction, no text. Output one landscape image 1536x1024.",
+        "inputRuntimeSha256": "969925f9ec8c4fceaf1f18095595f08eecc8df0ec0d4c64680d1abf350f84a2b",
+        "outputSourceSha256": "620670000ada0b9ae94ecd5f3b029cfa2cd77e67838b92ca7bafd609f7bb16e6",
+        "references": [
+          {
+            "path": "ref-phyllodesmium-head.jpg",
+            "sha256": "81078cf4627da7daed9b19d3fdb73d74ff37051e76c55d7d51d5df27c1e04ca6"
+          },
+          {
+            "path": "ref-phyllodesmium-photo.jpg",
+            "sha256": "96cfde9194a5118ccc39283aaf3decb613254522fefa13f03d9e4a1abbaed59e"
+          }
+        ]
+      }
+    ],
+    "currentPrompt": "Correct this educational Phyllodesmium longicirrum illustration using the attached live reference photographs for anatomy only. Preserve the first image scene, framing and complete animal boundary exactly. Replace BOTH rhinophores: smooth slender elongated cylindrical stalks, no lamellae, no rings, no stacked plates, subtle blunt/club tips, irregular brown speckling continuing up stalks. Also make cerata realistically broad flattened solar paddles as in photos, fewer naturally irregular and curved rather than a dense formal fan of identical narrow leaves. Preserve two separate long smooth oral tentacles at the mouth. Do not reproduce photographic backgrounds. Restrained natural history reconstruction, no text. Output one landscape image 1536x1024."
+  },
+  {
+    "file": "06-observation.webp",
+    "prompt": "Natural history educational scientific reconstruction, Phyllodesmium longicirrum aeolid nudibranch, cream translucent body with many broad flattened paddlelike cerata covered in brown dots of symbiotic zooxanthellae, two long rhinophores, on soft coral. whole animal among soft coral branches. One coherent landscape illustration 1536x1024. Anatomically restrained and realistic, no labels no text no borders, not collage. No invented behavior or scale bars. Full main subject safely inside image.",
+    "biologicalReviewEdits": [
+      {
+        "date": "2026-10-27",
+        "prompt": "Correct this educational Phyllodesmium longicirrum illustration using the attached live reference photographs for anatomy only. Preserve the first image scene, framing and complete animal boundary exactly. Replace BOTH rhinophores: smooth slender elongated cylindrical stalks, no lamellae, no rings, no stacked plates, subtle blunt/club tips, irregular brown speckling continuing up stalks. Also make cerata realistically broad flattened solar paddles as in photos, fewer naturally irregular and curved rather than a dense formal fan of identical narrow leaves. Preserve two separate long smooth oral tentacles at the mouth. Do not reproduce photographic backgrounds. Restrained natural history reconstruction, no text. Output one landscape image 1536x1024.",
+        "inputRuntimeSha256": "81eda884398b93697ff80afbf44173a3c91db7ff17f80e42eba76fdb09159f95",
+        "outputSourceSha256": "7394164983e20e7c6a665d7b6bab27c673ef244060956f6605ad7e10bf2c73ee",
+        "references": [
+          {
+            "path": "ref-phyllodesmium-head.jpg",
+            "sha256": "81078cf4627da7daed9b19d3fdb73d74ff37051e76c55d7d51d5df27c1e04ca6"
+          },
+          {
+            "path": "ref-phyllodesmium-photo.jpg",
+            "sha256": "96cfde9194a5118ccc39283aaf3decb613254522fefa13f03d9e4a1abbaed59e"
+          }
+        ]
+      }
+    ],
+    "currentPrompt": "Correct this educational Phyllodesmium longicirrum illustration using the attached live reference photographs for anatomy only. Preserve the first image scene, framing and complete animal boundary exactly. Replace BOTH rhinophores: smooth slender elongated cylindrical stalks, no lamellae, no rings, no stacked plates, subtle blunt/club tips, irregular brown speckling continuing up stalks. Also make cerata realistically broad flattened solar paddles as in photos, fewer naturally irregular and curved rather than a dense formal fan of identical narrow leaves. Preserve two separate long smooth oral tentacles at the mouth. Do not reproduce photographic backgrounds. Restrained natural history reconstruction, no text. Output one landscape image 1536x1024."
+  }
+]

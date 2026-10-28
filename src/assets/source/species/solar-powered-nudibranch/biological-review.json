@@ -1,0 +1,40 @@
+{
+  "reviewedAt": "2026-10-27",
+  "status": "reviewed-reconstruction",
+  "scope": "可见外形、来源与已识别错误；AI 重建不是摄影、鉴定标本或显微证据",
+  "findings": "按 Sea Slug Forum 的正常个体照片重画六张：细长平滑嗅角、宽扁且姿态不规则的背突、褐色斑区。排除页面中损伤再生的异常个体作为结构参考。取食软珊瑚的记录与共生藻获取途径的推测分开表述。",
+  "conservation": "UNVERIFIED is editorial; no verified global IUCN assessment",
+  "references": [
+    {
+      "url": "https://seaslugforum.net/showall/phyllong",
+      "responseSha256": "99e75f71dfbedb1f828d53f43ee45707b173d58c20a65907924336cda64fd564",
+      "contentAvailable": true
+    }
+  ],
+  "assets": [
+    {
+      "file": "01-cover.webp",
+      "sha256": "ab6704f230c797b38d51555b724c700f29aa2e148a601b3bf51cca81b13f5581"
+    },
+    {
+      "file": "02-observation.webp",
+      "sha256": "88dbbfbe8a3b4ed7ba2c63154815507f046c28149a41905be7244e85ff34b5f0"
+    },
+    {
+      "file": "03-observation.webp",
+      "sha256": "93fc9bcbae940ddceeac888d4ef7087348367e60921caf31c4bbf07108f4ce7d"
+    },
+    {
+      "file": "04-observation.webp",
+      "sha256": "d1bedefb160056d1195435f4d8f930550fa175d1fb41013b154c91f2419f6a8d"
+    },
+    {
+      "file": "05-observation.webp",
+      "sha256": "b0cc4ffae001a7757b5694216b18e3ad126ea786ad272b9d95a77521829780d9"
+    },
+    {
+      "file": "06-observation.webp",
+      "sha256": "4a525b3fd09cf1030c3e760f758019b07b41a524fa11a6d773b793dfdaa7d097"
+    }
+  ]
+}
