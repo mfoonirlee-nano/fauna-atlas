@@ -1,6 +1,6 @@
 # 制作清单：100 种新奇动物与分类补充
 
-2026-10-28 更新：本轮已完成 38/100，待制作或返修 62。目录保留 840 份物种档案，第八批新增五种动物与 30 张配图；本轮完成的 38 项对应 228 张公开配图。紫毯章鱼和龙骨新月贝仍待返修。详见[第八批研究记录](research/todo-novel-eighth-five-2026-10-28.md)与[此前十种动物复核记录](research/ten-animal-review-fix-2026-10-27.md)。
+2026-10-29 更新：本轮已完成 46/100，待制作或返修 54。目录保留 848 份物种档案，第九批新增八种动物与 48 张配图；本轮完成的 46 项对应 276 张公开配图。紫毯章鱼和龙骨新月贝仍待返修。详见[第九批研究记录](research/todo-novel-ninth-eight-2026-10-29.md)、[第八批研究记录](research/todo-novel-eighth-five-2026-10-28.md)与[此前十种动物复核记录](research/ten-animal-review-fix-2026-10-27.md)。
 
 ## 选题范围与核查
 
@@ -19,11 +19,11 @@
 | --- | ---: | ---: |
 | 软体动物 | 19 | 2 |
 | 刺胞与栉水母动物 | 10 | 1 |
-| 棘皮动物 | 3 | 5 |
-| 环节、海绵及其他动物 | 0 | 16 |
+| 棘皮动物 | 8 | 0 |
+| 环节、海绵及其他动物 | 3 | 13 |
 | 节肢动物 | 4 | 24 |
 | 脊索动物 | 2 | 14 |
-| 合计 | 38 | 62 |
+| 合计 | 46 | 54 |
 
 ## 制作顺序与完成条件
 
@@ -81,12 +81,12 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | [x] | N041 | 鳞甲海参 | *Psolus squamatus* | 背上像铠甲，底面贴岩；分枝触手逐根送入口 | 比较行走海参与固着、悬浮摄食海参 | [来源](https://www.mbari.org/animal/armored-sea-cucumber/) |
 | [x] | N042 | 加州太阳海星 | *Rathbunaster californicus* | 举腕接住游过的小动物；放大看表面小钳子 | 丰富海星的摄食方式及叉棘结构 | [来源](https://www.mbari.org/animal/california-sun-star/) |
-| [ ] | N043 | 脆壳粉红海胆 | *Strongylocentrotus fragilis* | 粉红海胆成群走过软泥，吃沉到海底的腐败海带 | 与浅海紫海胆比较食物和海底环境 | [来源](https://www.mbari.org/animal/fragile-pink-sea-urchin/) |
+| [x] | N043 | 脆壳粉红海胆 | *Strongylocentrotus fragilis* | 粉红海胆成群走过软泥，吃沉到海底的腐败海带 | 与浅海紫海胆比较食物和海底环境 | [来源](https://www.mbari.org/animal/fragile-pink-sea-urchin/) |
 | [x] | N044 | 向日葵海星 | *Pycnopodia helianthoides* | 比较五腕幼体和最多二十四腕的成体；看密集管足 | 加入多腕海星的生长变化 | [来源](https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/sunflower-star) |
-| [ ] | N045 | 赭色海星 | *Pisaster ochraceus* | 观察海星和贻贝的位置，比较橙、紫个体 | 丰富潮间带海星与食物网选题 | [来源](https://linnet.geog.ubc.ca/efauna/Atlas/Atlas.aspx?sciname=Pisaster+ochraceus) |
-| [ ] | N046 | 偏心沙钱 | *Dendraster excentricus* | 活体密布短棘，白色空壳上有花瓣纹；能立在沙中 | 与圆海胆、已有海饼比较扁平形态 | [来源](https://www.montereybayaquarium.org/animals/animals-a-to-z/sand-dollar) |
-| [ ] | N047 | 橙色瓜参 | *Cucumaria miniata* | 橙色树枝状触手伸出岩缝，沾食物后送入口 | 补悬浮摄食海参，与食沉积物海参比较 | [来源](https://inverts.wallawalla.edu/Echinodermata/Class%20Holothuroidea/Cucumaria_miniata.html) |
-| [ ] | N048 | 蝙蝠海星 | *Patiria miniata* | 短三角腕之间有宽蹼，像展开的蝙蝠翅；有多种体色 | 加入宽腕、蹼状海星并比较体形 | [来源](https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/bat-star) |
+| [x] | N045 | 赭色海星 | *Pisaster ochraceus* | 观察海星和贻贝的位置，比较橙、紫个体 | 丰富潮间带海星与食物网选题 | [来源](https://linnet.geog.ubc.ca/efauna/Atlas/Atlas.aspx?sciname=Pisaster+ochraceus) |
+| [x] | N046 | 偏心沙钱 | *Dendraster excentricus* | 活体密布短棘，白色空壳上有花瓣纹；能立在沙中 | 与圆海胆、已有海饼比较扁平形态 | [来源](https://www.montereybayaquarium.org/animals/animals-a-to-z/sand-dollar) |
+| [x] | N047 | 橙色瓜参 | *Cucumaria miniata* | 橙色树枝状触手伸出岩缝，沾食物后送入口 | 补悬浮摄食海参，与食沉积物海参比较 | [来源](https://inverts.wallawalla.edu/Echinodermata/Class%20Holothuroidea/Cucumaria_miniata.html) |
+| [x] | N048 | 蝙蝠海星 | *Patiria miniata* | 短三角腕之间有宽蹼，像展开的蝙蝠翅；有多种体色 | 加入宽腕、蹼状海星并比较体形 | [来源](https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/bat-star) |
 
 ### 环节、海绵及其他动物（16 种）
 
@@ -101,9 +101,9 @@
 | [ ] | N051 | 庞贝虫 | *Alvinella pompejana* | 在热液烟囱上住薄管，伸出红褐色尖鳃；背上有细菌绒层 | 丰富热液区多毛类，与巨型管虫比较 | [来源](https://www.mbari.org/animal/pompeii-worm/) |
 | [ ] | N052 | 绿色炸弹蠕虫 | *Swima bombiviridis* | 游泳时用成排刚毛划水，遇刺激能丢出发绿光的小囊 | 加入漂游型 Acrocirridae 及发光防御 | [来源](https://doi.org/10.1126/science.1172488) |
 | [ ] | N053 | 黑尔戈兰翼足虫 | *Tomopteris helgolandica* | 透明身体两侧像许多桨，能发出黄色光 | 加入 Tomopteridae；比较海洋常见蓝光与黄色光 | [来源](https://uclouvain.be/en/research-institutes/eli/eliv/holopelagic-annelids-tomopteris) |
-| [ ] | N054 | 海鼠 | *Aphrodita aculeata* | 背部像毛毡，侧面刚毛反射蓝绿金色；翻看分节腹面 | 加入海鼠科 Aphroditidae，比较环节动物的背鳞和刚毛 | [来源](https://www.marlin.ac.uk/species/detail/1697) |
-| [ ] | N055 | 胡须火焰虫 | *Hermodice carunculata* | 体节两侧有白刚毛簇，红鳃像小树 | 加入仙虫科 Amphinomidae 并比较海生多毛类结构 | [来源](https://ns-polychaeta.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=78234) |
-| [ ] | N056 | 地中海扇虫 | *Sabella spallanzanii* | 一侧鳃冠盘成螺旋，受惊时整朵缩回长管 | 加入管居缨鳃虫与可收缩鳃冠 | [来源](https://nimpis.marinepests.gov.au/species/species/70) |
+| [x] | N054 | 海鼠 | *Aphrodita aculeata* | 背部像毛毡，侧面刚毛反射蓝绿金色；翻看分节腹面 | 加入海鼠科 Aphroditidae，比较环节动物的背鳞和刚毛 | [来源](https://www.marlin.ac.uk/species/detail/1697) |
+| [x] | N055 | 胡须火焰虫 | *Hermodice carunculata* | 体节两侧有白刚毛簇，红鳃像小树 | 加入仙虫科 Amphinomidae 并比较海生多毛类结构 | [来源](https://ns-polychaeta.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=78234) |
+| [x] | N056 | 地中海扇虫 | *Sabella spallanzanii* | 一侧鳃冠盘成螺旋，受惊时整朵缩回长管 | 加入管居缨鳃虫与可收缩鳃冠 | [来源](https://nimpis.marinepests.gov.au/species/species/70) |
 | [ ] | N057 | 指状高脚杯海绵 | *Heterochone calyx* | 大漏斗像杯子，放大看由玻璃质骨针拼成的骨架 | 在六放海绵中补充海绵礁与栖身关系 | [来源](https://www.mbari.org/animal/fingered-goblet-sponge/) |
 | [ ] | N058 | 海橙海绵 | *Tethya aurantium* | 球形橙黄色表面像橘皮，放大可见短柄小芽 | 补充普通海绵的球形形态及出芽繁殖 | [来源](https://sponges-ne-atlantic.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/nsr_taxon.php?cat=TAB_DESCRIPTION&id=116416) |
 | [ ] | N059 | 黄色钻孔海绵 | *Cliona celata* | 贝壳或石灰岩表面露出黄色小点，剖面能看到钻孔空间 | 加入 Clionaidae 及生物侵蚀的图解 | [来源](https://sponges-ne-atlantic.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=116070) |

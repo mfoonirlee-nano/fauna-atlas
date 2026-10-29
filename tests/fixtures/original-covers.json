@@ -8266,5 +8266,109 @@
       },
       "sha256": "68baa4b60d057300c15362c5feb5a40a1a0cfdebb717a991d87562823fe2891c"
     }
+  },
+  "fragile-pink-sea-urchin": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 542,
+        "top": 106,
+        "right": 1420,
+        "bottom": 880
+      },
+      "sha256": "2ba0a37f19da051e2325fe06d0097b47197f6f7801c5496c50402860de160c47"
+    }
+  },
+  "ochre-sea-star": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 424,
+        "top": 56,
+        "right": 1430,
+        "bottom": 910
+      },
+      "sha256": "3248438c948fd10bd0c160250664aaac787f9f0ec04ed8e20289c13b1c00d1ae"
+    }
+  },
+  "eccentric-sand-dollar": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 462,
+        "top": 162,
+        "right": 1495,
+        "bottom": 894
+      },
+      "sha256": "ec9518489ac9c386821343e0174790d30309b47d771b8d3d48e9dbf3d1f5112d"
+    }
+  },
+  "orange-sea-cucumber": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 478,
+        "top": 110,
+        "right": 1525,
+        "bottom": 858
+      },
+      "sha256": "770dfb62937df60a66553696bf1d3b5cabd8632f7bb5e6a3db5eab5d8c265ac3"
+    }
+  },
+  "bat-star": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 526,
+        "top": 48,
+        "right": 1398,
+        "bottom": 867
+      },
+      "sha256": "9281b835c1ea11057c3bbd05bfcd6d16e9c990a20d82fa4edc19df80054342c6"
+    }
+  },
+  "sea-mouse": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 402,
+        "top": 164,
+        "right": 1494,
+        "bottom": 778
+      },
+      "sha256": "930373523328a487ed4127302641c001f9848563e707015a0fa741c487f93e37"
+    }
+  },
+  "bearded-fireworm": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 542,
+        "top": 20,
+        "right": 1530,
+        "bottom": 963
+      },
+      "sha256": "c5dc8aee154cf53e89ea98f16c74a5e8bf5e23fa8d54686bf02d3364a7edc8e5"
+    }
+  },
+  "mediterranean-fan-worm": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 538,
+        "top": 24,
+        "right": 1344,
+        "bottom": 948
+      },
+      "sha256": "cb9a318013cf13d992339a26bda15fe1fd987dd4e2b3a893b061e9abd9761bc8"
+    }
   }
 }

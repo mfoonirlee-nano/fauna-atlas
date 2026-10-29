@@ -162,7 +162,7 @@ test('unverified assessments and draft illustrations never appear as an IUCN res
   for (const summary of unverified) {
     const item = await loadSpecies(summary.slug);
     const html = renderToStaticMarkup(createElement(SpeciesDetail, { item, index: 0, saved: false, onClose() {}, onToggleSaved() {} }));
-    if (summary.slug === 'red-siphonophore') {
+    if (['red-siphonophore', 'bearded-fireworm'].includes(summary.slug)) {
       assert.match(html, /<dt>主要食物<\/dt><dd>尚未核实<\/dd>/, 'unknown food records do not render an empty field');
     }
     assert.match(html, /保护评估待核实/);

@@ -1,0 +1,62 @@
+[
+  {
+    "file": "01-cover.webp",
+    "prompt": "Create ONE landscape 1536x1024 scientific natural-history reconstruction of Patiria miniata. A living orange bat star with five SHORT broad triangular arms joined by broad webbing, broad body pentagonal outline, rough finely plated textured dorsal orange skin, not long slender separated arms. All five tips present, no eyes on central disk. Pacific rock tidepool. Scene: whole orange specimen seen overhead, full broad pentagonal silhouette. COVER composition: complete subject including every spine, bristle, arm tip, crown ray and tube base. Primary subject centered x=66%, y=50%, as LARGE as possible within x=35%..95%, y=7%..93%; leave genuine background all around all extremities, quiet low-detail left40%. No cropped appendages. Use supplied reference sheet only to guide biological morphology, do not copy its grid, writing, labels, humans, hands, scale objects or image borders. Single coherent scene, realistic restrained underwater lighting and fine detail, no text, no labels, no logos, no decorative insets, no diagrams or collage. Depict no unsupported predators, prey captures or impossible anatomy.",
+    "references": [
+      {
+        "file": "bat-star-refs.jpg",
+        "sha256": "0c3275d0c53b367aaa1077421eb51d5f4b05acdeaaf400f7c8c6dfceac9895ed"
+      }
+    ]
+  },
+  {
+    "file": "02-observation.webp",
+    "prompt": "Create ONE landscape 1536x1024 scientific natural-history reconstruction of Patiria miniata. A living orange bat star with five SHORT broad triangular arms joined by broad webbing, broad body pentagonal outline, rough finely plated textured dorsal orange skin, not long slender separated arms. All five tips present, no eyes on central disk. Pacific rock tidepool. Scene: whole specimen slightly curved on rock, low oblique view, broad webbed arms. Distinct gallery scene with clear structural observation, all relevant visible parts within frame. Use supplied reference sheet only to guide biological morphology, do not copy its grid, writing, labels, humans, hands, scale objects or image borders. Single coherent scene, realistic restrained underwater lighting and fine detail, no text, no labels, no logos, no decorative insets, no diagrams or collage. Depict no unsupported predators, prey captures or impossible anatomy.",
+    "references": [
+      {
+        "file": "bat-star-refs.jpg",
+        "sha256": "0c3275d0c53b367aaa1077421eb51d5f4b05acdeaaf400f7c8c6dfceac9895ed"
+      }
+    ]
+  },
+  {
+    "file": "03-observation.webp",
+    "prompt": "Create ONE landscape 1536x1024 scientific natural-history reconstruction of Patiria miniata. A living orange bat star with five SHORT broad triangular arms joined by broad webbing, broad body pentagonal outline, rough finely plated textured dorsal orange skin, not long slender separated arms. All five tips present, no eyes on central disk. Pacific rock tidepool. Scene: close dorsal view orange plated texture and broad webbed arm junctions, no microscopic inset. Distinct gallery scene with clear structural observation, all relevant visible parts within frame. Use supplied reference sheet only to guide biological morphology, do not copy its grid, writing, labels, humans, hands, scale objects or image borders. Single coherent scene, realistic restrained underwater lighting and fine detail, no text, no labels, no logos, no decorative insets, no diagrams or collage. Depict no unsupported predators, prey captures or impossible anatomy.",
+    "references": [
+      {
+        "file": "bat-star-refs.jpg",
+        "sha256": "0c3275d0c53b367aaa1077421eb51d5f4b05acdeaaf400f7c8c6dfceac9895ed"
+      }
+    ]
+  },
+  {
+    "file": "04-observation.webp",
+    "prompt": "Create ONE landscape 1536x1024 scientific natural-history reconstruction of Patiria miniata. A living orange bat star with five SHORT broad triangular arms joined by broad webbing, broad body pentagonal outline, rough finely plated textured dorsal orange skin, not long slender separated arms. All five tips present, no eyes on central disk. Pacific rock tidepool. Scene: complete orange specimen beside a purplish mottled specimen of same broad webbed shape on rocks. Distinct gallery scene with clear structural observation, all relevant visible parts within frame. Use supplied reference sheet only to guide biological morphology, do not copy its grid, writing, labels, humans, hands, scale objects or image borders. Single coherent scene, realistic restrained underwater lighting and fine detail, no text, no labels, no logos, no decorative insets, no diagrams or collage. Depict no unsupported predators, prey captures or impossible anatomy.",
+    "references": [
+      {
+        "file": "bat-star-refs.jpg",
+        "sha256": "0c3275d0c53b367aaa1077421eb51d5f4b05acdeaaf400f7c8c6dfceac9895ed"
+      }
+    ]
+  },
+  {
+    "file": "05-observation.webp",
+    "prompt": "Create ONE landscape 1536x1024 scientific natural-history reconstruction of Patiria miniata. A living orange bat star with five SHORT broad triangular arms joined by broad webbing, broad body pentagonal outline, rough finely plated textured dorsal orange skin, not long slender separated arms. All five tips present, no eyes on central disk. Pacific rock tidepool. Scene: complete specimen at waterline in shallow tidepool, natural rippled light. Distinct gallery scene with clear structural observation, all relevant visible parts within frame. Use supplied reference sheet only to guide biological morphology, do not copy its grid, writing, labels, humans, hands, scale objects or image borders. Single coherent scene, realistic restrained underwater lighting and fine detail, no text, no labels, no logos, no decorative insets, no diagrams or collage. Depict no unsupported predators, prey captures or impossible anatomy.",
+    "references": [
+      {
+        "file": "bat-star-refs.jpg",
+        "sha256": "0c3275d0c53b367aaa1077421eb51d5f4b05acdeaaf400f7c8c6dfceac9895ed"
+      }
+    ]
+  },
+  {
+    "file": "06-observation.webp",
+    "prompt": "Create ONE landscape 1536x1024 scientific natural-history reconstruction of Patiria miniata. A living orange bat star with five SHORT broad triangular arms joined by broad webbing, broad body pentagonal outline, rough finely plated textured dorsal orange skin, not long slender separated arms. All five tips present, no eyes on central disk. Pacific rock tidepool. Scene: whole pentagonal specimen overhead on rock with a little brown algae nearby, no feeding action. Distinct gallery scene with clear structural observation, all relevant visible parts within frame. Use supplied reference sheet only to guide biological morphology, do not copy its grid, writing, labels, humans, hands, scale objects or image borders. Single coherent scene, realistic restrained underwater lighting and fine detail, no text, no labels, no logos, no decorative insets, no diagrams or collage. Depict no unsupported predators, prey captures or impossible anatomy.",
+    "references": [
+      {
+        "file": "bat-star-refs.jpg",
+        "sha256": "0c3275d0c53b367aaa1077421eb51d5f4b05acdeaaf400f7c8c6dfceac9895ed"
+      }
+    ]
+  }
+]

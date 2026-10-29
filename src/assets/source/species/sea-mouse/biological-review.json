@@ -1,0 +1,50 @@
+{
+  "reviewedAt": "2026-10-29",
+  "status": "reviewed-reconstruction",
+  "reviewScope": "编辑性可见形态对照；不构成标本鉴定或专家审签",
+  "checks": [
+    "对照椭圆低厚体形、灰褐毛毡状背面、侧缘长刚毛与反射蓝绿金色。",
+    "不画鼠类脸、耳或肢；不把虹彩画成自发光，不把被毛毡遮住的背鳞编成外露鳞甲。"
+  ],
+  "referencePage": "https://www.marlin.ac.uk/species/detail/1697",
+  "referencePhotos": [
+    {
+      "url": "https://www.marlin.ac.uk/assets/images/marlin/species/web/o_aphacu.jpg",
+      "sha256": "eaf29d2862adbfa44c374723a83e0db2dd5001a14435dbc7bec6566818e4012c"
+    },
+    {
+      "url": "https://www.marlin.ac.uk/assets/images/marlin/species/web/o_aphacu6.jpg",
+      "sha256": "c25d8dab7051163d7e2e8b86568e8b7da5800900919c98564d533d3b752036ec"
+    },
+    {
+      "url": "https://www.marlin.ac.uk/assets/images/marlin/species/web/o_aphacu2.jpg",
+      "sha256": "9c841736993b60d6a7e9764e5da399563ca358a607e14f36dcee15d112e9428c"
+    }
+  ],
+  "assets": [
+    {
+      "file": "01-cover.webp",
+      "sha256": "930373523328a487ed4127302641c001f9848563e707015a0fa741c487f93e37"
+    },
+    {
+      "file": "02-observation.webp",
+      "sha256": "f8941323aec9293086409de5c2b1e286d43521609b7422cf3d53768f64c084ef"
+    },
+    {
+      "file": "03-observation.webp",
+      "sha256": "ce1f016e86bd62d9b692627526f3b465b0490793fd2cab768c12ec9340b4c678"
+    },
+    {
+      "file": "04-observation.webp",
+      "sha256": "6af5e211413b29fc71a6bd11d3c604ee53991e3f7e147fe23eb65e88d7a50a16"
+    },
+    {
+      "file": "05-observation.webp",
+      "sha256": "82fba3c8b2fec768605ccb35b2db264c6bba42de910db943c624b204ea61e2fb"
+    },
+    {
+      "file": "06-observation.webp",
+      "sha256": "6aa8b31a1a201083d7d80c115a42704dd5b09b0198f4b798b0ca0d44d90074c9"
+    }
+  ]
+}

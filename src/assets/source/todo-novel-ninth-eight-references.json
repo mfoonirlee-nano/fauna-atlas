@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-29",
+  "pages": [
+    {
+      "slug": "fragile-pink-sea-urchin",
+      "url": "https://www.mbari.org/animal/fragile-pink-sea-urchin/",
+      "sha256": "f7861bd895a376ae91715c0c5d1f4b0c18a8c560bcfe720f2a4f095338200c5d"
+    },
+    {
+      "slug": "ochre-sea-star",
+      "url": "https://inverts.wallawalla.edu/Echinodermata/Class%20Asteroidea/Pisaster_ochraceus.html",
+      "sha256": "86363963f5c3c90e2737490b13d3efee9057cf1f65168c234b1f48fa7fc5832a"
+    },
+    {
+      "slug": "eccentric-sand-dollar",
+      "url": "https://inverts.wallawalla.edu/Echinodermata/Class%20Echinoidea/Dendraster_excentricus.html",
+      "sha256": "033454e12a91dfd6cd953fcff440aa9e6dc2083ac478056d70ee5d71dcb90fd9"
+    },
+    {
+      "slug": "orange-sea-cucumber",
+      "url": "https://inverts.wallawalla.edu/Echinodermata/Class%20Holothuroidea/Cucumaria_miniata.html",
+      "sha256": "2f052fdba592c5d3b0f4e576d61982e31468068b22a598ddcfe2ca2aac1cb853"
+    },
+    {
+      "slug": "bat-star",
+      "url": "https://www.montereybayaquarium.org/animals/animals-a-to-z/bat-star",
+      "sha256": "77d3fb0cbb721df03bb810327460479cb819aa9b11a6de7a1f07cb72b591d789"
+    },
+    {
+      "slug": "sea-mouse",
+      "url": "https://www.marlin.ac.uk/species/detail/1697",
+      "sha256": "c06c2928d960c02f6018224b5477ee20cae297804132873fe50891d6d4d079d2"
+    },
+    {
+      "slug": "bearded-fireworm",
+      "url": "https://ns-polychaeta.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=78234",
+      "sha256": "aad7442e6a2387bca65b46eb69fd051a7e1050a100c5ddc8fbaae1501830cc31"
+    },
+    {
+      "slug": "mediterranean-fan-worm",
+      "url": "https://nimpis.marinepests.gov.au/species/species/70",
+      "sha256": "c31c08c9bb1994189179d13442aac54343640ce8e172c3f87fa8096a5a9bb268"
+    }
+  ],
+  "images": [
+    {
+      "slug": "fragile-pink-sea-urchin",
+      "url": "https://www.mbari.org/wp-content/uploads/Strongylocentrotus_fragilis_V3683_01_1800.jpg",
+      "sha256": "102395cdc905c60cc1855401d97aa9335a237f9bc74c418ab23581c38e2e501c"
+    },
+    {
+      "slug": "fragile-pink-sea-urchin",
+      "url": "https://www.mbari.org/wp-content/uploads/Strongylocentrotus_fragilis_V4585_01_1150.jpg",
+      "sha256": "bb4943aceacbf18ab096a6c09157779cb1e8cf80e3f62548cc28fa888a7d6903"
+    },
+    {
+      "slug": "fragile-pink-sea-urchin",
+      "url": "https://www.mbari.org/wp-content/uploads/Strongylocentrotus_fragilis_V4585_01_1150-1024x691.jpg",
+      "sha256": "586b72475bb7c46510deaff68eae5aeab088fb2cc923144561ac340f739c733e"
+    },
+    {
+      "slug": "ochre-sea-star",
+      "url": "https://inverts.wallawalla.edu/Echinodermata/Class%20Asteroidea/Pisaster_ochraceus_Melissa_McFadden.jpg",
+      "sha256": "2bcfb895256394354603b89dfc65f3fd462550c40920a7da8d739e6227941eed"
+    },
+    {
+      "slug": "ochre-sea-star",
+      "url": "https://inverts.wallawalla.edu/Echinodermata/Class%20Asteroidea/Pisaster%20Predate%20mussels.jpg",
+      "sha256": "76fee01091c0bbbe71cdfa8662fab69979be7b0419ed4e33b872e4ef3e5fe5e5"
+    },
+    {
+      "slug": "ochre-sea-star",
+      "url": "https://inverts.wallawalla.edu/Echinodermata/Class%20Asteroidea/Pisaster_surrounding_Mytilus_DLC2012-02s.jpg",
+      "sha256": "ae8b68a0c88985e3542479d69a9acdc1285e13448dc7a5be67b3f53272145179"
+    },
+    {
+      "slug": "eccentric-sand-dollar",
+      "url": "https://inverts.wallawalla.edu/Echinodermata/Class%20Echinoidea/Dendraster_excentricus02sDLC2006.jpg",
+      "sha256": "11462d9d1b47e88ee75b6b85b750af278cbf1910ab036e0e2d329b526df43abd"
+    },
+    {
+      "slug": "eccentric-sand-dollar",
+      "url": "https://inverts.wallawalla.edu/Echinodermata/Class%20Echinoidea/Dendraster_excentricusShellAboral2sDLC2006.jpg",
+      "sha256": "0c589b6e95b61bba76bd1b30887a82e899536188596b794291bc28cdd20f7741"
+    },
+    {
+      "slug": "eccentric-sand-dollar",
+      "url": "https://inverts.wallawalla.edu/Echinodermata/Class%20Echinoidea/Dendraster_excentricus_Aboral_DLC2020-02s.jpg",
+      "sha256": "b3ddbbc0b429fbbe263c9a452edc1c596797d4fb1f8ecfc47e3ee0d248771571"
+    },
+    {
+      "slug": "orange-sea-cucumber",
+      "url": "https://inverts.wallawalla.edu/Echinodermata/Class%20Holothuroidea/Cucumaria_miniata_Kelly_Williams.jpg",
+      "sha256": "bd8eb712c9696db3f3ac3f3c9cec6ec31cb0a527a02e7d2cecf791f11134954a"
+    },
+    {
+      "slug": "orange-sea-cucumber",
+      "url": "https://inverts.wallawalla.edu/Echinodermata/Class%20Holothuroidea/Cucumaria_miniataDLC1995.jpg",
+      "sha256": "d84682750255f6c4bded0dd94e6f410f24255b7bbd9ca19f2cec3f9759d4ec2a"
+    },
+    {
+      "slug": "orange-sea-cucumber",
+      "url": "https://inverts.wallawalla.edu/Echinodermata/Class%20Holothuroidea/Cucumaria_miniata_Feeding_DLC2014-01s.jpg",
+      "sha256": "9dbe206d70cd57d369fc4235d8bc23dc4456c33211dfcbfee9f75f40b856e320"
+    },
+    {
+      "slug": "bat-star",
+      "url": "https://assets.montereybayaquarium.org/general/images/animals/invertebrates/bat-star-TR18-0134-flipped.png?mode=crop&pos=center-center&w=440&h=293&c=49dea137&v=8fc9511be3fa73a8c2414d9d64f843bff07adaa09c042b0d9971a350eca4b5d6",
+      "sha256": "c10edcd2e93d14983e9099b2f97115be028112ea45930cf4dc4c62916bedacb3"
+    },
+    {
+      "slug": "bat-star",
+      "url": "https://d1v5k86lqgwnzg.cloudfront.net/assets/images/animals/invertebrates/bat-star-TR24-0184.png",
+      "sha256": "c02b640a4f1163bf6e918a62edff9d03a9d4d9a92953558a5d94dbb544345aa7"
+    },
+    {
+      "slug": "sea-mouse",
+      "url": "https://www.marlin.ac.uk/assets/images/marlin/species/web/o_aphacu.jpg",
+      "sha256": "eaf29d2862adbfa44c374723a83e0db2dd5001a14435dbc7bec6566818e4012c"
+    },
+    {
+      "slug": "sea-mouse",
+      "url": "https://www.marlin.ac.uk/assets/images/marlin/species/web/o_aphacu6.jpg",
+      "sha256": "c25d8dab7051163d7e2e8b86568e8b7da5800900919c98564d533d3b752036ec"
+    },
+    {
+      "slug": "sea-mouse",
+      "url": "https://www.marlin.ac.uk/assets/images/marlin/species/web/o_aphacu2.jpg",
+      "sha256": "9c841736993b60d6a7e9764e5da399563ca358a607e14f36dcee15d112e9428c"
+    },
+    {
+      "slug": "mediterranean-fan-worm",
+      "url": "https://nimpis.marinepests.gov.au/userfiles/images/117.jpg",
+      "sha256": "47ebf9b83eb564cec57bfbd4ca0415faedb23eafd4ff3f0f1b6b016e35cd3da6"
+    },
+    {
+      "slug": "mediterranean-fan-worm",
+      "url": "https://nimpis.marinepests.gov.au/userfiles/images/134.JPG",
+      "sha256": "66be3692109c0f6049629d24ef47dbc8e290c31bd2cbb029ee795b82c2fb2e26"
+    },
+    {
+      "slug": "bearded-fireworm",
+      "url": "https://resourcespace.naturalis.nl/filestore/7/7/6/0/5_843ff35a822c36b/77605_d2813d3b9c526bc.jpg?v=2016-06-17+13%3A32%3A45",
+      "sha256": "f3299d15b7bf92b4a011dd0a5d9f78f568b744d0d0570068968ff8a34d2157b0"
+    },
+    {
+      "slug": "bearded-fireworm",
+      "url": "https://resourcespace.naturalis.nl/filestore/7/7/6/0/2_3e0f20a35b45ee7/77602_3d825d6fd21d86f.jpg?v=2016-06-17+13%3A32%3A45",
+      "sha256": "d000eea1da766322bb1b7af7326ecc17c91187698664abd2e8098b8ba1f1740f"
+    },
+    {
+      "slug": "bearded-fireworm",
+      "url": "https://resourcespace.naturalis.nl/filestore/7/7/6/0/0_8d18a79aa47f8b7/77600_ed643c7f6ecb8e1.jpg?v=2016-06-17+13%3A32%3A44",
+      "sha256": "2900b901ed4960776ed9e8881d18c1e4e54fde118344961056c926f1f13dc663"
+    }
+  ],
+  "limits": "自然照片仅作形态对照。胡须火焰虫仅使用 Naturalis 历史结构图与文字；未下载或采用 Commons 自然照片，未将其当作来源。",
+  "additionalEvidence": [
+    {
+      "slug": "mediterranean-fan-worm",
+      "url": "https://nimpis.marinepests.gov.au/species/downloadspecies/70",
+      "sha256": "1fd112becb46c0d574e45a818ec1adb51b7ef5ad89f9546329778cd35c235f0e",
+      "format": "XLSX; cells decoded from XML without executing macros",
+      "supports": "Feeding: suspended matter, phytoplankton and zooplankton; suspension feeder. Profile conservatively retains suspended particles rather than claiming a particular prey species."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "reviewedAt": "2026-10-29",
+  "status": "reviewed-reconstruction",
+  "reviewScope": "编辑性可见形态对照；不构成标本鉴定或专家审签",
+  "checks": [
+    "对照 Naturalis 历史结构图与颜色描述中的重复体节、白色侧刚毛、红色分枝鳃、前端肉阜。",
+    "参考为历史结构插图及文字，非自然照片；生成色彩不声称摄影实测。没有假显微插图、昆虫足、火焰或虚构猎物。"
+  ],
+  "referencePage": "https://ns-polychaeta.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=78234",
+  "assets": [
+    {
+      "file": "01-cover.webp",
+      "sha256": "c5dc8aee154cf53e89ea98f16c74a5e8bf5e23fa8d54686bf02d3364a7edc8e5"
+    },
+    {
+      "file": "02-observation.webp",
+      "sha256": "2d4419bebd3d71fcc039ed04426718599cb92d8c34e2e5d23621a06f7c9e1464"
+    },
+    {
+      "file": "03-observation.webp",
+      "sha256": "f7ea3ec4eb63efafcf70316343a9147a49b08d8b7b4b2c2a8156ec869e5f209b"
+    },
+    {
+      "file": "04-observation.webp",
+      "sha256": "b49a3d29137aa4649983c8ed43c8c383335b8a124cf27deaad962150f243b8a5"
+    },
+    {
+      "file": "05-observation.webp",
+      "sha256": "5130cd88b700114be5c59177ef2d0e9936bb5121dc24a47743c58f5042f4eb17"
+    },
+    {
+      "file": "06-observation.webp",
+      "sha256": "0ec251e2ce54a20cbe382e29844be1ea7239fb4d50e58851814daafa25ee8553"
+    }
+  ],
+  "referenceImages": [
+    {
+      "url": "https://resourcespace.naturalis.nl/filestore/7/7/6/0/5_843ff35a822c36b/77605_d2813d3b9c526bc.jpg?v=2016-06-17+13%3A32%3A45",
+      "sha256": "f3299d15b7bf92b4a011dd0a5d9f78f568b744d0d0570068968ff8a34d2157b0"
+    },
+    {
+      "url": "https://resourcespace.naturalis.nl/filestore/7/7/6/0/2_3e0f20a35b45ee7/77602_3d825d6fd21d86f.jpg?v=2016-06-17+13%3A32%3A45",
+      "sha256": "d000eea1da766322bb1b7af7326ecc17c91187698664abd2e8098b8ba1f1740f"
+    },
+    {
+      "url": "https://resourcespace.naturalis.nl/filestore/7/7/6/0/0_8d18a79aa47f8b7/77600_ed643c7f6ecb8e1.jpg?v=2016-06-17+13%3A32%3A44",
+      "sha256": "2900b901ed4960776ed9e8881d18c1e4e54fde118344961056c926f1f13dc663"
+    }
+  ],
+  "referenceKind": "Naturalis 历史结构插图与形态文字；非自然照片"
+}

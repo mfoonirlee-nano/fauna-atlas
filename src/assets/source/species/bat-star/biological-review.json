@@ -1,0 +1,46 @@
+{
+  "reviewedAt": "2026-10-29",
+  "status": "reviewed-reconstruction",
+  "reviewScope": "编辑性可见形态对照；不构成标本鉴定或专家审签",
+  "checks": [
+    "对照短三角腕、宽阔腕间组织、粗糙橙色背面；与长腕海星分开。",
+    "体色与常见五腕不代表全部个体；不将腹面管足画在背部中央。"
+  ],
+  "referencePage": "https://www.montereybayaquarium.org/animals/animals-a-to-z/bat-star",
+  "referencePhotos": [
+    {
+      "url": "https://assets.montereybayaquarium.org/general/images/animals/invertebrates/bat-star-TR18-0134-flipped.png?mode=crop&pos=center-center&w=440&h=293&c=49dea137&v=8fc9511be3fa73a8c2414d9d64f843bff07adaa09c042b0d9971a350eca4b5d6",
+      "sha256": "c10edcd2e93d14983e9099b2f97115be028112ea45930cf4dc4c62916bedacb3"
+    },
+    {
+      "url": "https://d1v5k86lqgwnzg.cloudfront.net/assets/images/animals/invertebrates/bat-star-TR24-0184.png",
+      "sha256": "c02b640a4f1163bf6e918a62edff9d03a9d4d9a92953558a5d94dbb544345aa7"
+    }
+  ],
+  "assets": [
+    {
+      "file": "01-cover.webp",
+      "sha256": "9281b835c1ea11057c3bbd05bfcd6d16e9c990a20d82fa4edc19df80054342c6"
+    },
+    {
+      "file": "02-observation.webp",
+      "sha256": "b36cb4649435efd9e5ddc9ba00fba403e373ead06686d4bddac0a7f585baa8bc"
+    },
+    {
+      "file": "03-observation.webp",
+      "sha256": "94c7f91570b52c3a5202e187978001c23d31196d1388b4884343041160eb4269"
+    },
+    {
+      "file": "04-observation.webp",
+      "sha256": "fb6249ce4aef14daa6722f1859d7f4e56692757d2677dd8ab4f9f08dfcd10dee"
+    },
+    {
+      "file": "05-observation.webp",
+      "sha256": "4f992bf94b554bb0a9b1e8c842e36d7119dcbd183df7e404925e3c4835737814"
+    },
+    {
+      "file": "06-observation.webp",
+      "sha256": "2d9a7f1d720c2126b1131c6b9f13df38978ea76c31fe175bd966011db87a5319"
+    }
+  ]
+}

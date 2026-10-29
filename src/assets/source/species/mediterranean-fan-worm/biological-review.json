@@ -1,0 +1,46 @@
+{
+  "reviewedAt": "2026-10-29",
+  "status": "reviewed-reconstruction",
+  "reviewScope": "编辑性可见形态对照；不构成标本鉴定或专家审签",
+  "checks": [
+    "对照皮革状管和相连的两侧叶鳃冠；一侧螺旋，另一侧较小半圆，不是对称双锥。",
+    "主羽状辐射丝带细侧枝，颜色可有带纹；未加无参考硬厣，不将群居画成共享同一动物身体。"
+  ],
+  "referencePage": "https://nimpis.marinepests.gov.au/species/species/70",
+  "referencePhotos": [
+    {
+      "url": "https://nimpis.marinepests.gov.au/userfiles/images/117.jpg",
+      "sha256": "47ebf9b83eb564cec57bfbd4ca0415faedb23eafd4ff3f0f1b6b016e35cd3da6"
+    },
+    {
+      "url": "https://nimpis.marinepests.gov.au/userfiles/images/134.JPG",
+      "sha256": "66be3692109c0f6049629d24ef47dbc8e290c31bd2cbb029ee795b82c2fb2e26"
+    }
+  ],
+  "assets": [
+    {
+      "file": "01-cover.webp",
+      "sha256": "cb9a318013cf13d992339a26bda15fe1fd987dd4e2b3a893b061e9abd9761bc8"
+    },
+    {
+      "file": "02-observation.webp",
+      "sha256": "cccd682da473d541f75155dbef519b8c089a85ed272e44cc2f858805264be585"
+    },
+    {
+      "file": "03-observation.webp",
+      "sha256": "f0d8c6f7ed03e37395ca9c493781c5b8e9e4c78a4bb189346bb8edcd9f1c2e7e"
+    },
+    {
+      "file": "04-observation.webp",
+      "sha256": "c5e5a9d0e1e0ac546bbe245bfc5e5069dffd55fcad42070ea3fc30e1ff4b9a84"
+    },
+    {
+      "file": "05-observation.webp",
+      "sha256": "ac81f900dff63a2d93b9e9cf28fed204062e8254a5878ac6c5e8ef7ec02bdfb4"
+    },
+    {
+      "file": "06-observation.webp",
+      "sha256": "6692395f2f5e289e453282943ae5bad6ebe9d47d212a8b0014e9849404da4913"
+    }
+  ]
+}

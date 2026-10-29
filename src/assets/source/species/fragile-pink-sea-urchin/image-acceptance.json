@@ -1,0 +1,80 @@
+[
+  {
+    "file": "01-cover.webp",
+    "sourceDimensions": [
+      1536,
+      1024
+    ],
+    "runtimeDimensions": [
+      1536,
+      1024
+    ],
+    "sourceSha256": "5a7402f9dbc87529b5de7c0bce480dfa3d4567a09312f26f4641a855c23665aa",
+    "runtimeSha256": "2ba0a37f19da051e2325fe06d0097b47197f6f7801c5496c50402860de160c47"
+  },
+  {
+    "file": "02-observation.webp",
+    "sourceDimensions": [
+      1536,
+      1024
+    ],
+    "runtimeDimensions": [
+      1536,
+      1024
+    ],
+    "sourceSha256": "1eaef8cb00588841287a7294bbc1c4506f1330ea0dd1c12a31f18081f4812df1",
+    "runtimeSha256": "46d9da1e8b25f9edf0c038b70f5a8b3382d35a4ce1d0b1ce31477650366add2d"
+  },
+  {
+    "file": "03-observation.webp",
+    "sourceDimensions": [
+      1536,
+      1024
+    ],
+    "runtimeDimensions": [
+      1536,
+      1024
+    ],
+    "sourceSha256": "7af87053514a092249fd21aa757605bf6558f53cc16acc23b4b4718b59dc3b29",
+    "runtimeSha256": "693051a52fbe48c4c2d286bb4aa2f9b81ff45a73374ef04985f171e6b43424bc"
+  },
+  {
+    "file": "04-observation.webp",
+    "sourceDimensions": [
+      1536,
+      1024
+    ],
+    "runtimeDimensions": [
+      1536,
+      1024
+    ],
+    "sourceSha256": "a63422a636af629720e293beb0ad697f1b5017c4468fd451c6c65a36e9f646d9",
+    "runtimeSha256": "17b58507ddea764314c7781b375d797c24a15a2a92e079640fd7ba3b51a4f88e"
+  },
+  {
+    "file": "05-observation.webp",
+    "sourceDimensions": [
+      1536,
+      1024
+    ],
+    "runtimeDimensions": [
+      1536,
+      1024
+    ],
+    "sourceSha256": "cb49b663ab6673ffb8873be8bf137c04080b388271a7104608549c88c70b5aac",
+    "runtimeSha256": "2eb074bd804ebe3d8ecd8b94c9186406823e68b94ca71ab47a6f2888ca1e19ce"
+  },
+  {
+    "file": "06-observation.webp",
+    "sourceDimensions": [
+      1536,
+      1024
+    ],
+    "runtimeDimensions": [
+      1536,
+      1024
+    ],
+    "sourceSha256": "e528a1b76f0b4d954689a955b1621a7053f600a11429690374bc1c55141238ed",
+    "runtimeSha256": "32adefbfb479de4e472541a68b6a29091d278bd1d4847012dde214b8165861e2"
+  }
+]

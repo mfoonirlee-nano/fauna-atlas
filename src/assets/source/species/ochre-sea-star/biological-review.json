@@ -1,0 +1,50 @@
+{
+  "reviewedAt": "2026-10-29",
+  "status": "reviewed-reconstruction",
+  "reviewScope": "编辑性可见形态对照；不构成标本鉴定或专家审签",
+  "checks": [
+    "对照粗壮渐尖的腕、较宽体盘与浅色网状背棘；橙色与紫色均有参考。",
+    "五腕为常见姿态，不声称所有个体固定五腕；没有无参考的外翻胃图。"
+  ],
+  "referencePage": "https://inverts.wallawalla.edu/Echinodermata/Class%20Asteroidea/Pisaster_ochraceus.html",
+  "referencePhotos": [
+    {
+      "url": "https://inverts.wallawalla.edu/Echinodermata/Class%20Asteroidea/Pisaster_ochraceus_Melissa_McFadden.jpg",
+      "sha256": "2bcfb895256394354603b89dfc65f3fd462550c40920a7da8d739e6227941eed"
+    },
+    {
+      "url": "https://inverts.wallawalla.edu/Echinodermata/Class%20Asteroidea/Pisaster%20Predate%20mussels.jpg",
+      "sha256": "76fee01091c0bbbe71cdfa8662fab69979be7b0419ed4e33b872e4ef3e5fe5e5"
+    },
+    {
+      "url": "https://inverts.wallawalla.edu/Echinodermata/Class%20Asteroidea/Pisaster_surrounding_Mytilus_DLC2012-02s.jpg",
+      "sha256": "ae8b68a0c88985e3542479d69a9acdc1285e13448dc7a5be67b3f53272145179"
+    }
+  ],
+  "assets": [
+    {
+      "file": "01-cover.webp",
+      "sha256": "3248438c948fd10bd0c160250664aaac787f9f0ec04ed8e20289c13b1c00d1ae"
+    },
+    {
+      "file": "02-observation.webp",
+      "sha256": "de252d3baab62ba97d3d545a00a022bf311630f5b00fe23f244712f2e35f1ff6"
+    },
+    {
+      "file": "03-observation.webp",
+      "sha256": "51c55496a458658765eb3012cefe3d35a8f498908a4c7b0f58b7b471b63a2556"
+    },
+    {
+      "file": "04-observation.webp",
+      "sha256": "83b74a320377f747b2db50ee0f910daea93b6300b4be7a8f8a963c84c80b1117"
+    },
+    {
+      "file": "05-observation.webp",
+      "sha256": "01fd4a7964cf2192024afbfaddf3a14bce1ef87be056a5d5385fc41c34823455"
+    },
+    {
+      "file": "06-observation.webp",
+      "sha256": "3148929267617d2c25419fe35701c0209845ffb312ab2ec4a75de1140dc8f1cd"
+    }
+  ]
+}
