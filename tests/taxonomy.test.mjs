@@ -24382,7 +24382,7 @@ test('extinct profiles distinguish historical records from assessments and recon
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 840);
+  assert.equal(species.length, 848);
   assert.equal(findTaxon(tree, 'order', 'Cestida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Cestidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Discodorididae')?.speciesCount, 1);
@@ -24406,38 +24406,38 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'family', 'Agalmatidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Scleralcyonacea')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Coralliidae')?.speciesCount, 2);
-  assert.equal(findTaxon(tree, 'order', 'Dendrochirotida')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Dendrochirotida')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Psolidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Physaliidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Physalia')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Echinodermata')?.speciesCount, 13);
+  assert.equal(findTaxon(tree, 'phylum', 'Echinodermata')?.speciesCount, 18);
   assert.equal(findTaxon(tree, 'class', 'Crinoidea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Comatulida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Antedonidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Antedon')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Echinoidea')?.speciesCount, 2);
-  assert.equal(findTaxon(tree, 'order', 'Camarodonta')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'family', 'Strongylocentrotidae')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'genus', 'Strongylocentrotus')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'class', 'Echinoidea')?.speciesCount, 4);
+  assert.equal(findTaxon(tree, 'order', 'Camarodonta')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'family', 'Strongylocentrotidae')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'genus', 'Strongylocentrotus')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'class', 'Ophiuroidea')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'order', 'Amphilepidida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Ophiotrichidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Ophiothrix')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Asteroidea')?.speciesCount, 4);
-  assert.equal(findTaxon(tree, 'order', 'Valvatida')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'class', 'Asteroidea')?.speciesCount, 6);
+  assert.equal(findTaxon(tree, 'order', 'Valvatida')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Acanthasteridae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Acanthaster')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Holothuroidea')?.speciesCount, 4);
+  assert.equal(findTaxon(tree, 'class', 'Holothuroidea')?.speciesCount, 5);
   assert.equal(findTaxon(tree, 'order', 'Synallactida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Stichopodidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Apostichopus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Annelida')?.speciesCount, 9);
+  assert.equal(findTaxon(tree, 'phylum', 'Annelida')?.speciesCount, 12);
   assert.equal(findTaxon(tree, 'class', 'Clitellata')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'order', 'Crassiclitellata')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Megascolecidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Megascolides')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Polychaeta')?.speciesCount, 6);
-  assert.equal(findTaxon(tree, 'order', 'Sabellida')?.speciesCount, 3);
+  assert.equal(findTaxon(tree, 'class', 'Polychaeta')?.speciesCount, 9);
+  assert.equal(findTaxon(tree, 'order', 'Sabellida')?.speciesCount, 4);
   assert.equal(findTaxon(tree, 'family', 'Siboglinidae')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'genus', 'Riftia')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'phylum', 'Brachiopoda')?.speciesCount, 1);
@@ -24576,7 +24576,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 840);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 848);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -25377,7 +25377,7 @@ test('integrates bobbit worm on the eunicidan branch with scoped distribution an
     'Animalia', 'Annelida', 'Polychaeta', 'Eunicida', 'Eunicidae', 'Eunice',
   ]);
   assert.equal(findTaxon(tree, 'genus', 'Eunice')?.children[0]?.species.id, profile.id);
-  assert.equal(findTaxon(tree, 'class', 'Polychaeta')?.speciesCount, 6);
+  assert.equal(findTaxon(tree, 'class', 'Polychaeta')?.speciesCount, 9);
   assert.equal(profile.distribution.endemicTo, undefined, 'a study locality is not an endemic range');
   assert.equal(profile.metrics.adultLengthCm, undefined, 'unverified giant worms do not define this species length');
   assert.equal(profile.conservation.code, 'NE');
@@ -27541,4 +27541,40 @@ test('eighth novel batch keeps uncertain diets, coral colonies and deep-sea iden
   assert.match(animalCopy(findSpecies('bubblegum-coral')), /海底植物/);
   assert.match(animalCopy(findSpecies('armored-sea-cucumber')), /钙质硬板/);
   assert.match(findSpecies('california-sun-star').distribution.range, /阿拉斯加南部/);
+});
+
+test('ninth novel batch preserves eight distinct accepted identities and evidence limits', () => {
+  const expected = [
+    ['fragile-pink-sea-urchin', 'Strongylocentrotus fragilis', 'Strongylocentrotidae'],
+    ['ochre-sea-star', 'Pisaster ochraceus', 'Asteriidae'],
+    ['eccentric-sand-dollar', 'Dendraster excentricus', 'Dendrasteridae'],
+    ['orange-sea-cucumber', 'Cucumaria miniata', 'Cucumariidae'],
+    ['bat-star', 'Patiria miniata', 'Asterinidae'],
+    ['sea-mouse', 'Aphrodita aculeata', 'Aphroditidae'],
+    ['bearded-fireworm', 'Hermodice carunculata', 'Amphinomidae'],
+    ['mediterranean-fan-worm', 'Sabella spallanzanii', 'Sabellidae'],
+  ];
+  for (const [slug, name, family] of expected) {
+    const matches = species.filter((item) => item.scientificName === name);
+    assert.equal(matches.length, 1, name);
+    const item = matches[0];
+    assert.equal(item.slug, slug);
+    assert.equal(item.taxonomy.family.scientificName, family);
+    assert.equal(item.conservation.code, 'UNVERIFIED');
+    assert.equal(item.conservation.trend, 'unknown');
+    assert.equal(item.conservation.assessedYear, undefined);
+    assert.equal(item.pendingMedia, undefined);
+    assert.equal(item.media.gallery.length, 5);
+    assert.equal(new Set([item.media.image, ...item.media.gallery.map((entry) => entry.image)]).size, 6);
+  }
+  const get = (slug) => species.find((item) => item.slug === slug);
+  assert.equal(get('eccentric-sand-dollar').taxonomy.order.scientificName, 'Echinolampadacea');
+  assert.match(get('eccentric-sand-dollar').description, /空壳/);
+  assert.match(get('orange-sea-cucumber').description, /十根/);
+  assert.match(get('bat-star').description, /宽阔/);
+  assert.match(get('sea-mouse').storySections.find(({ key }) => key === 'bristles').body, /不是自己发光/);
+  assert.deepEqual(get('bearded-fireworm').diet.foods, []);
+  assert.deepEqual(get('bearded-fireworm').diet.types, []);
+  assert.match(get('mediterranean-fan-worm').distribution.range, /引入/);
+  assert.match(get('mediterranean-fan-worm').description, /一侧明显螺旋/);
 });

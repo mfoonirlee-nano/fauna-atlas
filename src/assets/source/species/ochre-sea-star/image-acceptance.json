@@ -1,0 +1,80 @@
+[
+  {
+    "file": "01-cover.webp",
+    "sourceDimensions": [
+      1536,
+      1024
+    ],
+    "runtimeDimensions": [
+      1536,
+      1024
+    ],
+    "sourceSha256": "6b5bec35e8d294299c885e5808b3b01439c6054e64c78a9087213553abd06986",
+    "runtimeSha256": "3248438c948fd10bd0c160250664aaac787f9f0ec04ed8e20289c13b1c00d1ae"
+  },
+  {
+    "file": "02-observation.webp",
+    "sourceDimensions": [
+      1536,
+      1024
+    ],
+    "runtimeDimensions": [
+      1536,
+      1024
+    ],
+    "sourceSha256": "1bc061984cb6e941e4ff23328138e6e32cb29487b2b5098fd6484c456680490d",
+    "runtimeSha256": "de252d3baab62ba97d3d545a00a022bf311630f5b00fe23f244712f2e35f1ff6"
+  },
+  {
+    "file": "03-observation.webp",
+    "sourceDimensions": [
+      1536,
+      1024
+    ],
+    "runtimeDimensions": [
+      1536,
+      1024
+    ],
+    "sourceSha256": "e6cc720aaa0d9c74a7f13a4433a2268f506ffa41ce228b052f775495a68714de",
+    "runtimeSha256": "51c55496a458658765eb3012cefe3d35a8f498908a4c7b0f58b7b471b63a2556"
+  },
+  {
+    "file": "04-observation.webp",
+    "sourceDimensions": [
+      1536,
+      1024
+    ],
+    "runtimeDimensions": [
+      1536,
+      1024
+    ],
+    "sourceSha256": "d4a8a1feb8da795f53e830bbb2d0d41ff9b619bd0400b6837b9d0c3574280f87",
+    "runtimeSha256": "83b74a320377f747b2db50ee0f910daea93b6300b4be7a8f8a963c84c80b1117"
+  },
+  {
+    "file": "05-observation.webp",
+    "sourceDimensions": [
+      1536,
+      1024
+    ],
+    "runtimeDimensions": [
+      1536,
+      1024
+    ],
+    "sourceSha256": "ee29ae2ae7030bc394f1822fb6a8ec97b2bfdd6f9515fe5f054e1a8d0c4d2f41",
+    "runtimeSha256": "01fd4a7964cf2192024afbfaddf3a14bce1ef87be056a5d5385fc41c34823455"
+  },
+  {
+    "file": "06-observation.webp",
+    "sourceDimensions": [
+      1536,
+      1024
+    ],
+    "runtimeDimensions": [
+      1536,
+      1024
+    ],
+    "sourceSha256": "06f19bd2b22c0074e0808b291951cc49f2a3309926b1a4c94602ee4ef673d95a",
+    "runtimeSha256": "3148929267617d2c25419fe35701c0209845ffb312ab2ec4a75de1140dc8f1cd"
+  }
+]

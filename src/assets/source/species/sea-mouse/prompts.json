@@ -1,0 +1,62 @@
+[
+  {
+    "file": "01-cover.webp",
+    "prompt": "Create ONE landscape 1536x1024 scientific natural-history reconstruction of Aphrodita aculeata. Sea mouse polychaete, oval flattened thick worm with domed back covered in grey-brown muddy felt of fine chaetae, a long shaggy lateral fringe of darker bristles and green-blue-gold iridescent thin bristles. Head obscured under felt with subtle anterior palps, no mammalian face, no eyes visible, no ears or legs or shell. On muddy sand underwater. Rainbow is reflected light, NOT self emitting glow. Scene: whole oval animal in oblique dorsal view with entire long side bristle fringe. COVER composition: complete subject including every spine, bristle, arm tip, crown ray and tube base. Primary subject centered x=66%, y=50%, as LARGE as possible within x=35%..95%, y=7%..93%; leave genuine background all around all extremities, quiet low-detail left40%. No cropped appendages. Use supplied reference sheet only to guide biological morphology, do not copy its grid, writing, labels, humans, hands, scale objects or image borders. Single coherent scene, realistic restrained underwater lighting and fine detail, no text, no labels, no logos, no decorative insets, no diagrams or collage. Depict no unsupported predators, prey captures or impossible anatomy.",
+    "references": [
+      {
+        "file": "sea-mouse-refs.jpg",
+        "sha256": "78c3b8ab0a8056be22806a49bf13e52a4ac6b9e61a2ccece8191a6078f7d9c95"
+      }
+    ]
+  },
+  {
+    "file": "02-observation.webp",
+    "prompt": "Create ONE landscape 1536x1024 scientific natural-history reconstruction of Aphrodita aculeata. Sea mouse polychaete, oval flattened thick worm with domed back covered in grey-brown muddy felt of fine chaetae, a long shaggy lateral fringe of darker bristles and green-blue-gold iridescent thin bristles. Head obscured under felt with subtle anterior palps, no mammalian face, no eyes visible, no ears or legs or shell. On muddy sand underwater. Rainbow is reflected light, NOT self emitting glow. Scene: whole animal dorsal view slightly dusted with mud, colorful edge bristles. Distinct gallery scene with clear structural observation, all relevant visible parts within frame. Use supplied reference sheet only to guide biological morphology, do not copy its grid, writing, labels, humans, hands, scale objects or image borders. Single coherent scene, realistic restrained underwater lighting and fine detail, no text, no labels, no logos, no decorative insets, no diagrams or collage. Depict no unsupported predators, prey captures or impossible anatomy.",
+    "references": [
+      {
+        "file": "sea-mouse-refs.jpg",
+        "sha256": "78c3b8ab0a8056be22806a49bf13e52a4ac6b9e61a2ccece8191a6078f7d9c95"
+      }
+    ]
+  },
+  {
+    "file": "03-observation.webp",
+    "prompt": "Create ONE landscape 1536x1024 scientific natural-history reconstruction of Aphrodita aculeata. Sea mouse polychaete, oval flattened thick worm with domed back covered in grey-brown muddy felt of fine chaetae, a long shaggy lateral fringe of darker bristles and green-blue-gold iridescent thin bristles. Head obscured under felt with subtle anterior palps, no mammalian face, no eyes visible, no ears or legs or shell. On muddy sand underwater. Rainbow is reflected light, NOT self emitting glow. Scene: close side view natural iridescent bristles along edge and felted dorsal mat, no anatomy inset. Distinct gallery scene with clear structural observation, all relevant visible parts within frame. Use supplied reference sheet only to guide biological morphology, do not copy its grid, writing, labels, humans, hands, scale objects or image borders. Single coherent scene, realistic restrained underwater lighting and fine detail, no text, no labels, no logos, no decorative insets, no diagrams or collage. Depict no unsupported predators, prey captures or impossible anatomy.",
+    "references": [
+      {
+        "file": "sea-mouse-refs.jpg",
+        "sha256": "78c3b8ab0a8056be22806a49bf13e52a4ac6b9e61a2ccece8191a6078f7d9c95"
+      }
+    ]
+  },
+  {
+    "file": "04-observation.webp",
+    "prompt": "Create ONE landscape 1536x1024 scientific natural-history reconstruction of Aphrodita aculeata. Sea mouse polychaete, oval flattened thick worm with domed back covered in grey-brown muddy felt of fine chaetae, a long shaggy lateral fringe of darker bristles and green-blue-gold iridescent thin bristles. Head obscured under felt with subtle anterior palps, no mammalian face, no eyes visible, no ears or legs or shell. On muddy sand underwater. Rainbow is reflected light, NOT self emitting glow. Scene: whole animal partly nestled in shallow sediment with fringe still visible. Distinct gallery scene with clear structural observation, all relevant visible parts within frame. Use supplied reference sheet only to guide biological morphology, do not copy its grid, writing, labels, humans, hands, scale objects or image borders. Single coherent scene, realistic restrained underwater lighting and fine detail, no text, no labels, no logos, no decorative insets, no diagrams or collage. Depict no unsupported predators, prey captures or impossible anatomy.",
+    "references": [
+      {
+        "file": "sea-mouse-refs.jpg",
+        "sha256": "78c3b8ab0a8056be22806a49bf13e52a4ac6b9e61a2ccece8191a6078f7d9c95"
+      }
+    ]
+  },
+  {
+    "file": "05-observation.webp",
+    "prompt": "Create ONE landscape 1536x1024 scientific natural-history reconstruction of Aphrodita aculeata. Sea mouse polychaete, oval flattened thick worm with domed back covered in grey-brown muddy felt of fine chaetae, a long shaggy lateral fringe of darker bristles and green-blue-gold iridescent thin bristles. Head obscured under felt with subtle anterior palps, no mammalian face, no eyes visible, no ears or legs or shell. On muddy sand underwater. Rainbow is reflected light, NOT self emitting glow. Scene: whole animal at low side angle showing thick oval profile and iridescent lateral bristles. Distinct gallery scene with clear structural observation, all relevant visible parts within frame. Use supplied reference sheet only to guide biological morphology, do not copy its grid, writing, labels, humans, hands, scale objects or image borders. Single coherent scene, realistic restrained underwater lighting and fine detail, no text, no labels, no logos, no decorative insets, no diagrams or collage. Depict no unsupported predators, prey captures or impossible anatomy.",
+    "references": [
+      {
+        "file": "sea-mouse-refs.jpg",
+        "sha256": "78c3b8ab0a8056be22806a49bf13e52a4ac6b9e61a2ccece8191a6078f7d9c95"
+      }
+    ]
+  },
+  {
+    "file": "06-observation.webp",
+    "prompt": "Create ONE landscape 1536x1024 scientific natural-history reconstruction of Aphrodita aculeata. Sea mouse polychaete, oval flattened thick worm with domed back covered in grey-brown muddy felt of fine chaetae, a long shaggy lateral fringe of darker bristles and green-blue-gold iridescent thin bristles. Head obscured under felt with subtle anterior palps, no mammalian face, no eyes visible, no ears or legs or shell. On muddy sand underwater. Rainbow is reflected light, NOT self emitting glow. Scene: whole oval specimen from above on sand with two faint thin anterior palps, no rodent features. Distinct gallery scene with clear structural observation, all relevant visible parts within frame. Use supplied reference sheet only to guide biological morphology, do not copy its grid, writing, labels, humans, hands, scale objects or image borders. Single coherent scene, realistic restrained underwater lighting and fine detail, no text, no labels, no logos, no decorative insets, no diagrams or collage. Depict no unsupported predators, prey captures or impossible anatomy.",
+    "references": [
+      {
+        "file": "sea-mouse-refs.jpg",
+        "sha256": "78c3b8ab0a8056be22806a49bf13e52a4ac6b9e61a2ccece8191a6078f7d9c95"
+      }
+    ]
+  }
+]

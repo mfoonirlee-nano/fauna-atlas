@@ -1199,3 +1199,14 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [蘑菇软珊瑚图片集](./species/mushroom-soft-coral/README.md)
 - [鳞甲海参图片集](./species/armored-sea-cucumber/README.md)
 - [加州太阳海星图片集](./species/california-sun-star/README.md)
+
+## 2026-10-29 新奇动物第九批八种
+
+- [脆壳粉红海胆图片集](./species/fragile-pink-sea-urchin/README.md)
+- [赭色海星图片集](./species/ochre-sea-star/README.md)
+- [偏心沙钱图片集](./species/eccentric-sand-dollar/README.md)
+- [橙色瓜参图片集](./species/orange-sea-cucumber/README.md)
+- [蝙蝠海星图片集](./species/bat-star/README.md)
+- [海鼠图片集](./species/sea-mouse/README.md)
+- [胡须火焰虫图片集](./species/bearded-fireworm/README.md)
+- [地中海扇虫图片集](./species/mediterranean-fan-worm/README.md)

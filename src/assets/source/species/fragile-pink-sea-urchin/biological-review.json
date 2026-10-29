@@ -1,0 +1,50 @@
+{
+  "reviewedAt": "2026-10-29",
+  "status": "reviewed-reconstruction",
+  "reviewScope": "编辑性可见形态对照；不构成标本鉴定或专家审签",
+  "checks": [
+    "对照粉红至浅紫色的低球形身体、短棘与细长浅色棘，未把背面画出口或眼睛。",
+    "壳体厚度不能由外观重建测量，图中颜色与棘数不作种级鉴定。"
+  ],
+  "referencePage": "https://www.mbari.org/animal/fragile-pink-sea-urchin/",
+  "referencePhotos": [
+    {
+      "url": "https://www.mbari.org/wp-content/uploads/Strongylocentrotus_fragilis_V3683_01_1800.jpg",
+      "sha256": "102395cdc905c60cc1855401d97aa9335a237f9bc74c418ab23581c38e2e501c"
+    },
+    {
+      "url": "https://www.mbari.org/wp-content/uploads/Strongylocentrotus_fragilis_V4585_01_1150.jpg",
+      "sha256": "bb4943aceacbf18ab096a6c09157779cb1e8cf80e3f62548cc28fa888a7d6903"
+    },
+    {
+      "url": "https://www.mbari.org/wp-content/uploads/Strongylocentrotus_fragilis_V4585_01_1150-1024x691.jpg",
+      "sha256": "586b72475bb7c46510deaff68eae5aeab088fb2cc923144561ac340f739c733e"
+    }
+  ],
+  "assets": [
+    {
+      "file": "01-cover.webp",
+      "sha256": "2ba0a37f19da051e2325fe06d0097b47197f6f7801c5496c50402860de160c47"
+    },
+    {
+      "file": "02-observation.webp",
+      "sha256": "46d9da1e8b25f9edf0c038b70f5a8b3382d35a4ce1d0b1ce31477650366add2d"
+    },
+    {
+      "file": "03-observation.webp",
+      "sha256": "693051a52fbe48c4c2d286bb4aa2f9b81ff45a73374ef04985f171e6b43424bc"
+    },
+    {
+      "file": "04-observation.webp",
+      "sha256": "17b58507ddea764314c7781b375d797c24a15a2a92e079640fd7ba3b51a4f88e"
+    },
+    {
+      "file": "05-observation.webp",
+      "sha256": "2eb074bd804ebe3d8ecd8b94c9186406823e68b94ca71ab47a6f2888ca1e19ce"
+    },
+    {
+      "file": "06-observation.webp",
+      "sha256": "32adefbfb479de4e472541a68b6a29091d278bd1d4847012dde214b8165861e2"
+    }
+  ]
+}

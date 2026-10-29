@@ -1,0 +1,62 @@
+[
+  {
+    "file": "01-cover.webp",
+    "prompt": "Recompose the same anatomically accurate Hermodice carunculata into a tall compact U/S curve wholly within the RIGHT side of a 1536x1024 landscape underwater scene. Keep head, short anterior appendages, folded red caruncle, paired red branched gills and white bristle tufts, olive soft segmented body. Subject full boundary MUST fit x=650..1430, y=90..930; center x=1040. All of left40% only quiet low-detail rocky seabed with NO worm. Show both ends and every visible fine bristle with real background around them. Enlarge the worm within this right-hand rectangle. Do NOT merely translate and crop, re-pose anatomically. No text or collage. Photorealistic scientific reconstruction.",
+    "references": [
+      {
+        "file": "exec-ab7aad50-e548-48c4-8784-aff59b8f5d6a.png",
+        "sha256": "065dc8b0457199194f4a5de4bf9e62b5ac5b07d93ef1f273a0f2a77d04d3bad5"
+      }
+    ]
+  },
+  {
+    "file": "02-observation.webp",
+    "prompt": "Create ONE landscape 1536x1024 scientific natural-history reconstruction of Hermodice carunculata. An elongated flattened segmented polychaete fireworm, olive brown green dorsal segments separated by pale transverse bands, paired white bristle tufts laterally on each repeated segment, branching red gills immediately dorsal to bristles, small anterior head with short antennae and red folded caruncle extending over anterior few segments. No insect legs, no flames, no centipede armor. Historical drawings supplied are morphology references, realistic color uses Naturalis text red gills white bristles green-brown body. Scene: whole nearly straight worm seen obliquely from above on rubble. Distinct gallery scene with clear structural observation, all relevant visible parts within frame. Use supplied reference sheet only to guide biological morphology, do not copy its grid, writing, labels, humans, hands, scale objects or image borders. Single coherent scene, realistic restrained underwater lighting and fine detail, no text, no labels, no logos, no decorative insets, no diagrams or collage. Depict no unsupported predators, prey captures or impossible anatomy.",
+    "references": [
+      {
+        "file": "bearded-fireworm-refs.jpg",
+        "sha256": "d76ddbc421c3b93bbd404c03ea7658f7944fc9a2d586be7f615b72c06ee3b4bc"
+      }
+    ]
+  },
+  {
+    "file": "03-observation.webp",
+    "prompt": "Create ONE landscape 1536x1024 scientific natural-history reconstruction of Hermodice carunculata. An elongated flattened segmented polychaete fireworm, olive brown green dorsal segments separated by pale transverse bands, paired white bristle tufts laterally on each repeated segment, branching red gills immediately dorsal to bristles, small anterior head with short antennae and red folded caruncle extending over anterior few segments. No insect legs, no flames, no centipede armor. Historical drawings supplied are morphology references, realistic color uses Naturalis text red gills white bristles green-brown body. Scene: close view anterior head and folded caruncle, red branching gills and white bristles, natural scale no inset or labels. Distinct gallery scene with clear structural observation, all relevant visible parts within frame. Use supplied reference sheet only to guide biological morphology, do not copy its grid, writing, labels, humans, hands, scale objects or image borders. Single coherent scene, realistic restrained underwater lighting and fine detail, no text, no labels, no logos, no decorative insets, no diagrams or collage. Depict no unsupported predators, prey captures or impossible anatomy.",
+    "references": [
+      {
+        "file": "bearded-fireworm-refs.jpg",
+        "sha256": "d76ddbc421c3b93bbd404c03ea7658f7944fc9a2d586be7f615b72c06ee3b4bc"
+      }
+    ]
+  },
+  {
+    "file": "04-observation.webp",
+    "prompt": "Create ONE landscape 1536x1024 scientific natural-history reconstruction of Hermodice carunculata. An elongated flattened segmented polychaete fireworm, olive brown green dorsal segments separated by pale transverse bands, paired white bristle tufts laterally on each repeated segment, branching red gills immediately dorsal to bristles, small anterior head with short antennae and red folded caruncle extending over anterior few segments. No insect legs, no flames, no centipede armor. Historical drawings supplied are morphology references, realistic color uses Naturalis text red gills white bristles green-brown body. Scene: middle body detail separating red tree-like gills above and white lateral bristle tufts below. Distinct gallery scene with clear structural observation, all relevant visible parts within frame. Use supplied reference sheet only to guide biological morphology, do not copy its grid, writing, labels, humans, hands, scale objects or image borders. Single coherent scene, realistic restrained underwater lighting and fine detail, no text, no labels, no logos, no decorative insets, no diagrams or collage. Depict no unsupported predators, prey captures or impossible anatomy.",
+    "references": [
+      {
+        "file": "bearded-fireworm-refs.jpg",
+        "sha256": "d76ddbc421c3b93bbd404c03ea7658f7944fc9a2d586be7f615b72c06ee3b4bc"
+      }
+    ]
+  },
+  {
+    "file": "05-observation.webp",
+    "prompt": "Create ONE landscape 1536x1024 scientific natural-history reconstruction of Hermodice carunculata. An elongated flattened segmented polychaete fireworm, olive brown green dorsal segments separated by pale transverse bands, paired white bristle tufts laterally on each repeated segment, branching red gills immediately dorsal to bristles, small anterior head with short antennae and red folded caruncle extending over anterior few segments. No insect legs, no flames, no centipede armor. Historical drawings supplied are morphology references, realistic color uses Naturalis text red gills white bristles green-brown body. Scene: whole gently curved animal on sand beside a small rock, natural bristles not glowing. Distinct gallery scene with clear structural observation, all relevant visible parts within frame. Use supplied reference sheet only to guide biological morphology, do not copy its grid, writing, labels, humans, hands, scale objects or image borders. Single coherent scene, realistic restrained underwater lighting and fine detail, no text, no labels, no logos, no decorative insets, no diagrams or collage. Depict no unsupported predators, prey captures or impossible anatomy.",
+    "references": [
+      {
+        "file": "bearded-fireworm-refs.jpg",
+        "sha256": "d76ddbc421c3b93bbd404c03ea7658f7944fc9a2d586be7f615b72c06ee3b4bc"
+      }
+    ]
+  },
+  {
+    "file": "06-observation.webp",
+    "prompt": "Create ONE landscape 1536x1024 scientific natural-history reconstruction of Hermodice carunculata. An elongated flattened segmented polychaete fireworm, olive brown green dorsal segments separated by pale transverse bands, paired white bristle tufts laterally on each repeated segment, branching red gills immediately dorsal to bristles, small anterior head with short antennae and red folded caruncle extending over anterior few segments. No insect legs, no flames, no centipede armor. Historical drawings supplied are morphology references, realistic color uses Naturalis text red gills white bristles green-brown body. Scene: whole worm viewed overhead on dark stone showing repeated segments and paired bristle rows. Distinct gallery scene with clear structural observation, all relevant visible parts within frame. Use supplied reference sheet only to guide biological morphology, do not copy its grid, writing, labels, humans, hands, scale objects or image borders. Single coherent scene, realistic restrained underwater lighting and fine detail, no text, no labels, no logos, no decorative insets, no diagrams or collage. Depict no unsupported predators, prey captures or impossible anatomy.",
+    "references": [
+      {
+        "file": "bearded-fireworm-refs.jpg",
+        "sha256": "d76ddbc421c3b93bbd404c03ea7658f7944fc9a2d586be7f615b72c06ee3b4bc"
+      }
+    ]
+  }
+]

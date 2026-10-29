@@ -1,0 +1,50 @@
+{
+  "reviewedAt": "2026-10-29",
+  "status": "reviewed-reconstruction",
+  "reviewScope": "编辑性可见形态对照；不构成标本鉴定或专家审签",
+  "checks": [
+    "对照红褐柔软身体、管足和十根主干反复分枝的橙色口触手，触手属于一只海参。",
+    "不画鳞甲，不把触手当成珊瑚虫或扇虫羽状辐射丝；细分枝数不作鉴定。"
+  ],
+  "referencePage": "https://inverts.wallawalla.edu/Echinodermata/Class%20Holothuroidea/Cucumaria_miniata.html",
+  "referencePhotos": [
+    {
+      "url": "https://inverts.wallawalla.edu/Echinodermata/Class%20Holothuroidea/Cucumaria_miniata_Kelly_Williams.jpg",
+      "sha256": "bd8eb712c9696db3f3ac3f3c9cec6ec31cb0a527a02e7d2cecf791f11134954a"
+    },
+    {
+      "url": "https://inverts.wallawalla.edu/Echinodermata/Class%20Holothuroidea/Cucumaria_miniataDLC1995.jpg",
+      "sha256": "d84682750255f6c4bded0dd94e6f410f24255b7bbd9ca19f2cec3f9759d4ec2a"
+    },
+    {
+      "url": "https://inverts.wallawalla.edu/Echinodermata/Class%20Holothuroidea/Cucumaria_miniata_Feeding_DLC2014-01s.jpg",
+      "sha256": "9dbe206d70cd57d369fc4235d8bc23dc4456c33211dfcbfee9f75f40b856e320"
+    }
+  ],
+  "assets": [
+    {
+      "file": "01-cover.webp",
+      "sha256": "770dfb62937df60a66553696bf1d3b5cabd8632f7bb5e6a3db5eab5d8c265ac3"
+    },
+    {
+      "file": "02-observation.webp",
+      "sha256": "cc142d48ed7b13356ead12eca5edb5ca5f949d54addb957cf411b875b01c2f30"
+    },
+    {
+      "file": "03-observation.webp",
+      "sha256": "210e2cc5131fa1bbc45906a1a6c46d3391628a533f05232230e13fd0017ea120"
+    },
+    {
+      "file": "04-observation.webp",
+      "sha256": "cd7c44aa5bf7e48f869bc09860518129e27d1f97275602a380fc7637666c0fb2"
+    },
+    {
+      "file": "05-observation.webp",
+      "sha256": "da4ce87c117397e3e9d765977eff756884e347a74322df2ba6ae6492f49eb02b"
+    },
+    {
+      "file": "06-observation.webp",
+      "sha256": "91038fd487f25e0a174a5112eaf9b0cdf771624ab41406147c921db0b56aa097"
+    }
+  ]
+}

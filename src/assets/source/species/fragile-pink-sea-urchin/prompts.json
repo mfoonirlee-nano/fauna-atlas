@@ -1,0 +1,62 @@
+[
+  {
+    "file": "01-cover.webp",
+    "prompt": "Create ONE landscape 1536x1024 scientific natural-history reconstruction of Strongylocentrotus fragilis. A pale pink to lavender rounded low globular sea urchin, many fine long slender white-pink radiating spines, dense shorter spines on test; a living intact urchin on grey muddy deep seafloor. No eyes, mouth not on top. Scene: full intact specimen oblique overhead. COVER composition: complete subject including every spine, bristle, arm tip, crown ray and tube base. Primary subject centered x=66%, y=50%, as LARGE as possible within x=35%..95%, y=7%..93%; leave genuine background all around all extremities, quiet low-detail left40%. No cropped appendages. Use supplied reference sheet only to guide biological morphology, do not copy its grid, writing, labels, humans, hands, scale objects or image borders. Single coherent scene, realistic restrained underwater lighting and fine detail, no text, no labels, no logos, no decorative insets, no diagrams or collage. Depict no unsupported predators, prey captures or impossible anatomy.",
+    "references": [
+      {
+        "file": "fragile-pink-sea-urchin-refs.jpg",
+        "sha256": "cc9a70bcea44bdfd218fdecece52243ea30639e89cae09a4127c4bf5aee0d290"
+      }
+    ]
+  },
+  {
+    "file": "02-observation.webp",
+    "prompt": "Create ONE landscape 1536x1024 scientific natural-history reconstruction of Strongylocentrotus fragilis. A pale pink to lavender rounded low globular sea urchin, many fine long slender white-pink radiating spines, dense shorter spines on test; a living intact urchin on grey muddy deep seafloor. No eyes, mouth not on top. Scene: lower side view of complete specimen on sediment. Distinct gallery scene with clear structural observation, all relevant visible parts within frame. Use supplied reference sheet only to guide biological morphology, do not copy its grid, writing, labels, humans, hands, scale objects or image borders. Single coherent scene, realistic restrained underwater lighting and fine detail, no text, no labels, no logos, no decorative insets, no diagrams or collage. Depict no unsupported predators, prey captures or impossible anatomy.",
+    "references": [
+      {
+        "file": "fragile-pink-sea-urchin-refs.jpg",
+        "sha256": "cc9a70bcea44bdfd218fdecece52243ea30639e89cae09a4127c4bf5aee0d290"
+      }
+    ]
+  },
+  {
+    "file": "03-observation.webp",
+    "prompt": "Create ONE landscape 1536x1024 scientific natural-history reconstruction of Strongylocentrotus fragilis. A pale pink to lavender rounded low globular sea urchin, many fine long slender white-pink radiating spines, dense shorter spines on test; a living intact urchin on grey muddy deep seafloor. No eyes, mouth not on top. Scene: top of living specimen showing pink test covered with fine short spines and longer radiating spines. Distinct gallery scene with clear structural observation, all relevant visible parts within frame. Use supplied reference sheet only to guide biological morphology, do not copy its grid, writing, labels, humans, hands, scale objects or image borders. Single coherent scene, realistic restrained underwater lighting and fine detail, no text, no labels, no logos, no decorative insets, no diagrams or collage. Depict no unsupported predators, prey captures or impossible anatomy.",
+    "references": [
+      {
+        "file": "fragile-pink-sea-urchin-refs.jpg",
+        "sha256": "cc9a70bcea44bdfd218fdecece52243ea30639e89cae09a4127c4bf5aee0d290"
+      }
+    ]
+  },
+  {
+    "file": "04-observation.webp",
+    "prompt": "Create ONE landscape 1536x1024 scientific natural-history reconstruction of Strongylocentrotus fragilis. A pale pink to lavender rounded low globular sea urchin, many fine long slender white-pink radiating spines, dense shorter spines on test; a living intact urchin on grey muddy deep seafloor. No eyes, mouth not on top. Scene: complete specimen beside a small decomposing brown kelp fragment, not biting action. Distinct gallery scene with clear structural observation, all relevant visible parts within frame. Use supplied reference sheet only to guide biological morphology, do not copy its grid, writing, labels, humans, hands, scale objects or image borders. Single coherent scene, realistic restrained underwater lighting and fine detail, no text, no labels, no logos, no decorative insets, no diagrams or collage. Depict no unsupported predators, prey captures or impossible anatomy.",
+    "references": [
+      {
+        "file": "fragile-pink-sea-urchin-refs.jpg",
+        "sha256": "cc9a70bcea44bdfd218fdecece52243ea30639e89cae09a4127c4bf5aee0d290"
+      }
+    ]
+  },
+  {
+    "file": "05-observation.webp",
+    "prompt": "Create ONE landscape 1536x1024 scientific natural-history reconstruction of Strongylocentrotus fragilis. A pale pink to lavender rounded low globular sea urchin, many fine long slender white-pink radiating spines, dense shorter spines on test; a living intact urchin on grey muddy deep seafloor. No eyes, mouth not on top. Scene: close view of spine-covered living side, no invented microscopic insert. Distinct gallery scene with clear structural observation, all relevant visible parts within frame. Use supplied reference sheet only to guide biological morphology, do not copy its grid, writing, labels, humans, hands, scale objects or image borders. Single coherent scene, realistic restrained underwater lighting and fine detail, no text, no labels, no logos, no decorative insets, no diagrams or collage. Depict no unsupported predators, prey captures or impossible anatomy.",
+    "references": [
+      {
+        "file": "fragile-pink-sea-urchin-refs.jpg",
+        "sha256": "cc9a70bcea44bdfd218fdecece52243ea30639e89cae09a4127c4bf5aee0d290"
+      }
+    ]
+  },
+  {
+    "file": "06-observation.webp",
+    "prompt": "Create ONE landscape 1536x1024 scientific natural-history reconstruction of Strongylocentrotus fragilis. A pale pink to lavender rounded low globular sea urchin, many fine long slender white-pink radiating spines, dense shorter spines on test; a living intact urchin on grey muddy deep seafloor. No eyes, mouth not on top. Scene: two complete specimens spaced apart on mud, one primary. Distinct gallery scene with clear structural observation, all relevant visible parts within frame. Use supplied reference sheet only to guide biological morphology, do not copy its grid, writing, labels, humans, hands, scale objects or image borders. Single coherent scene, realistic restrained underwater lighting and fine detail, no text, no labels, no logos, no decorative insets, no diagrams or collage. Depict no unsupported predators, prey captures or impossible anatomy.",
+    "references": [
+      {
+        "file": "fragile-pink-sea-urchin-refs.jpg",
+        "sha256": "cc9a70bcea44bdfd218fdecece52243ea30639e89cae09a4127c4bf5aee0d290"
+      }
+    ]
+  }
+]

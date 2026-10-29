@@ -1,0 +1,62 @@
+[
+  {
+    "file": "01-cover.webp",
+    "prompt": "Recompose complete Cucumaria miniata with ALL orange branched oral tentacles and posterior tip fully within the right side of a landscape 1536x1024 scientific reconstruction. Full subject boundary x=540..1440, y=100..930; center x=990 or further right. Quiet left35% background, no animal there. Make soft red-brown body gently curved and a little foreshortened so it is large but entirely in that box, ten equal primary dendritic orange oral tentacles repeatedly branched at one end, whole crown tips against background, rows of tiny soft tube feet along lower body. No scales or armor, no fish eyes, no cropped tips, no flower-polyps. Keep accurate morphology and realistic underwater rock habitat. No text, no collage.",
+    "references": [
+      {
+        "file": "exec-94b26a8b-eae0-412f-a671-f5c722bf3930.png",
+        "sha256": "0ca7333b085ba0be506cf49400d228eef50029e8a9d819c6d89f16bfef1b24c7"
+      }
+    ]
+  },
+  {
+    "file": "02-observation.webp",
+    "prompt": "Create ONE landscape 1536x1024 scientific natural-history reconstruction of Cucumaria miniata. A living orange sea cucumber, reddish-brown elongated thick soft body, orange branching oral tentacle crown at one end, TEN equal primary dendritic oral tentacles repeatedly tree-branched, rows of small tube feet on body, no armor scales, no eyes. Usually body nestled between rocks. Crown is tentacles of one animal NOT a colony of multiple polyps. Scene: whole crown emerging from rock crevice body partly concealed naturally. Distinct gallery scene with clear structural observation, all relevant visible parts within frame. Use supplied reference sheet only to guide biological morphology, do not copy its grid, writing, labels, humans, hands, scale objects or image borders. Single coherent scene, realistic restrained underwater lighting and fine detail, no text, no labels, no logos, no decorative insets, no diagrams or collage. Depict no unsupported predators, prey captures or impossible anatomy.",
+    "references": [
+      {
+        "file": "orange-sea-cucumber-refs.jpg",
+        "sha256": "5611a541975eb068a8c8b455d16ec240af7ecac16cbfac466491c11cb1f74880"
+      }
+    ]
+  },
+  {
+    "file": "03-observation.webp",
+    "prompt": "Create ONE landscape 1536x1024 scientific natural-history reconstruction of Cucumaria miniata. A living orange sea cucumber, reddish-brown elongated thick soft body, orange branching oral tentacle crown at one end, TEN equal primary dendritic oral tentacles repeatedly tree-branched, rows of small tube feet on body, no armor scales, no eyes. Usually body nestled between rocks. Crown is tentacles of one animal NOT a colony of multiple polyps. Scene: top view complete ten-primary-tentacle crown with mouth at center, tree branching distinguishable from feather worm rays. Distinct gallery scene with clear structural observation, all relevant visible parts within frame. Use supplied reference sheet only to guide biological morphology, do not copy its grid, writing, labels, humans, hands, scale objects or image borders. Single coherent scene, realistic restrained underwater lighting and fine detail, no text, no labels, no logos, no decorative insets, no diagrams or collage. Depict no unsupported predators, prey captures or impossible anatomy.",
+    "references": [
+      {
+        "file": "orange-sea-cucumber-refs.jpg",
+        "sha256": "5611a541975eb068a8c8b455d16ec240af7ecac16cbfac466491c11cb1f74880"
+      }
+    ]
+  },
+  {
+    "file": "04-observation.webp",
+    "prompt": "Create ONE landscape 1536x1024 scientific natural-history reconstruction of Cucumaria miniata. A living orange sea cucumber, reddish-brown elongated thick soft body, orange branching oral tentacle crown at one end, TEN equal primary dendritic oral tentacles repeatedly tree-branched, rows of small tube feet on body, no armor scales, no eyes. Usually body nestled between rocks. Crown is tentacles of one animal NOT a colony of multiple polyps. Scene: whole soft body and crown shown sideways with natural small tube feet on lower sides. Distinct gallery scene with clear structural observation, all relevant visible parts within frame. Use supplied reference sheet only to guide biological morphology, do not copy its grid, writing, labels, humans, hands, scale objects or image borders. Single coherent scene, realistic restrained underwater lighting and fine detail, no text, no labels, no logos, no decorative insets, no diagrams or collage. Depict no unsupported predators, prey captures or impossible anatomy.",
+    "references": [
+      {
+        "file": "orange-sea-cucumber-refs.jpg",
+        "sha256": "5611a541975eb068a8c8b455d16ec240af7ecac16cbfac466491c11cb1f74880"
+      }
+    ]
+  },
+  {
+    "file": "05-observation.webp",
+    "prompt": "Create ONE landscape 1536x1024 scientific natural-history reconstruction of Cucumaria miniata. A living orange sea cucumber, reddish-brown elongated thick soft body, orange branching oral tentacle crown at one end, TEN equal primary dendritic oral tentacles repeatedly tree-branched, rows of small tube feet on body, no armor scales, no eyes. Usually body nestled between rocks. Crown is tentacles of one animal NOT a colony of multiple polyps. Scene: one tentacle tip curved toward central mouth with remainder of complete crown open, quiet posture without food. Distinct gallery scene with clear structural observation, all relevant visible parts within frame. Use supplied reference sheet only to guide biological morphology, do not copy its grid, writing, labels, humans, hands, scale objects or image borders. Single coherent scene, realistic restrained underwater lighting and fine detail, no text, no labels, no logos, no decorative insets, no diagrams or collage. Depict no unsupported predators, prey captures or impossible anatomy.",
+    "references": [
+      {
+        "file": "orange-sea-cucumber-refs.jpg",
+        "sha256": "5611a541975eb068a8c8b455d16ec240af7ecac16cbfac466491c11cb1f74880"
+      }
+    ]
+  },
+  {
+    "file": "06-observation.webp",
+    "prompt": "Create ONE landscape 1536x1024 scientific natural-history reconstruction of Cucumaria miniata. A living orange sea cucumber, reddish-brown elongated thick soft body, orange branching oral tentacle crown at one end, TEN equal primary dendritic oral tentacles repeatedly tree-branched, rows of small tube feet on body, no armor scales, no eyes. Usually body nestled between rocks. Crown is tentacles of one animal NOT a colony of multiple polyps. Scene: orange branched crown and reddish body resting naturally between low stones. Distinct gallery scene with clear structural observation, all relevant visible parts within frame. Use supplied reference sheet only to guide biological morphology, do not copy its grid, writing, labels, humans, hands, scale objects or image borders. Single coherent scene, realistic restrained underwater lighting and fine detail, no text, no labels, no logos, no decorative insets, no diagrams or collage. Depict no unsupported predators, prey captures or impossible anatomy.",
+    "references": [
+      {
+        "file": "orange-sea-cucumber-refs.jpg",
+        "sha256": "5611a541975eb068a8c8b455d16ec240af7ecac16cbfac466491c11cb1f74880"
+      }
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "file": "01-cover.webp",
+    "prompt": "Create ONE landscape 1536x1024 scientific natural-history reconstruction of Dendraster excentricus. A living eccentric sand dollar, a flattened circular slightly oval dark purple grey disk, tiny dense velvet-like short spines, subtle five petal pattern off center. No holes or slots through disc. NOT a white dead skeleton except explicitly requested. Pacific sandy bottom. Scene: single complete living dark velvety disk oblique from above on sand. COVER composition: complete subject including every spine, bristle, arm tip, crown ray and tube base. Primary subject centered x=66%, y=50%, as LARGE as possible within x=35%..95%, y=7%..93%; leave genuine background all around all extremities, quiet low-detail left40%. No cropped appendages. Use supplied reference sheet only to guide biological morphology, do not copy its grid, writing, labels, humans, hands, scale objects or image borders. Single coherent scene, realistic restrained underwater lighting and fine detail, no text, no labels, no logos, no decorative insets, no diagrams or collage. Depict no unsupported predators, prey captures or impossible anatomy.",
+    "references": [
+      {
+        "file": "eccentric-sand-dollar-refs.jpg",
+        "sha256": "86ab7dce09887460a8c235b5cfef72509bebca0b5aa4a69929b0cbb769857794"
+      }
+    ]
+  },
+  {
+    "file": "02-observation.webp",
+    "prompt": "Create ONE landscape 1536x1024 scientific natural-history reconstruction of Dendraster excentricus. A living eccentric sand dollar, a flattened circular slightly oval dark purple grey disk, tiny dense velvet-like short spines, subtle five petal pattern off center. No holes or slots through disc. NOT a white dead skeleton except explicitly requested. Pacific sandy bottom. Scene: single complete living disk upright tilted with lower edge partially in sand, entire outline inferable. Distinct gallery scene with clear structural observation, all relevant visible parts within frame. Use supplied reference sheet only to guide biological morphology, do not copy its grid, writing, labels, humans, hands, scale objects or image borders. Single coherent scene, realistic restrained underwater lighting and fine detail, no text, no labels, no logos, no decorative insets, no diagrams or collage. Depict no unsupported predators, prey captures or impossible anatomy.",
+    "references": [
+      {
+        "file": "eccentric-sand-dollar-refs.jpg",
+        "sha256": "86ab7dce09887460a8c235b5cfef72509bebca0b5aa4a69929b0cbb769857794"
+      }
+    ]
+  },
+  {
+    "file": "03-observation.webp",
+    "prompt": "Create ONE landscape 1536x1024 scientific natural-history reconstruction of Dendraster excentricus. A living eccentric sand dollar, a flattened circular slightly oval dark purple grey disk, tiny dense velvet-like short spines, subtle five petal pattern off center. No holes or slots through disc. NOT a white dead skeleton except explicitly requested. Pacific sandy bottom. Scene: overhead complete living dark disk with subtle off-center five-petal surface pattern. Distinct gallery scene with clear structural observation, all relevant visible parts within frame. Use supplied reference sheet only to guide biological morphology, do not copy its grid, writing, labels, humans, hands, scale objects or image borders. Single coherent scene, realistic restrained underwater lighting and fine detail, no text, no labels, no logos, no decorative insets, no diagrams or collage. Depict no unsupported predators, prey captures or impossible anatomy.",
+    "references": [
+      {
+        "file": "eccentric-sand-dollar-refs.jpg",
+        "sha256": "86ab7dce09887460a8c235b5cfef72509bebca0b5aa4a69929b0cbb769857794"
+      }
+    ]
+  },
+  {
+    "file": "04-observation.webp",
+    "prompt": "Create ONE landscape 1536x1024 scientific natural-history reconstruction of Dendraster excentricus. A living eccentric sand dollar, a flattened circular slightly oval dark purple grey disk, tiny dense velvet-like short spines, subtle five petal pattern off center. No holes or slots through disc. NOT a white dead skeleton except explicitly requested. Pacific sandy bottom. Scene: one pale empty dead test lying next to one living dark purple short-spined specimen, distinct separate whole specimens, empty test clear off-center petal pattern. Distinct gallery scene with clear structural observation, all relevant visible parts within frame. Use supplied reference sheet only to guide biological morphology, do not copy its grid, writing, labels, humans, hands, scale objects or image borders. Single coherent scene, realistic restrained underwater lighting and fine detail, no text, no labels, no logos, no decorative insets, no diagrams or collage. Depict no unsupported predators, prey captures or impossible anatomy.",
+    "references": [
+      {
+        "file": "eccentric-sand-dollar-refs.jpg",
+        "sha256": "86ab7dce09887460a8c235b5cfef72509bebca0b5aa4a69929b0cbb769857794"
+      }
+    ]
+  },
+  {
+    "file": "05-observation.webp",
+    "prompt": "Create ONE landscape 1536x1024 scientific natural-history reconstruction of Dendraster excentricus. A living eccentric sand dollar, a flattened circular slightly oval dark purple grey disk, tiny dense velvet-like short spines, subtle five petal pattern off center. No holes or slots through disc. NOT a white dead skeleton except explicitly requested. Pacific sandy bottom. Scene: low side view of a complete living thin disk tilted in sand. Distinct gallery scene with clear structural observation, all relevant visible parts within frame. Use supplied reference sheet only to guide biological morphology, do not copy its grid, writing, labels, humans, hands, scale objects or image borders. Single coherent scene, realistic restrained underwater lighting and fine detail, no text, no labels, no logos, no decorative insets, no diagrams or collage. Depict no unsupported predators, prey captures or impossible anatomy.",
+    "references": [
+      {
+        "file": "eccentric-sand-dollar-refs.jpg",
+        "sha256": "86ab7dce09887460a8c235b5cfef72509bebca0b5aa4a69929b0cbb769857794"
+      }
+    ]
+  },
+  {
+    "file": "06-observation.webp",
+    "prompt": "Create ONE landscape 1536x1024 scientific natural-history reconstruction of Dendraster excentricus. A living eccentric sand dollar, a flattened circular slightly oval dark purple grey disk, tiny dense velvet-like short spines, subtle five petal pattern off center. No holes or slots through disc. NOT a white dead skeleton except explicitly requested. Pacific sandy bottom. Scene: small group of three complete living disks tilted similarly in current on sand. Distinct gallery scene with clear structural observation, all relevant visible parts within frame. Use supplied reference sheet only to guide biological morphology, do not copy its grid, writing, labels, humans, hands, scale objects or image borders. Single coherent scene, realistic restrained underwater lighting and fine detail, no text, no labels, no logos, no decorative insets, no diagrams or collage. Depict no unsupported predators, prey captures or impossible anatomy.",
+    "references": [
+      {
+        "file": "eccentric-sand-dollar-refs.jpg",
+        "sha256": "86ab7dce09887460a8c235b5cfef72509bebca0b5aa4a69929b0cbb769857794"
+      }
+    ]
+  }
+]

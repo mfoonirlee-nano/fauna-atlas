@@ -8401,5 +8401,85 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1510,
       "bottom": 945
     }
+  },
+  "fragile-pink-sea-urchin": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 542,
+      "top": 106,
+      "right": 1420,
+      "bottom": 880
+    }
+  },
+  "ochre-sea-star": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 424,
+      "top": 56,
+      "right": 1430,
+      "bottom": 910
+    }
+  },
+  "eccentric-sand-dollar": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 462,
+      "top": 162,
+      "right": 1495,
+      "bottom": 894
+    }
+  },
+  "orange-sea-cucumber": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 478,
+      "top": 110,
+      "right": 1525,
+      "bottom": 858
+    }
+  },
+  "bat-star": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 526,
+      "top": 48,
+      "right": 1398,
+      "bottom": 867
+    }
+  },
+  "sea-mouse": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 402,
+      "top": 164,
+      "right": 1494,
+      "bottom": 778
+    }
+  },
+  "bearded-fireworm": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 542,
+      "top": 20,
+      "right": 1530,
+      "bottom": 963
+    }
+  },
+  "mediterranean-fan-worm": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 538,
+      "top": 24,
+      "right": 1344,
+      "bottom": 948
+    }
   }
 };

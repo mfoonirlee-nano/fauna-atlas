@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "reviewedAt": "2026-10-11",
   "baselineCommit": "b8503db3275420b53b3385fa1e6c1ca048443329",
-  "scope": "840 animal species profiles; microbial topics excluded",
+  "scope": "848 animal species profiles; microbial topics excluded",
   "skill": "humanizer:humanizer",
   "requiredTopics": [
     "habits",
@@ -21,8 +21,8 @@
     "descriptionOnlyRegionEdits": [
       "common-flying-dragon: geographic scope preserved"
     ],
-    "addedProfiles": 280,
-    "addedProfilesReviewDate": "2026-10-28",
+    "addedProfiles": 288,
+    "addedProfilesReviewDate": "2026-10-29",
     "addedProfilesReviewSkill": "humanizer-zh"
   },
   "species": [
@@ -38462,8 +38462,328 @@
           ]
         }
       }
+    },
+    {
+      "slug": "fragile-pink-sea-urchin",
+      "scientificName": "Strongylocentrotus fragilis",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.mbari.org/animal/fragile-pink-sea-urchin/"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.mbari.org/animal/fragile-pink-sea-urchin/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.mbari.org/animal/fragile-pink-sea-urchin/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.mbari.org/animal/fragile-pink-sea-urchin/",
+            "https://api.gbif.org/v1/species/5842730",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=569742"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.mbari.org/animal/fragile-pink-sea-urchin/",
+            "https://api.gbif.org/v1/species/5842730",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=569742"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "ochre-sea-star",
+      "scientificName": "Pisaster ochraceus",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://inverts.wallawalla.edu/Echinodermata/Class%20Asteroidea/Pisaster_ochraceus.html"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://inverts.wallawalla.edu/Echinodermata/Class%20Asteroidea/Pisaster_ochraceus.html"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://inverts.wallawalla.edu/Echinodermata/Class%20Asteroidea/Pisaster_ochraceus.html"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://inverts.wallawalla.edu/Echinodermata/Class%20Asteroidea/Pisaster_ochraceus.html",
+            "https://api.gbif.org/v1/species/2273754",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=240755"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://inverts.wallawalla.edu/Echinodermata/Class%20Asteroidea/Pisaster_ochraceus.html",
+            "https://api.gbif.org/v1/species/2273754",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=240755"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "eccentric-sand-dollar",
+      "scientificName": "Dendraster excentricus",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://inverts.wallawalla.edu/Echinodermata/Class%20Echinoidea/Dendraster_excentricus.html"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://inverts.wallawalla.edu/Echinodermata/Class%20Echinoidea/Dendraster_excentricus.html"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://inverts.wallawalla.edu/Echinodermata/Class%20Echinoidea/Dendraster_excentricus.html"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://inverts.wallawalla.edu/Echinodermata/Class%20Echinoidea/Dendraster_excentricus.html",
+            "https://api.gbif.org/v1/species/2279084",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=513215"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://inverts.wallawalla.edu/Echinodermata/Class%20Echinoidea/Dendraster_excentricus.html",
+            "https://api.gbif.org/v1/species/2279084",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=513215"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "orange-sea-cucumber",
+      "scientificName": "Cucumaria miniata",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://inverts.wallawalla.edu/Echinodermata/Class%20Holothuroidea/Cucumaria_miniata.html"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://inverts.wallawalla.edu/Echinodermata/Class%20Holothuroidea/Cucumaria_miniata.html"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://inverts.wallawalla.edu/Echinodermata/Class%20Holothuroidea/Cucumaria_miniata.html"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://inverts.wallawalla.edu/Echinodermata/Class%20Holothuroidea/Cucumaria_miniata.html",
+            "https://api.gbif.org/v1/species/5188234",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=225807"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://inverts.wallawalla.edu/Echinodermata/Class%20Holothuroidea/Cucumaria_miniata.html",
+            "https://api.gbif.org/v1/species/5188234",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=225807"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "bat-star",
+      "scientificName": "Patiria miniata",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.montereybayaquarium.org/animals/animals-a-to-z/bat-star"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.montereybayaquarium.org/animals/animals-a-to-z/bat-star"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.montereybayaquarium.org/animals/animals-a-to-z/bat-star"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.montereybayaquarium.org/animals/animals-a-to-z/bat-star",
+            "https://api.gbif.org/v1/species/2272172",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=382131"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.montereybayaquarium.org/animals/animals-a-to-z/bat-star",
+            "https://api.gbif.org/v1/species/2272172",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=382131"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "sea-mouse",
+      "scientificName": "Aphrodita aculeata",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.marlin.ac.uk/species/detail/1697"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.marlin.ac.uk/species/detail/1697"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.marlin.ac.uk/species/detail/1697"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.marlin.ac.uk/species/detail/1697",
+            "https://api.gbif.org/v1/species/5194803",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=129840"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.marlin.ac.uk/species/detail/1697",
+            "https://api.gbif.org/v1/species/5194803",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=129840"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "bearded-fireworm",
+      "scientificName": "Hermodice carunculata",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://ns-polychaeta.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=78234"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://ns-polychaeta.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=78234"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://ns-polychaeta.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=78234"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://ns-polychaeta.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=78234",
+            "https://api.gbif.org/v1/species/2317552",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=129831"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://ns-polychaeta.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=78234",
+            "https://api.gbif.org/v1/species/2317552",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=129831"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "mediterranean-fan-worm",
+      "scientificName": "Sabella spallanzanii",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://nimpis.marinepests.gov.au/species/species/70"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://nimpis.marinepests.gov.au/species/species/70"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://nimpis.marinepests.gov.au/species/species/70"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://nimpis.marinepests.gov.au/species/species/70",
+            "https://api.gbif.org/v1/species/2328603",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=130969"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://nimpis.marinepests.gov.au/species/species/70",
+            "https://api.gbif.org/v1/species/2328603",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=130969"
+          ]
+        }
+      }
     }
   ],
   "updatedAt": "2026-10-17",
-  "lastExtendedAt": "2026-10-28"
+  "lastExtendedAt": "2026-10-29"
 }
