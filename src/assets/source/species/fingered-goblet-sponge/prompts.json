@@ -1,0 +1,62 @@
+[
+  {
+    "file": "01-cover.webp",
+    "prompt": "Make ONE 1536x1024 landscape scientific natural-history reconstruction of Heterochone calyx. A pale cream yellow fingered goblet glass sponge attached to deep rocky bottom, tall broad hollow irregular funnel cup with wavy flared rim, protruding finger-like short rounded lobes on outer wall, organically porous lattice-like folded wall texture matching reference. Not a coral tree, sea anemone, perfect geometric honeycomb or ceramic vase. The large central hollow and attachment base belong to one whole sponge. NO external visible gigantic individual glass spicules or imaginary cutaway, no associated fish/crab depicted. Scene: one complete funnel sponge including whole flared rim and attachment base with margin. COVER: show complete visible subject and ALL filament ends, limbs, gill tips, cup rim, barrel and attachment base required by scene. Main subject centered x=68%, y=50%, LARGE in right-hand region; full reviewed subject MUST fit x=560..1430, y=90..930 with real background around every extremity. Left36% only quiet low-detail environment. Never crop subject or hide tips against frame edge. Use supplied contact sheet ONLY as morphology reference; never reproduce its grid, writing or borders. Realistic restrained underwater light, no text, no labels, no logos, no scale bars, no collage, no invented diagnostic microscopy or unsupported feeding event. This is an AI scientific reconstruction, not a copied photograph.",
+    "references": [
+      {
+        "file": "fingered-goblet-sponge-refs.jpg",
+        "sha256": "ac890df23fe64a97438cbc3d8a4dd4c3465e63d07aee4708a8863aea168694da"
+      }
+    ]
+  },
+  {
+    "file": "02-observation.webp",
+    "prompt": "Make ONE 1536x1024 landscape scientific natural-history reconstruction of Heterochone calyx. A pale cream yellow fingered goblet glass sponge attached to deep rocky bottom, tall broad hollow irregular funnel cup with wavy flared rim, protruding finger-like short rounded lobes on outer wall, organically porous lattice-like folded wall texture matching reference. Not a coral tree, sea anemone, perfect geometric honeycomb or ceramic vase. The large central hollow and attachment base belong to one whole sponge. NO external visible gigantic individual glass spicules or imaginary cutaway, no associated fish/crab depicted. Scene: whole sponge viewed obliquely from above into the hollow cup. One coherent distinct gallery observation with relevant visible structures clear, no decorative insets. Use supplied contact sheet ONLY as morphology reference; never reproduce its grid, writing or borders. Realistic restrained underwater light, no text, no labels, no logos, no scale bars, no collage, no invented diagnostic microscopy or unsupported feeding event. This is an AI scientific reconstruction, not a copied photograph.",
+    "references": [
+      {
+        "file": "fingered-goblet-sponge-refs.jpg",
+        "sha256": "ac890df23fe64a97438cbc3d8a4dd4c3465e63d07aee4708a8863aea168694da"
+      }
+    ]
+  },
+  {
+    "file": "03-observation.webp",
+    "prompt": "Make ONE 1536x1024 landscape scientific natural-history reconstruction of Heterochone calyx. A pale cream yellow fingered goblet glass sponge attached to deep rocky bottom, tall broad hollow irregular funnel cup with wavy flared rim, protruding finger-like short rounded lobes on outer wall, organically porous lattice-like folded wall texture matching reference. Not a coral tree, sea anemone, perfect geometric honeycomb or ceramic vase. The large central hollow and attachment base belong to one whole sponge. NO external visible gigantic individual glass spicules or imaginary cutaway, no associated fish/crab depicted. Scene: close exterior surface showing blunt finger-like lobes and natural pores, no microscopic skeleton inset. One coherent distinct gallery observation with relevant visible structures clear, no decorative insets. Use supplied contact sheet ONLY as morphology reference; never reproduce its grid, writing or borders. Realistic restrained underwater light, no text, no labels, no logos, no scale bars, no collage, no invented diagnostic microscopy or unsupported feeding event. This is an AI scientific reconstruction, not a copied photograph.",
+    "references": [
+      {
+        "file": "fingered-goblet-sponge-refs.jpg",
+        "sha256": "ac890df23fe64a97438cbc3d8a4dd4c3465e63d07aee4708a8863aea168694da"
+      }
+    ]
+  },
+  {
+    "file": "04-observation.webp",
+    "prompt": "Make ONE 1536x1024 landscape scientific natural-history reconstruction of Heterochone calyx. A pale cream yellow fingered goblet glass sponge attached to deep rocky bottom, tall broad hollow irregular funnel cup with wavy flared rim, protruding finger-like short rounded lobes on outer wall, organically porous lattice-like folded wall texture matching reference. Not a coral tree, sea anemone, perfect geometric honeycomb or ceramic vase. The large central hollow and attachment base belong to one whole sponge. NO external visible gigantic individual glass spicules or imaginary cutaway, no associated fish/crab depicted. Scene: whole sponge low angle from side emphasizing flared funnel and narrowed attachment. One coherent distinct gallery observation with relevant visible structures clear, no decorative insets. Use supplied contact sheet ONLY as morphology reference; never reproduce its grid, writing or borders. Realistic restrained underwater light, no text, no labels, no logos, no scale bars, no collage, no invented diagnostic microscopy or unsupported feeding event. This is an AI scientific reconstruction, not a copied photograph.",
+    "references": [
+      {
+        "file": "fingered-goblet-sponge-refs.jpg",
+        "sha256": "ac890df23fe64a97438cbc3d8a4dd4c3465e63d07aee4708a8863aea168694da"
+      }
+    ]
+  },
+  {
+    "file": "05-observation.webp",
+    "prompt": "Make ONE 1536x1024 landscape scientific natural-history reconstruction of Heterochone calyx. A pale cream yellow fingered goblet glass sponge attached to deep rocky bottom, tall broad hollow irregular funnel cup with wavy flared rim, protruding finger-like short rounded lobes on outer wall, organically porous lattice-like folded wall texture matching reference. Not a coral tree, sea anemone, perfect geometric honeycomb or ceramic vase. The large central hollow and attachment base belong to one whole sponge. NO external visible gigantic individual glass spicules or imaginary cutaway, no associated fish/crab depicted. Scene: two separate differently sized funnel sponges fully in frame rooted to rock, not touching or fused. One coherent distinct gallery observation with relevant visible structures clear, no decorative insets. Use supplied contact sheet ONLY as morphology reference; never reproduce its grid, writing or borders. Realistic restrained underwater light, no text, no labels, no logos, no scale bars, no collage, no invented diagnostic microscopy or unsupported feeding event. This is an AI scientific reconstruction, not a copied photograph.",
+    "references": [
+      {
+        "file": "fingered-goblet-sponge-refs.jpg",
+        "sha256": "ac890df23fe64a97438cbc3d8a4dd4c3465e63d07aee4708a8863aea168694da"
+      }
+    ]
+  },
+  {
+    "file": "06-observation.webp",
+    "prompt": "Make ONE 1536x1024 landscape scientific natural-history reconstruction of Heterochone calyx. A pale cream yellow fingered goblet glass sponge attached to deep rocky bottom, tall broad hollow irregular funnel cup with wavy flared rim, protruding finger-like short rounded lobes on outer wall, organically porous lattice-like folded wall texture matching reference. Not a coral tree, sea anemone, perfect geometric honeycomb or ceramic vase. The large central hollow and attachment base belong to one whole sponge. NO external visible gigantic individual glass spicules or imaginary cutaway, no associated fish/crab depicted. Scene: close interior wall and irregular wavy rim as natural visible texture, no artificial section. One coherent distinct gallery observation with relevant visible structures clear, no decorative insets. Use supplied contact sheet ONLY as morphology reference; never reproduce its grid, writing or borders. Realistic restrained underwater light, no text, no labels, no logos, no scale bars, no collage, no invented diagnostic microscopy or unsupported feeding event. This is an AI scientific reconstruction, not a copied photograph.",
+    "references": [
+      {
+        "file": "fingered-goblet-sponge-refs.jpg",
+        "sha256": "ac890df23fe64a97438cbc3d8a4dd4c3465e63d07aee4708a8863aea168694da"
+      }
+    ]
+  }
+]

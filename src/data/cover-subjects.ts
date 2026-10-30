@@ -8481,5 +8481,55 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1344,
       "bottom": 948
     }
+  },
+  "balloon-worm": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 555,
+      "top": 28,
+      "right": 1410,
+      "bottom": 840
+    }
+  },
+  "pigbutt-worm": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 607,
+      "top": 142,
+      "right": 1357,
+      "bottom": 819
+    }
+  },
+  "pompeii-worm": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 614,
+      "top": 103,
+      "right": 1476,
+      "bottom": 750
+    }
+  },
+  "fingered-goblet-sponge": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 532,
+      "top": 80,
+      "right": 1434,
+      "bottom": 947
+    }
+  },
+  "barrel-amphipod": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 684,
+      "top": 28,
+      "right": 1450,
+      "bottom": 981
+    }
   }
 };

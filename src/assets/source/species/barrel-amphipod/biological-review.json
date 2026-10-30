@@ -1,0 +1,92 @@
+{
+  "reviewedAt": "2026-10-30",
+  "status": "reviewed-reconstruction",
+  "reviewScope": "编辑性可见形态对照；不构成标本鉴定或专家审签",
+  "checks": [
+    "对照侧扁透明分节身体、关节附肢、头部较大眼区，以及相互独立的透明樽海鞘桶壁。",
+    "桶来自樽海鞘组织而非气泡或贝壳；不画人类眼球、玩具肢体或其他动物幼体，小卵团不作卵数与发育阶段测量。",
+    "首版六图的突出圆形眼球不接受；重画后对照透明延长头部与深部条状橙色色素区，不把色素斑画成人类式眼球。",
+    "卵团仅在第六张示意桶壁内侧的一条卵带，位置对照 MBARI 标注 with_eggs 的照片。第五张为有桶/无桶双个体比较，不作连续动作证据。"
+  ],
+  "referencePage": "https://www.mbari.org/animal/barrel-amphipod/",
+  "referencePhotos": [
+    {
+      "url": "https://www.mbari.org/wp-content/uploads/Phronima_sedentaria_lab_shot-540.jpeg",
+      "sha256": "824e3e28850b7bd9343226c949a5e5caf824df9f999f4d9ba67ed687adb363ed"
+    },
+    {
+      "url": "https://www.mbari.org/wp-content/uploads/Phronima_sedentaria_D1163_02-960.jpeg",
+      "sha256": "f4c1cc93d9a69bd914e8c9b8165885f17232bf54d1f9cad1dd57560ecb849cd8"
+    },
+    {
+      "url": "https://www.mbari.org/wp-content/uploads/Phronima_sedentaria_with_eggs_D0778-960.jpeg",
+      "sha256": "dcdde1ca6f3114eb9d2d9bb662956e3370228598b2949708666a6518d31bec93"
+    },
+    {
+      "url": "https://www.mbari.org/wp-content/uploads/Phronima_sedentaria_no_barrel_V3744-960.jpeg",
+      "sha256": "3fc903f756b039ffbaf27b8ee4036124bb3d5f5a23681d2a2d783713ac03befb"
+    }
+  ],
+  "assets": [
+    {
+      "file": "01-cover.webp",
+      "sha256": "b958a0bafff2f625be836457ab230685fe0605694b8d5473768e87b05b7c7933"
+    },
+    {
+      "file": "02-observation.webp",
+      "sha256": "958c596694459a3d34a664113c5ba72828672768936a51cdca461c69b91aa361"
+    },
+    {
+      "file": "03-observation.webp",
+      "sha256": "c88969069320057ed7ba01387814683d57605df007f3e01b5709bbc120d40149"
+    },
+    {
+      "file": "04-observation.webp",
+      "sha256": "f6d264fc71ef0d25a71ebb77b63b2f45ec0076a6626869e48e81da0da0766022"
+    },
+    {
+      "file": "05-observation.webp",
+      "sha256": "404202a922f708e506174f49ee5fa3237b25bc5865d3d98c9bbad40d4bb82eb0"
+    },
+    {
+      "file": "06-observation.webp",
+      "sha256": "e5a845748c41b6674253f955bdc7b6ee75c0f28593b9d7cf7e3b79865dca87f2"
+    }
+  ],
+  "rejectedCandidates": [
+    {
+      "file": "01",
+      "sourceSha256": "928e50c8cfe03b14b8eaf0135a8d8a6661da01892692f5cd6c674f964b16b3f5",
+      "reason": "unsupported prominent round eyes; inconsistent egg placement"
+    },
+    {
+      "file": "02",
+      "sourceSha256": "273e334a916840a673b9c82465994cd9e85ec177870b3ea10a3595f85a8f2a8b",
+      "reason": "unsupported prominent round eyes; inconsistent egg placement"
+    },
+    {
+      "file": "03",
+      "sourceSha256": "73859c88c24010a88fc70f2fda1e6577d4a82b0fc812055046b495e8c4ae3752",
+      "reason": "unsupported prominent round eyes; inconsistent egg placement"
+    },
+    {
+      "file": "04",
+      "sourceSha256": "9b0a6722caacae1534c88d8ffd42b15c47cfeba9332fe57c699b7b5f3df078aa",
+      "reason": "unsupported prominent round eyes; inconsistent egg placement"
+    },
+    {
+      "file": "05",
+      "sourceSha256": "ba47976b33eca39f304d1d4be1010aeac0198c0b4aa15f2e65a5e9b97d030c68",
+      "reason": "unsupported prominent round eyes; inconsistent egg placement"
+    },
+    {
+      "file": "06",
+      "sourceSha256": "b09511378b531a3e21262740d821ce766f941e580fe34ede85870ab1dd4fc61c",
+      "reason": "unsupported prominent round eyes; inconsistent egg placement"
+    }
+  ],
+  "rejectedCorrectedCover": {
+    "sourceSha256": "be3784a8993746c097f1321e1ddd96aa1e618e3f5920b20928d4164c5b5e7f72",
+    "reason": "whole barrel subject centered left of 60% despite corrected head anatomy"
+  }
+}

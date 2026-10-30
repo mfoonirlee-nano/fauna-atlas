@@ -1,0 +1,50 @@
+{
+  "reviewedAt": "2026-10-30",
+  "status": "reviewed-reconstruction",
+  "reviewScope": "编辑性可见形态对照；不构成标本鉴定或专家审签",
+  "checks": [
+    "对照管口处的分节身体、体侧刚毛、浅色背部覆盖和锈红色渐尖鳃，后段自然留在不透明薄管内。",
+    "参考来自 MBARI 本种页面，部分原图文件名只到 Alvinella 属，不将文件名当作种级标本鉴定；不画种级显微诊断细节、透明剖视或温度数值。"
+  ],
+  "referencePage": "https://www.mbari.org/animal/pompeii-worm/",
+  "referencePhotos": [
+    {
+      "url": "https://www.mbari.org/wp-content/uploads/2022/05/07_48_15_14_2015_Alvinella_D0754_01.jpg",
+      "sha256": "8338acc9b3a9d51b3942058ef89f52daff07ce7d1b0f665dc5ea5c02af7145d2"
+    },
+    {
+      "url": "https://www.mbari.org/wp-content/uploads/2021/06/Alvinella_sp._D754_01.jpg",
+      "sha256": "3d629a3843d5fe9eb63efc6e2dc6a0b3cf6f590fd8a8e66f901a363e5cbe1c36"
+    },
+    {
+      "url": "https://www.mbari.org/wp-content/uploads/2021/06/Alvinella_sp._D754_01-1030x579.jpg",
+      "sha256": "13053d496efbdc5ecf36f0370d041e48c071f88b2007476ba474a23f22c59ec5"
+    }
+  ],
+  "assets": [
+    {
+      "file": "01-cover.webp",
+      "sha256": "540681e50e3482ec31d7060deedd87a41527e56d7e2d8450fd76fb6f1ae7a39e"
+    },
+    {
+      "file": "02-observation.webp",
+      "sha256": "2f319fe2adc950d9d52b401a9e517a629ca038544b4e99c2c8454ba7c347219b"
+    },
+    {
+      "file": "03-observation.webp",
+      "sha256": "1939b64338b6e0a56d1330711a4b1cc9582ccf4119c10ab02efae1289f58df34"
+    },
+    {
+      "file": "04-observation.webp",
+      "sha256": "ae9057ac650298aa8ce52c9e0142f281c5c166b6b924c9617fbd1db62c5d6adc"
+    },
+    {
+      "file": "05-observation.webp",
+      "sha256": "5c0acff92f023b6ccba7de3a2fad2b637468c3dfed844563d16b433218dcef2d"
+    },
+    {
+      "file": "06-observation.webp",
+      "sha256": "11e73743df1a6570b0b08f196258285320fe790bf3a7593d3fc1d7ac76b38b40"
+    }
+  ]
+}

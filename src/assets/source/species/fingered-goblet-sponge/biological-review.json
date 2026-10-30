@@ -1,0 +1,50 @@
+{
+  "reviewedAt": "2026-10-30",
+  "status": "reviewed-reconstruction",
+  "reviewScope": "编辑性可见形态对照；不构成标本鉴定或专家审签",
+  "checks": [
+    "对照淡黄漏斗形杯体、起伏完整杯缘、外壁圆钝指状突起、孔隙纹理和附着基部。",
+    "没有把整体画成海葵或规则陶瓷杯；未凭想象添加单根玻璃骨针显微插图或未经核实的共栖动物。"
+  ],
+  "referencePage": "https://www.mbari.org/animal/fingered-goblet-sponge/",
+  "referencePhotos": [
+    {
+      "url": "https://www.mbari.org/wp-content/uploads/Heterochone_calyx_T1101_02_1800.jpg",
+      "sha256": "900758a0ce62cd0f70adea766457904e568a86a083cc7e978f60c8caffc91c2f"
+    },
+    {
+      "url": "https://www.mbari.org/wp-content/uploads/Careproctus_kamikawai_and_Heterochone_calyx_D0571_01_1150.jpg",
+      "sha256": "f1c722abe34d69d3ff22fade4f74636a41d9999bbad2014ad899333a5db9d80c"
+    },
+    {
+      "url": "https://www.mbari.org/wp-content/uploads/Careproctus_kamikawai_and_Heterochone_calyx_D0571_01_1150-1024x576.jpg",
+      "sha256": "2db0ae1618a052639ee047bd18feb57a9a1372797bcc2e265327aeaa7aa2c889"
+    }
+  ],
+  "assets": [
+    {
+      "file": "01-cover.webp",
+      "sha256": "e646d6942218f1ff08ff71984821fba56b3639d9d340bb764a27bbe999f30250"
+    },
+    {
+      "file": "02-observation.webp",
+      "sha256": "9e993f27b2b71b7d96b666a1a98fcfda1f4e0bcd7c362e4d6c1a477545278dca"
+    },
+    {
+      "file": "03-observation.webp",
+      "sha256": "3c8530c132e1580335f3698c4309f94cc2fe575bb3008325087d2311fbd532ac"
+    },
+    {
+      "file": "04-observation.webp",
+      "sha256": "2980a732dc3534cf7f5f5ba5095f86aefce3612a660e4e8b5938531b63aedeaf"
+    },
+    {
+      "file": "05-observation.webp",
+      "sha256": "9c9d52a4c886b00ff61d3a024b29d0530c0b114b3caad54bc1df3f77338dcd9b"
+    },
+    {
+      "file": "06-observation.webp",
+      "sha256": "33a456cc27021f0d332ebe815e24f2ec3d1f376e5efdd9acdd1306cf809a7400"
+    }
+  ]
+}

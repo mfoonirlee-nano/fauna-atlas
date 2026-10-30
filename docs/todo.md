@@ -1,6 +1,6 @@
 # 制作清单：100 种新奇动物与分类补充
 
-2026-10-29 更新：本轮已完成 46/100，待制作或返修 54。目录保留 848 份物种档案，第九批新增八种动物与 48 张配图；本轮完成的 46 项对应 276 张公开配图。紫毯章鱼和龙骨新月贝仍待返修。详见[第九批研究记录](research/todo-novel-ninth-eight-2026-10-29.md)、[第八批研究记录](research/todo-novel-eighth-five-2026-10-28.md)与[此前十种动物复核记录](research/ten-animal-review-fix-2026-10-27.md)。
+2026-10-30 更新：本轮已完成 51/100，待制作或返修 49。目录保留 853 份物种档案，第十批新增五种动物与 30 张配图；本轮完成的 51 项对应 306 张公开配图。紫毯章鱼和龙骨新月贝仍待返修。详见[第十批研究记录](research/todo-novel-tenth-five-2026-10-30.md)、[第九批研究记录](research/todo-novel-ninth-eight-2026-10-29.md)与[此前十种动物复核记录](research/ten-animal-review-fix-2026-10-27.md)。
 
 ## 选题范围与核查
 
@@ -20,10 +20,10 @@
 | 软体动物 | 19 | 2 |
 | 刺胞与栉水母动物 | 10 | 1 |
 | 棘皮动物 | 8 | 0 |
-| 环节、海绵及其他动物 | 3 | 13 |
-| 节肢动物 | 4 | 24 |
+| 环节、海绵及其他动物 | 7 | 9 |
+| 节肢动物 | 5 | 23 |
 | 脊索动物 | 2 | 14 |
-| 合计 | 46 | 54 |
+| 合计 | 51 | 49 |
 
 ## 制作顺序与完成条件
 
@@ -96,15 +96,15 @@
 | [ ] | N004 | 黄色网状海绵 | *Clathrina clathrus* | 黄色管网像细面条，放大后能看到三射骨针；比较已有玻璃海绵 | 补钙质海绵纲 Calcarea、Clathrinida、Clathrinidae。 | [来源](https://sponges-ne-atlantic.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=116066) |
 | [ ] | N011 | 横纹穿孔贝 | *Terebratalia transversa* | 两片壳如何上下合拢，肉茎如何固定；与蛤蜊左右壳比较 | 补 Rhynchonellata、Terebratulida、Terebrataliidae。 | [来源](https://www.marinespecies.org/aphia.php?id=235615&p=taxdetails) |
 | [ ] | N015 | 诺氏头盘虫 | *Rhabdopleura normani* | 单个小动物从细管伸出带触手的双臂，群体扩展管屋 | 可补翼鳃纲 Pterobranchia 与 Rhabdopleuridae；目级路径需专项复核。 | [来源](https://www.marinespecies.org/aphia.php?id=137611&p=taxdetails) |
-| [ ] | N049 | 气球蠕虫 | *Poeobius meseres* | 像透明小袋漂着，用黏液网收集“海洋雪” | 与沙蚕比较分节和刚毛外观明显不同的环节动物 | [来源](https://www.mbari.org/animal/balloon-worm/) |
-| [ ] | N050 | 猪臀虫 | *Chaetopterus pugaporcinus* | 榛子大小的鼓胀身体，两端体节挤在一起；黏液网捕食 | 加入水层漂浮毛翼虫科，与管栖亲属比较 | [来源](https://www.mbari.org/animal/pigbutt-worm/) |
-| [ ] | N051 | 庞贝虫 | *Alvinella pompejana* | 在热液烟囱上住薄管，伸出红褐色尖鳃；背上有细菌绒层 | 丰富热液区多毛类，与巨型管虫比较 | [来源](https://www.mbari.org/animal/pompeii-worm/) |
+| [x] | N049 | 气球蠕虫 | *Poeobius meseres* | 像透明小袋漂着，用黏液网收集“海洋雪” | 与沙蚕比较分节和刚毛外观明显不同的环节动物 | [来源](https://www.mbari.org/animal/balloon-worm/) |
+| [x] | N050 | 猪臀虫 | *Chaetopterus pugaporcinus* | 榛子大小的鼓胀身体，两端体节挤在一起；黏液网捕食 | 加入水层漂浮毛翼虫科，与管栖亲属比较 | [来源](https://www.mbari.org/animal/pigbutt-worm/) |
+| [x] | N051 | 庞贝虫 | *Alvinella pompejana* | 在热液烟囱上住薄管，伸出红褐色尖鳃；背上有细菌绒层 | 丰富热液区多毛类，与巨型管虫比较 | [来源](https://www.mbari.org/animal/pompeii-worm/) |
 | [ ] | N052 | 绿色炸弹蠕虫 | *Swima bombiviridis* | 游泳时用成排刚毛划水，遇刺激能丢出发绿光的小囊 | 加入漂游型 Acrocirridae 及发光防御 | [来源](https://doi.org/10.1126/science.1172488) |
 | [ ] | N053 | 黑尔戈兰翼足虫 | *Tomopteris helgolandica* | 透明身体两侧像许多桨，能发出黄色光 | 加入 Tomopteridae；比较海洋常见蓝光与黄色光 | [来源](https://uclouvain.be/en/research-institutes/eli/eliv/holopelagic-annelids-tomopteris) |
 | [x] | N054 | 海鼠 | *Aphrodita aculeata* | 背部像毛毡，侧面刚毛反射蓝绿金色；翻看分节腹面 | 加入海鼠科 Aphroditidae，比较环节动物的背鳞和刚毛 | [来源](https://www.marlin.ac.uk/species/detail/1697) |
 | [x] | N055 | 胡须火焰虫 | *Hermodice carunculata* | 体节两侧有白刚毛簇，红鳃像小树 | 加入仙虫科 Amphinomidae 并比较海生多毛类结构 | [来源](https://ns-polychaeta.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=78234) |
 | [x] | N056 | 地中海扇虫 | *Sabella spallanzanii* | 一侧鳃冠盘成螺旋，受惊时整朵缩回长管 | 加入管居缨鳃虫与可收缩鳃冠 | [来源](https://nimpis.marinepests.gov.au/species/species/70) |
-| [ ] | N057 | 指状高脚杯海绵 | *Heterochone calyx* | 大漏斗像杯子，放大看由玻璃质骨针拼成的骨架 | 在六放海绵中补充海绵礁与栖身关系 | [来源](https://www.mbari.org/animal/fingered-goblet-sponge/) |
+| [x] | N057 | 指状高脚杯海绵 | *Heterochone calyx* | 大漏斗像杯子，放大看由玻璃质骨针拼成的骨架 | 在六放海绵中补充海绵礁与栖身关系 | [来源](https://www.mbari.org/animal/fingered-goblet-sponge/) |
 | [ ] | N058 | 海橙海绵 | *Tethya aurantium* | 球形橙黄色表面像橘皮，放大可见短柄小芽 | 补充普通海绵的球形形态及出芽繁殖 | [来源](https://sponges-ne-atlantic.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/nsr_taxon.php?cat=TAB_DESCRIPTION&id=116416) |
 | [ ] | N059 | 黄色钻孔海绵 | *Cliona celata* | 贝壳或石灰岩表面露出黄色小点，剖面能看到钻孔空间 | 加入 Clionaidae 及生物侵蚀的图解 | [来源](https://sponges-ne-atlantic.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=116070) |
 | [ ] | N060 | 霍兰德异涡虫 | *Xenoturbella hollandorum* | 朴素的小蠕虫身体，与有明显头、足的动物比较；配放大图寻找口 | 提供 Xenacoelomorpha 分支选题；门级归属先按项目口径复核 | [来源](https://www.nature.com/articles/nature16545) |
@@ -120,7 +120,7 @@
 | [x] | N062 | 海绵背蟹 | *Dromia personata* | 螃蟹背着海绵走路；找出抓住海绵的后两对足 | 补 Dromiidae；把步行足与抓握足分别画出，不画成海绵自己长在蟹背上的固定壳 | [来源](https://www.vliz.be/imisdocs/publications/312811.pdf) |
 | [x] | N063 | 雪人蟹 | *Kiwa hirsuta* | 热液附近的白色甲壳动物，前肢布满长刚毛 | 补 Kiwaidae；与其他雪人蟹物种区分，不把其他种的“挥舞培养细菌”行为直接移植过来 | [来源](https://www.mbari.org/news/discovery-of-the-yeti-crab/) |
 | [ ] | N064 | 斑点海葵瓷蟹 | *Neopetrolisthes maculatus* | 住在海葵旁，挥动有长刚毛的口器，像刷子扫取食物 | 补 Porcellanidae；可与真蟹比较腹部和触角，瓷蟹的大螯不是主要滤食器官 | [来源](https://museum.wa.gov.au/explore/blogs/andrew-hosie/creature-feature-neopetrolisthes-maculatus) |
-| [ ] | N065 | 桶居端足虾 | *Phronima sedentaria* | 雌体带着透明桶形“育儿房”游动，观察大眼与附肢 | 补 Amphipoda、Phronimidae；桶来自樽海鞘组织，不能画成它自己吐出的泡泡 | [来源](https://www.mbari.org/animal/barrel-amphipod/) |
+| [x] | N065 | 桶居端足虾 | *Phronima sedentaria* | 雌体带着透明桶形“育儿房”游动，观察大眼与附肢 | 补 Amphipoda、Phronimidae；桶来自樽海鞘组织，不能画成它自己吐出的泡泡 | [来源](https://www.mbari.org/animal/barrel-amphipod/) |
 | [ ] | N066 | 巨型发光糠虾 | *Neognathophausia ingens* | 红色身体、长额角；展示受扰时口器附近释放的发光物 | 补 Lophogastrida、Gnathophausiidae；旧组合 Gnathophausia ingens 与本种只计一次。发光物需与身体颜色分开表达 | [来源](https://inverts.wallawalla.edu/Arthropoda/Crustacea/Malacostraca/Eumalacostraca/Peracarida/Lophogastrida/Neognathophausia_ingens.html) |
 | [ ] | N067 | 尾板鳞尾虫 | *Lepidurus apus* | 与已有丰年鲎虫并排观察，寻找两条尾丝之间的小尾板 | 丰富仅少量代表的 Notostraca、Triopsidae，补 Lepidurus；旧澳洲 L. apus viridis 和 L. lubbocki 的处理不同，不混作本种 | [来源](https://doi.org/10.1371/journal.pone.0034998) |
 | [ ] | N068 | 岩岸鹅颈藤壶 | *Pollicipes pollicipes* | 像小爪子的壳板，下面是柔韧柄；看蔓足伸出取食 | 补 Pollicipedidae；与已有 Lepas anatifera 比较固定基底。目级 Pedunculata 与现代处理有差异，暂不承诺新增目 | [来源](https://museubiodiversidade.uevora.pt/elenco-de-especies/biodiversidade-actual/artropodes/crustaceos/pollicipes-pollicipes/) |

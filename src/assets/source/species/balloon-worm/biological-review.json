@@ -1,0 +1,50 @@
+{
+  "reviewedAt": "2026-10-30",
+  "status": "reviewed-reconstruction",
+  "reviewScope": "编辑性可见形态对照；不构成标本鉴定或专家审签",
+  "checks": [
+    "对照细长透明袋状身体、胶质包被、前端细丝及自然可见的淡色内容物，没有体侧成排刚毛或水母伞。",
+    "不画内部神经节图、眼睛或规则网格；纤细附属结构不是毛发，体内亮点不作器官定位或计数。"
+  ],
+  "referencePage": "https://www.mbari.org/animal/balloon-worm/",
+  "referencePhotos": [
+    {
+      "url": "https://www.mbari.org/wp-content/uploads/2022/04/Poeobius_meseres_T0535_01-1024.jpg",
+      "sha256": "e4eb7651ef4e2e2027bc42feba17cc9a65d419d381a0502de1ac31b626a2477e"
+    },
+    {
+      "url": "https://www.mbari.org/wp-content/uploads/2022/04/TR22-0070_Poeobius_meseres_MBA-640.jpg",
+      "sha256": "a2f3d5fa922a859d559b372a0577ffc928f147e0ee3aab1dcea2ea4341c41f54"
+    },
+    {
+      "url": "https://www.mbari.org/wp-content/uploads/2022/04/2017_Poeobius_meseres_feeding_D0974_02-960.jpg",
+      "sha256": "aa810eb1f73780ac5f4a26149b8b2970da5c8dc64250e927f045d8b495ff72de"
+    }
+  ],
+  "assets": [
+    {
+      "file": "01-cover.webp",
+      "sha256": "05b4dc516bf97bdbea036633f66accceee4252e8b66dd620f032a8b827b5c648"
+    },
+    {
+      "file": "02-observation.webp",
+      "sha256": "2cf45a510ecc037259411613c811fb32a47ca0b195410f02d09dda9b0dd9eddc"
+    },
+    {
+      "file": "03-observation.webp",
+      "sha256": "4cef18c6b6d322054445b155e4abbdd7760f8973fe5a4ffe259db89e71f78ed0"
+    },
+    {
+      "file": "04-observation.webp",
+      "sha256": "de6f50f70819d3d008c4268a373bad66fb2bec26120235271f81d93f8ad0062c"
+    },
+    {
+      "file": "05-observation.webp",
+      "sha256": "434911022da3025521cd2f1c65b41179978be6d063731e858a536631bdd7d84c"
+    },
+    {
+      "file": "06-observation.webp",
+      "sha256": "d6a3b282e73dbf96b9da907c3735c7b1c519f324ee48f8a5965ec659aa66f729"
+    }
+  ]
+}

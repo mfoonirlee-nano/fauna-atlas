@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "reviewedAt": "2026-10-11",
   "baselineCommit": "b8503db3275420b53b3385fa1e6c1ca048443329",
-  "scope": "848 animal species profiles; microbial topics excluded",
+  "scope": "853 animal species profiles; microbial topics excluded",
   "skill": "humanizer:humanizer",
   "requiredTopics": [
     "habits",
@@ -21,8 +21,8 @@
     "descriptionOnlyRegionEdits": [
       "common-flying-dragon: geographic scope preserved"
     ],
-    "addedProfiles": 288,
-    "addedProfilesReviewDate": "2026-10-29",
+    "addedProfiles": 293,
+    "addedProfilesReviewDate": "2026-10-30",
     "addedProfilesReviewSkill": "humanizer-zh"
   },
   "species": [
@@ -38782,8 +38782,208 @@
           ]
         }
       }
+    },
+    {
+      "slug": "balloon-worm",
+      "scientificName": "Poeobius meseres",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.mbari.org/animal/balloon-worm/"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.mbari.org/animal/balloon-worm/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.mbari.org/animal/balloon-worm/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.mbari.org/animal/balloon-worm/",
+            "https://api.gbif.org/v1/species/2326198",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=330855"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.mbari.org/animal/balloon-worm/",
+            "https://api.gbif.org/v1/species/2326198",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=330855"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "pigbutt-worm",
+      "scientificName": "Chaetopterus pugaporcinus",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.mbari.org/animal/pigbutt-worm/"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.mbari.org/animal/pigbutt-worm/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.mbari.org/animal/pigbutt-worm/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.mbari.org/animal/pigbutt-worm/",
+            "https://api.gbif.org/v1/species/6785205",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=605520"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.mbari.org/animal/pigbutt-worm/",
+            "https://api.gbif.org/v1/species/6785205",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=605520"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "pompeii-worm",
+      "scientificName": "Alvinella pompejana",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.mbari.org/animal/pompeii-worm/"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.mbari.org/animal/pompeii-worm/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.mbari.org/animal/pompeii-worm/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.mbari.org/animal/pompeii-worm/",
+            "https://api.gbif.org/v1/species/2324365",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=336171"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.mbari.org/animal/pompeii-worm/",
+            "https://api.gbif.org/v1/species/2324365",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=336171"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "fingered-goblet-sponge",
+      "scientificName": "Heterochone calyx",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.mbari.org/animal/fingered-goblet-sponge/"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.mbari.org/animal/fingered-goblet-sponge/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.mbari.org/animal/fingered-goblet-sponge/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.mbari.org/animal/fingered-goblet-sponge/",
+            "https://api.gbif.org/v1/species/2235953",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=171636"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.mbari.org/animal/fingered-goblet-sponge/",
+            "https://api.gbif.org/v1/species/2235953",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=171636"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "barrel-amphipod",
+      "scientificName": "Phronima sedentaria",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.mbari.org/animal/barrel-amphipod/"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.mbari.org/animal/barrel-amphipod/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.mbari.org/animal/barrel-amphipod/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.mbari.org/animal/barrel-amphipod/",
+            "https://api.gbif.org/v1/species/5177658",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=103272"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.mbari.org/animal/barrel-amphipod/",
+            "https://api.gbif.org/v1/species/5177658",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=103272"
+          ]
+        }
+      }
     }
   ],
   "updatedAt": "2026-10-17",
-  "lastExtendedAt": "2026-10-29"
+  "lastExtendedAt": "2026-10-30"
 }

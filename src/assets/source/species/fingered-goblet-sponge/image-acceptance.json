@@ -1,0 +1,80 @@
+[
+  {
+    "file": "01-cover.webp",
+    "sourceDimensions": [
+      1536,
+      1024
+    ],
+    "runtimeDimensions": [
+      1536,
+      1024
+    ],
+    "sourceSha256": "8f0d1c23892fde29736d0e2c3cc3503a99372c6403557019871033104aeda1c2",
+    "runtimeSha256": "e646d6942218f1ff08ff71984821fba56b3639d9d340bb764a27bbe999f30250"
+  },
+  {
+    "file": "02-observation.webp",
+    "sourceDimensions": [
+      1536,
+      1024
+    ],
+    "runtimeDimensions": [
+      1536,
+      1024
+    ],
+    "sourceSha256": "fe81da256b63fc81e0813f74ed3c71671bc9427fea9bb1f69d422a5ed4e13c0c",
+    "runtimeSha256": "9e993f27b2b71b7d96b666a1a98fcfda1f4e0bcd7c362e4d6c1a477545278dca"
+  },
+  {
+    "file": "03-observation.webp",
+    "sourceDimensions": [
+      1536,
+      1024
+    ],
+    "runtimeDimensions": [
+      1536,
+      1024
+    ],
+    "sourceSha256": "ad2e4b936244ad35cfd83353fabae22b48eccf37858a0f7c2ffb966cd48c264a",
+    "runtimeSha256": "3c8530c132e1580335f3698c4309f94cc2fe575bb3008325087d2311fbd532ac"
+  },
+  {
+    "file": "04-observation.webp",
+    "sourceDimensions": [
+      1536,
+      1024
+    ],
+    "runtimeDimensions": [
+      1536,
+      1024
+    ],
+    "sourceSha256": "b049bac9c6ea47abc3203decf72749c4694b6e234c73cdf38b97e272ee6c0d71",
+    "runtimeSha256": "2980a732dc3534cf7f5f5ba5095f86aefce3612a660e4e8b5938531b63aedeaf"
+  },
+  {
+    "file": "05-observation.webp",
+    "sourceDimensions": [
+      1536,
+      1024
+    ],
+    "runtimeDimensions": [
+      1536,
+      1024
+    ],
+    "sourceSha256": "4d1a1523f368e1e80ba6464ef8f03672b1cec25872a3e46ad42751b0bbeafecf",
+    "runtimeSha256": "9c9d52a4c886b00ff61d3a024b29d0530c0b114b3caad54bc1df3f77338dcd9b"
+  },
+  {
+    "file": "06-observation.webp",
+    "sourceDimensions": [
+      1536,
+      1024
+    ],
+    "runtimeDimensions": [
+      1536,
+      1024
+    ],
+    "sourceSha256": "2a8284c71d37c9d0fdcc13a543481151066f9e2c4d2e7edf93b50f5a69f315ef",
+    "runtimeSha256": "33a456cc27021f0d332ebe815e24f2ec3d1f376e5efdd9acdd1306cf809a7400"
+  }
+]

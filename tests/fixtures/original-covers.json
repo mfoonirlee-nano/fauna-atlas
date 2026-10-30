@@ -8370,5 +8370,70 @@
       },
       "sha256": "cb9a318013cf13d992339a26bda15fe1fd987dd4e2b3a893b061e9abd9761bc8"
     }
+  },
+  "balloon-worm": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 555,
+        "top": 28,
+        "right": 1410,
+        "bottom": 840
+      },
+      "sha256": "05b4dc516bf97bdbea036633f66accceee4252e8b66dd620f032a8b827b5c648"
+    }
+  },
+  "pigbutt-worm": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 607,
+        "top": 142,
+        "right": 1357,
+        "bottom": 819
+      },
+      "sha256": "ba7d54a292f923c6d965e5a21315cd91124468a5b4782abf0f7a1c7e4858648e"
+    }
+  },
+  "pompeii-worm": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 614,
+        "top": 103,
+        "right": 1476,
+        "bottom": 750
+      },
+      "sha256": "540681e50e3482ec31d7060deedd87a41527e56d7e2d8450fd76fb6f1ae7a39e"
+    }
+  },
+  "fingered-goblet-sponge": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 532,
+        "top": 80,
+        "right": 1434,
+        "bottom": 947
+      },
+      "sha256": "e646d6942218f1ff08ff71984821fba56b3639d9d340bb764a27bbe999f30250"
+    }
+  },
+  "barrel-amphipod": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 684,
+        "top": 28,
+        "right": 1450,
+        "bottom": 981
+      },
+      "sha256": "b958a0bafff2f625be836457ab230685fe0605694b8d5473768e87b05b7c7933"
+    }
   }
 }
