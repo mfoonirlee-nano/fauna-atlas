@@ -1218,3 +1218,11 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [庞贝虫图片集](./species/pompeii-worm/README.md)
 - [指状高脚杯海绵图片集](./species/fingered-goblet-sponge/README.md)
 - [桶居端足虾图片集](./species/barrel-amphipod/README.md)
+
+## 2026-10-31 新奇动物第十一批五种
+
+- [大蔗鼠图片集](./species/greater-cane-rat/README.md)
+- [北树鼩图片集](./species/northern-tree-shrew/README.md)
+- [鹭鹤图片集](./species/kagu/README.md)
+- [圆鳍鱼图片集](./species/lumpsucker/README.md)
+- [大西洋狼鱼图片集](./species/atlantic-wolffish/README.md)

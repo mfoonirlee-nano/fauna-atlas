@@ -1,0 +1,62 @@
+[
+  {
+    "file": "01-cover.webp",
+    "prompt": "Create ONE 1536x1024 landscape scientific natural-history reconstruction of Rhynochetos jubatus. Kagu bird from New Caledonia, pearl-grey plumage, long thin swept-back grey head crest, straight pointed orange-red bill, dark red eyes, relatively long orange-red legs, compact ground bird body with short tail and fairly short neck (not long S-neck heron). Wings FOLDED or only naturally lowered, no invented open-wing stripe diagram. Match source photographs for grey head crest, bill, legs and overall bird posture. Leaf-litter forest floor. No arbitrary chick, no flight action, no human objects. Scene: whole standing bird with complete bill crest tail legs and toes. COVER: complete full visible animal including every snout/beak tip, crest, ear, toe, claw, fin and tail end; maximize its size inside x=540..1430,y=85..930, center x>=64%. Pose compactly or curve tail naturally to fit without cropping. Left35% quiet low-detail habitat. Real background margin around every visible extremity. References may include a credited scientific illustration or natural photographs; use only biological morphology, NEVER copy white sheet, grid, watermark, caption, photograph credit, text, scale bars or logos. Realistic fine natural textures and restrained lighting, no labels, no collage or unsupported internal anatomy. All images are AI scientific reconstructions, no claim of natural photography.",
+    "references": [
+      {
+        "file": "kagu-refs.jpg",
+        "sha256": "05870739d6fc41b778219a85051ee8e7026e00c0648fc33ba3ad5b16918fb299"
+      }
+    ]
+  },
+  {
+    "file": "02-observation.webp",
+    "prompt": "Create ONE 1536x1024 landscape scientific natural-history reconstruction of Rhynochetos jubatus. Kagu bird from New Caledonia, pearl-grey plumage, long thin swept-back grey head crest, straight pointed orange-red bill, dark red eyes, relatively long orange-red legs, compact ground bird body with short tail and fairly short neck (not long S-neck heron). Wings FOLDED or only naturally lowered, no invented open-wing stripe diagram. Match source photographs for grey head crest, bill, legs and overall bird posture. Leaf-litter forest floor. No arbitrary chick, no flight action, no human objects. Scene: whole bird with fine head crest slightly raised on forest litter, wings folded. A distinct gallery observation in one coherent scene, no scientific claim from a static pose. References may include a credited scientific illustration or natural photographs; use only biological morphology, NEVER copy white sheet, grid, watermark, caption, photograph credit, text, scale bars or logos. Realistic fine natural textures and restrained lighting, no labels, no collage or unsupported internal anatomy. All images are AI scientific reconstructions, no claim of natural photography.",
+    "references": [
+      {
+        "file": "kagu-refs.jpg",
+        "sha256": "05870739d6fc41b778219a85051ee8e7026e00c0648fc33ba3ad5b16918fb299"
+      }
+    ]
+  },
+  {
+    "file": "03-observation.webp",
+    "prompt": "Create ONE 1536x1024 landscape scientific natural-history reconstruction of Rhynochetos jubatus. Kagu bird from New Caledonia, pearl-grey plumage, long thin swept-back grey head crest, straight pointed orange-red bill, dark red eyes, relatively long orange-red legs, compact ground bird body with short tail and fairly short neck (not long S-neck heron). Wings FOLDED or only naturally lowered, no invented open-wing stripe diagram. Match source photographs for grey head crest, bill, legs and overall bird posture. Leaf-litter forest floor. No arbitrary chick, no flight action, no human objects. Scene: closer head profile with red eye, pointed orange bill and fine grey crest. A distinct gallery observation in one coherent scene, no scientific claim from a static pose. References may include a credited scientific illustration or natural photographs; use only biological morphology, NEVER copy white sheet, grid, watermark, caption, photograph credit, text, scale bars or logos. Realistic fine natural textures and restrained lighting, no labels, no collage or unsupported internal anatomy. All images are AI scientific reconstructions, no claim of natural photography.",
+    "references": [
+      {
+        "file": "kagu-refs.jpg",
+        "sha256": "05870739d6fc41b778219a85051ee8e7026e00c0648fc33ba3ad5b16918fb299"
+      }
+    ]
+  },
+  {
+    "file": "04-observation.webp",
+    "prompt": "Create ONE 1536x1024 landscape scientific natural-history reconstruction of Rhynochetos jubatus. Kagu bird from New Caledonia, pearl-grey plumage, long thin swept-back grey head crest, straight pointed orange-red bill, dark red eyes, relatively long orange-red legs, compact ground bird body with short tail and fairly short neck (not long S-neck heron). Wings FOLDED or only naturally lowered, no invented open-wing stripe diagram. Match source photographs for grey head crest, bill, legs and overall bird posture. Leaf-litter forest floor. No arbitrary chick, no flight action, no human objects. Scene: whole bird leaning forward to inspect leaf litter, no visible captured prey. A distinct gallery observation in one coherent scene, no scientific claim from a static pose. References may include a credited scientific illustration or natural photographs; use only biological morphology, NEVER copy white sheet, grid, watermark, caption, photograph credit, text, scale bars or logos. Realistic fine natural textures and restrained lighting, no labels, no collage or unsupported internal anatomy. All images are AI scientific reconstructions, no claim of natural photography.",
+    "references": [
+      {
+        "file": "kagu-refs.jpg",
+        "sha256": "05870739d6fc41b778219a85051ee8e7026e00c0648fc33ba3ad5b16918fb299"
+      }
+    ]
+  },
+  {
+    "file": "05-observation.webp",
+    "prompt": "Create ONE 1536x1024 landscape scientific natural-history reconstruction of Rhynochetos jubatus. Kagu bird from New Caledonia, pearl-grey plumage, long thin swept-back grey head crest, straight pointed orange-red bill, dark red eyes, relatively long orange-red legs, compact ground bird body with short tail and fairly short neck (not long S-neck heron). Wings FOLDED or only naturally lowered, no invented open-wing stripe diagram. Match source photographs for grey head crest, bill, legs and overall bird posture. Leaf-litter forest floor. No arbitrary chick, no flight action, no human objects. Scene: whole bird stepping over a low root, wings folded, posture only not a motion sequence. A distinct gallery observation in one coherent scene, no scientific claim from a static pose. References may include a credited scientific illustration or natural photographs; use only biological morphology, NEVER copy white sheet, grid, watermark, caption, photograph credit, text, scale bars or logos. Realistic fine natural textures and restrained lighting, no labels, no collage or unsupported internal anatomy. All images are AI scientific reconstructions, no claim of natural photography.",
+    "references": [
+      {
+        "file": "kagu-refs.jpg",
+        "sha256": "05870739d6fc41b778219a85051ee8e7026e00c0648fc33ba3ad5b16918fb299"
+      }
+    ]
+  },
+  {
+    "file": "06-observation.webp",
+    "prompt": "Create ONE 1536x1024 landscape scientific natural-history reconstruction of Rhynochetos jubatus. Kagu bird from New Caledonia, pearl-grey plumage, long thin swept-back grey head crest, straight pointed orange-red bill, dark red eyes, relatively long orange-red legs, compact ground bird body with short tail and fairly short neck (not long S-neck heron). Wings FOLDED or only naturally lowered, no invented open-wing stripe diagram. Match source photographs for grey head crest, bill, legs and overall bird posture. Leaf-litter forest floor. No arbitrary chick, no flight action, no human objects. Scene: two complete grey birds standing apart in forest, no invented mating event or sex assignment. A distinct gallery observation in one coherent scene, no scientific claim from a static pose. References may include a credited scientific illustration or natural photographs; use only biological morphology, NEVER copy white sheet, grid, watermark, caption, photograph credit, text, scale bars or logos. Realistic fine natural textures and restrained lighting, no labels, no collage or unsupported internal anatomy. All images are AI scientific reconstructions, no claim of natural photography.",
+    "references": [
+      {
+        "file": "kagu-refs.jpg",
+        "sha256": "05870739d6fc41b778219a85051ee8e7026e00c0648fc33ba3ad5b16918fb299"
+      }
+    ]
+  }
+]

@@ -24382,7 +24382,7 @@ test('extinct profiles distinguish historical records from assessments and recon
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 853);
+  assert.equal(species.length, 858);
   assert.equal(findTaxon(tree, 'order', 'Cestida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Cestidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Discodorididae')?.speciesCount, 1);
@@ -24576,7 +24576,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 853);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 858);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -24597,14 +24597,14 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 576);
-  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 175);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 581);
+  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 177);
   assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 51);
   assert.equal(findTaxon(tree, 'family', 'Procyonidae')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'genus', 'Procyon')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Herpestidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Suricata')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Rodentia')?.speciesCount, 21);
+  assert.equal(findTaxon(tree, 'order', 'Rodentia')?.speciesCount, 22);
   assert.equal(findTaxon(tree, 'family', 'Heterocephalidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Heterocephalus')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Dermoptera')?.speciesCount, 1);
@@ -24619,7 +24619,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Tubulidentata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Orycteropodidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Orycteropus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Actinopterygii')?.speciesCount, 71);
+  assert.equal(findTaxon(tree, 'class', 'Actinopterygii')?.speciesCount, 73);
   assert.equal(findTaxon(tree, 'order', 'Gobiiformes')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'family', 'Oxudercidae')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'genus', 'Boleophthalmus')?.speciesCount, 1);
@@ -24648,7 +24648,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Amphioxiformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Branchiostomatidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Branchiostoma')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 150);
+  assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 151);
   assert.equal(findTaxon(tree, 'order', 'Passeriformes')?.speciesCount, 34);
   assert.equal(findTaxon(tree, 'family', 'Menuridae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Menura')?.speciesCount, 1);
@@ -27609,4 +27609,38 @@ test('tenth novel batch keeps missing ranks and reconstruction evidence distinct
   assert.match(get('pigbutt-worm').storySections.find(({key}) => key === 'discovery-naming').body, /2001.*2007/s);
   assert.match(get('pompeii-worm').storySections.find(({key}) => key === 'heat').body, /不是体温|不能把出口温度/);
   assert.match(get('fingered-goblet-sponge').description, /显微证据/);
+});
+
+test('eleventh novel batch keeps five accepted vertebrates and scoped evidence', () => {
+  const expected = [
+    ['greater-cane-rat', 'Thryonomys swinderianus', 'Thryonomyidae'],
+    ['northern-tree-shrew', 'Tupaia belangeri', 'Tupaiidae'],
+    ['kagu', 'Rhynochetos jubatus', 'Rhynochetidae'],
+    ['lumpsucker', 'Cyclopterus lumpus', 'Cyclopteridae'],
+    ['atlantic-wolffish', 'Anarhichas lupus', 'Anarhichadidae'],
+  ];
+  for (const [slug, name, family] of expected) {
+    const matches = species.filter((item) => item.scientificName === name);
+    assert.equal(matches.length, 1, name);
+    const item = matches[0];
+    assert.equal(item.slug, slug);
+    assert.equal(item.taxonomy.family.scientificName, family);
+    assert.equal(item.conservation.code, 'UNVERIFIED');
+    assert.equal(item.conservation.trend, 'unknown');
+    assert.equal(item.conservation.assessedYear, undefined);
+    assert.equal(item.pendingMedia, undefined);
+    assert.equal(item.media.gallery.length, 5);
+    assert.equal(new Set([item.media.image, ...item.media.gallery.map((entry) => entry.image)]).size, 6);
+  }
+  const get = (slug) => species.find((item) => item.slug === slug);
+  assert.equal(get('northern-tree-shrew').taxonomy.order.scientificName, 'Scandentia');
+  assert.equal(get('kagu').taxonomy.order.scientificName, 'Eurypygiformes');
+  for (const slug of ['lumpsucker', 'atlantic-wolffish']) {
+    assert.equal(get(slug).taxonomy.class.scientificName, 'Actinopterygii');
+  }
+  assert.equal(get('lumpsucker').taxonomy.order.scientificName, 'Scorpaeniformes');
+  assert.equal(get('atlantic-wolffish').taxonomy.order.scientificName, 'Perciformes');
+  assert.match(get('lumpsucker').media.gallery[3].caption, /繁殖期雄性/);
+  assert.match(get('atlantic-wolffish').distribution.range, /不是本种全球分布/);
+  assert.match(get('atlantic-wolffish').storySections.find(({key}) => key === 'assessment').body, /不能直接换算为 IUCN/);
 });

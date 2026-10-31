@@ -1,0 +1,160 @@
+{
+  "date": "2026-10-31",
+  "pages": [
+    {
+      "slug": "greater-cane-rat",
+      "url": "https://animaldiversity.org/accounts/Thryonomys_swinderianus/",
+      "sha256": "9d10d9f75b726bf7b99afad866edac6686362d5c5ffd59d81bd7027dcbc1aac4"
+    },
+    {
+      "slug": "northern-tree-shrew",
+      "url": "https://animaldiversity.org/accounts/Tupaia_belangeri/",
+      "sha256": "fe29453b994d431839fd95258382b3c2e5d220aee43cbda0dd7f67010257cdf0"
+    },
+    {
+      "slug": "kagu",
+      "url": "https://animals.sandiegozoo.org/animals/kagu",
+      "sha256": "52dd1477c1e0b22eb680fb6b5bf09f4402985cb93353f1416c428c53e74f1bf0"
+    },
+    {
+      "slug": "lumpsucker",
+      "url": "https://www.tokyo-zoo.net/en/kasai/encyclopedia/lumpsucker/index.html",
+      "sha256": "2e0765445bdb6e62b808b505b3207356ba8adf03c3d02baf3496d5e7c44beb9b"
+    },
+    {
+      "slug": "atlantic-wolffish",
+      "url": "https://www.fisheries.noaa.gov/species/atlantic-wolffish",
+      "sha256": "a4d64f04395a3d0749ca1cf7a9bd5160c4d2741e2bfc05e7dcb1d291e3f06fbf"
+    }
+  ],
+  "images": [
+    {
+      "slug": "greater-cane-rat",
+      "url": "https://animaldiversity.org/collections/contributors/Grzimek_mammals/Thryonomyidae/Thryonomys_swinderianus/medium.jpg",
+      "sha256": "c17f3f4a06ed6a09a128dd96ddc48f679da775c32f55281e35a77ccc8284689a",
+      "kind": "Grzimek illustration republished on ADW, not natural photograph",
+      "alt": "",
+      "usedForGeneration": true
+    },
+    {
+      "slug": "atlantic-wolffish",
+      "url": "https://www.fisheries.noaa.gov/s3/styles/original/s3/2020-12/640x427-Wolffish-Atlantic.jpg?itok=1vWTTmEl",
+      "sha256": "b1ad58ceb3d90f0d4479cdecee82b41396996e1d04c941ffc0727f8c95dd154a",
+      "kind": "NOAA identified illustration or aquarium photograph; type retained in alt",
+      "alt": "Side-profile illustration of an Atlantic wolffish with blueish-gray, tapered body, large rounded head, and teeth jutting out.",
+      "usedForGeneration": true
+    },
+    {
+      "slug": "atlantic-wolffish",
+      "url": "https://www.fisheries.noaa.gov/s3/styles/full_width/s3/dam-migration/wolffish_woods_hole_aquarium.jpg?itok=XM8NaJS9",
+      "sha256": "d630b6e0213fe42fb7f18d34f4bfec2503e5643e7b6c2ce9812b5006d6e7ab53",
+      "kind": "NOAA identified illustration or aquarium photograph; type retained in alt",
+      "alt": "Blueish-gray, big-headed Atlantic wolffish with big eyes and visible crooked, pointy teeth.",
+      "usedForGeneration": true
+    },
+    {
+      "slug": "lumpsucker",
+      "url": "https://www.tokyo-zoo.net/image/kasai/encyclopedia/lumpsucker-1.jpg",
+      "sha256": "01b36672de8d87019d13eded5268f41fb28288b83816480b71ed78b9a8542384",
+      "kind": "aquarium identified photograph",
+      "alt": "Lumpsucker",
+      "usedForGeneration": true
+    },
+    {
+      "slug": "kagu",
+      "url": "https://animals.sandiegozoo.org/sites/default/files/2016-11/animals_hero_kagu.jpg",
+      "sha256": "9dc586ad7c8bb8e3d19cd3f8bbca85914a8b724338046ac67f4fb209e416176d",
+      "kind": "zoo identified photograph",
+      "alt": "Kagu bird foraging on forest floor.",
+      "usedForGeneration": true
+    },
+    {
+      "slug": "lumpsucker",
+      "url": "https://www.tokyo-zoo.net/image/kasai/encyclopedia/lumpsucker-2.jpg",
+      "sha256": "2464c9122ef25cf4f7f6a0acc684c41af804067616fb13205f6a8130421dcf32",
+      "kind": "aquarium identified photograph",
+      "alt": "Lumpsucker",
+      "usedForGeneration": true
+    },
+    {
+      "slug": "lumpsucker",
+      "url": "https://www.tokyo-zoo.net/image/kasai/encyclopedia/lumpsucker-3.jpg",
+      "sha256": "d1fb61d6ef12927840f22c754662968a8b8d9fbecfdc1252caa9152f9c1b8737",
+      "kind": "aquarium identified photograph",
+      "alt": "Lumpsucker",
+      "usedForGeneration": true
+    },
+    {
+      "slug": "lumpsucker",
+      "url": "https://www.tokyo-zoo.net/image/kasai/encyclopedia/topic-lumpsucker-1.jpg",
+      "sha256": "debe07247f355d67fdd78ae5e783a9bb5c3fbcaac8fe02e4822d617cfd038342",
+      "kind": "aquarium identified photograph",
+      "alt": "Lumpsucker pelvic fin",
+      "usedForGeneration": true
+    },
+    {
+      "slug": "lumpsucker",
+      "url": "https://www.tokyo-zoo.net/image/kasai/encyclopedia/topic-lumpsucker-2.jpg",
+      "sha256": "56917fd98ee40616775cb2490dd44b641e80703cd1849d1f4d42fdee0a8797d1",
+      "kind": "aquarium identified photograph",
+      "alt": "Lumpsucker Egg",
+      "usedForGeneration": false
+    },
+    {
+      "slug": "northern-tree-shrew",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/605533723/original.jpg",
+      "sha256": "8b4d6d02b1f81377b6bf37b9246ba24fa888d59bce9bc423e535a2e9ab74c194",
+      "kind": "GBIF occurrence photograph supplied by iNaturalist; community identification, not expert sign-off",
+      "occurrenceKey": 5938227640,
+      "countryCode": "TH",
+      "creator": "Martin Skjold",
+      "recordUrl": "https://www.gbif.org/occurrence/5938227640",
+      "usedForGeneration": false
+    },
+    {
+      "slug": "northern-tree-shrew",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/604784072/original.jpg",
+      "sha256": "44f41855df1e156d9cfae5870bc822c0fec073a3702623c5fb16166094b1e81a",
+      "kind": "GBIF occurrence photograph supplied by iNaturalist; community identification, not expert sign-off",
+      "occurrenceKey": 5938532397,
+      "countryCode": "MM",
+      "creator": "Khant Ye Yint ( Lord Khanevyr ov Mandralyx)",
+      "recordUrl": "https://www.gbif.org/occurrence/5938532397",
+      "usedForGeneration": false
+    },
+    {
+      "slug": "northern-tree-shrew",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/605068866/original.jpg",
+      "sha256": "b2e446f48a35e77eb70683366fb4cf1bcf897acca7814939ba5bb3211e4bd4c7",
+      "kind": "GBIF occurrence photograph supplied by iNaturalist; community identification, not expert sign-off",
+      "occurrenceKey": 5938567765,
+      "countryCode": "TH",
+      "creator": "aloksingapore",
+      "recordUrl": "https://www.gbif.org/occurrence/5938567765",
+      "usedForGeneration": true
+    },
+    {
+      "slug": "kagu",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/685974002/original.jpg",
+      "sha256": "a76b6a059a2f98def58814d392edc899aae6f8683d272373d83e23ff5e1825d8",
+      "kind": "GBIF occurrence photo; community identification supplementary to zoo species description",
+      "occurrenceKey": 6422215384,
+      "countryCode": "NC",
+      "creator": "Nik Borrow",
+      "recordUrl": "https://www.gbif.org/occurrence/6422215384",
+      "usedForGeneration": true
+    },
+    {
+      "slug": "kagu",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/712288075/original.jpg",
+      "sha256": "3681684e2089242ecf675cbcbcaf55da1a90d349d0af6a4ec6858e361b4c760b",
+      "kind": "GBIF occurrence photo; community identification supplementary to zoo species description",
+      "occurrenceKey": 6479685141,
+      "countryCode": "NC",
+      "creator": "David",
+      "recordUrl": "https://www.gbif.org/occurrence/6479685141",
+      "usedForGeneration": true
+    }
+  ],
+  "limits": "参考插画、自然照片、GBIF/iNaturalist 社区观察照片分别标明。社区照片只作外形补充，不构成专家鉴定。下载了但主体不清晰的两张树鼩照片不用于生成，圆鳍鱼鱼卵商品照片不作形态参考；没有发布参考图片。"
+}

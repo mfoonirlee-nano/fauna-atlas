@@ -1,0 +1,84 @@
+{
+  "reviewedAt": "2026-10-31",
+  "status": "reviewed-reconstruction",
+  "reviewScope": "编辑性可见形态对照；不构成种级标本鉴定或专家审签",
+  "referencePage": "https://www.fisheries.noaa.gov/species/atlantic-wolffish",
+  "referenceImages": [
+    {
+      "url": "https://www.fisheries.noaa.gov/s3/styles/original/s3/2020-12/640x427-Wolffish-Atlantic.jpg?itok=1vWTTmEl",
+      "sha256": "b1ad58ceb3d90f0d4479cdecee82b41396996e1d04c941ffc0727f8c95dd154a",
+      "kind": "NOAA identified illustration or aquarium photograph; type retained in alt",
+      "alt": "Side-profile illustration of an Atlantic wolffish with blueish-gray, tapered body, large rounded head, and teeth jutting out.",
+      "usedForGeneration": true
+    },
+    {
+      "url": "https://www.fisheries.noaa.gov/s3/styles/full_width/s3/dam-migration/wolffish_woods_hole_aquarium.jpg?itok=XM8NaJS9",
+      "sha256": "d630b6e0213fe42fb7f18d34f4bfec2503e5643e7b6c2ce9812b5006d6e7ab53",
+      "kind": "NOAA identified illustration or aquarium photograph; type retained in alt",
+      "alt": "Blueish-gray, big-headed Atlantic wolffish with big eyes and visible crooked, pointy teeth.",
+      "usedForGeneration": true
+    }
+  ],
+  "checks": [
+    "对照 NOAA 科学插画的延长渐细体形与自然照片的宽圆头部：深色竖带、长背鳍、胸鳍、独立圆尾、无腹鳍；仅画自然可见前齿。",
+    "首版体形过于短厚，六图均重画；不与斑点狼鳗混图，不添加鲨鱼式大牙或后牙剖面。NOAA 地方渔业评估不是 IUCN 全球保护等级。"
+  ],
+  "assets": [
+    {
+      "file": "01-cover.webp",
+      "sha256": "7ddd2e964251fc889900df41637584b5d2df6edf1e9075ca0c72f3f073eef1bb"
+    },
+    {
+      "file": "02-observation.webp",
+      "sha256": "c3696114c248fa74f5e42dbfb5e9cbedd33a0b70485cfa4607caec128880183e"
+    },
+    {
+      "file": "03-observation.webp",
+      "sha256": "418c1f6baae1d43a905b2416557080f20704a4d4d908a1fb5c0889953e13e2a9"
+    },
+    {
+      "file": "04-observation.webp",
+      "sha256": "75a5f65f4dd9f2cefd08214d63d6139bc9680f733222e27629e757eee91c8f5b"
+    },
+    {
+      "file": "05-observation.webp",
+      "sha256": "e616b724b04b4b54ce4a9ee6ebca540adb8479bb184cbe7cc7c08f7a4cbceb00"
+    },
+    {
+      "file": "06-observation.webp",
+      "sha256": "a115021f438e6f2dc58a8cdff2c8887f10a7afe5eeb2f4ddaf461dc6390da7fa"
+    }
+  ],
+  "rejectedCandidates": [
+    {
+      "scene": 6,
+      "sourceSha256": "c21fe7a3f72c65787e6b72a85831f5c8ecee120854d7037f2e9c684b958c3531",
+      "reason": "首版狼鱼体形过短厚，封面另有位置问题"
+    },
+    {
+      "scene": 5,
+      "sourceSha256": "515b08d6f39b214219cadcbabf77b0bb784f6b108572cbe8527fe8bd1e338caa",
+      "reason": "首版狼鱼体形过短厚，封面另有位置问题"
+    },
+    {
+      "scene": 4,
+      "sourceSha256": "2e51bc17f81e0701a955d4a7df7c9ad8e7e08b3acc13f2712f9303fa9e0dc046",
+      "reason": "首版狼鱼体形过短厚，封面另有位置问题"
+    },
+    {
+      "scene": 3,
+      "sourceSha256": "ff3250b5e419fda29c094d0ac306d178c333821032c05facc373d76588820241",
+      "reason": "首版狼鱼体形过短厚，封面另有位置问题"
+    },
+    {
+      "scene": 2,
+      "sourceSha256": "b1aee2edfb54921fa2ef2b081089364c1533ea122be6947d91f61208bb2d13db",
+      "reason": "首版狼鱼体形过短厚，封面另有位置问题"
+    },
+    {
+      "scene": 1,
+      "sourceSha256": "1a4f384879b8284d7c65178dbb3e495fef24233a64df07a3516896dbf964461a",
+      "reason": "首版狼鱼体形过短厚，封面另有位置问题"
+    }
+  ]
+}

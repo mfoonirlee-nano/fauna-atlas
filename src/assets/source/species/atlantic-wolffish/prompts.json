@@ -1,0 +1,86 @@
+[
+  {
+    "file": "01-cover.webp",
+    "prompt": "Create ONE1536x1024 scientific reconstruction of Anarhichas lupus, Atlantic wolffish. Correct anatomy VERY ELONGATED muscular eel-like tapered body, length about FIVE TIMES maximum body thickness excluding fins, broad rounded heavy short head around one-fifth body length, LONG slender tapering tail region with DISTINCT rounded separate caudal fin. Blue-grey skin with irregular dark VERTICAL bars, NO spots, smooth skin. Low continuous long dorsal fin starts behind head and extends near tail base, long anal fin below posterior body, broad paired pectorals near head, NO pelvic fins, no barbels. NOT a short deep-bodied perch or grouper, NOT a wolf-eel with merged tail or spotted body, no spiny separate dorsal fin. Follow NOAA's long tapered scientific illustration and living broad-head photograph in reference, never copy their writing, watermark or sheet layout. COVER: head upper-right, very elongated body bends in a natural loose U down the RIGHT side, slender tail curves back toward lower-center-right. ENTIRE fish including all fin tips and tail fits x=610..1430 y=100..930, centered x>=65%; all left38% quiet low-detail water. Large complete animal in that box, never crop or shorten body to fit. Restrained cold Atlantic underwater light, subtle rocky seabed, no white background. A few canine-like front teeth may show naturally from lips, NO shark fang display or invented skull cutaway. No labels, collage, human hand, fake motion or egg guarding.",
+    "references": [
+      {
+        "file": "atlantic-wolffish-refs.jpg",
+        "sha256": "beaa3ae0859b7c58858194ff0c33673c9bc39e0b3cfb7b6165fd25f452691a79"
+      }
+    ],
+    "referenceInputPathsAtGeneration": [
+      "/tmp/fauna-eleventh/atlantic-wolffish-refs.jpg"
+    ],
+    "referenceHashNote": "对可能被替换的旧运行封面保留逐字节相同的临时快照后计算哈希，快照名称与实际输入路径分开记录。"
+  },
+  {
+    "file": "02-observation.webp",
+    "prompt": "Create ONE1536x1024 scientific reconstruction of Anarhichas lupus, Atlantic wolffish. Correct anatomy VERY ELONGATED muscular eel-like tapered body, length about FIVE TIMES maximum body thickness excluding fins, broad rounded heavy short head around one-fifth body length, LONG slender tapering tail region with DISTINCT rounded separate caudal fin. Blue-grey skin with irregular dark VERTICAL bars, NO spots, smooth skin. Low continuous long dorsal fin starts behind head and extends near tail base, long anal fin below posterior body, broad paired pectorals near head, NO pelvic fins, no barbels. NOT a short deep-bodied perch or grouper, NOT a wolf-eel with merged tail or spotted body, no spiny separate dorsal fin. Follow NOAA's long tapered scientific illustration and living broad-head photograph in reference, never copy their writing, watermark or sheet layout. whole long fish nearly straight on rocky bottom, wide natural scene all head tail and fins in frame Restrained cold Atlantic underwater light, subtle rocky seabed, no white background. A few canine-like front teeth may show naturally from lips, NO shark fang display or invented skull cutaway. No labels, collage, human hand, fake motion or egg guarding.",
+    "references": [
+      {
+        "file": "atlantic-wolffish-refs.jpg",
+        "sha256": "beaa3ae0859b7c58858194ff0c33673c9bc39e0b3cfb7b6165fd25f452691a79"
+      }
+    ],
+    "referenceInputPathsAtGeneration": [
+      "/tmp/fauna-eleventh/atlantic-wolffish-refs.jpg"
+    ],
+    "referenceHashNote": "对可能被替换的旧运行封面保留逐字节相同的临时快照后计算哈希，快照名称与实际输入路径分开记录。"
+  },
+  {
+    "file": "03-observation.webp",
+    "prompt": "Create ONE1536x1024 scientific reconstruction of Anarhichas lupus, Atlantic wolffish. Correct anatomy VERY ELONGATED muscular eel-like tapered body, length about FIVE TIMES maximum body thickness excluding fins, broad rounded heavy short head around one-fifth body length, LONG slender tapering tail region with DISTINCT rounded separate caudal fin. Blue-grey skin with irregular dark VERTICAL bars, NO spots, smooth skin. Low continuous long dorsal fin starts behind head and extends near tail base, long anal fin below posterior body, broad paired pectorals near head, NO pelvic fins, no barbels. NOT a short deep-bodied perch or grouper, NOT a wolf-eel with merged tail or spotted body, no spiny separate dorsal fin. Follow NOAA's long tapered scientific illustration and living broad-head photograph in reference, never copy their writing, watermark or sheet layout. closer naturally broad head view, thick lips slightly open exposing a few stout front teeth only, show enough slender shoulder body to avoid round perch shape Restrained cold Atlantic underwater light, subtle rocky seabed, no white background. A few canine-like front teeth may show naturally from lips, NO shark fang display or invented skull cutaway. No labels, collage, human hand, fake motion or egg guarding.",
+    "references": [
+      {
+        "file": "atlantic-wolffish-refs.jpg",
+        "sha256": "beaa3ae0859b7c58858194ff0c33673c9bc39e0b3cfb7b6165fd25f452691a79"
+      }
+    ],
+    "referenceInputPathsAtGeneration": [
+      "/tmp/fauna-eleventh/atlantic-wolffish-refs.jpg"
+    ],
+    "referenceHashNote": "对可能被替换的旧运行封面保留逐字节相同的临时快照后计算哈希，快照名称与实际输入路径分开记录。"
+  },
+  {
+    "file": "04-observation.webp",
+    "prompt": "Create ONE1536x1024 scientific reconstruction of Anarhichas lupus, Atlantic wolffish. Correct anatomy VERY ELONGATED muscular eel-like tapered body, length about FIVE TIMES maximum body thickness excluding fins, broad rounded heavy short head around one-fifth body length, LONG slender tapering tail region with DISTINCT rounded separate caudal fin. Blue-grey skin with irregular dark VERTICAL bars, NO spots, smooth skin. Low continuous long dorsal fin starts behind head and extends near tail base, long anal fin below posterior body, broad paired pectorals near head, NO pelvic fins, no barbels. NOT a short deep-bodied perch or grouper, NOT a wolf-eel with merged tail or spotted body, no spiny separate dorsal fin. Follow NOAA's long tapered scientific illustration and living broad-head photograph in reference, never copy their writing, watermark or sheet layout. entire elongated fish in a loose curve beside low rock, all tail visible, no captured prey Restrained cold Atlantic underwater light, subtle rocky seabed, no white background. A few canine-like front teeth may show naturally from lips, NO shark fang display or invented skull cutaway. No labels, collage, human hand, fake motion or egg guarding.",
+    "references": [
+      {
+        "file": "atlantic-wolffish-refs.jpg",
+        "sha256": "beaa3ae0859b7c58858194ff0c33673c9bc39e0b3cfb7b6165fd25f452691a79"
+      }
+    ],
+    "referenceInputPathsAtGeneration": [
+      "/tmp/fauna-eleventh/atlantic-wolffish-refs.jpg"
+    ],
+    "referenceHashNote": "对可能被替换的旧运行封面保留逐字节相同的临时快照后计算哈希，快照名称与实际输入路径分开记录。"
+  },
+  {
+    "file": "05-observation.webp",
+    "prompt": "Create ONE1536x1024 scientific reconstruction of Anarhichas lupus, Atlantic wolffish. Correct anatomy VERY ELONGATED muscular eel-like tapered body, length about FIVE TIMES maximum body thickness excluding fins, broad rounded heavy short head around one-fifth body length, LONG slender tapering tail region with DISTINCT rounded separate caudal fin. Blue-grey skin with irregular dark VERTICAL bars, NO spots, smooth skin. Low continuous long dorsal fin starts behind head and extends near tail base, long anal fin below posterior body, broad paired pectorals near head, NO pelvic fins, no barbels. NOT a short deep-bodied perch or grouper, NOT a wolf-eel with merged tail or spotted body, no spiny separate dorsal fin. Follow NOAA's long tapered scientific illustration and living broad-head photograph in reference, never copy their writing, watermark or sheet layout. natural side view of the long tapered blue-grey body with vertical dark bars and low dorsal fin, specimen wholly within frame Restrained cold Atlantic underwater light, subtle rocky seabed, no white background. A few canine-like front teeth may show naturally from lips, NO shark fang display or invented skull cutaway. No labels, collage, human hand, fake motion or egg guarding.",
+    "references": [
+      {
+        "file": "atlantic-wolffish-refs.jpg",
+        "sha256": "beaa3ae0859b7c58858194ff0c33673c9bc39e0b3cfb7b6165fd25f452691a79"
+      }
+    ],
+    "referenceInputPathsAtGeneration": [
+      "/tmp/fauna-eleventh/atlantic-wolffish-refs.jpg"
+    ],
+    "referenceHashNote": "对可能被替换的旧运行封面保留逐字节相同的临时快照后计算哈希，快照名称与实际输入路径分开记录。"
+  },
+  {
+    "file": "06-observation.webp",
+    "prompt": "Create ONE1536x1024 scientific reconstruction of Anarhichas lupus, Atlantic wolffish. Correct anatomy VERY ELONGATED muscular eel-like tapered body, length about FIVE TIMES maximum body thickness excluding fins, broad rounded heavy short head around one-fifth body length, LONG slender tapering tail region with DISTINCT rounded separate caudal fin. Blue-grey skin with irregular dark VERTICAL bars, NO spots, smooth skin. Low continuous long dorsal fin starts behind head and extends near tail base, long anal fin below posterior body, broad paired pectorals near head, NO pelvic fins, no barbels. NOT a short deep-bodied perch or grouper, NOT a wolf-eel with merged tail or spotted body, no spiny separate dorsal fin. Follow NOAA's long tapered scientific illustration and living broad-head photograph in reference, never copy their writing, watermark or sheet layout. entire elongated fish from a shallow top oblique angle resting on rocky bottom, head much broader than tapering tail Restrained cold Atlantic underwater light, subtle rocky seabed, no white background. A few canine-like front teeth may show naturally from lips, NO shark fang display or invented skull cutaway. No labels, collage, human hand, fake motion or egg guarding.",
+    "references": [
+      {
+        "file": "atlantic-wolffish-refs.jpg",
+        "sha256": "beaa3ae0859b7c58858194ff0c33673c9bc39e0b3cfb7b6165fd25f452691a79"
+      }
+    ],
+    "referenceInputPathsAtGeneration": [
+      "/tmp/fauna-eleventh/atlantic-wolffish-refs.jpg"
+    ],
+    "referenceHashNote": "对可能被替换的旧运行封面保留逐字节相同的临时快照后计算哈希，快照名称与实际输入路径分开记录。"
+  }
+]

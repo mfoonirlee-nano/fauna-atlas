@@ -1,0 +1,73 @@
+{
+  "reviewedAt": "2026-10-31",
+  "status": "reviewed-reconstruction",
+  "reviewScope": "编辑性可见形态对照；不构成种级标本鉴定或专家审签",
+  "referencePage": "https://www.tokyo-zoo.net/en/kasai/encyclopedia/lumpsucker/index.html",
+  "referenceImages": [
+    {
+      "url": "https://www.tokyo-zoo.net/image/kasai/encyclopedia/lumpsucker-1.jpg",
+      "sha256": "01b36672de8d87019d13eded5268f41fb28288b83816480b71ed78b9a8542384",
+      "kind": "aquarium identified photograph",
+      "alt": "Lumpsucker",
+      "usedForGeneration": true
+    },
+    {
+      "url": "https://www.tokyo-zoo.net/image/kasai/encyclopedia/lumpsucker-2.jpg",
+      "sha256": "2464c9122ef25cf4f7f6a0acc684c41af804067616fb13205f6a8130421dcf32",
+      "kind": "aquarium identified photograph",
+      "alt": "Lumpsucker",
+      "usedForGeneration": true
+    },
+    {
+      "url": "https://www.tokyo-zoo.net/image/kasai/encyclopedia/lumpsucker-3.jpg",
+      "sha256": "d1fb61d6ef12927840f22c754662968a8b8d9fbecfdc1252caa9152f9c1b8737",
+      "kind": "aquarium identified photograph",
+      "alt": "Lumpsucker",
+      "usedForGeneration": true
+    },
+    {
+      "url": "https://www.tokyo-zoo.net/image/kasai/encyclopedia/topic-lumpsucker-1.jpg",
+      "sha256": "debe07247f355d67fdd78ae5e783a9bb5c3fbcaac8fe02e4822d617cfd038342",
+      "kind": "aquarium identified photograph",
+      "alt": "Lumpsucker pelvic fin",
+      "usedForGeneration": true
+    }
+  ],
+  "checks": [
+    "对照水族园照片：粗短隆起体形、骨质突起、胸鳍与独立尾鳍，特化腹鳍吸盘位于腹面。",
+    "红色图仅示意繁殖期雄性体色；未将商品鱼卵照片作外形参考，不画河豚长刺、头部吸盘或未核实的内部剖面。"
+  ],
+  "assets": [
+    {
+      "file": "01-cover.webp",
+      "sha256": "6d65a0031377383c93c4ae90bdfae112df2ead353c886a856090d6ee5cdc106a"
+    },
+    {
+      "file": "02-observation.webp",
+      "sha256": "c243ad7b5d726db80ed7995048c1c070fc7490303e433e9149c8af6fab578b90"
+    },
+    {
+      "file": "03-observation.webp",
+      "sha256": "06822f204fc0b9e1f40fbbbbc9c7735ec0d5100f71364c1eca9b378589ef3206"
+    },
+    {
+      "file": "04-observation.webp",
+      "sha256": "04938ebea669ea02304fcec78db5ee16432d03cc8b9959459c1c05da525e2043"
+    },
+    {
+      "file": "05-observation.webp",
+      "sha256": "fef28e16dd9c56adba66464de2caa68fa1a980e891c4059017c1dcd2b6d8d51d"
+    },
+    {
+      "file": "06-observation.webp",
+      "sha256": "81ba6fb5874eec65c849e43b0ea35d8eed3fbfb2dbc5c08bfba0f58b2589d7af"
+    }
+  ],
+  "rejectedCandidates": [
+    {
+      "scene": 1,
+      "sourceSha256": "aac51f019cb65369b4174a4f01fbd99ff68c1c389bf8c796f3995c4a0537b1ae",
+      "reason": "首版完整主体位置或安静区不符合要求"
+    }
+  ]
+}

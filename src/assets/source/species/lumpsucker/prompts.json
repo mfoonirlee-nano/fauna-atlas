@@ -1,0 +1,66 @@
+[
+  {
+    "file": "01-cover.webp",
+    "prompt": "Recompose the same Cyclopterus lumpus as ONE complete full-body COVER on RIGHT side of1536x1024 landscape. Keep stout globose grey-green bumpy body with rows of bony tubercles, broad rounded pectorals, rounded distinct tail and ventral fused-pelvic sucker attached to rock. Change to slightly foreshortened THREE-QUARTER view so head and tail fit COMPACTLY within x=650..1420 and y=130..920; entire fish visible, no cropped fin tips. Center x~1050, all left40% ONLY quiet low-detail blue-green water and rock with NO HEAD or fish. Large prominent whole animal within this right-hand box; head facing slightly toward viewer instead of extreme side profile. No pufferfish spines, no extra pelvic fins or false mouth. Real background around all fins and tail, subdued cool underwater habitat. Scientific reconstruction, no text or watermark.",
+    "references": [
+      {
+        "file": "prior-lumpsucker-cover.webp",
+        "sha256": "4961160d0590a18796c29e7a0d36c840348b01fc3fa709e72e65716812277ed4"
+      }
+    ],
+    "referenceInputPathsAtGeneration": [
+      "/workspace/fauna-atlas/public/images/species/lumpsucker/01-cover.webp"
+    ],
+    "referenceHashNote": "对可能被替换的旧运行封面保留逐字节相同的临时快照后计算哈希，快照名称与实际输入路径分开记录。"
+  },
+  {
+    "file": "02-observation.webp",
+    "prompt": "Create ONE 1536x1024 landscape scientific natural-history reconstruction of Cyclopterus lumpus. A living North Atlantic lumpsucker fish, stout globose lumpy grey-green body with bony tubercles and raised rows of bumps, short thick head, small mouth, large rounded pectoral fins, distinct rounded tail fin with rays, small dorsal fin behind fleshy dorsal hump. Pelvic fins fused into a broad suction DISC on VENTRAL belly just behind pectoral region, not on head, not a second mouth. Match aquarium images. Not pufferfish, no inflated spikes, no octopus tentacles, no mammal face. Cool-water rocky habitat. Scene: side view of whole grey-green body with clear rows of bumps and fin outlines. A distinct gallery observation in one coherent scene, no scientific claim from a static pose. References may include a credited scientific illustration or natural photographs; use only biological morphology, NEVER copy white sheet, grid, watermark, caption, photograph credit, text, scale bars or logos. Realistic fine natural textures and restrained lighting, no labels, no collage or unsupported internal anatomy. All images are AI scientific reconstructions, no claim of natural photography.",
+    "references": [
+      {
+        "file": "lumpsucker-refs.jpg",
+        "sha256": "fd9e04ed9d838279846b8de4a62722941cfd9f76be066880cb15193dd2062b2e"
+      }
+    ]
+  },
+  {
+    "file": "03-observation.webp",
+    "prompt": "Create ONE 1536x1024 landscape scientific natural-history reconstruction of Cyclopterus lumpus. A living North Atlantic lumpsucker fish, stout globose lumpy grey-green body with bony tubercles and raised rows of bumps, short thick head, small mouth, large rounded pectoral fins, distinct rounded tail fin with rays, small dorsal fin behind fleshy dorsal hump. Pelvic fins fused into a broad suction DISC on VENTRAL belly just behind pectoral region, not on head, not a second mouth. Match aquarium images. Not pufferfish, no inflated spikes, no octopus tentacles, no mammal face. Cool-water rocky habitat. Scene: natural slight underside three-quarter view showing ventral pelvic suction disc, not a cutaway, fish otherwise complete. A distinct gallery observation in one coherent scene, no scientific claim from a static pose. References may include a credited scientific illustration or natural photographs; use only biological morphology, NEVER copy white sheet, grid, watermark, caption, photograph credit, text, scale bars or logos. Realistic fine natural textures and restrained lighting, no labels, no collage or unsupported internal anatomy. All images are AI scientific reconstructions, no claim of natural photography.",
+    "references": [
+      {
+        "file": "lumpsucker-refs.jpg",
+        "sha256": "fd9e04ed9d838279846b8de4a62722941cfd9f76be066880cb15193dd2062b2e"
+      }
+    ]
+  },
+  {
+    "file": "04-observation.webp",
+    "prompt": "Create ONE 1536x1024 landscape scientific natural-history reconstruction of Cyclopterus lumpus. A living North Atlantic lumpsucker fish, stout globose lumpy grey-green body with bony tubercles and raised rows of bumps, short thick head, small mouth, large rounded pectoral fins, distinct rounded tail fin with rays, small dorsal fin behind fleshy dorsal hump. Pelvic fins fused into a broad suction DISC on VENTRAL belly just behind pectoral region, not on head, not a second mouth. Match aquarium images. Not pufferfish, no inflated spikes, no octopus tentacles, no mammal face. Cool-water rocky habitat. Scene: closer view flank bumps and skin texture with gill opening, no microscopy. A distinct gallery observation in one coherent scene, no scientific claim from a static pose. References may include a credited scientific illustration or natural photographs; use only biological morphology, NEVER copy white sheet, grid, watermark, caption, photograph credit, text, scale bars or logos. Realistic fine natural textures and restrained lighting, no labels, no collage or unsupported internal anatomy. All images are AI scientific reconstructions, no claim of natural photography.",
+    "references": [
+      {
+        "file": "lumpsucker-refs.jpg",
+        "sha256": "fd9e04ed9d838279846b8de4a62722941cfd9f76be066880cb15193dd2062b2e"
+      }
+    ]
+  },
+  {
+    "file": "05-observation.webp",
+    "prompt": "Create ONE 1536x1024 landscape scientific natural-history reconstruction of Cyclopterus lumpus. A living North Atlantic lumpsucker fish, stout globose lumpy grey-green body with bony tubercles and raised rows of bumps, short thick head, small mouth, large rounded pectoral fins, distinct rounded tail fin with rays, small dorsal fin behind fleshy dorsal hump. Pelvic fins fused into a broad suction DISC on VENTRAL belly just behind pectoral region, not on head, not a second mouth. Match aquarium images. Not pufferfish, no inflated spikes, no octopus tentacles, no mammal face. Cool-water rocky habitat. Scene: whole red-orange BREEDING MALE color form as in source photograph, intact fins on rocky background. A distinct gallery observation in one coherent scene, no scientific claim from a static pose. References may include a credited scientific illustration or natural photographs; use only biological morphology, NEVER copy white sheet, grid, watermark, caption, photograph credit, text, scale bars or logos. Realistic fine natural textures and restrained lighting, no labels, no collage or unsupported internal anatomy. All images are AI scientific reconstructions, no claim of natural photography.",
+    "references": [
+      {
+        "file": "lumpsucker-refs.jpg",
+        "sha256": "fd9e04ed9d838279846b8de4a62722941cfd9f76be066880cb15193dd2062b2e"
+      }
+    ]
+  },
+  {
+    "file": "06-observation.webp",
+    "prompt": "Create ONE 1536x1024 landscape scientific natural-history reconstruction of Cyclopterus lumpus. A living North Atlantic lumpsucker fish, stout globose lumpy grey-green body with bony tubercles and raised rows of bumps, short thick head, small mouth, large rounded pectoral fins, distinct rounded tail fin with rays, small dorsal fin behind fleshy dorsal hump. Pelvic fins fused into a broad suction DISC on VENTRAL belly just behind pectoral region, not on head, not a second mouth. Match aquarium images. Not pufferfish, no inflated spikes, no octopus tentacles, no mammal face. Cool-water rocky habitat. Scene: whole fish attached to a rock by belly disc with complete head and fins, no glass or human hand. A distinct gallery observation in one coherent scene, no scientific claim from a static pose. References may include a credited scientific illustration or natural photographs; use only biological morphology, NEVER copy white sheet, grid, watermark, caption, photograph credit, text, scale bars or logos. Realistic fine natural textures and restrained lighting, no labels, no collage or unsupported internal anatomy. All images are AI scientific reconstructions, no claim of natural photography.",
+    "references": [
+      {
+        "file": "lumpsucker-refs.jpg",
+        "sha256": "fd9e04ed9d838279846b8de4a62722941cfd9f76be066880cb15193dd2062b2e"
+      }
+    ]
+  }
+]

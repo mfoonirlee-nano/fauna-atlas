@@ -8531,5 +8531,55 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1450,
       "bottom": 981
     }
+  },
+  "greater-cane-rat": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 467,
+      "top": 215,
+      "right": 1427,
+      "bottom": 875
+    }
+  },
+  "northern-tree-shrew": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 725,
+      "top": 104,
+      "right": 1522,
+      "bottom": 960
+    }
+  },
+  "kagu": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 582,
+      "top": 87,
+      "right": 1325,
+      "bottom": 907
+    }
+  },
+  "lumpsucker": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 552,
+      "top": 162,
+      "right": 1510,
+      "bottom": 798
+    }
+  },
+  "atlantic-wolffish": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 550,
+      "top": 95,
+      "right": 1460,
+      "bottom": 940
+    }
   }
 };

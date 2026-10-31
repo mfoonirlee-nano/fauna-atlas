@@ -1,6 +1,6 @@
 # 制作清单：100 种新奇动物与分类补充
 
-2026-10-30 更新：本轮已完成 51/100，待制作或返修 49。目录保留 853 份物种档案，第十批新增五种动物与 30 张配图；本轮完成的 51 项对应 306 张公开配图。紫毯章鱼和龙骨新月贝仍待返修。详见[第十批研究记录](research/todo-novel-tenth-five-2026-10-30.md)、[第九批研究记录](research/todo-novel-ninth-eight-2026-10-29.md)与[此前十种动物复核记录](research/ten-animal-review-fix-2026-10-27.md)。
+2026-10-31 更新：本轮已完成 56/100，待制作或返修 44。目录保留 858 份物种档案，第十一批新增五种动物与 30 张配图；本轮完成的 56 项对应 336 张公开配图。紫毯章鱼和龙骨新月贝仍待返修。详见[第十一批研究记录](research/todo-novel-eleventh-five-2026-10-31.md)、[第十批研究记录](research/todo-novel-tenth-five-2026-10-30.md)、[第九批研究记录](research/todo-novel-ninth-eight-2026-10-29.md)与[此前十种动物复核记录](research/ten-animal-review-fix-2026-10-27.md)。
 
 ## 选题范围与核查
 
@@ -22,8 +22,8 @@
 | 棘皮动物 | 8 | 0 |
 | 环节、海绵及其他动物 | 7 | 9 |
 | 节肢动物 | 5 | 23 |
-| 脊索动物 | 2 | 14 |
-| 合计 | 51 | 49 |
+| 脊索动物 | 7 | 9 |
+| 合计 | 56 | 44 |
 
 ## 制作顺序与完成条件
 
@@ -148,9 +148,9 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | [x] | N001 | 那马瓜沙鸡 | *Pterocles namaqua* | 比较雄鸟干湿腹羽，观察爸爸如何把水带回给雏鸟；可画羽枝吸水的放大图 | 补沙鸡分支；文献常用 Pterocliformes、Pteroclidae。 | [来源](https://pmc.ncbi.nlm.nih.gov/articles/PMC10091193/) |
 | [ ] | N086 | 德氏鳞尾松鼠 | *Anomalurus derbianus* | 展开四肢间滑翔膜；放大尾根腹面的两列角质鳞片 | 补 Anomaluridae；与鼯鼠比较，不能按名字归松鼠科。鳞片作用的说法有研究更新，先描述可见结构 | [来源](https://pmc.ncbi.nlm.nih.gov/articles/PMC7476187/) |
-| [ ] | N087 | 大蔗鼠 | *Thryonomys swinderianus* | 在高大芦苇和草茎之间找体形粗壮的啮齿动物，比较食物和栖息地 | 补 Thryonomyidae；把河岸芦苇环境与常见家鼠城市环境比较，避免只靠毛色区分 | [来源](https://ewt.org/wp-content/uploads/2022/11/63.-Greater-Cane-Rat-Thryonomys-swinderianus_LC.pdf) |
-| [ ] | N088 | 北树鼩 | *Tupaia belangeri* | 尖长鼻吻配毛茸茸长尾，白天在枝条与地面觅食 | 补 Scandentia、Tupaiidae；树鼩不是鼩鼱，分类图中给两者各自路径；不采用馆页“本目只有这一种”的错误概括 | [来源](https://www.lpzoo.org/animals/northern-tree-shrew/) |
-| [ ] | N089 | 鹭鹤 | *Rhynochetos jubatus* | 立起羽冠、展开黑白条纹翅；看不会远飞的鸟如何用翅平衡和护雏 | 补 Rhynochetidae；项目已有 Eurypygidae，可形成 Eurypygiformes 两科比较。旧动物园页用 Gruiformes，不照抄旧目级路径 | [来源](https://animals.sandiegozoo.org/animals/kagu) |
+| [x] | N087 | 大蔗鼠 | *Thryonomys swinderianus* | 在高大芦苇和草茎之间找体形粗壮的啮齿动物，比较食物和栖息地 | 补 Thryonomyidae；把河岸芦苇环境与常见家鼠城市环境比较，避免只靠毛色区分 | [来源](https://ewt.org/wp-content/uploads/2022/11/63.-Greater-Cane-Rat-Thryonomys-swinderianus_LC.pdf) |
+| [x] | N088 | 北树鼩 | *Tupaia belangeri* | 尖长鼻吻配毛茸茸长尾，白天在枝条与地面觅食 | 补 Scandentia、Tupaiidae；树鼩不是鼩鼱，分类图中给两者各自路径；不采用馆页“本目只有这一种”的错误概括 | [来源](https://www.lpzoo.org/animals/northern-tree-shrew/) |
+| [x] | N089 | 鹭鹤 | *Rhynochetos jubatus* | 立起羽冠、展开黑白条纹翅；看不会远飞的鸟如何用翅平衡和护雏 | 补 Rhynochetidae；项目已有 Eurypygidae，可形成 Eurypygiformes 两科比较。旧动物园页用 Gruiformes，不照抄旧目级路径 | [来源](https://animals.sandiegozoo.org/animals/kagu) |
 | [ ] | N090 | 鹃三宝鸟 | *Leptosomus discolor* | 对照成鸟雌雄：雄鸟的灰色与金属色羽毛、雌鸟的褐色斑纹 | 补 Leptosomiformes、Leptosomidae；制作须提供雌雄两幅经鉴定参考，避免只做换色变体 | [来源](https://wallace-online.org/converted/supplementary/specimens/1892_BMbirds_WSPEC351.17.pdf) |
 | [ ] | N091 | 红腿叫鹤 | *Cariama cristata* | 红色长腿、额前竖羽；比较地面奔跑与树上休息的姿态 | 补 Cariamiformes、Cariamidae；部分动物园旧页仍列 Gruiformes，使用当前分类时须统一；不写成完全不会飞 | [来源](https://www.odensezoo.dk/en/visit-zoo/animals/red-legged-seriema/) |
 | [ ] | N092 | 中美洲河龟 | *Dermatemys mawii* | 宽扁、光滑的龟壳，比较水中和上岸产卵姿态 | 补 Dermatemydidae；可与已有猪鼻龟比较不同水生龟。呼吸机制只用有来源的咽部结构，不用“屁股呼吸”替代 | [来源](https://iucn-tftsg.org/wp-content/uploads/file/Accounts/crm_5_058_mawii_v1_2011.pdf) |
@@ -159,8 +159,8 @@
 | [ ] | N095 | 库氏铲足蟾 | *Scaphiopus couchii* | 放大后足黑色“铲子”，图示如何挖入沙土，雨后到临时水池繁殖 | 补 Scaphiopodidae；博物馆旧页拼 couchi、列 Pelobatidae，仅作行为参考，接受名与科用专业目录 | [来源](https://www.desertmuseum.org/books/nhsd_spadefoot.php) |
 | [ ] | N096 | 的的喀喀湖蛙 | *Telmatobius culeus* | 松垮褶皱皮肤像大衣；看水中展开的蹼足与皮肤结构 | 补 Telmatobiidae；褶皱皮肤参与水下气体交换，不把所有呼吸概括为完全不用肺 | [来源](https://citizen-conservation.org/wp-content/uploads/2024/08/CC-Breeding-Guidelines_Telmatobius-culeus_07-2024.pdf) |
 | [x] | N097 | 龟蛙 | *Myobatrachus gouldii* | 小头、短腿和圆身体像没壳的小龟；看它用前足向前挖洞，幼蛙在卵里发育 | 补 Myobatrachidae；与后足挖掘的铲足类形成动作比较，直接发育不画成自由游泳蝌蚪 | [来源](https://museum.wa.gov.au/explore/frogwatch/frogs/turtle-frog) |
-| [ ] | N098 | 圆鳍鱼 | *Cyclopterus lumpus* | 圆身体带小突起，肚子下有吸盘，吸在岩石或玻璃上 | 补 Cyclopteridae；吸盘来自腹鳍；鱼类目级各目录有差异，先确定项目路径 | [来源](https://www.tokyo-zoo.net/en/kasai/encyclopedia/lumpsucker/index.html) |
-| [ ] | N099 | 大西洋狼鱼 | *Anarhichas lupus* | 前排尖齿夹住食物，后面圆钝牙齿磨碎贝壳；用头部剖面看不同牙形 | 补 Anarhichadidae；不与狼鳗 Anarrhichthys ocellatus 混图，尤其注意属名一个 r 的拼写 | [来源](https://www.calacademy.org/blogs/from-the-stacks/smack-fish-wolf-down) |
+| [x] | N098 | 圆鳍鱼 | *Cyclopterus lumpus* | 圆身体带小突起，肚子下有吸盘，吸在岩石或玻璃上 | 补 Cyclopteridae；吸盘来自腹鳍；鱼类目级各目录有差异，先确定项目路径 | [来源](https://www.tokyo-zoo.net/en/kasai/encyclopedia/lumpsucker/index.html) |
+| [x] | N099 | 大西洋狼鱼 | *Anarhichas lupus* | 前排尖齿夹住食物，后面圆钝牙齿磨碎贝壳；用头部剖面看不同牙形 | 补 Anarhichadidae；不与狼鳗 Anarrhichthys ocellatus 混图，尤其注意属名一个 r 的拼写 | [来源](https://www.calacademy.org/blogs/from-the-stacks/smack-fish-wolf-down) |
 | [ ] | N100 | 长尾海蛾鱼 | *Pegasus volitans* | 扁平有甲身体、展开像翅膀的胸鳍，在海底用腹鳍移动 | 补 Pegasidae；FishBase 当前列表与 GBIF 的目级归属不同，制作统一后再计目增量；不能把“飞马”属名写成会离水飞行 | [来源](https://www.fao.org/4/x2400e/x2400e18.pdf) |
 
 ---
