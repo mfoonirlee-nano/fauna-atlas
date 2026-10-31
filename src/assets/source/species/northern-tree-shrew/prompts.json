@@ -1,0 +1,71 @@
+[
+  {
+    "file": "01-cover.webp",
+    "prompt": "Recompose the same northern tree shrew into a compact right-side full-body cover in1536x1024. Keep grey-olive coarse fur, pale shoulder stripe, long pointed muzzle, small round ears, large natural dark eyes, long furry tail about body length, four clawed feet. Pose diagonally on a low branch with head upper right and hindquarters lower center-right; tail follows branch down in a LOOSE natural curve toward lower-right, not a giant squirrel coil and not sticking horizontally into left half. ENTIRE animal including whole tail and whiskers MUST fit x=630..1420,y=100..930. Center atx1040. Quiet left40% forest background with NO animal. Maximize complete subject within right box with real background margin around tail, ears, muzzle, toes. No chopped tail, no tiny distant animal, no text or watermark.",
+    "references": [
+      {
+        "file": "prior-northern-tree-shrew-cover.webp",
+        "sha256": "8faee5faf9f44d1f0b36442e19847afad7570d8c2781e7d51b2dcffb67ae3c7c"
+      },
+      {
+        "file": "northern-tree-shrew-ref-2.jpg",
+        "sha256": "b2e446f48a35e77eb70683366fb4cf1bcf897acca7814939ba5bb3211e4bd4c7"
+      }
+    ],
+    "referenceInputPathsAtGeneration": [
+      "/workspace/fauna-atlas/public/images/species/northern-tree-shrew/01-cover.webp",
+      "/tmp/fauna-eleventh/northern-tree-shrew-ref-2.jpg"
+    ],
+    "referenceHashNote": "对可能被替换的旧运行封面保留逐字节相同的临时快照后计算哈希，快照名称与实际输入路径分开记录。"
+  },
+  {
+    "file": "02-observation.webp",
+    "prompt": "Create ONE 1536x1024 landscape scientific natural-history reconstruction of Tupaia belangeri. Northern tree shrew, small slender grey-olive brown mammal with distinctly elongated pointed snout, small rounded ears, large dark eyes with subtle pale eye margin, long furry moderately bushy tail about body length, faint pale shoulder stripe where visible in source, four slender limbs with fine clawed digits. NOT a mouse, no naked tail; NOT a squirrel caricature with acorns or a giant coiled squirrel tail. Use the identified reference photograph for body and head morphology, pose can be four-legged rather than standing upright. Tropical mainland Southeast Asian forest edge. Scene: whole animal on leaf litter seen at three-quarter angle, elongated snout lowered naturally. A distinct gallery observation in one coherent scene, no scientific claim from a static pose. References may include a credited scientific illustration or natural photographs; use only biological morphology, NEVER copy white sheet, grid, watermark, caption, photograph credit, text, scale bars or logos. Realistic fine natural textures and restrained lighting, no labels, no collage or unsupported internal anatomy. All images are AI scientific reconstructions, no claim of natural photography.",
+    "references": [
+      {
+        "file": "northern-tree-shrew-ref-2.jpg",
+        "sha256": "b2e446f48a35e77eb70683366fb4cf1bcf897acca7814939ba5bb3211e4bd4c7"
+      }
+    ]
+  },
+  {
+    "file": "03-observation.webp",
+    "prompt": "Create ONE 1536x1024 landscape scientific natural-history reconstruction of Tupaia belangeri. Northern tree shrew, small slender grey-olive brown mammal with distinctly elongated pointed snout, small rounded ears, large dark eyes with subtle pale eye margin, long furry moderately bushy tail about body length, faint pale shoulder stripe where visible in source, four slender limbs with fine clawed digits. NOT a mouse, no naked tail; NOT a squirrel caricature with acorns or a giant coiled squirrel tail. Use the identified reference photograph for body and head morphology, pose can be four-legged rather than standing upright. Tropical mainland Southeast Asian forest edge. Scene: close head and shoulder showing pointed muzzle and small rounded ears, no diagram or facial exaggeration. A distinct gallery observation in one coherent scene, no scientific claim from a static pose. References may include a credited scientific illustration or natural photographs; use only biological morphology, NEVER copy white sheet, grid, watermark, caption, photograph credit, text, scale bars or logos. Realistic fine natural textures and restrained lighting, no labels, no collage or unsupported internal anatomy. All images are AI scientific reconstructions, no claim of natural photography.",
+    "references": [
+      {
+        "file": "northern-tree-shrew-ref-2.jpg",
+        "sha256": "b2e446f48a35e77eb70683366fb4cf1bcf897acca7814939ba5bb3211e4bd4c7"
+      }
+    ]
+  },
+  {
+    "file": "04-observation.webp",
+    "prompt": "Create ONE 1536x1024 landscape scientific natural-history reconstruction of Tupaia belangeri. Northern tree shrew, small slender grey-olive brown mammal with distinctly elongated pointed snout, small rounded ears, large dark eyes with subtle pale eye margin, long furry moderately bushy tail about body length, faint pale shoulder stripe where visible in source, four slender limbs with fine clawed digits. NOT a mouse, no naked tail; NOT a squirrel caricature with acorns or a giant coiled squirrel tail. Use the identified reference photograph for body and head morphology, pose can be four-legged rather than standing upright. Tropical mainland Southeast Asian forest edge. Scene: whole animal stretching on a low branch with tail following along branch, all limb tips visible. A distinct gallery observation in one coherent scene, no scientific claim from a static pose. References may include a credited scientific illustration or natural photographs; use only biological morphology, NEVER copy white sheet, grid, watermark, caption, photograph credit, text, scale bars or logos. Realistic fine natural textures and restrained lighting, no labels, no collage or unsupported internal anatomy. All images are AI scientific reconstructions, no claim of natural photography.",
+    "references": [
+      {
+        "file": "northern-tree-shrew-ref-2.jpg",
+        "sha256": "b2e446f48a35e77eb70683366fb4cf1bcf897acca7814939ba5bb3211e4bd4c7"
+      }
+    ]
+  },
+  {
+    "file": "05-observation.webp",
+    "prompt": "Create ONE 1536x1024 landscape scientific natural-history reconstruction of Tupaia belangeri. Northern tree shrew, small slender grey-olive brown mammal with distinctly elongated pointed snout, small rounded ears, large dark eyes with subtle pale eye margin, long furry moderately bushy tail about body length, faint pale shoulder stripe where visible in source, four slender limbs with fine clawed digits. NOT a mouse, no naked tail; NOT a squirrel caricature with acorns or a giant coiled squirrel tail. Use the identified reference photograph for body and head morphology, pose can be four-legged rather than standing upright. Tropical mainland Southeast Asian forest edge. Scene: whole animal on forest floor beside a small generic fallen fruit, no claim of particular fruit prey or feeding action. A distinct gallery observation in one coherent scene, no scientific claim from a static pose. References may include a credited scientific illustration or natural photographs; use only biological morphology, NEVER copy white sheet, grid, watermark, caption, photograph credit, text, scale bars or logos. Realistic fine natural textures and restrained lighting, no labels, no collage or unsupported internal anatomy. All images are AI scientific reconstructions, no claim of natural photography.",
+    "references": [
+      {
+        "file": "northern-tree-shrew-ref-2.jpg",
+        "sha256": "b2e446f48a35e77eb70683366fb4cf1bcf897acca7814939ba5bb3211e4bd4c7"
+      }
+    ]
+  },
+  {
+    "file": "06-observation.webp",
+    "prompt": "Create ONE 1536x1024 landscape scientific natural-history reconstruction of Tupaia belangeri. Northern tree shrew, small slender grey-olive brown mammal with distinctly elongated pointed snout, small rounded ears, large dark eyes with subtle pale eye margin, long furry moderately bushy tail about body length, faint pale shoulder stripe where visible in source, four slender limbs with fine clawed digits. NOT a mouse, no naked tail; NOT a squirrel caricature with acorns or a giant coiled squirrel tail. Use the identified reference photograph for body and head morphology, pose can be four-legged rather than standing upright. Tropical mainland Southeast Asian forest edge. Scene: two separate whole tree shrews spaced apart on low branches, no labels assigning sex or age. A distinct gallery observation in one coherent scene, no scientific claim from a static pose. References may include a credited scientific illustration or natural photographs; use only biological morphology, NEVER copy white sheet, grid, watermark, caption, photograph credit, text, scale bars or logos. Realistic fine natural textures and restrained lighting, no labels, no collage or unsupported internal anatomy. All images are AI scientific reconstructions, no claim of natural photography.",
+    "references": [
+      {
+        "file": "northern-tree-shrew-ref-2.jpg",
+        "sha256": "b2e446f48a35e77eb70683366fb4cf1bcf897acca7814939ba5bb3211e4bd4c7"
+      }
+    ]
+  }
+]

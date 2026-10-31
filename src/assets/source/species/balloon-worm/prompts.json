@@ -1,0 +1,62 @@
+[
+  {
+    "file": "01-cover.webp",
+    "prompt": "Make ONE 1536x1024 landscape scientific natural-history reconstruction of Poeobius meseres. A tiny smooth translucent elongated bag-shaped pelagic annelid floating in dark midwater. Clear thick gelatinous outer coat, pale bluish transparent body with a few amber/golden digestive particles seen inside, a small anterior tuft of many fine long flexible feeding tentacles. NO obvious external segmentation, NO lateral walking bristles, no eyes or jellyfish bell. Not a segmented ragworm. Scene: whole intact floating specimen including every anterior fine tentacle. COVER: show complete visible subject and ALL filament ends, limbs, gill tips, cup rim, barrel and attachment base required by scene. Main subject centered x=68%, y=50%, LARGE in right-hand region; full reviewed subject MUST fit x=560..1430, y=90..930 with real background around every extremity. Left36% only quiet low-detail environment. Never crop subject or hide tips against frame edge. Use supplied contact sheet ONLY as morphology reference; never reproduce its grid, writing or borders. Realistic restrained underwater light, no text, no labels, no logos, no scale bars, no collage, no invented diagnostic microscopy or unsupported feeding event. This is an AI scientific reconstruction, not a copied photograph.",
+    "references": [
+      {
+        "file": "balloon-worm-refs.jpg",
+        "sha256": "cddaffdcd0ce82e5514dca21bbe9d88e81a5d4ca13f7238f5cdbdcd4976d7742"
+      }
+    ]
+  },
+  {
+    "file": "02-observation.webp",
+    "prompt": "Make ONE 1536x1024 landscape scientific natural-history reconstruction of Poeobius meseres. A tiny smooth translucent elongated bag-shaped pelagic annelid floating in dark midwater. Clear thick gelatinous outer coat, pale bluish transparent body with a few amber/golden digestive particles seen inside, a small anterior tuft of many fine long flexible feeding tentacles. NO obvious external segmentation, NO lateral walking bristles, no eyes or jellyfish bell. Not a segmented ragworm. Scene: side view whole clear bag with fine anterior filaments. One coherent distinct gallery observation with relevant visible structures clear, no decorative insets. Use supplied contact sheet ONLY as morphology reference; never reproduce its grid, writing or borders. Realistic restrained underwater light, no text, no labels, no logos, no scale bars, no collage, no invented diagnostic microscopy or unsupported feeding event. This is an AI scientific reconstruction, not a copied photograph.",
+    "references": [
+      {
+        "file": "balloon-worm-refs.jpg",
+        "sha256": "cddaffdcd0ce82e5514dca21bbe9d88e81a5d4ca13f7238f5cdbdcd4976d7742"
+      }
+    ]
+  },
+  {
+    "file": "03-observation.webp",
+    "prompt": "Make ONE 1536x1024 landscape scientific natural-history reconstruction of Poeobius meseres. A tiny smooth translucent elongated bag-shaped pelagic annelid floating in dark midwater. Clear thick gelatinous outer coat, pale bluish transparent body with a few amber/golden digestive particles seen inside, a small anterior tuft of many fine long flexible feeding tentacles. NO obvious external segmentation, NO lateral walking bristles, no eyes or jellyfish bell. Not a segmented ragworm. Scene: closer view of transparent body wall and naturally visible amber gut contents, no fake anatomy overlay. One coherent distinct gallery observation with relevant visible structures clear, no decorative insets. Use supplied contact sheet ONLY as morphology reference; never reproduce its grid, writing or borders. Realistic restrained underwater light, no text, no labels, no logos, no scale bars, no collage, no invented diagnostic microscopy or unsupported feeding event. This is an AI scientific reconstruction, not a copied photograph.",
+    "references": [
+      {
+        "file": "balloon-worm-refs.jpg",
+        "sha256": "cddaffdcd0ce82e5514dca21bbe9d88e81a5d4ca13f7238f5cdbdcd4976d7742"
+      }
+    ]
+  },
+  {
+    "file": "04-observation.webp",
+    "prompt": "Make ONE 1536x1024 landscape scientific natural-history reconstruction of Poeobius meseres. A tiny smooth translucent elongated bag-shaped pelagic annelid floating in dark midwater. Clear thick gelatinous outer coat, pale bluish transparent body with a few amber/golden digestive particles seen inside, a small anterior tuft of many fine long flexible feeding tentacles. NO obvious external segmentation, NO lateral walking bristles, no eyes or jellyfish bell. Not a segmented ragworm. Scene: whole animal beside faint sinking marine-snow particles, no macroscopic prey or conspicuous geometric net. One coherent distinct gallery observation with relevant visible structures clear, no decorative insets. Use supplied contact sheet ONLY as morphology reference; never reproduce its grid, writing or borders. Realistic restrained underwater light, no text, no labels, no logos, no scale bars, no collage, no invented diagnostic microscopy or unsupported feeding event. This is an AI scientific reconstruction, not a copied photograph.",
+    "references": [
+      {
+        "file": "balloon-worm-refs.jpg",
+        "sha256": "cddaffdcd0ce82e5514dca21bbe9d88e81a5d4ca13f7238f5cdbdcd4976d7742"
+      }
+    ]
+  },
+  {
+    "file": "05-observation.webp",
+    "prompt": "Make ONE 1536x1024 landscape scientific natural-history reconstruction of Poeobius meseres. A tiny smooth translucent elongated bag-shaped pelagic annelid floating in dark midwater. Clear thick gelatinous outer coat, pale bluish transparent body with a few amber/golden digestive particles seen inside, a small anterior tuft of many fine long flexible feeding tentacles. NO obvious external segmentation, NO lateral walking bristles, no eyes or jellyfish bell. Not a segmented ragworm. Scene: slightly curled whole specimen with all thin tentacles intact. One coherent distinct gallery observation with relevant visible structures clear, no decorative insets. Use supplied contact sheet ONLY as morphology reference; never reproduce its grid, writing or borders. Realistic restrained underwater light, no text, no labels, no logos, no scale bars, no collage, no invented diagnostic microscopy or unsupported feeding event. This is an AI scientific reconstruction, not a copied photograph.",
+    "references": [
+      {
+        "file": "balloon-worm-refs.jpg",
+        "sha256": "cddaffdcd0ce82e5514dca21bbe9d88e81a5d4ca13f7238f5cdbdcd4976d7742"
+      }
+    ]
+  },
+  {
+    "file": "06-observation.webp",
+    "prompt": "Make ONE 1536x1024 landscape scientific natural-history reconstruction of Poeobius meseres. A tiny smooth translucent elongated bag-shaped pelagic annelid floating in dark midwater. Clear thick gelatinous outer coat, pale bluish transparent body with a few amber/golden digestive particles seen inside, a small anterior tuft of many fine long flexible feeding tentacles. NO obvious external segmentation, NO lateral walking bristles, no eyes or jellyfish bell. Not a segmented ragworm. Scene: two separate whole specimens drifting apart at different orientations. One coherent distinct gallery observation with relevant visible structures clear, no decorative insets. Use supplied contact sheet ONLY as morphology reference; never reproduce its grid, writing or borders. Realistic restrained underwater light, no text, no labels, no logos, no scale bars, no collage, no invented diagnostic microscopy or unsupported feeding event. This is an AI scientific reconstruction, not a copied photograph.",
+    "references": [
+      {
+        "file": "balloon-worm-refs.jpg",
+        "sha256": "cddaffdcd0ce82e5514dca21bbe9d88e81a5d4ca13f7238f5cdbdcd4976d7742"
+      }
+    ]
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "file": "01-cover.webp",
+    "prompt": "Edit the greater cane rat scientific reconstruction for full-body COVER position. Preserve coarse bristly brown fur, stocky heavy body, blunt muzzle, tiny round ears and natural sparse thin tail shorter than body. Pose facing slightly toward viewer at a three-quarter angle, with short tail gently curved alongside rear feet so COMPLETE animal including whiskers and every visible foot and tail fits x=650..1420 y=120..920 on a1536x1024 landscape. Animal center x~1030, main subject LARGE within that right-hand box. All left40% quiet blurred reedbed and water background with NO animal. Real background margin on all four sides. No crop, no quills or beaver tail, no text or collage.",
+    "references": [
+      {
+        "file": "prior-greater-cane-rat-cover.webp",
+        "sha256": "5c085b6e09b9ede41458dce17b9ba78b7c70fce71cd8ac08b3aa6e23d68b9ed4"
+      }
+    ],
+    "referenceInputPathsAtGeneration": [
+      "/workspace/fauna-atlas/public/images/species/greater-cane-rat/01-cover.webp"
+    ],
+    "referenceHashNote": "对可能被替换的旧运行封面保留逐字节相同的临时快照后计算哈希，快照名称与实际输入路径分开记录。"
+  },
+  {
+    "file": "02-observation.webp",
+    "prompt": "Create ONE 1536x1024 landscape scientific natural-history reconstruction of Thryonomys swinderianus. A greater cane rat, very stocky low heavy pear-shaped rodent, coarse bristly yellow-brown fur, paler grey underside, blunt rounded muzzle with whiskers, small round short ears, short sturdy legs, hindfeet larger than forefeet, dark sparsely-haired thin cylindrical tail shorter than head-body length, roughly half body length. NOT a capybara, porcupine, beaver, squirrel or sleek house rat. No quills or flat paddle tail. Habitat African reedbed margin with low grass and moist soil. Scene: whole animal low side view in short grasses, blunt muzzle clear. A distinct gallery observation in one coherent scene, no scientific claim from a static pose. References may include a credited scientific illustration or natural photographs; use only biological morphology, NEVER copy white sheet, grid, watermark, caption, photograph credit, text, scale bars or logos. Realistic fine natural textures and restrained lighting, no labels, no collage or unsupported internal anatomy. All images are AI scientific reconstructions, no claim of natural photography.",
+    "references": [
+      {
+        "file": "greater-cane-rat-refs.jpg",
+        "sha256": "4f65b3cfc97e2db643018e36c2a3bda3387b14c460f9837cba2c8ca4e2ebde5c"
+      }
+    ]
+  },
+  {
+    "file": "03-observation.webp",
+    "prompt": "Create ONE 1536x1024 landscape scientific natural-history reconstruction of Thryonomys swinderianus. A greater cane rat, very stocky low heavy pear-shaped rodent, coarse bristly yellow-brown fur, paler grey underside, blunt rounded muzzle with whiskers, small round short ears, short sturdy legs, hindfeet larger than forefeet, dark sparsely-haired thin cylindrical tail shorter than head-body length, roughly half body length. NOT a capybara, porcupine, beaver, squirrel or sleek house rat. No quills or flat paddle tail. Habitat African reedbed margin with low grass and moist soil. Scene: closer head view showing small round ears, coarse fur and whiskers, no teeth diagram. A distinct gallery observation in one coherent scene, no scientific claim from a static pose. References may include a credited scientific illustration or natural photographs; use only biological morphology, NEVER copy white sheet, grid, watermark, caption, photograph credit, text, scale bars or logos. Realistic fine natural textures and restrained lighting, no labels, no collage or unsupported internal anatomy. All images are AI scientific reconstructions, no claim of natural photography.",
+    "references": [
+      {
+        "file": "greater-cane-rat-refs.jpg",
+        "sha256": "4f65b3cfc97e2db643018e36c2a3bda3387b14c460f9837cba2c8ca4e2ebde5c"
+      }
+    ]
+  },
+  {
+    "file": "04-observation.webp",
+    "prompt": "Create ONE 1536x1024 landscape scientific natural-history reconstruction of Thryonomys swinderianus. A greater cane rat, very stocky low heavy pear-shaped rodent, coarse bristly yellow-brown fur, paler grey underside, blunt rounded muzzle with whiskers, small round short ears, short sturdy legs, hindfeet larger than forefeet, dark sparsely-haired thin cylindrical tail shorter than head-body length, roughly half body length. NOT a capybara, porcupine, beaver, squirrel or sleek house rat. No quills or flat paddle tail. Habitat African reedbed margin with low grass and moist soil. Scene: whole animal beside cut grass stems, no forced feeding or crop field damage. A distinct gallery observation in one coherent scene, no scientific claim from a static pose. References may include a credited scientific illustration or natural photographs; use only biological morphology, NEVER copy white sheet, grid, watermark, caption, photograph credit, text, scale bars or logos. Realistic fine natural textures and restrained lighting, no labels, no collage or unsupported internal anatomy. All images are AI scientific reconstructions, no claim of natural photography.",
+    "references": [
+      {
+        "file": "greater-cane-rat-refs.jpg",
+        "sha256": "4f65b3cfc97e2db643018e36c2a3bda3387b14c460f9837cba2c8ca4e2ebde5c"
+      }
+    ]
+  },
+  {
+    "file": "05-observation.webp",
+    "prompt": "Create ONE 1536x1024 landscape scientific natural-history reconstruction of Thryonomys swinderianus. A greater cane rat, very stocky low heavy pear-shaped rodent, coarse bristly yellow-brown fur, paler grey underside, blunt rounded muzzle with whiskers, small round short ears, short sturdy legs, hindfeet larger than forefeet, dark sparsely-haired thin cylindrical tail shorter than head-body length, roughly half body length. NOT a capybara, porcupine, beaver, squirrel or sleek house rat. No quills or flat paddle tail. Habitat African reedbed margin with low grass and moist soil. Scene: whole specimen on riverbank earth with complete thinner short tail visible. A distinct gallery observation in one coherent scene, no scientific claim from a static pose. References may include a credited scientific illustration or natural photographs; use only biological morphology, NEVER copy white sheet, grid, watermark, caption, photograph credit, text, scale bars or logos. Realistic fine natural textures and restrained lighting, no labels, no collage or unsupported internal anatomy. All images are AI scientific reconstructions, no claim of natural photography.",
+    "references": [
+      {
+        "file": "greater-cane-rat-refs.jpg",
+        "sha256": "4f65b3cfc97e2db643018e36c2a3bda3387b14c460f9837cba2c8ca4e2ebde5c"
+      }
+    ]
+  },
+  {
+    "file": "06-observation.webp",
+    "prompt": "Create ONE 1536x1024 landscape scientific natural-history reconstruction of Thryonomys swinderianus. A greater cane rat, very stocky low heavy pear-shaped rodent, coarse bristly yellow-brown fur, paler grey underside, blunt rounded muzzle with whiskers, small round short ears, short sturdy legs, hindfeet larger than forefeet, dark sparsely-haired thin cylindrical tail shorter than head-body length, roughly half body length. NOT a capybara, porcupine, beaver, squirrel or sleek house rat. No quills or flat paddle tail. Habitat African reedbed margin with low grass and moist soil. Scene: two separate whole animals resting apart in reedbed margin, no invented young stages. A distinct gallery observation in one coherent scene, no scientific claim from a static pose. References may include a credited scientific illustration or natural photographs; use only biological morphology, NEVER copy white sheet, grid, watermark, caption, photograph credit, text, scale bars or logos. Realistic fine natural textures and restrained lighting, no labels, no collage or unsupported internal anatomy. All images are AI scientific reconstructions, no claim of natural photography.",
+    "references": [
+      {
+        "file": "greater-cane-rat-refs.jpg",
+        "sha256": "4f65b3cfc97e2db643018e36c2a3bda3387b14c460f9837cba2c8ca4e2ebde5c"
+      }
+    ]
+  }
+]

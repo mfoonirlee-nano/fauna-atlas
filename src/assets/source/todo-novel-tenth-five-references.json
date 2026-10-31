@@ -1,0 +1,121 @@
+{
+  "date": "2026-10-30",
+  "pages": [
+    {
+      "slug": "balloon-worm",
+      "url": "https://www.mbari.org/animal/balloon-worm/",
+      "sha256": "04959e060a009710e74b8294b94ebfe7fc8a9d03a35e26a2b48022bab8d61991"
+    },
+    {
+      "slug": "pigbutt-worm",
+      "url": "https://www.mbari.org/animal/pigbutt-worm/",
+      "sha256": "8e2af2bfa5e9f24c5aa1f93207106c3ce3083ad8df9250dcc62825ee4c65c496"
+    },
+    {
+      "slug": "pompeii-worm",
+      "url": "https://www.mbari.org/animal/pompeii-worm/",
+      "sha256": "e0e63825a8fab7dfe706fb3e0d9c207667351282043d8b3ad50475c23fdb16bc"
+    },
+    {
+      "slug": "fingered-goblet-sponge",
+      "url": "https://www.mbari.org/animal/fingered-goblet-sponge/",
+      "sha256": "a98c1c30656fb99a55f7525a32540e8d0f5180006decd8c448622c829d302356"
+    },
+    {
+      "slug": "barrel-amphipod",
+      "url": "https://www.mbari.org/animal/barrel-amphipod/",
+      "sha256": "391c16d7aeaaf0d5183da1ce0a0f88744a40622b1c21fedd1a1708738a151bda"
+    }
+  ],
+  "images": [
+    {
+      "slug": "balloon-worm",
+      "url": "https://www.mbari.org/wp-content/uploads/2022/04/Poeobius_meseres_T0535_01-1024.jpg",
+      "sha256": "e4eb7651ef4e2e2027bc42feba17cc9a65d419d381a0502de1ac31b626a2477e"
+    },
+    {
+      "slug": "pompeii-worm",
+      "url": "https://www.mbari.org/wp-content/uploads/2022/05/07_48_15_14_2015_Alvinella_D0754_01.jpg",
+      "sha256": "8338acc9b3a9d51b3942058ef89f52daff07ce7d1b0f665dc5ea5c02af7145d2"
+    },
+    {
+      "slug": "balloon-worm",
+      "url": "https://www.mbari.org/wp-content/uploads/2022/04/TR22-0070_Poeobius_meseres_MBA-640.jpg",
+      "sha256": "a2f3d5fa922a859d559b372a0577ffc928f147e0ee3aab1dcea2ea4341c41f54"
+    },
+    {
+      "slug": "fingered-goblet-sponge",
+      "url": "https://www.mbari.org/wp-content/uploads/Heterochone_calyx_T1101_02_1800.jpg",
+      "sha256": "900758a0ce62cd0f70adea766457904e568a86a083cc7e978f60c8caffc91c2f"
+    },
+    {
+      "slug": "pigbutt-worm",
+      "url": "https://www.mbari.org/wp-content/uploads/Chaetopterus_pugaporcinus_04_cc_1800.jpg",
+      "sha256": "b638e23b402746b20bc63424b8cd99697177b7bb59e08393f77d49d60347507f"
+    },
+    {
+      "slug": "pompeii-worm",
+      "url": "https://www.mbari.org/wp-content/uploads/2021/06/Alvinella_sp._D754_01.jpg",
+      "sha256": "3d629a3843d5fe9eb63efc6e2dc6a0b3cf6f590fd8a8e66f901a363e5cbe1c36"
+    },
+    {
+      "slug": "pompeii-worm",
+      "url": "https://www.mbari.org/wp-content/uploads/2021/06/Alvinella_sp._D754_01-1030x579.jpg",
+      "sha256": "13053d496efbdc5ecf36f0370d041e48c071f88b2007476ba474a23f22c59ec5"
+    },
+    {
+      "slug": "fingered-goblet-sponge",
+      "url": "https://www.mbari.org/wp-content/uploads/Careproctus_kamikawai_and_Heterochone_calyx_D0571_01_1150.jpg",
+      "sha256": "f1c722abe34d69d3ff22fade4f74636a41d9999bbad2014ad899333a5db9d80c"
+    },
+    {
+      "slug": "pigbutt-worm",
+      "url": "https://www.mbari.org/wp-content/uploads/Chaetopterus_pugaporcinus_01_1150.jpg",
+      "sha256": "21c0abbf399deb9a5e9694910ab727418320411a9463cc0d54fa8b90f646bab4"
+    },
+    {
+      "slug": "balloon-worm",
+      "url": "https://www.mbari.org/wp-content/uploads/2022/04/2017_Poeobius_meseres_feeding_D0974_02-960.jpg",
+      "sha256": "aa810eb1f73780ac5f4a26149b8b2970da5c8dc64250e927f045d8b495ff72de"
+    },
+    {
+      "slug": "fingered-goblet-sponge",
+      "url": "https://www.mbari.org/wp-content/uploads/Careproctus_kamikawai_and_Heterochone_calyx_D0571_01_1150-1024x576.jpg",
+      "sha256": "2db0ae1618a052639ee047bd18feb57a9a1372797bcc2e265327aeaa7aa2c889"
+    },
+    {
+      "slug": "pigbutt-worm",
+      "url": "https://www.mbari.org/wp-content/uploads/Chaetopterus_pugaporcinus_01_1150-1024x768.jpg",
+      "sha256": "5e5959051c4bad90e656546466f9301e0d4f14606da2184357644117151e87bd"
+    },
+    {
+      "slug": "barrel-amphipod",
+      "url": "https://www.mbari.org/wp-content/uploads/Phronima_sedentaria_lab_shot-540.jpeg",
+      "sha256": "824e3e28850b7bd9343226c949a5e5caf824df9f999f4d9ba67ed687adb363ed"
+    },
+    {
+      "slug": "barrel-amphipod",
+      "url": "https://www.mbari.org/wp-content/uploads/Phronima_sedentaria_D1163_02-960.jpeg",
+      "sha256": "f4c1cc93d9a69bd914e8c9b8165885f17232bf54d1f9cad1dd57560ecb849cd8"
+    },
+    {
+      "slug": "barrel-amphipod",
+      "url": "https://www.mbari.org/wp-content/uploads/Phronima_sedentaria_with_eggs_D0778-960.jpeg",
+      "sha256": "dcdde1ca6f3114eb9d2d9bb662956e3370228598b2949708666a6518d31bec93"
+    },
+    {
+      "slug": "barrel-amphipod",
+      "url": "https://www.mbari.org/wp-content/uploads/Phronima_sedentaria_no_barrel_V3744-960.jpeg",
+      "sha256": "3fc903f756b039ffbaf27b8ee4036124bb3d5f5a23681d2a2d783713ac03befb"
+    }
+  ],
+  "limits": "自然照片仅作形态对照。庞贝虫参考来自 MBARI 本种页面，部分图片文件名仅标 Alvinella 属；不以属级文件名宣称种级标本鉴定，也不画未经核实的显微诊断结构。海橙海绵旧资料涉及近似种修订，本批未制作。",
+  "consideredNotSelected": [
+    {
+      "scientificName": "Tethya aurantium",
+      "url": "https://sponges-ne-atlantic.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/nsr_taxon.php?cat=TAB_DESCRIPTION&id=116416",
+      "sha256": "3be3e775ac2327cbb5429b51e85901ddcda32ec9cda687b35198f481890ade6e",
+      "reason": "旧资料讨论 T. aurantium 与 T. citrina 的名称及原材料归属，需要现代种级资料和参考图核对，本批未制作。"
+    }
+  ]
+}

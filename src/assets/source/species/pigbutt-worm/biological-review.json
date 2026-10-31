@@ -1,0 +1,50 @@
+{
+  "reviewedAt": "2026-10-30",
+  "status": "reviewed-reconstruction",
+  "reviewScope": "编辑性可见形态对照；不构成标本鉴定或专家审签",
+  "checks": [
+    "对照显著膨大的光滑双叶中段、分隔缝和紧凑端部，没有猪的五官或肢体。",
+    "普通照明下的外观与发光现象分开；不从生成图判断年龄、发育阶段或发光强度。"
+  ],
+  "referencePage": "https://www.mbari.org/animal/pigbutt-worm/",
+  "referencePhotos": [
+    {
+      "url": "https://www.mbari.org/wp-content/uploads/Chaetopterus_pugaporcinus_04_cc_1800.jpg",
+      "sha256": "b638e23b402746b20bc63424b8cd99697177b7bb59e08393f77d49d60347507f"
+    },
+    {
+      "url": "https://www.mbari.org/wp-content/uploads/Chaetopterus_pugaporcinus_01_1150.jpg",
+      "sha256": "21c0abbf399deb9a5e9694910ab727418320411a9463cc0d54fa8b90f646bab4"
+    },
+    {
+      "url": "https://www.mbari.org/wp-content/uploads/Chaetopterus_pugaporcinus_01_1150-1024x768.jpg",
+      "sha256": "5e5959051c4bad90e656546466f9301e0d4f14606da2184357644117151e87bd"
+    }
+  ],
+  "assets": [
+    {
+      "file": "01-cover.webp",
+      "sha256": "ba7d54a292f923c6d965e5a21315cd91124468a5b4782abf0f7a1c7e4858648e"
+    },
+    {
+      "file": "02-observation.webp",
+      "sha256": "55dba42dce939276337807e99954e852c9caa007f8372e974721319d8b5208e3"
+    },
+    {
+      "file": "03-observation.webp",
+      "sha256": "c6784b73ffb14a3d6cf0faf000d0e8070eeaef66d3b737a01ffbe138515c3a7b"
+    },
+    {
+      "file": "04-observation.webp",
+      "sha256": "97356d45265ce0b1a845b6e1e08983f1b58f7ffc3e06a3bd0f26811c0720c1af"
+    },
+    {
+      "file": "05-observation.webp",
+      "sha256": "faa17fd084dbafa3a1f0fde756b8b6ec6ded087c9791aaf2a29a9c8cbc92cc2c"
+    },
+    {
+      "file": "06-observation.webp",
+      "sha256": "bc79f499a684f0aa9dab6a4f0774b756fe388774c38ec367c2fadf5cd1881227"
+    }
+  ]
+}

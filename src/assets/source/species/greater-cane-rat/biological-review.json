@@ -1,0 +1,52 @@
+{
+  "reviewedAt": "2026-10-31",
+  "status": "reviewed-reconstruction",
+  "reviewScope": "编辑性可见形态对照；不构成种级标本鉴定或专家审签",
+  "referencePage": "https://animaldiversity.org/accounts/Thryonomys_swinderianus/",
+  "referenceImages": [
+    {
+      "url": "https://animaldiversity.org/collections/contributors/Grzimek_mammals/Thryonomyidae/Thryonomys_swinderianus/medium.jpg",
+      "sha256": "c17f3f4a06ed6a09a128dd96ddc48f679da775c32f55281e35a77ccc8284689a",
+      "kind": "Grzimek illustration republished on ADW, not natural photograph",
+      "alt": "",
+      "usedForGeneration": true
+    }
+  ],
+  "checks": [
+    "对照 ADW 所载 Grzimek 插画与文字：低矮粗壮体形、圆钝鼻吻、短圆耳、黄褐粗毛、比身体短的细尾。",
+    "插画不是自然摄影；不画成河狸扁尾、豪猪长刺或细长家鼠，不用生成图作脚趾、刚毛或体长测量。"
+  ],
+  "assets": [
+    {
+      "file": "01-cover.webp",
+      "sha256": "0b6dd58956ba03baad76f5decf82a4dcb45135d96268dcb1888b2a0215bf16b3"
+    },
+    {
+      "file": "02-observation.webp",
+      "sha256": "e9562f1d6d3a975029e87f55c7329ffbeb16d938ff628d1f49b8daab336405bd"
+    },
+    {
+      "file": "03-observation.webp",
+      "sha256": "d2b4bc492d624cd751a8fae625b76d8102e4f1ae9ebc245980865ea9f957cacc"
+    },
+    {
+      "file": "04-observation.webp",
+      "sha256": "e8078d4d67a667bce86a93be5334aa23bf768722797fd1824738d7571bff3e90"
+    },
+    {
+      "file": "05-observation.webp",
+      "sha256": "2bdaf7fa05eccb477b6d5a56bc86a6baf3fb164a94cac2807573534e7fea3615"
+    },
+    {
+      "file": "06-observation.webp",
+      "sha256": "39f3cbe0ede87ddf9af109aa6b8abd75081213a3cf32dc34e985e8608651c487"
+    }
+  ],
+  "rejectedCandidates": [
+    {
+      "scene": 1,
+      "sourceSha256": "e4fb4aec1ae6e29392f9897b48a82ebf6f6a1586c9f684fb65e72a30d027ff10",
+      "reason": "首版完整主体位置或安静区不符合要求"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "reviewedAt": "2026-10-31",
+  "status": "reviewed-reconstruction",
+  "reviewScope": "编辑性可见形态对照；不构成种级标本鉴定或专家审签",
+  "referencePage": "https://animals.sandiegozoo.org/animals/kagu",
+  "referenceImages": [
+    {
+      "url": "https://animals.sandiegozoo.org/sites/default/files/2016-11/animals_hero_kagu.jpg",
+      "sha256": "9dc586ad7c8bb8e3d19cd3f8bbca85914a8b724338046ac67f4fb209e416176d",
+      "kind": "zoo identified photograph",
+      "alt": "Kagu bird foraging on forest floor.",
+      "usedForGeneration": true
+    },
+    {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/685974002/original.jpg",
+      "sha256": "a76b6a059a2f98def58814d392edc899aae6f8683d272373d83e23ff5e1825d8",
+      "kind": "GBIF occurrence photo; community identification supplementary to zoo species description",
+      "occurrenceKey": 6422215384,
+      "countryCode": "NC",
+      "creator": "Nik Borrow",
+      "recordUrl": "https://www.gbif.org/occurrence/6422215384",
+      "usedForGeneration": true
+    },
+    {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/712288075/original.jpg",
+      "sha256": "3681684e2089242ecf675cbcbcaf55da1a90d349d0af6a4ec6858e361b4c760b",
+      "kind": "GBIF occurrence photo; community identification supplementary to zoo species description",
+      "occurrenceKey": 6479685141,
+      "countryCode": "NC",
+      "creator": "David",
+      "recordUrl": "https://www.gbif.org/occurrence/6479685141",
+      "usedForGeneration": true
+    }
+  ],
+  "checks": [
+    "对照圣迭戈动物园图像及新喀里多尼亚观察图：珍珠灰色身体、细长灰羽冠、暗红眼、橙红喙与腿、折叠双翼和短尾。",
+    "不画长 S 形鹭鸟脖子、自由飞行或无参考幼鸟；未凭文字补出展开双翼的全部花纹，竖冠与成对站立不当作求偶或防御事件证据。"
+  ],
+  "assets": [
+    {
+      "file": "01-cover.webp",
+      "sha256": "2ec197c4333f00f7907981296d11ea0d2dbb4549ea004e579e76bf255448db4d"
+    },
+    {
+      "file": "02-observation.webp",
+      "sha256": "3f71fbed23f0699944b4f418783a2508e7ed07f4c43ba0acde97a61898c3bb21"
+    },
+    {
+      "file": "03-observation.webp",
+      "sha256": "5dce657584e22ae28448256066aa2f9886614aed04ee3aed9f2ceb8d08226c78"
+    },
+    {
+      "file": "04-observation.webp",
+      "sha256": "9c29e745085eed6410482d6c4c5d84d01f0141ceb9de78345a9f82c153383d16"
+    },
+    {
+      "file": "05-observation.webp",
+      "sha256": "14ea099573507e68e4219ae26f5d14bb093f8c6da1f9124dcde2be1ba79fea21"
+    },
+    {
+      "file": "06-observation.webp",
+      "sha256": "a072fae157523bab0610c2e8f01b4d9726b2bbf2de60339e899c81c73e0104cb"
+    }
+  ]
+}

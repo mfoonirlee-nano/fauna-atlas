@@ -1,0 +1,86 @@
+[
+  {
+    "file": "01-cover.webp",
+    "prompt": "Edit this corrected Phronima sedentaria reconstruction ONLY for cover composition. Preserve accurate clear elongated head, elongated orange deep pigment band with tiny basal dark marks, transparent jointed limbs and natural hollow salp tissue barrel; NO round eyeballs. Repose/rotate the COMPLETE BARREL AND ITS OCCUPANT to be more VERTICAL AND COMPACT, on the RIGHT of the landscape canvas. Output1536x1024. Every barrel edge and limb tip must fit wholly inside x=600..1430 and y=80..930, center x~1030. Largest possible subject within that box; all left36% quiet blue-black water with no barrel or animal. This is a whole-subject COMPOSITION change, not zoom/crop. Keep full irregular open barrel ends and transparent curved crustacean; make barrel long axis rise from bottom-right towards upper center-right, providing space to show entirety. Keep original biological details, no new eggs, text, labels or collage.",
+    "references": [
+      {
+        "file": "exec-a34cd8ce-0d1e-4576-961a-e38f6cf634c1.png",
+        "sha256": "be3784a8993746c097f1321e1ddd96aa1e618e3f5920b20928d4164c5b5e7f72"
+      },
+      {
+        "file": "barrel-amphipod-ref-0.jpg",
+        "sha256": "824e3e28850b7bd9343226c949a5e5caf824df9f999f4d9ba67ed687adb363ed"
+      }
+    ]
+  },
+  {
+    "file": "02-observation.webp",
+    "prompt": "Create ONE 1536x1024 landscape accurate scientific reconstruction of Phronima sedentaria, using the first scientific photo's anatomy very closely. Critical correction: transparent tall elongated capsule-like HEAD and eye tissues, orange pigment is an ELONGATED deep stripe/patch near head base, with only tiny dark basal marks. NOT paired orange spherical eyeballs or black round pupils, NOT cartoon face, no human iris, no protruding googly eyes. The actual large eyes are clear elongated optical structures blending with transparent head. Small transparent laterally compressed segmented body, thin jointed appendages including hooked grasping limbs that grip hollow tunicate barrel, small abdominal swimming appendages; no generic shrimp tail-fan added. Transparent slightly irregular SALP TISSUE barrel open at ends, never a plastic tube, bubble or self-made shell. Oblique whole female inside a whole hollow barrel, focus jointed gripping limbs. No eggs or white fluffy clumps in this scene. Follow first reference proportions for head/body/appendages, make the observed elongated pigment shape subtle rather than inventing an eye diagram. Dark blue-black midwater with sparse marine snow. No diagrams, labels, scale bars, cutaways, glowing body or collage.",
+    "references": [
+      {
+        "file": "barrel-amphipod-ref-0.jpg",
+        "sha256": "824e3e28850b7bd9343226c949a5e5caf824df9f999f4d9ba67ed687adb363ed"
+      },
+      {
+        "file": "barrel-amphipod-ref-2.jpg",
+        "sha256": "dcdde1ca6f3114eb9d2d9bb662956e3370228598b2949708666a6518d31bec93"
+      }
+    ]
+  },
+  {
+    "file": "03-observation.webp",
+    "prompt": "Create ONE 1536x1024 landscape accurate scientific reconstruction of Phronima sedentaria, using the first scientific photo's anatomy very closely. Critical correction: transparent tall elongated capsule-like HEAD and eye tissues, orange pigment is an ELONGATED deep stripe/patch near head base, with only tiny dark basal marks. NOT paired orange spherical eyeballs or black round pupils, NOT cartoon face, no human iris, no protruding googly eyes. The actual large eyes are clear elongated optical structures blending with transparent head. Small transparent laterally compressed segmented body, thin jointed appendages including hooked grasping limbs that grip hollow tunicate barrel, small abdominal swimming appendages; no generic shrimp tail-fan added. Transparent slightly irregular SALP TISSUE barrel open at ends, never a plastic tube, bubble or self-made shell. Closer natural optical view through barrel wall of the CLEAR elongated head and faint orange pigment stripe at its base, NO prominent round eyes. No eggs or white fluffy clumps in this scene. Follow first reference proportions for head/body/appendages, make the observed elongated pigment shape subtle rather than inventing an eye diagram. Dark blue-black midwater with sparse marine snow. No diagrams, labels, scale bars, cutaways, glowing body or collage.",
+    "references": [
+      {
+        "file": "barrel-amphipod-ref-0.jpg",
+        "sha256": "824e3e28850b7bd9343226c949a5e5caf824df9f999f4d9ba67ed687adb363ed"
+      },
+      {
+        "file": "barrel-amphipod-ref-2.jpg",
+        "sha256": "dcdde1ca6f3114eb9d2d9bb662956e3370228598b2949708666a6518d31bec93"
+      }
+    ]
+  },
+  {
+    "file": "04-observation.webp",
+    "prompt": "Create ONE 1536x1024 landscape accurate scientific reconstruction of Phronima sedentaria, using the first scientific photo's anatomy very closely. Critical correction: transparent tall elongated capsule-like HEAD and eye tissues, orange pigment is an ELONGATED deep stripe/patch near head base, with only tiny dark basal marks. NOT paired orange spherical eyeballs or black round pupils, NOT cartoon face, no human iris, no protruding googly eyes. The actual large eyes are clear elongated optical structures blending with transparent head. Small transparent laterally compressed segmented body, thin jointed appendages including hooked grasping limbs that grip hollow tunicate barrel, small abdominal swimming appendages; no generic shrimp tail-fan added. Transparent slightly irregular SALP TISSUE barrel open at ends, never a plastic tube, bubble or self-made shell. Whole female in transparent barrel at a different gentle diagonal angle. No eggs or white fluffy clumps in this scene. Follow first reference proportions for head/body/appendages, make the observed elongated pigment shape subtle rather than inventing an eye diagram. Dark blue-black midwater with sparse marine snow. No diagrams, labels, scale bars, cutaways, glowing body or collage.",
+    "references": [
+      {
+        "file": "barrel-amphipod-ref-0.jpg",
+        "sha256": "824e3e28850b7bd9343226c949a5e5caf824df9f999f4d9ba67ed687adb363ed"
+      },
+      {
+        "file": "barrel-amphipod-ref-2.jpg",
+        "sha256": "dcdde1ca6f3114eb9d2d9bb662956e3370228598b2949708666a6518d31bec93"
+      }
+    ]
+  },
+  {
+    "file": "05-observation.webp",
+    "prompt": "Create ONE 1536x1024 landscape accurate scientific reconstruction of Phronima sedentaria, using the first scientific photo's anatomy very closely. Critical correction: transparent tall elongated capsule-like HEAD and eye tissues, orange pigment is an ELONGATED deep stripe/patch near head base, with only tiny dark basal marks. NOT paired orange spherical eyeballs or black round pupils, NOT cartoon face, no human iris, no protruding googly eyes. The actual large eyes are clear elongated optical structures blending with transparent head. Small transparent laterally compressed segmented body, thin jointed appendages including hooked grasping limbs that grip hollow tunicate barrel, small abdominal swimming appendages; no generic shrimp tail-fan added. Transparent slightly irregular SALP TISSUE barrel open at ends, never a plastic tube, bubble or self-made shell. Two separate complete animals: one inside a hollow barrel and one without a barrel, side-by-side scientific comparison, no implication of one shedding its barrel. No eggs or white fluffy clumps in this scene. Follow first reference proportions for head/body/appendages, make the observed elongated pigment shape subtle rather than inventing an eye diagram. Dark blue-black midwater with sparse marine snow. No diagrams, labels, scale bars, cutaways, glowing body or collage.",
+    "references": [
+      {
+        "file": "barrel-amphipod-ref-0.jpg",
+        "sha256": "824e3e28850b7bd9343226c949a5e5caf824df9f999f4d9ba67ed687adb363ed"
+      },
+      {
+        "file": "barrel-amphipod-ref-2.jpg",
+        "sha256": "dcdde1ca6f3114eb9d2d9bb662956e3370228598b2949708666a6518d31bec93"
+      }
+    ]
+  },
+  {
+    "file": "06-observation.webp",
+    "prompt": "Create ONE 1536x1024 landscape accurate scientific reconstruction of Phronima sedentaria, using the first scientific photo's anatomy very closely. Critical correction: transparent tall elongated capsule-like HEAD and eye tissues, orange pigment is an ELONGATED deep stripe/patch near head base, with only tiny dark basal marks. NOT paired orange spherical eyeballs or black round pupils, NOT cartoon face, no human iris, no protruding googly eyes. The actual large eyes are clear elongated optical structures blending with transparent head. Small transparent laterally compressed segmented body, thin jointed appendages including hooked grasping limbs that grip hollow tunicate barrel, small abdominal swimming appendages; no generic shrimp tail-fan added. Transparent slightly irregular SALP TISSUE barrel open at ends, never a plastic tube, bubble or self-made shell. Whole female within hollow barrel, with a narrow curved BAND of many tiny tan eggs attached along INNER BARREL WALL like second reference, not a white fluffy egg cluster hanging below head. Use second reference specifically for egg placement. Follow first reference proportions for head/body/appendages, make the observed elongated pigment shape subtle rather than inventing an eye diagram. Dark blue-black midwater with sparse marine snow. No diagrams, labels, scale bars, cutaways, glowing body or collage.",
+    "references": [
+      {
+        "file": "barrel-amphipod-ref-0.jpg",
+        "sha256": "824e3e28850b7bd9343226c949a5e5caf824df9f999f4d9ba67ed687adb363ed"
+      },
+      {
+        "file": "barrel-amphipod-ref-2.jpg",
+        "sha256": "dcdde1ca6f3114eb9d2d9bb662956e3370228598b2949708666a6518d31bec93"
+      }
+    ]
+  }
+]

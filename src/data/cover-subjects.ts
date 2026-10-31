@@ -8481,5 +8481,105 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1344,
       "bottom": 948
     }
+  },
+  "balloon-worm": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 555,
+      "top": 28,
+      "right": 1410,
+      "bottom": 840
+    }
+  },
+  "pigbutt-worm": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 607,
+      "top": 142,
+      "right": 1357,
+      "bottom": 819
+    }
+  },
+  "pompeii-worm": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 614,
+      "top": 103,
+      "right": 1476,
+      "bottom": 750
+    }
+  },
+  "fingered-goblet-sponge": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 532,
+      "top": 80,
+      "right": 1434,
+      "bottom": 947
+    }
+  },
+  "barrel-amphipod": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 684,
+      "top": 28,
+      "right": 1450,
+      "bottom": 981
+    }
+  },
+  "greater-cane-rat": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 467,
+      "top": 215,
+      "right": 1427,
+      "bottom": 875
+    }
+  },
+  "northern-tree-shrew": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 725,
+      "top": 104,
+      "right": 1522,
+      "bottom": 960
+    }
+  },
+  "kagu": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 582,
+      "top": 87,
+      "right": 1325,
+      "bottom": 907
+    }
+  },
+  "lumpsucker": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 552,
+      "top": 162,
+      "right": 1510,
+      "bottom": 798
+    }
+  },
+  "atlantic-wolffish": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 550,
+      "top": 95,
+      "right": 1460,
+      "bottom": 940
+    }
   }
 };

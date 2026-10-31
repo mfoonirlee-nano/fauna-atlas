@@ -1,0 +1,62 @@
+[
+  {
+    "file": "01-cover.webp",
+    "prompt": "Make ONE 1536x1024 landscape scientific natural-history reconstruction of Alvinella pompejana. Pompeii polychaete worm at hydrothermal vent, dull grey brown elongated segmented body with pale bristly/fleece-like dorsal bacterial coating, rust red long tapered gill filaments at anterior end in a small group, paired lateral tufts of fine chaetae. Reference is vent image from MBARI labelled at genus Alvinella in filename, do not invent species diagnostic microscopy. One worm extending front and part of body from its thin grey parchment-like tube attached to sulphide rock. Posterior remains naturally concealed in tube, NOT a dissection. NO bright red Riftia plume, no giant flower crown, flames or volcanic lava, no thermometer. Scene: one worm and its whole visible tube entrance on a low sulphide rock, all anterior gill tips and side bristles intact. COVER: show complete visible subject and ALL filament ends, limbs, gill tips, cup rim, barrel and attachment base required by scene. Main subject centered x=68%, y=50%, LARGE in right-hand region; full reviewed subject MUST fit x=560..1430, y=90..930 with real background around every extremity. Left36% only quiet low-detail environment. Never crop subject or hide tips against frame edge. Use supplied contact sheet ONLY as morphology reference; never reproduce its grid, writing or borders. Realistic restrained underwater light, no text, no labels, no logos, no scale bars, no collage, no invented diagnostic microscopy or unsupported feeding event. This is an AI scientific reconstruction, not a copied photograph.",
+    "references": [
+      {
+        "file": "pompeii-worm-refs.jpg",
+        "sha256": "a7b248f99160bffa6d62ede092e6553a98c67c0f4485e39e9487a869d34b27fe"
+      }
+    ]
+  },
+  {
+    "file": "02-observation.webp",
+    "prompt": "Make ONE 1536x1024 landscape scientific natural-history reconstruction of Alvinella pompejana. Pompeii polychaete worm at hydrothermal vent, dull grey brown elongated segmented body with pale bristly/fleece-like dorsal bacterial coating, rust red long tapered gill filaments at anterior end in a small group, paired lateral tufts of fine chaetae. Reference is vent image from MBARI labelled at genus Alvinella in filename, do not invent species diagnostic microscopy. One worm extending front and part of body from its thin grey parchment-like tube attached to sulphide rock. Posterior remains naturally concealed in tube, NOT a dissection. NO bright red Riftia plume, no giant flower crown, flames or volcanic lava, no thermometer. Scene: oblique closer view anterior rust-red tapered gills and visible grey body at tube mouth. One coherent distinct gallery observation with relevant visible structures clear, no decorative insets. Use supplied contact sheet ONLY as morphology reference; never reproduce its grid, writing or borders. Realistic restrained underwater light, no text, no labels, no logos, no scale bars, no collage, no invented diagnostic microscopy or unsupported feeding event. This is an AI scientific reconstruction, not a copied photograph.",
+    "references": [
+      {
+        "file": "pompeii-worm-refs.jpg",
+        "sha256": "a7b248f99160bffa6d62ede092e6553a98c67c0f4485e39e9487a869d34b27fe"
+      }
+    ]
+  },
+  {
+    "file": "03-observation.webp",
+    "prompt": "Make ONE 1536x1024 landscape scientific natural-history reconstruction of Alvinella pompejana. Pompeii polychaete worm at hydrothermal vent, dull grey brown elongated segmented body with pale bristly/fleece-like dorsal bacterial coating, rust red long tapered gill filaments at anterior end in a small group, paired lateral tufts of fine chaetae. Reference is vent image from MBARI labelled at genus Alvinella in filename, do not invent species diagnostic microscopy. One worm extending front and part of body from its thin grey parchment-like tube attached to sulphide rock. Posterior remains naturally concealed in tube, NOT a dissection. NO bright red Riftia plume, no giant flower crown, flames or volcanic lava, no thermometer. Scene: dorsal body close view of pale fuzzy surface and repeated bristle tufts, no labelled microscope inset. One coherent distinct gallery observation with relevant visible structures clear, no decorative insets. Use supplied contact sheet ONLY as morphology reference; never reproduce its grid, writing or borders. Realistic restrained underwater light, no text, no labels, no logos, no scale bars, no collage, no invented diagnostic microscopy or unsupported feeding event. This is an AI scientific reconstruction, not a copied photograph.",
+    "references": [
+      {
+        "file": "pompeii-worm-refs.jpg",
+        "sha256": "a7b248f99160bffa6d62ede092e6553a98c67c0f4485e39e9487a869d34b27fe"
+      }
+    ]
+  },
+  {
+    "file": "04-observation.webp",
+    "prompt": "Make ONE 1536x1024 landscape scientific natural-history reconstruction of Alvinella pompejana. Pompeii polychaete worm at hydrothermal vent, dull grey brown elongated segmented body with pale bristly/fleece-like dorsal bacterial coating, rust red long tapered gill filaments at anterior end in a small group, paired lateral tufts of fine chaetae. Reference is vent image from MBARI labelled at genus Alvinella in filename, do not invent species diagnostic microscopy. One worm extending front and part of body from its thin grey parchment-like tube attached to sulphide rock. Posterior remains naturally concealed in tube, NOT a dissection. NO bright red Riftia plume, no giant flower crown, flames or volcanic lava, no thermometer. Scene: two separate worms partly extended from distinct thin tubes on sulphide rock, no merging bodies. One coherent distinct gallery observation with relevant visible structures clear, no decorative insets. Use supplied contact sheet ONLY as morphology reference; never reproduce its grid, writing or borders. Realistic restrained underwater light, no text, no labels, no logos, no scale bars, no collage, no invented diagnostic microscopy or unsupported feeding event. This is an AI scientific reconstruction, not a copied photograph.",
+    "references": [
+      {
+        "file": "pompeii-worm-refs.jpg",
+        "sha256": "a7b248f99160bffa6d62ede092e6553a98c67c0f4485e39e9487a869d34b27fe"
+      }
+    ]
+  },
+  {
+    "file": "05-observation.webp",
+    "prompt": "Make ONE 1536x1024 landscape scientific natural-history reconstruction of Alvinella pompejana. Pompeii polychaete worm at hydrothermal vent, dull grey brown elongated segmented body with pale bristly/fleece-like dorsal bacterial coating, rust red long tapered gill filaments at anterior end in a small group, paired lateral tufts of fine chaetae. Reference is vent image from MBARI labelled at genus Alvinella in filename, do not invent species diagnostic microscopy. One worm extending front and part of body from its thin grey parchment-like tube attached to sulphide rock. Posterior remains naturally concealed in tube, NOT a dissection. NO bright red Riftia plume, no giant flower crown, flames or volcanic lava, no thermometer. Scene: same kind of worm less extended at its tube entrance with complete exposed gills. One coherent distinct gallery observation with relevant visible structures clear, no decorative insets. Use supplied contact sheet ONLY as morphology reference; never reproduce its grid, writing or borders. Realistic restrained underwater light, no text, no labels, no logos, no scale bars, no collage, no invented diagnostic microscopy or unsupported feeding event. This is an AI scientific reconstruction, not a copied photograph.",
+    "references": [
+      {
+        "file": "pompeii-worm-refs.jpg",
+        "sha256": "a7b248f99160bffa6d62ede092e6553a98c67c0f4485e39e9487a869d34b27fe"
+      }
+    ]
+  },
+  {
+    "file": "06-observation.webp",
+    "prompt": "Make ONE 1536x1024 landscape scientific natural-history reconstruction of Alvinella pompejana. Pompeii polychaete worm at hydrothermal vent, dull grey brown elongated segmented body with pale bristly/fleece-like dorsal bacterial coating, rust red long tapered gill filaments at anterior end in a small group, paired lateral tufts of fine chaetae. Reference is vent image from MBARI labelled at genus Alvinella in filename, do not invent species diagnostic microscopy. One worm extending front and part of body from its thin grey parchment-like tube attached to sulphide rock. Posterior remains naturally concealed in tube, NOT a dissection. NO bright red Riftia plume, no giant flower crown, flames or volcanic lava, no thermometer. Scene: one worm and thin tube among pale vent minerals, minimal dark water background, no temperature claims. One coherent distinct gallery observation with relevant visible structures clear, no decorative insets. Use supplied contact sheet ONLY as morphology reference; never reproduce its grid, writing or borders. Realistic restrained underwater light, no text, no labels, no logos, no scale bars, no collage, no invented diagnostic microscopy or unsupported feeding event. This is an AI scientific reconstruction, not a copied photograph.",
+    "references": [
+      {
+        "file": "pompeii-worm-refs.jpg",
+        "sha256": "a7b248f99160bffa6d62ede092e6553a98c67c0f4485e39e9487a869d34b27fe"
+      }
+    ]
+  }
+]

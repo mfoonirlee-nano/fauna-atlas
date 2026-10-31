@@ -1210,3 +1210,19 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [海鼠图片集](./species/sea-mouse/README.md)
 - [胡须火焰虫图片集](./species/bearded-fireworm/README.md)
 - [地中海扇虫图片集](./species/mediterranean-fan-worm/README.md)
+
+## 2026-10-30 新奇动物第十批五种
+
+- [气球蠕虫图片集](./species/balloon-worm/README.md)
+- [猪臀虫图片集](./species/pigbutt-worm/README.md)
+- [庞贝虫图片集](./species/pompeii-worm/README.md)
+- [指状高脚杯海绵图片集](./species/fingered-goblet-sponge/README.md)
+- [桶居端足虾图片集](./species/barrel-amphipod/README.md)
+
+## 2026-10-31 新奇动物第十一批五种
+
+- [大蔗鼠图片集](./species/greater-cane-rat/README.md)
+- [北树鼩图片集](./species/northern-tree-shrew/README.md)
+- [鹭鹤图片集](./species/kagu/README.md)
+- [圆鳍鱼图片集](./species/lumpsucker/README.md)
+- [大西洋狼鱼图片集](./species/atlantic-wolffish/README.md)

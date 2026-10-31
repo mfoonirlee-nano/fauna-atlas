@@ -8370,5 +8370,135 @@
       },
       "sha256": "cb9a318013cf13d992339a26bda15fe1fd987dd4e2b3a893b061e9abd9761bc8"
     }
+  },
+  "balloon-worm": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 555,
+        "top": 28,
+        "right": 1410,
+        "bottom": 840
+      },
+      "sha256": "05b4dc516bf97bdbea036633f66accceee4252e8b66dd620f032a8b827b5c648"
+    }
+  },
+  "pigbutt-worm": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 607,
+        "top": 142,
+        "right": 1357,
+        "bottom": 819
+      },
+      "sha256": "ba7d54a292f923c6d965e5a21315cd91124468a5b4782abf0f7a1c7e4858648e"
+    }
+  },
+  "pompeii-worm": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 614,
+        "top": 103,
+        "right": 1476,
+        "bottom": 750
+      },
+      "sha256": "540681e50e3482ec31d7060deedd87a41527e56d7e2d8450fd76fb6f1ae7a39e"
+    }
+  },
+  "fingered-goblet-sponge": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 532,
+        "top": 80,
+        "right": 1434,
+        "bottom": 947
+      },
+      "sha256": "e646d6942218f1ff08ff71984821fba56b3639d9d340bb764a27bbe999f30250"
+    }
+  },
+  "barrel-amphipod": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 684,
+        "top": 28,
+        "right": 1450,
+        "bottom": 981
+      },
+      "sha256": "b958a0bafff2f625be836457ab230685fe0605694b8d5473768e87b05b7c7933"
+    }
+  },
+  "greater-cane-rat": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 467,
+        "top": 215,
+        "right": 1427,
+        "bottom": 875
+      },
+      "sha256": "0b6dd58956ba03baad76f5decf82a4dcb45135d96268dcb1888b2a0215bf16b3"
+    }
+  },
+  "northern-tree-shrew": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 725,
+        "top": 104,
+        "right": 1522,
+        "bottom": 960
+      },
+      "sha256": "ca708d859af07f90cc20b2b39e94dd6ab743e707f004fe3e9cd30e784f238cfd"
+    }
+  },
+  "kagu": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 582,
+        "top": 87,
+        "right": 1325,
+        "bottom": 907
+      },
+      "sha256": "2ec197c4333f00f7907981296d11ea0d2dbb4549ea004e579e76bf255448db4d"
+    }
+  },
+  "lumpsucker": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 552,
+        "top": 162,
+        "right": 1510,
+        "bottom": 798
+      },
+      "sha256": "6d65a0031377383c93c4ae90bdfae112df2ead353c886a856090d6ee5cdc106a"
+    }
+  },
+  "atlantic-wolffish": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 550,
+        "top": 95,
+        "right": 1460,
+        "bottom": 940
+      },
+      "sha256": "7ddd2e964251fc889900df41637584b5d2df6edf1e9075ca0c72f3f073eef1bb"
+    }
   }
 }

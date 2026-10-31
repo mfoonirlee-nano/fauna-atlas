@@ -1,0 +1,55 @@
+{
+  "reviewedAt": "2026-10-31",
+  "status": "reviewed-reconstruction",
+  "reviewScope": "编辑性可见形态对照；不构成种级标本鉴定或专家审签",
+  "referencePage": "https://animaldiversity.org/accounts/Tupaia_belangeri/",
+  "referenceImages": [
+    {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/605068866/original.jpg",
+      "sha256": "b2e446f48a35e77eb70683366fb4cf1bcf897acca7814939ba5bb3211e4bd4c7",
+      "kind": "GBIF occurrence photograph supplied by iNaturalist; community identification, not expert sign-off",
+      "occurrenceKey": 5938567765,
+      "countryCode": "TH",
+      "creator": "aloksingapore",
+      "recordUrl": "https://www.gbif.org/occurrence/5938567765",
+      "usedForGeneration": true
+    }
+  ],
+  "checks": [
+    "对照 ADW 长鼻吻、较小圆耳、灰褐毛、有毛长尾等描述，并使用一张主体清晰的泰国社区观察照片补充外形。",
+    "社区观察不是专家鉴定；另外两张主体不清晰的照片未用于生成。不据照片判定性别、年龄或近缘种完整地理边界，完整尾端与足趾纳入封面轮廓。"
+  ],
+  "assets": [
+    {
+      "file": "01-cover.webp",
+      "sha256": "ca708d859af07f90cc20b2b39e94dd6ab743e707f004fe3e9cd30e784f238cfd"
+    },
+    {
+      "file": "02-observation.webp",
+      "sha256": "824430ccc94c9d837f76cf21fe3f6c1427a97967ca301fefe8997a94c63d789b"
+    },
+    {
+      "file": "03-observation.webp",
+      "sha256": "014080c26fd619c73f9f4e5b8b59479a6693a15180450b66504095ea4edb2c0d"
+    },
+    {
+      "file": "04-observation.webp",
+      "sha256": "80290d0628b674938e107e2d7b0a7869b0b4d479c7f6f1229a04107057c45c62"
+    },
+    {
+      "file": "05-observation.webp",
+      "sha256": "2b5d498097eac750f911ee04840666c224dbf010c7e844eff97c63e2aca1685e"
+    },
+    {
+      "file": "06-observation.webp",
+      "sha256": "3432f20865ffd910ad15a1c5110fb1172a0c66092fc21f25e6251ce252b66a61"
+    }
+  ],
+  "rejectedCandidates": [
+    {
+      "scene": 1,
+      "sourceSha256": "e92fcfdc0912733fa9ca468e61848dbb83021effa340ef454f52eaf7a1a7d2ae",
+      "reason": "首版完整主体位置或安静区不符合要求"
+    }
+  ]
+}
