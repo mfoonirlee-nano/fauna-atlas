@@ -163,6 +163,9 @@ test('the initial JS stays small and full profiles load independently without da
     assert.ok(bytes < 350_000, `${key} exceeds the individual JS budget: ${bytes}`);
   }
   assert.ok(initialBytes < 550_000, `initial JS budget exceeded: ${initialBytes}`);
+  const learningReader = 'src/components/SpeciesLearningReader.tsx';
+  assert.ok(manifest[learningReader]?.isDynamicEntry, 'the reader is loaded only when opening a learning profile');
+  assert.ok(!visited.has(learningReader), 'the reader must not increase the initial JS download');
 
   const { species } = await import(new URL('../node_modules/.tmp/taxonomy-test/data/species.js', import.meta.url).href);
   const profiles = Object.entries(manifest).filter(([key]) => key.startsWith('virtual:species-profile/'));
@@ -217,6 +220,7 @@ test('the compact catalogue preserves every browsing field and taxonomy rank', a
     const { species } = await import(new URL('../node_modules/.tmp/taxonomy-test/data/species.js', import.meta.url).href);
     assert.equal(summaries.length, species.length);
     for (const [index, summary] of summaries.entries()) {
+      assert.equal(Object.hasOwn(summary, 'learning'), false, 'learning prose stays out of browsing summaries');
       const original = species[index];
       for (const key of ['id', 'slug', 'names', 'scientificName', 'taxonomy', 'tags', 'summary']) {
         assert.deepEqual(summary[key], original[key], `${original.slug}: ${key}`);

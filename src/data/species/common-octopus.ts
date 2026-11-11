@@ -1,3 +1,4 @@
+import { learningProfile, learningSources } from '../learning/common-octopus.js';
 import type { SpeciesSource, Species } from '../../types/species.ts';
 
 import { animalTaxonomy, conservation, taxon } from './shared.js';
@@ -148,6 +149,7 @@ const COMMON_OCTOPUS_SOURCES = [
 ] as const satisfies readonly SpeciesSource[];
 
 const profile = {
+    learning: learningProfile,
     id: 'species-octopus-vulgaris',
     slug: 'common-octopus',
     names: {
@@ -430,10 +432,11 @@ const profile = {
         kind: 'taxonomy',
         accessedAt: '2026-10-11',
       },
+      ...learningSources,
     ],
     featured: true,
     publishedAt: COMMON_OCTOPUS_CONTENT_DATE,
-    updatedAt: COMMON_OCTOPUS_CONTENT_DATE,
+    updatedAt: '2026-11-11',
   } as const satisfies Species;
 
 export default profile;

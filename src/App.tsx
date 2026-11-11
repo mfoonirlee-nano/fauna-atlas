@@ -28,6 +28,8 @@ import {
   X,
 } from 'lucide-react';
 import {
+  lazy,
+  Suspense,
   useCallback,
   useEffect,
   useMemo,
@@ -53,6 +55,8 @@ import {
   type SpeciesImageFrame,
 } from './domain/image-viewer';
 import type { ConservationCode, Species, SpeciesSummary } from './types';
+
+const SpeciesLearningReader = lazy(() => import('./components/SpeciesLearningReader'));
 
 type Theme = 'light' | 'dark';
 type HeroDirection = -1 | 1;
@@ -529,6 +533,124 @@ interface SpeciesDetailProps {
   onToggleSaved: (slug: string) => void;
 }
 
+function SpeciesBackground({ item, onOpenImage, withGallery = true }: SpeciesGalleryProps & { readonly withGallery?: boolean }) {
+  return (
+    <>
+      {item.featuredStats.length > 0 && (
+        <section className="detail-stats" aria-label="关键数据">
+          {item.featuredStats.slice(0, 4).map((stat) => (
+            <div key={stat.key}>
+              <span>{stat.label}</span>
+              <strong>
+                {stat.value}
+                {stat.unit && <small>{stat.unit}</small>}
+              </strong>
+              {stat.note && <p>{stat.note}</p>}
+            </div>
+          ))}
+        </section>
+      )}
+
+      {withGallery && <SpeciesGallery item={item} onOpenImage={onOpenImage} />}
+
+      <div className="detail-grid">
+        <section className="detail-section">
+          <p className="section-kicker">01 / 栖息与分布</p>
+          <h3>它们生活在哪里</h3>
+          <p>{item.distribution.range}</p>
+          <dl className="detail-facts">
+            <div>
+              <dt>生态域</dt>
+              <dd>{item.distribution.realms.map((realm) => realmLabels[realm]).join('、')}</dd>
+            </div>
+            <div>
+              <dt>主要区域</dt>
+              <dd>{item.distribution.regions.join('、')}</dd>
+            </div>
+            <div>
+              <dt>主要栖息地</dt>
+              <dd>{item.habitats.map((habitat) => habitat.name).join('、')}</dd>
+            </div>
+          </dl>
+        </section>
+
+        <section className="detail-section">
+          <p className="section-kicker">02 / 行为与食性</p>
+          <h3>吃什么，怎样活动</h3>
+          <p>{item.diet.description}</p>
+          <dl className="detail-facts">
+            <div>
+              <dt>主要食物</dt>
+              <dd>{item.diet.foods.length > 0 ? item.diet.foods.join('、') : '尚未核实'}</dd>
+            </div>
+            {item.activity && item.activity.length > 0 && (
+              <div>
+                <dt>活动习性</dt>
+                <dd>{item.activity.join('、')}</dd>
+              </div>
+            )}
+          </dl>
+        </section>
+      </div>
+
+      {item.storySections && item.storySections.length > 0 && (
+        <section className="detail-story" aria-labelledby="detail-story-title">
+          <div className="detail-story__heading">
+            <p className="section-kicker">03 / 生命史</p>
+            <h3 id="detail-story-title">身体特征与生活习性</h3>
+          </div>
+          <div className="detail-story__grid">
+            {item.storySections.map((section, sectionIndex) => (
+              <article key={section.key}>
+                <span>{String(sectionIndex + 1).padStart(2, '0')}</span>
+                <div>
+                  <p className="section-kicker">{section.label}</p>
+                  <h4>{section.title}</h4>
+                  <p>{section.body}</p>
+                </div>
+              </article>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <section className="detail-section detail-section--facts">
+        <p className="section-kicker">{item.storySections?.length ? '04' : '03'} / 自然观察</p>
+        <h3>认识它的几个细节</h3>
+        <ol className="fact-list">
+          {item.keyFacts.map((fact, factIndex) => (
+            <li key={fact}>
+              <span>{String(factIndex + 1).padStart(2, '0')}</span>
+              <p>{fact}</p>
+            </li>
+          ))}
+        </ol>
+      </section>
+
+      <section className="conservation-callout">
+        <div>
+          <p className="section-kicker">CONSERVATION · 物种保护</p>
+          <h3>生存威胁与保护措施</h3>
+          <p>
+            {item.threats.length > 0
+              ? `威胁与调查记录：${item.threats.join('、')}。`
+              : '这份档案尚未列出具体威胁，仍需关注种群数量和栖息地的变化。'}
+          </p>
+        </div>
+        <ul>
+          {item.conservationActions.slice(0, 3).map((action) => (
+            <li key={action}>
+              <Sparkles size={15} />
+              <span>{action}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+
+    </>
+  );
+}
+
 export function SpeciesDetail({ item, index, saved, onClose, onToggleSaved }: SpeciesDetailProps) {
   const status = statusMeta[item.conservation.code];
   const imageFrames = useMemo(() => buildSpeciesImageFrames(item), [item]);
@@ -685,10 +807,11 @@ export function SpeciesDetail({ item, index, saved, onClose, onToggleSaved }: Sp
           {item.media.image && item.media.credit && <span className="detail-hero__credit">{item.media.credit}</span>}
           <div className="detail-hero__title">
             <div className="detail-hero__status">
-              <span className={`status-badge status-badge--${status.tone}`}>{status.short}</span>
-              <span>{status.label}</span>
-              <span className="detail-hero__divider">/</span>
-              <span>{trendLabels[item.conservation.trend]}</span>
+              {!item.learning || ['EX', 'EW'].includes(item.conservation.code) ? <>
+                <span className={`status-badge status-badge--${status.tone}`}>{status.short}</span>
+                <span>{status.label}</span>
+                {!item.learning && <><span className="detail-hero__divider">/</span><span>{trendLabels[item.conservation.trend]}</span></>}
+              </> : <span>从身体认识它，看看它怎样生活</span>}
             </div>
             <p>{item.scientificName}</p>
             <h2 id="detail-title">{item.names.zh}</h2>
@@ -701,125 +824,28 @@ export function SpeciesDetail({ item, index, saved, onClose, onToggleSaved }: Sp
             <p className="detail-lead__copy" role="status">配图正在核验，暂不展示。</p>
           )}
           <div className="detail-lead">
-            <p className="section-kicker">FIELD NOTE · 物种手记</p>
-            <p className="detail-lead__copy">{item.description}</p>
-            <div className="detail-tags">
+            <p className="section-kicker">{item.learning ? '一起认识它' : 'FIELD NOTE · 物种手记'}</p>
+            <p className="detail-lead__copy">{item.learning?.introduction ?? item.description}</p>
+            {!item.learning && <div className="detail-tags">
               {item.tags.map((tag) => (
                 <span key={tag}>#{tag}</span>
               ))}
-            </div>
+            </div>}
           </div>
 
-          {item.featuredStats.length > 0 && (
-            <section className="detail-stats" aria-label="关键数据">
-              {item.featuredStats.slice(0, 4).map((stat) => (
-                <div key={stat.key}>
-                  <span>{stat.label}</span>
-                  <strong>
-                    {stat.value}
-                    {stat.unit && <small>{stat.unit}</small>}
-                  </strong>
-                  {stat.note && <p>{stat.note}</p>}
-                </div>
-              ))}
-            </section>
-          )}
-
-          <SpeciesGallery item={item} onOpenImage={openImageViewer} />
-
-          <div className="detail-grid">
-            <section className="detail-section">
-              <p className="section-kicker">01 / 栖息与分布</p>
-              <h3>它们生活在哪里</h3>
-              <p>{item.distribution.range}</p>
-              <dl className="detail-facts">
-                <div>
-                  <dt>生态域</dt>
-                  <dd>{item.distribution.realms.map((realm) => realmLabels[realm]).join('、')}</dd>
-                </div>
-                <div>
-                  <dt>主要区域</dt>
-                  <dd>{item.distribution.regions.join('、')}</dd>
-                </div>
-                <div>
-                  <dt>主要栖息地</dt>
-                  <dd>{item.habitats.map((habitat) => habitat.name).join('、')}</dd>
-                </div>
-              </dl>
-            </section>
-
-            <section className="detail-section">
-              <p className="section-kicker">02 / 行为与食性</p>
-              <h3>吃什么，怎样活动</h3>
-              <p>{item.diet.description}</p>
-              <dl className="detail-facts">
-                <div>
-                  <dt>主要食物</dt>
-                  <dd>{item.diet.foods.length > 0 ? item.diet.foods.join('、') : '尚未核实'}</dd>
-                </div>
-                {item.activity && item.activity.length > 0 && (
-                  <div>
-                    <dt>活动习性</dt>
-                    <dd>{item.activity.join('、')}</dd>
-                  </div>
-                )}
-              </dl>
-            </section>
-          </div>
-
-          {item.storySections && item.storySections.length > 0 && (
-            <section className="detail-story" aria-labelledby="detail-story-title">
-              <div className="detail-story__heading">
-                <p className="section-kicker">03 / 生命史</p>
-                <h3 id="detail-story-title">身体特征与生活习性</h3>
-              </div>
-              <div className="detail-story__grid">
-                {item.storySections.map((section, sectionIndex) => (
-                  <article key={section.key}>
-                    <span>{String(sectionIndex + 1).padStart(2, '0')}</span>
-                    <div>
-                      <p className="section-kicker">{section.label}</p>
-                      <h4>{section.title}</h4>
-                      <p>{section.body}</p>
-                    </div>
-                  </article>
-                ))}
-              </div>
-            </section>
-          )}
-
-          <section className="detail-section detail-section--facts">
-            <p className="section-kicker">{item.storySections?.length ? '04' : '03'} / 自然观察</p>
-            <h3>认识它的几个细节</h3>
-            <ol className="fact-list">
-              {item.keyFacts.map((fact, factIndex) => (
-                <li key={fact}>
-                  <span>{String(factIndex + 1).padStart(2, '0')}</span>
-                  <p>{fact}</p>
-                </li>
-              ))}
-            </ol>
-          </section>
-
-          <section className="conservation-callout">
-            <div>
-              <p className="section-kicker">CONSERVATION · 物种保护</p>
-              <h3>生存威胁与保护措施</h3>
-              <p>
-                {item.threats.length > 0
-                  ? `威胁与调查记录：${item.threats.join('、')}。`
-                  : '这份档案尚未列出具体威胁，仍需关注种群数量和栖息地的变化。'}
-              </p>
-            </div>
-            <ul>
-              {item.conservationActions.slice(0, 3).map((action) => (
-                <li key={action}>
-                  <Sparkles size={15} />
-                  <span>{action}</span>
-                </li>
-              ))}
-            </ul>
-          </section>
+          {item.learning ? (
+            <>
+              <Suspense fallback={<p role="status">正在打开动物的生活故事…</p>}>
+                <SpeciesLearningReader key={item.slug} item={item} frames={imageFrames} onOpenImage={openImageViewer} />
+              </Suspense>
+              <SpeciesGallery item={item} onOpenImage={openImageViewer} />
+              <details className="learning-background">
+                <summary>继续探索：完整档案与发现故事</summary>
+                <p>{item.description}</p>
+                <SpeciesBackground item={item} onOpenImage={openImageViewer} withGallery={false} />
+              </details>
+            </>
+          ) : <SpeciesBackground item={item} onOpenImage={openImageViewer} />}
 
           <section className="source-section">
             <div>

@@ -87,3 +87,14 @@ test('saved inventory and material candidates cover the live catalogue exactly',
   for (const task of media.tasks) assert.equal(task.status, 'candidate-needs-review');
   assert.match(renderInventory(inventory), /不代表科学审核/);
 });
+
+
+test('structured learning sections are candidates even without a matching keyword, never automatic approval', () => {
+  const row = auditSpecies(fixture({ learning: { version: 1, sections: [
+    { key: 'ecology', paragraphs: ['与其他生命的联系。'], sources: [] },
+  ] } }));
+  assert.ok(row.coverage.ecology.candidatePaths.includes('learning.sections.0'));
+  assert.equal(row.media.biologicalReview, 'pending');
+  assert.ok(row.workflow.includes('pending-editorial-review'));
+  assert.deepEqual(row.learning.sections, ['ecology']);
+});
