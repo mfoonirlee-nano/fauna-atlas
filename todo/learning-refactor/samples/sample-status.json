@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "updatedAt": "2026-11-11",
-  "scope": "首批 5 种儿童讲解已接入正式档案与详情页，并于 2026-11-11 部署至 Cloudflare；专业复核与试读单独记录。",
+  "scope": "首批 5 种儿童讲解与五张 AI 解说图已接入正式档案及正文，并于 2026-11-11 部署至 Cloudflare；专业复核与试读单独记录。",
   "catalogueSourceCommit": "7f5ea0c0",
   "sampleCount": 5,
   "samples": [
@@ -65,7 +65,7 @@
       "learningData": "src/data/learning/giant-panda.ts",
       "deployment": "deployed",
       "teachingIllustrations": {
-        "status": "connected-in-source-not-yet-deployed",
+        "status": "deployed",
         "image": "./images/learning/giant-panda/paw-and-molar.webp",
         "acceptance": "src/assets/source/learning/giant-panda/acceptance.json"
       }
@@ -129,7 +129,7 @@
       "learningData": "src/data/learning/emperor-penguin.ts",
       "deployment": "deployed",
       "teachingIllustrations": {
-        "status": "connected-in-source-not-yet-deployed",
+        "status": "deployed",
         "image": "./images/learning/emperor-penguin/egg-on-feet.webp",
         "acceptance": "src/assets/source/learning/emperor-penguin/acceptance.json"
       }
@@ -195,7 +195,7 @@
       "learningData": "src/data/learning/monarch-butterfly.ts",
       "deployment": "deployed",
       "teachingIllustrations": {
-        "status": "connected-in-source-not-yet-deployed",
+        "status": "deployed",
         "image": "./images/learning/monarch-butterfly/life-cycle.webp",
         "acceptance": "src/assets/source/learning/monarch-butterfly/acceptance.json"
       }
@@ -265,7 +265,7 @@
       "learningData": "src/data/learning/common-octopus.ts",
       "deployment": "deployed",
       "teachingIllustrations": {
-        "status": "connected-in-source-not-yet-deployed",
+        "status": "deployed",
         "image": "./images/learning/common-octopus/arms-and-suckers.webp",
         "acceptance": "src/assets/source/learning/common-octopus/acceptance.json"
       }
@@ -333,7 +333,7 @@
       "learningData": "src/data/learning/woolly-mammoth.ts",
       "deployment": "deployed",
       "teachingIllustrations": {
-        "status": "connected-in-source-not-yet-deployed",
+        "status": "deployed",
         "image": "./images/learning/woolly-mammoth/tusk-and-molar.webp",
         "acceptance": "src/assets/source/learning/woolly-mammoth/acceptance.json"
       }
@@ -343,12 +343,12 @@
     "status": "live",
     "worker": "fauna-atlas",
     "url": "https://fauna-atlas.mfoonirlee.workers.dev/",
-    "sourceCommit": "513c107b0237fc0a105c4bbf574d9fceeb9cebda",
-    "versionId": "e056cc20-6308-4996-aa22-f7a87f3e163b",
-    "deploymentId": "e64fe838-46f5-475b-831e-b5ebb305c5ea",
-    "deployedAt": "2026-11-11T21:58:34.085585+08:00",
+    "sourceCommit": "e3788b4d787b6bbc3534af59e97771f88b30aee1",
+    "versionId": "15a557fa-e9f2-468c-a94a-3b3672f494bd",
+    "deploymentId": "e555e82f-6195-4a66-90d1-4b682eeefa26",
+    "deployedAt": "2026-11-11T22:36:44.255477+08:00",
     "trafficPercentage": 100,
-    "liveResourcesVerified": 14,
-    "verification": "HTTP 200 and SHA-256 match against local production build; includes all five learning profiles and reader assets."
+    "liveResourcesVerified": 19,
+    "verification": "HTTP 200 and SHA-256 match against local production build; includes all five learning profiles, five new teaching illustrations, reader assets and two retained gallery images."
   }
 }

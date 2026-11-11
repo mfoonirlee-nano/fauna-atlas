@@ -2,7 +2,7 @@
 
 2026-11-11 更新。按用户要求先制作 5 种，不在本轮扩展到原计划的 12—20 种。
 
-本目录保留首批内容标准、编辑稿、资料核对记录和素材待办。2026-11-11 已按用户授权，将五种儿童讲解接入正式物种档案与详情页代码；2026-11-11 已将代码提交 `513c107b` 部署到 [Cloudflare 站点](https://fauna-atlas.mfoonirlee.workers.dev/)，专业复核与试读仍待开展。正式展示文案以 [src/data/learning](../../../src/data/learning/README.md) 为准，本目录 Markdown 是研究快照。
+本目录保留首批内容标准、编辑稿、资料核对记录和素材待办。2026-11-11 已按用户授权，将五种儿童讲解接入正式物种档案与详情页代码；2026-11-11 已将包含五张正文解说图的代码提交 `e3788b4d` 部署到 [Cloudflare 站点](https://fauna-atlas.mfoonirlee.workers.dev/)，专业复核与试读仍待开展。正式展示文案以 [src/data/learning](../../../src/data/learning/README.md) 为准，本目录 Markdown 是研究快照。
 
 ## 五种动物
 
