@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "updatedAt": "2026-11-11",
-  "scope": "首批 5 种儿童讲解已接入正式档案与详情页代码，未在本轮部署；专业复核与试读单独记录。",
+  "scope": "首批 5 种儿童讲解已接入正式档案与详情页，并于 2026-11-11 部署至 Cloudflare；专业复核与试读单独记录。",
   "catalogueSourceCommit": "7f5ea0c0",
   "sampleCount": 5,
   "samples": [
@@ -10,7 +10,7 @@
       "slug": "giant-panda",
       "name": "大熊猫",
       "draft": "giant-panda.md",
-      "stage": "implemented-awaiting-independent-review",
+      "stage": "deployed-awaiting-independent-review",
       "draftedAt": "2026-11-11",
       "professionalReview": "pending",
       "familyReadThrough": "pending",
@@ -64,14 +64,14 @@
         "补图均为候选，尚未生成。"
       ],
       "learningData": "src/data/learning/giant-panda.ts",
-      "deployment": "not-deployed-in-this-change"
+      "deployment": "deployed"
     },
     {
       "speciesId": "species-aptenodytes-forsteri",
       "slug": "emperor-penguin",
       "name": "帝企鹅",
       "draft": "emperor-penguin.md",
-      "stage": "implemented-awaiting-independent-review",
+      "stage": "deployed-awaiting-independent-review",
       "draftedAt": "2026-11-11",
       "professionalReview": "pending",
       "familyReadThrough": "pending",
@@ -124,14 +124,14 @@
         "补图均为候选，尚未生成。"
       ],
       "learningData": "src/data/learning/emperor-penguin.ts",
-      "deployment": "not-deployed-in-this-change"
+      "deployment": "deployed"
     },
     {
       "speciesId": "species-danaus-plexippus",
       "slug": "monarch-butterfly",
       "name": "帝王蝶",
       "draft": "monarch-butterfly.md",
-      "stage": "implemented-awaiting-independent-review",
+      "stage": "deployed-awaiting-independent-review",
       "draftedAt": "2026-11-11",
       "professionalReview": "pending",
       "familyReadThrough": "pending",
@@ -186,14 +186,14 @@
         "补图均为候选，尚未生成。"
       ],
       "learningData": "src/data/learning/monarch-butterfly.ts",
-      "deployment": "not-deployed-in-this-change"
+      "deployment": "deployed"
     },
     {
       "speciesId": "species-octopus-vulgaris",
       "slug": "common-octopus",
       "name": "普通章鱼",
       "draft": "common-octopus.md",
-      "stage": "implemented-awaiting-independent-review",
+      "stage": "deployed-awaiting-independent-review",
       "draftedAt": "2026-11-11",
       "professionalReview": "pending",
       "familyReadThrough": "pending",
@@ -252,14 +252,14 @@
         "补图均为候选，尚未生成。"
       ],
       "learningData": "src/data/learning/common-octopus.ts",
-      "deployment": "not-deployed-in-this-change"
+      "deployment": "deployed"
     },
     {
       "speciesId": "woolly-mammoth",
       "slug": "woolly-mammoth",
       "name": "真猛犸象",
       "draft": "woolly-mammoth.md",
-      "stage": "implemented-awaiting-independent-review",
+      "stage": "deployed-awaiting-independent-review",
       "draftedAt": "2026-11-11",
       "professionalReview": "pending",
       "familyReadThrough": "pending",
@@ -315,7 +315,19 @@
         "补图均为候选，尚未生成。"
       ],
       "learningData": "src/data/learning/woolly-mammoth.ts",
-      "deployment": "not-deployed-in-this-change"
+      "deployment": "deployed"
     }
-  ]
+  ],
+  "deployment": {
+    "status": "live",
+    "worker": "fauna-atlas",
+    "url": "https://fauna-atlas.mfoonirlee.workers.dev/",
+    "sourceCommit": "513c107b0237fc0a105c4bbf574d9fceeb9cebda",
+    "versionId": "e056cc20-6308-4996-aa22-f7a87f3e163b",
+    "deploymentId": "e64fe838-46f5-475b-831e-b5ebb305c5ea",
+    "deployedAt": "2026-11-11T21:58:34.085585+08:00",
+    "trafficPercentage": 100,
+    "liveResourcesVerified": 14,
+    "verification": "HTTP 200 and SHA-256 match against local production build; includes all five learning profiles and reader assets."
+  }
 }
