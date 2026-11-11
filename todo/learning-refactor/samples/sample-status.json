@@ -1,0 +1,311 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-11",
+  "scope": "本轮仅 5 种动物编辑样板，不变更正式数据或页面；不将样板完成状态回写自动生成清单。",
+  "catalogueSourceCommit": "7f5ea0c0",
+  "sampleCount": 5,
+  "samples": [
+    {
+      "speciesId": "species-ailuropoda-melanoleuca",
+      "slug": "giant-panda",
+      "name": "大熊猫",
+      "draft": "giant-panda.md",
+      "stage": "source-checked-editorial-draft",
+      "draftedAt": "2026-11-11",
+      "professionalReview": "pending",
+      "familyReadThrough": "pending",
+      "productionMigration": "not-started",
+      "sourcesBySection": {
+        "identity": [
+          "P1"
+        ],
+        "body": [
+          "P1",
+          "P2"
+        ],
+        "habitat": [
+          "P1"
+        ],
+        "foraging": [
+          "P1",
+          "P2"
+        ],
+        "dailyLife": [
+          "P1"
+        ],
+        "growth": [
+          "P1"
+        ],
+        "ecology": [
+          "P1",
+          "P4"
+        ],
+        "survival": [
+          "P3",
+          "P1",
+          "P4"
+        ]
+      },
+      "existingMediaReview": {
+        "status": "teaching-use-screened",
+        "publicImagesInspected": [
+          "./images/species/giant-panda/01-forest-portrait.webp",
+          "./images/species/giant-panda/02-bamboo-feeding.webp",
+          "./images/species/giant-panda/03-mountain-habitat.webp",
+          "./images/species/giant-panda/04-tree-climbing.webp",
+          "./images/species/giant-panda/05-mother-and-cub.webp",
+          "./images/species/giant-panda/06-winter-movement.webp"
+        ],
+        "biologicalReapproval": "not-granted",
+        "method": "仅使用现有 6 图临时联系表做可见特征及教学用途初筛，未修改图片。"
+      },
+      "remainingIssues": [
+        "尚未独立专业复核或亲子试读。",
+        "补图均为候选，尚未生成。"
+      ]
+    },
+    {
+      "speciesId": "species-aptenodytes-forsteri",
+      "slug": "emperor-penguin",
+      "name": "帝企鹅",
+      "draft": "emperor-penguin.md",
+      "stage": "source-checked-editorial-draft",
+      "draftedAt": "2026-11-11",
+      "professionalReview": "pending",
+      "familyReadThrough": "pending",
+      "productionMigration": "not-started",
+      "sourcesBySection": {
+        "identity": [
+          "E1"
+        ],
+        "body": [
+          "E1",
+          "E2"
+        ],
+        "habitat": [
+          "E1",
+          "E3"
+        ],
+        "foraging": [
+          "E1"
+        ],
+        "dailyLife": [
+          "E1"
+        ],
+        "growth": [
+          "E2",
+          "E3"
+        ],
+        "ecology": [
+          "E1",
+          "E3"
+        ],
+        "survival": [
+          "E3"
+        ]
+      },
+      "existingMediaReview": {
+        "status": "teaching-use-screened",
+        "publicImagesInspected": [
+          "./images/species/emperor-penguin/01-fast-ice-portrait.webp",
+          "./images/species/emperor-penguin/02-egg-incubation.webp",
+          "./images/species/emperor-penguin/03-fast-ice-habitat.webp",
+          "./images/species/emperor-penguin/04-winter-huddle.webp",
+          "./images/species/emperor-penguin/05-under-ice-foraging.webp",
+          "./images/species/emperor-penguin/06-parent-and-chick.webp"
+        ],
+        "biologicalReapproval": "not-granted",
+        "method": "仅使用现有 6 图临时联系表做可见特征及教学用途初筛，未修改图片。"
+      },
+      "remainingIssues": [
+        "尚未独立专业复核或亲子试读。",
+        "补图均为候选，尚未生成。"
+      ]
+    },
+    {
+      "speciesId": "species-danaus-plexippus",
+      "slug": "monarch-butterfly",
+      "name": "帝王蝶",
+      "draft": "monarch-butterfly.md",
+      "stage": "source-checked-editorial-draft",
+      "draftedAt": "2026-11-11",
+      "professionalReview": "pending",
+      "familyReadThrough": "pending",
+      "productionMigration": "not-started",
+      "sourcesBySection": {
+        "identity": [
+          "M1",
+          "M2"
+        ],
+        "body": [
+          "M1",
+          "M2"
+        ],
+        "habitat": [
+          "M2"
+        ],
+        "foraging": [
+          "M1",
+          "M2"
+        ],
+        "dailyLife": [
+          "M2"
+        ],
+        "growth": [
+          "M1"
+        ],
+        "ecology": [
+          "M1",
+          "M2"
+        ],
+        "survival": [
+          "M2",
+          "M3",
+          "M4"
+        ]
+      },
+      "existingMediaReview": {
+        "status": "teaching-use-screened",
+        "publicImagesInspected": [
+          "./images/species/monarch-butterfly/01-female-milkweed-portrait.webp",
+          "./images/species/monarch-butterfly/02-diagnostic-male-wing-pattern.webp",
+          "./images/species/monarch-butterfly/03-milkweed-caterpillar-feeding.webp",
+          "./images/species/monarch-butterfly/04-jade-chrysalis.webp",
+          "./images/species/monarch-butterfly/05-great-lakes-autumn-migration.webp",
+          "./images/species/monarch-butterfly/06-oyamel-fir-overwintering.webp"
+        ],
+        "biologicalReapproval": "not-granted",
+        "method": "仅使用现有 6 图临时联系表做可见特征及教学用途初筛，未修改图片。"
+      },
+      "remainingIssues": [
+        "尚未独立专业复核或亲子试读。",
+        "补图均为候选，尚未生成。"
+      ]
+    },
+    {
+      "speciesId": "species-octopus-vulgaris",
+      "slug": "common-octopus",
+      "name": "普通章鱼",
+      "draft": "common-octopus.md",
+      "stage": "source-checked-editorial-draft",
+      "draftedAt": "2026-11-11",
+      "professionalReview": "pending",
+      "familyReadThrough": "pending",
+      "productionMigration": "not-started",
+      "sourcesBySection": {
+        "identity": [
+          "O1",
+          "O5"
+        ],
+        "body": [
+          "O1",
+          "O2",
+          "O3"
+        ],
+        "habitat": [
+          "O1",
+          "O5"
+        ],
+        "foraging": [
+          "O1"
+        ],
+        "dailyLife": [
+          "O1",
+          "O2"
+        ],
+        "growth": [
+          "O1",
+          "O3",
+          "O6"
+        ],
+        "ecology": [
+          "O1",
+          "O2"
+        ],
+        "survival": [
+          "O4",
+          "O5"
+        ]
+      },
+      "existingMediaReview": {
+        "status": "teaching-use-screened",
+        "publicImagesInspected": [
+          "./images/species/common-octopus/01-rocky-reef-adult-portrait.webp",
+          "./images/species/common-octopus/02-chromatophore-papillae-camouflage.webp",
+          "./images/species/common-octopus/03-rock-crevice-den-and-midden.webp",
+          "./images/species/common-octopus/04-crab-capture-and-sucker-use.webp",
+          "./images/species/common-octopus/05-female-egg-brooding-and-ventilation.webp",
+          "./images/species/common-octopus/06-pelagic-paralarva.webp"
+        ],
+        "biologicalReapproval": "not-granted",
+        "method": "仅使用现有 6 图临时联系表做可见特征及教学用途初筛，未修改图片。"
+      },
+      "remainingIssues": [
+        "保护评估的旧种界与现行狭义种必须继续区分。",
+        "尚未独立专业复核或亲子试读。",
+        "补图均为候选，尚未生成。"
+      ]
+    },
+    {
+      "speciesId": "woolly-mammoth",
+      "slug": "woolly-mammoth",
+      "name": "真猛犸象",
+      "draft": "woolly-mammoth.md",
+      "stage": "source-checked-editorial-draft",
+      "draftedAt": "2026-11-11",
+      "professionalReview": "pending",
+      "familyReadThrough": "pending",
+      "productionMigration": "not-started",
+      "sourcesBySection": {
+        "identity": [
+          "W1"
+        ],
+        "body": [
+          "W1",
+          "W2"
+        ],
+        "habitat": [
+          "W1",
+          "W2"
+        ],
+        "foraging": [
+          "W2",
+          "W4"
+        ],
+        "dailyLife": [
+          "W1",
+          "W4"
+        ],
+        "growth": [
+          "W4"
+        ],
+        "ecology": [
+          "W1",
+          "W2"
+        ],
+        "survival": [
+          "W2",
+          "W3"
+        ]
+      },
+      "existingMediaReview": {
+        "status": "teaching-use-screened",
+        "publicImagesInspected": [
+          "./images/species/woolly-mammoth/01-cover.webp",
+          "./images/species/woolly-mammoth/02-observation.webp",
+          "./images/species/woolly-mammoth/03-observation.webp",
+          "./images/species/woolly-mammoth/04-observation.webp",
+          "./images/species/woolly-mammoth/05-observation.webp",
+          "./images/species/woolly-mammoth/06-observation.webp"
+        ],
+        "biologicalReapproval": "not-granted",
+        "method": "仅使用现有 6 图临时联系表做可见特征及教学用途初筛，未修改图片。"
+      },
+      "remainingIssues": [
+        "日常作息与完整生态作用资料不足，正文保留缺口。",
+        "尚未独立专业复核或亲子试读。",
+        "补图均为候选，尚未生成。"
+      ]
+    }
+  ]
+}
