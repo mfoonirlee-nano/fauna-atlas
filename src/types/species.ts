@@ -188,6 +188,35 @@ export interface SpeciesSource {
   readonly accessedAt?: `${number}-${number}-${number}`;
 }
 
+export type LearningSectionKey =
+  | 'identity' | 'body' | 'habitat' | 'foraging'
+  | 'dailyLife' | 'growth' | 'ecology' | 'survival';
+
+/** Child-facing explanations; source URLs refer to entries in Species.sources. */
+export interface SpeciesLearningSection {
+  readonly key: LearningSectionKey;
+  readonly title: string;
+  readonly lead?: string;
+  readonly paragraphs: readonly string[];
+  readonly bodyParts?: readonly { readonly name: string; readonly explanation: string }[];
+  readonly curiosity?: string;
+  readonly sources: readonly string[];
+}
+
+/** Optional during migration. Never included in the browsing catalogue. */
+export interface SpeciesLearningProfile {
+  readonly version: 1;
+  readonly introduction: string;
+  readonly sections: readonly SpeciesLearningSection[];
+  readonly observation: {
+    /** References public cover/gallery paths, never pendingMedia or newly generated assets. */
+    readonly images: readonly SpeciesGalleryImage['image'][];
+    readonly prompt: string;
+    readonly note: string;
+    readonly questions: readonly { readonly question: string; readonly answer: string }[];
+  };
+}
+
 export interface Species {
   readonly id: string;
   readonly slug: string;
@@ -203,6 +232,7 @@ export interface Species {
   readonly tags: readonly string[];
   readonly summary: string;
   readonly description: string;
+  readonly learning?: SpeciesLearningProfile;
   readonly storySections?: readonly SpeciesStorySection[];
   readonly keyFacts: readonly string[];
   readonly threats: readonly string[];

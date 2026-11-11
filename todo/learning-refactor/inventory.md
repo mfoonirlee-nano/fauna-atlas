@@ -2,6 +2,8 @@
 
 此文件由 `npm run audit:learning` 生成，请勿手改。覆盖 858 份动物档案；不包含微生物专题。
 
+其中 5 份已接入儿童讲解。接入进度不代表专业审核或试读已经完成。
+
 字段检查及中文关键词候选检索；不代表科学审核、链接可访问性验证或内容合格。无候选不等于没有相关内容。
 
 全部档案均待人工复核，未授予“可发布”状态。ID、分类路径、候选内容位置、来源和工作状态详见 [JSON 清单](./inventory.json)。
@@ -10,11 +12,11 @@
 
 | 主题 | 找到候选 | 未找到候选 |
 | --- | ---: | ---: |
-| 身体构造 | 807 | 51 |
-| 觅食过程 | 741 | 117 |
+| 身体构造 | 808 | 50 |
+| 觅食过程 | 742 | 116 |
 | 活动与交流 | 593 | 265 |
-| 繁殖与成长 | 526 | 332 |
-| 生态关系 | 47 | 811 |
+| 繁殖与成长 | 527 | 331 |
+| 生态关系 | 51 | 807 |
 
 ## 配图记录
 
@@ -40,7 +42,7 @@
 | 宽吻海豚 | [common-bottlenose-dolphin](../../src/data/species/common-bottlenose-dolphin.ts) | LC / 2018 | 生态关系 | 无 | 6 | 否 |
 | 漂泊信天翁 | [wandering-albatross](../../src/data/species/wandering-albatross.ts) | VU / 2018 | 活动与交流、生态关系 | 无 | 6 | 否 |
 | 红喉北蜂鸟 | [ruby-throated-hummingbird](../../src/data/species/ruby-throated-hummingbird.ts) | LC / 2020 | 生态关系 | 无 | 6 | 否 |
-| 帝企鹅 | [emperor-penguin](../../src/data/species/emperor-penguin.ts) | EN / 2026 | 生态关系 | 无 | 6 | 否 |
+| 帝企鹅 | [emperor-penguin](../../src/data/species/emperor-penguin.ts) | EN / 2026 | 均有候选 | 无 | 6 | 否 |
 | 鲸鲨 | [whale-shark](../../src/data/species/whale-shark.ts) | EN / 2025 | 生态关系 | 无 | 6 | 否 |
 | 科莫多巨蜥 | [komodo-dragon](../../src/data/species/komodo-dragon.ts) | EN / 2019 | 生态关系 | 无 | 6 | 否 |
 | 网纹蟒 | [reticulated-python](../../src/data/species/reticulated-python.ts) | LC / 2011 | 生态关系 | 无 | 6 | 否 |
@@ -50,7 +52,7 @@
 | 中国大鲵 | [chinese-giant-salamander](../../src/data/species/chinese-giant-salamander.ts) | CR / 2020 | 生态关系 | 无 | 6 | 否 |
 | 金色箭毒蛙 | [golden-poison-frog](../../src/data/species/golden-poison-frog.ts) | EN / 2016 | 生态关系 | 无 | 6 | 否 |
 | 锈斑熊蜂 | [rusty-patched-bumble-bee](../../src/data/species/rusty-patched-bumble-bee.ts) | CR / 2014 | 觅食过程、生态关系 | 无 | 6 | 否 |
-| 帝王蝶 | [monarch-butterfly](../../src/data/species/monarch-butterfly.ts) | LC / 2021 | 身体构造、生态关系 | 无 | 6 | 否 |
+| 帝王蝶 | [monarch-butterfly](../../src/data/species/monarch-butterfly.ts) | LC / 2021 | 均有候选 | 无 | 6 | 否 |
 | 鹿角珊瑚 | [staghorn-coral](../../src/data/species/staghorn-coral.ts) | CR / 2021 | 活动与交流 | 无 | 6 | 否 |
 | 海月水母 | [moon-jelly](../../src/data/species/moon-jelly.ts) | NE / 未记录或不适用 | 活动与交流、生态关系 | 无 | 6 | 否 |
 | 弧边招潮蟹 | [bowed-fiddler-crab](../../src/data/species/bowed-fiddler-crab.ts) | NE / 未记录或不适用 | 生态关系 | 无 | 6 | 否 |
@@ -97,7 +99,7 @@
 | 南极磷虾 | [antarctic-krill](../../src/data/species/antarctic-krill.ts) | NE / 未记录或不适用 | 均有候选 | 无 | 6 | 否 |
 | 椰子蟹 | [coconut-crab](../../src/data/species/coconut-crab.ts) | VU / 2018 | 生态关系 | 无 | 6 | 否 |
 | 鹦鹉螺 | [chambered-nautilus](../../src/data/species/chambered-nautilus.ts) | NE / 未记录或不适用 | 生态关系 | 无 | 6 | 否 |
-| 普通章鱼 | [common-octopus](../../src/data/species/common-octopus.ts) | LC / 2016 | 生态关系 | 无 | 6 | 否 |
+| 普通章鱼 | [common-octopus](../../src/data/species/common-octopus.ts) | LC / 2016 | 均有候选 | 无 | 6 | 否 |
 | 大西洋海神海蛞蝓 | [atlantic-blue-sea-slug](../../src/data/species/atlantic-blue-sea-slug.ts) | NE / 未记录或不适用 | 活动与交流、生态关系 | 无 | 6 | 否 |
 | 巨砗磲 | [giant-clam](../../src/data/species/giant-clam.ts) | CR / 2024 | 活动与交流 | 无 | 6 | 否 |
 | 僧帽水母 | [portuguese-man-of-war](../../src/data/species/portuguese-man-of-war.ts) | NE / 未记录或不适用 | 均有候选 | 无 | 6 | 否 |
@@ -808,7 +810,7 @@
 | 重型恐狼 | [dire-wolf](../../src/data/species/dire-wolf.ts) | EX / 未记录或不适用 | 繁殖与成长、生态关系 | 无 | 6 | 否 |
 | 致命刃齿虎 | [smilodon-fatalis](../../src/data/species/smilodon-fatalis.ts) | EX / 未记录或不适用 | 繁殖与成长、生态关系 | 无 | 6 | 否 |
 | 披毛犀 | [woolly-rhinoceros](../../src/data/species/woolly-rhinoceros.ts) | EX / 未记录或不适用 | 觅食过程、繁殖与成长、生态关系 | 无 | 6 | 否 |
-| 真猛犸象 | [woolly-mammoth](../../src/data/species/woolly-mammoth.ts) | EX / 未记录或不适用 | 觅食过程、繁殖与成长、生态关系 | 无 | 6 | 否 |
+| 真猛犸象 | [woolly-mammoth](../../src/data/species/woolly-mammoth.ts) | EX / 未记录或不适用 | 均有候选 | 无 | 6 | 否 |
 | 帝王肌鳄 | [sarcosuchus-imperator](../../src/data/species/sarcosuchus-imperator.ts) | EX / 未记录或不适用 | 繁殖与成长、生态关系 | 无 | 6 | 否 |
 | 里奥格兰德恐鳄 | [deinosuchus-riograndensis](../../src/data/species/deinosuchus-riograndensis.ts) | EX / 未记录或不适用 | 繁殖与成长、生态关系 | 无 | 6 | 否 |
 | 麦氏提塔利克鱼 | [tiktaalik-roseae](../../src/data/species/tiktaalik-roseae.ts) | EX / 未记录或不适用 | 繁殖与成长、生态关系 | 无 | 6 | 否 |

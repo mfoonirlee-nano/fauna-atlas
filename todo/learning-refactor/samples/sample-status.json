@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "updatedAt": "2026-11-11",
-  "scope": "本轮仅 5 种动物编辑样板，不变更正式数据或页面；不将样板完成状态回写自动生成清单。",
+  "scope": "首批 5 种儿童讲解已接入正式档案与详情页代码，未在本轮部署；专业复核与试读单独记录。",
   "catalogueSourceCommit": "7f5ea0c0",
   "sampleCount": 5,
   "samples": [
@@ -10,11 +10,11 @@
       "slug": "giant-panda",
       "name": "大熊猫",
       "draft": "giant-panda.md",
-      "stage": "source-checked-editorial-draft",
+      "stage": "implemented-awaiting-independent-review",
       "draftedAt": "2026-11-11",
       "professionalReview": "pending",
       "familyReadThrough": "pending",
-      "productionMigration": "not-started",
+      "productionMigration": "connected-in-source",
       "sourcesBySection": {
         "identity": [
           "P1"
@@ -62,18 +62,20 @@
       "remainingIssues": [
         "尚未独立专业复核或亲子试读。",
         "补图均为候选，尚未生成。"
-      ]
+      ],
+      "learningData": "src/data/learning/giant-panda.ts",
+      "deployment": "not-deployed-in-this-change"
     },
     {
       "speciesId": "species-aptenodytes-forsteri",
       "slug": "emperor-penguin",
       "name": "帝企鹅",
       "draft": "emperor-penguin.md",
-      "stage": "source-checked-editorial-draft",
+      "stage": "implemented-awaiting-independent-review",
       "draftedAt": "2026-11-11",
       "professionalReview": "pending",
       "familyReadThrough": "pending",
-      "productionMigration": "not-started",
+      "productionMigration": "connected-in-source",
       "sourcesBySection": {
         "identity": [
           "E1"
@@ -120,18 +122,20 @@
       "remainingIssues": [
         "尚未独立专业复核或亲子试读。",
         "补图均为候选，尚未生成。"
-      ]
+      ],
+      "learningData": "src/data/learning/emperor-penguin.ts",
+      "deployment": "not-deployed-in-this-change"
     },
     {
       "speciesId": "species-danaus-plexippus",
       "slug": "monarch-butterfly",
       "name": "帝王蝶",
       "draft": "monarch-butterfly.md",
-      "stage": "source-checked-editorial-draft",
+      "stage": "implemented-awaiting-independent-review",
       "draftedAt": "2026-11-11",
       "professionalReview": "pending",
       "familyReadThrough": "pending",
-      "productionMigration": "not-started",
+      "productionMigration": "connected-in-source",
       "sourcesBySection": {
         "identity": [
           "M1",
@@ -180,18 +184,20 @@
       "remainingIssues": [
         "尚未独立专业复核或亲子试读。",
         "补图均为候选，尚未生成。"
-      ]
+      ],
+      "learningData": "src/data/learning/monarch-butterfly.ts",
+      "deployment": "not-deployed-in-this-change"
     },
     {
       "speciesId": "species-octopus-vulgaris",
       "slug": "common-octopus",
       "name": "普通章鱼",
       "draft": "common-octopus.md",
-      "stage": "source-checked-editorial-draft",
+      "stage": "implemented-awaiting-independent-review",
       "draftedAt": "2026-11-11",
       "professionalReview": "pending",
       "familyReadThrough": "pending",
-      "productionMigration": "not-started",
+      "productionMigration": "connected-in-source",
       "sourcesBySection": {
         "identity": [
           "O1",
@@ -244,18 +250,20 @@
         "保护评估的旧种界与现行狭义种必须继续区分。",
         "尚未独立专业复核或亲子试读。",
         "补图均为候选，尚未生成。"
-      ]
+      ],
+      "learningData": "src/data/learning/common-octopus.ts",
+      "deployment": "not-deployed-in-this-change"
     },
     {
       "speciesId": "woolly-mammoth",
       "slug": "woolly-mammoth",
       "name": "真猛犸象",
       "draft": "woolly-mammoth.md",
-      "stage": "source-checked-editorial-draft",
+      "stage": "implemented-awaiting-independent-review",
       "draftedAt": "2026-11-11",
       "professionalReview": "pending",
       "familyReadThrough": "pending",
-      "productionMigration": "not-started",
+      "productionMigration": "connected-in-source",
       "sourcesBySection": {
         "identity": [
           "W1"
@@ -305,7 +313,9 @@
         "日常作息与完整生态作用资料不足，正文保留缺口。",
         "尚未独立专业复核或亲子试读。",
         "补图均为候选，尚未生成。"
-      ]
+      ],
+      "learningData": "src/data/learning/woolly-mammoth.ts",
+      "deployment": "not-deployed-in-this-change"
     }
   ]
 }

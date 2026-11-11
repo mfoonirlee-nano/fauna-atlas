@@ -1,10 +1,9 @@
+import { learningProfile } from '../learning/emperor-penguin.js';
 import type { SpeciesSource, Species } from '../../types/species.ts';
 
 import { CONTENT_DATE, animalTaxonomy, conservation, taxon } from './shared.js';
 
 const EMPEROR_PENGUIN_SOURCE_DATE = '2026-08-15' as const;
-
-const EMPEROR_PENGUIN_CONTENT_DATE = '2026-08-15' as const;
 
 const EMPEROR_PENGUIN_SOURCES = [
   {
@@ -94,6 +93,7 @@ const EMPEROR_PENGUIN_SOURCES = [
 ] as const satisfies readonly SpeciesSource[];
 
 const profile = {
+    learning: learningProfile,
     id: 'species-aptenodytes-forsteri',
     slug: 'emperor-penguin',
     names: { zh: '帝企鹅', en: 'Emperor Penguin', aliases: [] },
@@ -284,7 +284,7 @@ const profile = {
     ],
     featured: true,
     publishedAt: CONTENT_DATE,
-    updatedAt: EMPEROR_PENGUIN_CONTENT_DATE,
+    updatedAt: '2026-11-11',
   } as const satisfies Species;
 
 export default profile;

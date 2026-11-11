@@ -1,12 +1,12 @@
+import { learningProfile } from '../learning/giant-panda.js';
 import type { Species } from '../../types/species.ts';
 
 import { CONTENT_DATE, animalTaxonomy, conservation, taxon } from './shared.js';
 
 const PANDA_SOURCE_DATE = '2026-08-12' as const;
 
-const PANDA_CONTENT_DATE = '2026-08-13' as const;
-
 const profile = {
+    learning: learningProfile,
     id: 'species-ailuropoda-melanoleuca',
     slug: 'giant-panda',
     names: { zh: '大熊猫', en: 'Giant Panda', aliases: ['猫熊', '竹熊'] },
@@ -222,7 +222,7 @@ const profile = {
     ],
     featured: true,
     publishedAt: CONTENT_DATE,
-    updatedAt: PANDA_CONTENT_DATE,
+    updatedAt: '2026-11-11',
   } as const satisfies Species;
 
 export default profile;

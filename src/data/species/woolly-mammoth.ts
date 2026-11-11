@@ -1,6 +1,8 @@
+import { learningProfile, learningSources } from '../learning/woolly-mammoth.js';
 import type { Species } from '../../types/species.ts';
 
 const profile = {
+  learning: learningProfile,
   "id": "woolly-mammoth",
   "slug": "woolly-mammoth",
   "names": {
@@ -244,11 +246,12 @@ const profile = {
       "url": "https://api.gbif.org/v1/species/match?name=Mammuthus%20primigenius",
       "kind": "taxonomy",
       "accessedAt": "2026-10-22"
-    }
+    },
+    ...learningSources,
   ],
   "featured": true,
   "publishedAt": "2026-10-22",
-  "updatedAt": "2026-10-22"
+  "updatedAt": '2026-11-11'
 } as const satisfies Species;
 
 export default profile;

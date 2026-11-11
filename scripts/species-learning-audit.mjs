@@ -29,6 +29,11 @@ export function auditSpecies(profile, { assetExists = () => true } = {}) {
   ].filter(([, body]) => present(body));
   const coverage = Object.fromEntries(Object.entries(topics).map(([key, { pattern }]) => {
     const candidatePaths = passages.filter(([, body]) => pattern.test(body)).map(([path]) => path);
+    for (const [index, section] of (profile.learning?.sections ?? []).entries()) {
+      if (section.key === key && (section.paragraphs.some(present) || section.bodyParts?.length)) {
+        candidatePaths.push(`learning.sections.${index}`);
+      }
+    }
     return [key, { status: candidatePaths.length ? 'candidate-found' : 'no-candidate', candidatePaths }];
   }));
   const gaps = [];
@@ -60,6 +65,7 @@ export function auditSpecies(profile, { assetExists = () => true } = {}) {
     taxonomy: Object.fromEntries(Object.entries(profile.taxonomy).map(([rank, taxon]) => [rank, taxon.scientificName])),
     lifeStatus: c?.code === 'EX' ? 'extinct' : c?.code === 'EW' ? 'extinct-in-wild' : 'not-marked-extinct',
     contentUpdatedAt: profile.updatedAt, gaps, coverage,
+    ...(profile.learning ? { learning: { version: profile.learning.version, sections: profile.learning.sections.map((s) => s.key) } } : {}),
     conservation: { ...c, issues, reviewStatus: 'pending', yearReview: 'pending' },
     sources: (profile.sources ?? []).map(({ title, url, kind, accessedAt }) => ({ title, url, kind, accessedAt })),
     media: { publicImageCount: images.length, images, missingAssets, missingAlt,
@@ -76,7 +82,7 @@ export function buildAudit(profiles, options) {
   const rows = profiles.map((profile) => auditSpecies(profile, options));
   return { schemaVersion: 1, scope: 'animal-species-only',
     method: '字段检查及中文关键词候选检索；不代表科学审核、链接可访问性验证或内容合格。无候选不等于没有相关内容。',
-    summary: { total: rows.length, lifeStatus: countBy(rows, (r) => r.lifeStatus),
+    summary: { total: rows.length, learningProfiles: rows.filter((r) => r.learning).length, lifeStatus: countBy(rows, (r) => r.lifeStatus),
       conservation: countBy(rows, (r) => r.conservation.code),
       missingCover: rows.filter((r) => !r.media.images.some((i) => i.path === 'media.image')).length,
       pendingMedia: rows.filter((r) => r.media.pendingReason).length,
@@ -91,7 +97,7 @@ export function buildAudit(profiles, options) {
 
 export function renderInventory(report) {
   const cell = (s) => String(s).replaceAll('|', '\\|').replaceAll('\n', ' ');
-  return `# 儿童动物百科全量盘点\n\n此文件由 \`npm run audit:learning\` 生成，请勿手改。覆盖 ${report.summary.total} 份动物档案；不包含微生物专题。\n\n${report.method}\n\n全部档案均待人工复核，未授予“可发布”状态。ID、分类路径、候选内容位置、来源和工作状态详见 [JSON 清单](./inventory.json)。\n\n## 内容候选统计\n\n| 主题 | 找到候选 | 未找到候选 |\n| --- | ---: | ---: |\n${Object.entries(topics).map(([key, { label }]) => `| ${label} | ${report.summary.topics[key]['candidate-found'] ?? 0} | ${report.summary.topics[key]['no-candidate'] ?? 0} |`).join('\n')}\n\n## 配图记录\n\n缺公开封面 ${report.summary.missingCover} 份，含待修复素材 ${report.summary.pendingMedia} 份，公开图片缺失引用 ${report.summary.missingAssets} 个。图片存在不代表科学准确，新增或返修需求见 [素材待办](./media-todo.md)。\n\n## 全量档案\n\n“未检出”仅提示优先检查相应内容；每份档案均需核对原文。评估年份为原档案记录，不表示本轮复核。\n\n| 动物 | slug | 保护代码 / 评估年份 | 未检出的内容候选 | 字段缺项 | 公开图片数 | 待修复素材 |\n| --- | --- | --- | --- | --- | ---: | --- |\n${report.species.map((r) => `| ${cell(r.name)} | [${r.slug}](../../src/data/species/${r.slug}.ts) | ${r.conservation.code} / ${r.conservation.assessedYear ?? '未记录或不适用'} | ${Object.keys(topics).filter((k) => r.coverage[k].status === 'no-candidate').map((k) => topics[k].label).join('、') || '均有候选'} | ${r.gaps.join('、') || '无'} | ${r.media.publicImageCount} | ${r.media.pendingReason ? '是' : '否'} |`).join('\n')}\n`;
+  return `# 儿童动物百科全量盘点\n\n此文件由 \`npm run audit:learning\` 生成，请勿手改。覆盖 ${report.summary.total} 份动物档案；不包含微生物专题。\n\n其中 ${report.summary.learningProfiles} 份已接入儿童讲解。接入进度不代表专业审核或试读已经完成。\n\n${report.method}\n\n全部档案均待人工复核，未授予“可发布”状态。ID、分类路径、候选内容位置、来源和工作状态详见 [JSON 清单](./inventory.json)。\n\n## 内容候选统计\n\n| 主题 | 找到候选 | 未找到候选 |\n| --- | ---: | ---: |\n${Object.entries(topics).map(([key, { label }]) => `| ${label} | ${report.summary.topics[key]['candidate-found'] ?? 0} | ${report.summary.topics[key]['no-candidate'] ?? 0} |`).join('\n')}\n\n## 配图记录\n\n缺公开封面 ${report.summary.missingCover} 份，含待修复素材 ${report.summary.pendingMedia} 份，公开图片缺失引用 ${report.summary.missingAssets} 个。图片存在不代表科学准确，新增或返修需求见 [素材待办](./media-todo.md)。\n\n## 全量档案\n\n“未检出”仅提示优先检查相应内容；每份档案均需核对原文。评估年份为原档案记录，不表示本轮复核。\n\n| 动物 | slug | 保护代码 / 评估年份 | 未检出的内容候选 | 字段缺项 | 公开图片数 | 待修复素材 |\n| --- | --- | --- | --- | --- | ---: | --- |\n${report.species.map((r) => `| ${cell(r.name)} | [${r.slug}](../../src/data/species/${r.slug}.ts) | ${r.conservation.code} / ${r.conservation.assessedYear ?? '未记录或不适用'} | ${Object.keys(topics).filter((k) => r.coverage[k].status === 'no-candidate').map((k) => topics[k].label).join('、') || '均有候选'} | ${r.gaps.join('、') || '无'} | ${r.media.publicImageCount} | ${r.media.pendingReason ? '是' : '否'} |`).join('\n')}\n`;
 }
 
 export function renderMediaTodo(report) {
@@ -122,6 +128,7 @@ async function main() {
       if (name === 'inventory.json') {
         const a = JSON.parse(current), b = JSON.parse(body);
         delete a.source.commit; delete b.source.commit;
+        delete a.source.dirty; delete b.source.dirty;
         if (JSON.stringify(a) !== JSON.stringify(b)) throw new Error(`Stale audit: ${name}`);
       } else if (current !== body) throw new Error(`Stale audit: ${name}`);
     } else writeFileSync(path, body);

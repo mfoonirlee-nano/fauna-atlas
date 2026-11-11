@@ -4,6 +4,7 @@
   "method": "字段检查及中文关键词候选检索；不代表科学审核、链接可访问性验证或内容合格。无候选不等于没有相关内容。",
   "summary": {
     "total": 858,
+    "learningProfiles": 5,
     "lifeStatus": {
       "not-marked-extinct": 758,
       "extinct": 100
@@ -29,24 +30,24 @@
     },
     "topics": {
       "body": {
-        "candidate-found": 807,
-        "no-candidate": 51
+        "candidate-found": 808,
+        "no-candidate": 50
       },
       "foraging": {
-        "candidate-found": 741,
-        "no-candidate": 117
+        "candidate-found": 742,
+        "no-candidate": 116
       },
       "dailyLife": {
         "candidate-found": 593,
         "no-candidate": 265
       },
       "growth": {
-        "candidate-found": 526,
-        "no-candidate": 332
+        "candidate-found": 527,
+        "no-candidate": 331
       },
       "ecology": {
-        "candidate-found": 47,
-        "no-candidate": 811
+        "candidate-found": 51,
+        "no-candidate": 807
       }
     }
   },
@@ -65,7 +66,7 @@
         "genus": "Ailuropoda"
       },
       "lifeStatus": "not-marked-extinct",
-      "contentUpdatedAt": "2026-08-13",
+      "contentUpdatedAt": "2026-11-11",
       "gaps": [],
       "coverage": {
         "body": {
@@ -73,21 +74,24 @@
           "candidatePaths": [
             "description",
             "keyFacts.0",
-            "storySections.0"
+            "storySections.0",
+            "learning.sections.1"
           ]
         },
         "foraging": {
           "status": "candidate-found",
           "candidatePaths": [
             "diet.description",
-            "keyFacts.2"
+            "keyFacts.2",
+            "learning.sections.3"
           ]
         },
         "dailyLife": {
           "status": "candidate-found",
           "candidatePaths": [
             "activity",
-            "storySections.1"
+            "storySections.1",
+            "learning.sections.4"
           ]
         },
         "growth": {
@@ -96,15 +100,30 @@
             "keyFacts.3",
             "keyFacts.4",
             "storySections.1",
-            "storySections.2"
+            "storySections.2",
+            "learning.sections.5"
           ]
         },
         "ecology": {
           "status": "candidate-found",
           "candidatePaths": [
-            "storySections.3"
+            "storySections.3",
+            "learning.sections.6"
           ]
         }
+      },
+      "learning": {
+        "version": 1,
+        "sections": [
+          "identity",
+          "body",
+          "habitat",
+          "foraging",
+          "dailyLife",
+          "growth",
+          "ecology",
+          "survival"
+        ]
       },
       "conservation": {
         "system": "IUCN Red List",
@@ -3655,14 +3674,15 @@
         "genus": "Aptenodytes"
       },
       "lifeStatus": "not-marked-extinct",
-      "contentUpdatedAt": "2026-08-15",
+      "contentUpdatedAt": "2026-11-11",
       "gaps": [],
       "coverage": {
         "body": {
           "status": "candidate-found",
           "candidatePaths": [
             "storySections.0",
-            "storySections.1"
+            "storySections.1",
+            "learning.sections.1"
           ]
         },
         "foraging": {
@@ -3673,14 +3693,16 @@
             "activity",
             "storySections.0",
             "storySections.4",
-            "storySections.5"
+            "storySections.5",
+            "learning.sections.3"
           ]
         },
         "dailyLife": {
           "status": "candidate-found",
           "candidatePaths": [
             "activity",
-            "storySections.1"
+            "storySections.1",
+            "learning.sections.4"
           ]
         },
         "growth": {
@@ -3695,13 +3717,29 @@
             "storySections.3",
             "storySections.4",
             "storySections.5",
-            "storySections.6"
+            "storySections.6",
+            "learning.sections.5"
           ]
         },
         "ecology": {
-          "status": "no-candidate",
-          "candidatePaths": []
+          "status": "candidate-found",
+          "candidatePaths": [
+            "learning.sections.6"
+          ]
         }
+      },
+      "learning": {
+        "version": 1,
+        "sections": [
+          "identity",
+          "body",
+          "habitat",
+          "foraging",
+          "dailyLife",
+          "growth",
+          "ecology",
+          "survival"
+        ]
       },
       "conservation": {
         "system": "IUCN Red List",
@@ -3882,8 +3920,7 @@
       "workflow": [
         "pending-editorial-review",
         "pending-source-review",
-        "pending-image-review",
-        "pending-research"
+        "pending-image-review"
       ],
       "owner": null,
       "reviewedAt": null,
@@ -6502,18 +6539,21 @@
         "genus": "Danaus"
       },
       "lifeStatus": "not-marked-extinct",
-      "contentUpdatedAt": "2026-08-21",
+      "contentUpdatedAt": "2026-11-11",
       "gaps": [],
       "coverage": {
         "body": {
-          "status": "no-candidate",
-          "candidatePaths": []
+          "status": "candidate-found",
+          "candidatePaths": [
+            "learning.sections.1"
+          ]
         },
         "foraging": {
           "status": "candidate-found",
           "candidatePaths": [
             "activity",
-            "storySections.1"
+            "storySections.1",
+            "learning.sections.3"
           ]
         },
         "dailyLife": {
@@ -6528,7 +6568,8 @@
             "storySections.1",
             "storySections.3",
             "storySections.5",
-            "storySections.6"
+            "storySections.6",
+            "learning.sections.4"
           ]
         },
         "growth": {
@@ -6539,13 +6580,29 @@
             "keyFacts.3",
             "keyFacts.4",
             "storySections.1",
-            "storySections.2"
+            "storySections.2",
+            "learning.sections.5"
           ]
         },
         "ecology": {
-          "status": "no-candidate",
-          "candidatePaths": []
+          "status": "candidate-found",
+          "candidatePaths": [
+            "learning.sections.6"
+          ]
         }
+      },
+      "learning": {
+        "version": 1,
+        "sections": [
+          "identity",
+          "body",
+          "habitat",
+          "foraging",
+          "dailyLife",
+          "growth",
+          "ecology",
+          "survival"
+        ]
       },
       "conservation": {
         "system": "IUCN Red List",
@@ -6761,8 +6818,7 @@
       "workflow": [
         "pending-editorial-review",
         "pending-source-review",
-        "pending-image-review",
-        "pending-research"
+        "pending-image-review"
       ],
       "owner": null,
       "reviewedAt": null,
@@ -20460,7 +20516,7 @@
         "genus": "Octopus"
       },
       "lifeStatus": "not-marked-extinct",
-      "contentUpdatedAt": "2026-08-28",
+      "contentUpdatedAt": "2026-11-11",
       "gaps": [],
       "coverage": {
         "body": {
@@ -20476,7 +20532,8 @@
             "storySections.2",
             "storySections.4",
             "storySections.5",
-            "storySections.6"
+            "storySections.6",
+            "learning.sections.1"
           ]
         },
         "foraging": {
@@ -20487,14 +20544,16 @@
             "activity",
             "keyFacts.8",
             "storySections.2",
-            "storySections.3"
+            "storySections.3",
+            "learning.sections.3"
           ]
         },
         "dailyLife": {
           "status": "candidate-found",
           "candidatePaths": [
             "activity",
-            "keyFacts.9"
+            "keyFacts.9",
+            "learning.sections.4"
           ]
         },
         "growth": {
@@ -20506,13 +20565,29 @@
             "keyFacts.12",
             "keyFacts.13",
             "storySections.4",
-            "storySections.5"
+            "storySections.5",
+            "learning.sections.5"
           ]
         },
         "ecology": {
-          "status": "no-candidate",
-          "candidatePaths": []
+          "status": "candidate-found",
+          "candidatePaths": [
+            "learning.sections.6"
+          ]
         }
+      },
+      "learning": {
+        "version": 1,
+        "sections": [
+          "identity",
+          "body",
+          "habitat",
+          "foraging",
+          "dailyLife",
+          "growth",
+          "ecology",
+          "survival"
+        ]
       },
       "conservation": {
         "system": "IUCN Red List",
@@ -20672,6 +20747,24 @@
           "url": "https://www.gbif.org/species/2289671",
           "kind": "taxonomy",
           "accessedAt": "2026-10-11"
+        },
+        {
+          "title": "Common octopus — Institut océanographique Paul Ricard",
+          "url": "https://www.institut-paul-ricard.org/?especes_aquarium=common-octopus&lang=en",
+          "kind": "ecology",
+          "accessedAt": "2026-11-11"
+        },
+        {
+          "title": "Octopus sinensis: valid species name for the East Asian common octopus",
+          "url": "https://www.jstage.jst.go.jp/article/specdiv/21/1/21_31/_article",
+          "kind": "taxonomy",
+          "accessedAt": "2026-11-11"
+        },
+        {
+          "title": "Camouflaging in a Complex Environment",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0037579",
+          "kind": "ecology",
+          "accessedAt": "2026-11-11"
         }
       ],
       "media": {
@@ -20751,8 +20844,7 @@
       "workflow": [
         "pending-editorial-review",
         "pending-source-review",
-        "pending-image-review",
-        "pending-research"
+        "pending-image-review"
       ],
       "owner": null,
       "reviewedAt": null,
@@ -156643,7 +156735,7 @@
         "genus": "Mammuthus"
       },
       "lifeStatus": "extinct",
-      "contentUpdatedAt": "2026-10-22",
+      "contentUpdatedAt": "2026-11-11",
       "gaps": [],
       "coverage": {
         "body": {
@@ -156654,27 +156746,48 @@
             "keyFacts.1",
             "storySections.0",
             "storySections.2",
-            "storySections.3"
+            "storySections.3",
+            "learning.sections.1"
           ]
         },
         "foraging": {
-          "status": "no-candidate",
-          "candidatePaths": []
+          "status": "candidate-found",
+          "candidatePaths": [
+            "learning.sections.3"
+          ]
         },
         "dailyLife": {
           "status": "candidate-found",
           "candidatePaths": [
-            "storySections.1"
+            "storySections.1",
+            "learning.sections.4"
           ]
         },
         "growth": {
-          "status": "no-candidate",
-          "candidatePaths": []
+          "status": "candidate-found",
+          "candidatePaths": [
+            "learning.sections.5"
+          ]
         },
         "ecology": {
-          "status": "no-candidate",
-          "candidatePaths": []
+          "status": "candidate-found",
+          "candidatePaths": [
+            "learning.sections.6"
+          ]
         }
+      },
+      "learning": {
+        "version": 1,
+        "sections": [
+          "identity",
+          "body",
+          "habitat",
+          "foraging",
+          "dailyLife",
+          "growth",
+          "ecology",
+          "survival"
+        ]
       },
       "conservation": {
         "system": "Historical and fossil evidence",
@@ -156719,6 +156832,12 @@
           "url": "https://api.gbif.org/v1/species/match?name=Mammuthus%20primigenius",
           "kind": "taxonomy",
           "accessedAt": "2026-10-22"
+        },
+        {
+          "title": "Palaeo-environmental and dietary analysis of intestinal contents of a mammoth calf",
+          "url": "https://repository.naturalis.nl/pub/801838/Geel-2011-Palaeo-environmental-and-dietary-analysis-A.pdf",
+          "kind": "ecology",
+          "accessedAt": "2026-11-11"
         }
       ],
       "media": {
@@ -156798,8 +156917,7 @@
       "workflow": [
         "pending-editorial-review",
         "pending-source-review",
-        "pending-image-review",
-        "pending-research"
+        "pending-image-review"
       ],
       "owner": null,
       "reviewedAt": null,
@@ -169449,8 +169567,8 @@
     }
   ],
   "source": {
-    "commit": "a82ee8b86a41c89d1d8f36ace4ab387274c7b647",
+    "commit": "47d247b77fc55ff15bb2d2836892f86d125e8e93",
     "catalogue": "src/data/species.ts",
-    "dirty": false
+    "dirty": true
   }
 }

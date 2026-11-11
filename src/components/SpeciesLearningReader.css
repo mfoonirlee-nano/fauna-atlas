@@ -1,0 +1,75 @@
+.learning-reader { color: var(--ink); }
+.learning-reader__toc {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  padding: 20px;
+  margin-bottom: 32px;
+  background: var(--paper-deep);
+  border-radius: 12px;
+}
+.learning-reader__toc button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 48px;
+  padding: 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper-soft);
+  color: var(--ink);
+  text-align: left;
+  line-height: 1.5;
+  cursor: pointer;
+  overflow-wrap: anywhere;
+}
+.learning-reader__toc button span { color: var(--forest); font-weight: 700; }
+.learning-reader__chapter {
+  padding: 30px 0;
+  border-top: 1px solid var(--line);
+  overflow-wrap: anywhere;
+}
+.learning-reader__chapter h3 {
+  margin: 0 0 18px;
+  font-family: var(--serif);
+  font-size: clamp(23px, 4vw, 30px);
+  line-height: 1.45;
+  scroll-margin-top: 22px;
+}
+.learning-reader__chapter p { margin: 14px 0; font-size: 17px; line-height: 1.95; }
+.learning-reader__chapter .learning-reader__number { margin: 0 0 6px; color: var(--forest); font-size: 13px; font-weight: 700; }
+.learning-reader__parts { margin: 20px 0; padding: 0; border: 1px solid var(--line); border-radius: 10px; background: var(--paper-soft); }
+.learning-reader__parts > div { display: grid; grid-template-columns: minmax(100px, 1fr) 3fr; gap: 16px; padding: 18px; }
+.learning-reader__parts > div + div { border-top: 1px solid var(--line); }
+.learning-reader__parts dt { font-weight: 700; line-height: 1.8; color: var(--forest); }
+.learning-reader__parts dd { margin: 0; line-height: 1.8; }
+.learning-reader summary, .learning-background > summary { padding: 14px 8px; min-height: 48px; cursor: pointer; line-height: 1.65; }
+.learning-reader__curiosity { padding: 0 12px; border-left: 3px solid var(--moss); background: var(--paper-soft); }
+.learning-reader__curiosity > p { padding: 0 8px 16px; }
+.learning-reader__sources { color: var(--ink-soft); font-size: 14px; }
+.learning-reader__sources ul { padding: 0 8px 0 28px; }
+.learning-reader__sources li { margin: 10px 0; line-height: 1.8; }
+.learning-reader a { color: var(--forest); text-decoration: underline; text-underline-offset: 3px; }
+.learning-reader__images { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: 18px; margin: 20px 0; }
+.learning-reader figure { margin: 0; min-width: 0; }
+.learning-reader__image { position: relative; display: block; width: 100%; padding: 0; aspect-ratio: 3 / 2; overflow: hidden; border: 1px solid var(--line); border-radius: 10px; background: var(--paper-deep); cursor: zoom-in; }
+.learning-reader__image .atlas-image { width: 100%; height: 100%; }
+.learning-reader__image img { width: 100%; height: 100%; object-fit: contain; }
+.learning-reader__image > span:last-child { position: absolute; right: 8px; bottom: 8px; padding: 5px 9px; border-radius: 6px; background: var(--paper); color: var(--ink); font-size: 13px; }
+.learning-reader figcaption { padding-top: 10px; font-size: 15px; line-height: 1.65; }
+.learning-reader figcaption small { display: block; color: var(--ink-faint); }
+.learning-reader__chapter .learning-reader__image-note { color: var(--ink-soft); font-size: 14px; }
+.learning-reader__chapter h4 { margin: 24px 0 12px; font-size: 17px; line-height: 1.8; }
+.learning-reader__question { margin: 12px 0; padding: 0 12px; border: 1px solid var(--line-strong); border-radius: 8px; background: var(--paper-soft); }
+.learning-reader__question > p { border-top: 1px solid var(--line); padding: 14px 8px; margin: 0; }
+.learning-reader button:focus-visible, .learning-reader summary:focus-visible, .learning-reader a:focus-visible,
+.learning-background > summary:focus-visible { outline: 3px solid var(--forest); outline-offset: 3px; }
+.learning-reader h3:focus { outline: 2px solid var(--forest); outline-offset: 5px; }
+.learning-background { margin: 26px 0; border-top: 1px solid var(--line); }
+.learning-background > summary { font-weight: 700; color: var(--forest); }
+.learning-background > p { color: var(--ink-soft); line-height: 1.9; }
+@media (max-width: 600px) {
+  .learning-reader__toc { grid-template-columns: repeat(2, minmax(0, 1fr)); padding: 10px; }
+  .learning-reader__parts > div { grid-template-columns: 1fr; gap: 5px; padding: 14px; }
+  .learning-reader__chapter { padding: 24px 0; }
+}

@@ -806,7 +806,7 @@ test('registers the Monarch Butterfly as a complete Danaus plexippus profile', (
   assert.ok(monarch.sources.length >= 20);
   assert.ok(monarch.sources.every(({ accessedAt }) => accessedAt === '2026-08-21' || accessedAt === '2026-10-11'));
   assert.equal(monarch.publishedAt, '2026-08-21');
-  assert.equal(monarch.updatedAt, '2026-08-21');
+  assert.equal(monarch.updatedAt, '2026-11-11');
 });
 
 test('registers the Moon Jellyfish as a complete Aurelia aurita profile', () => {
@@ -12246,7 +12246,7 @@ test('registers the Common Octopus as a complete Octopus vulgaris sensu stricto 
   );
   assert.ok(
     commonOctopus.sources.every(
-      ({ accessedAt }) => accessedAt === '2026-08-28' || accessedAt === '2026-10-11',
+      ({ accessedAt }) => ['2026-08-28', '2026-10-11', '2026-11-11'].includes(accessedAt),
     ),
   );
   assert.deepEqual(
@@ -12362,7 +12362,7 @@ test('registers the Common Octopus as a complete Octopus vulgaris sensu stricto 
 
   assert.equal(commonOctopus.featured, true);
   assert.equal(commonOctopus.publishedAt, '2026-08-28');
-  assert.equal(commonOctopus.updatedAt, '2026-08-28');
+  assert.equal(commonOctopus.updatedAt, '2026-11-11');
 });
 
 test('registers the Atlantic blue sea slug as a complete Glaucus atlanticus profile', async () => {

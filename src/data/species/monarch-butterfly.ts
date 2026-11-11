@@ -1,3 +1,4 @@
+import { learningProfile } from '../learning/monarch-butterfly.js';
 import type { SpeciesSource, Species } from '../../types/species.ts';
 
 import { animalTaxonomy, conservation, taxon } from './shared.js';
@@ -130,6 +131,7 @@ const MONARCH_BUTTERFLY_SOURCES = [
 ] as const satisfies readonly SpeciesSource[];
 
 const profile = {
+    learning: learningProfile,
     id: 'species-danaus-plexippus',
     slug: 'monarch-butterfly',
     names: {
@@ -368,7 +370,7 @@ const profile = {
     ],
     featured: true,
     publishedAt: MONARCH_BUTTERFLY_CONTENT_DATE,
-    updatedAt: MONARCH_BUTTERFLY_CONTENT_DATE,
+    updatedAt: '2026-11-11',
   } as const satisfies Species;
 
 export default profile;
