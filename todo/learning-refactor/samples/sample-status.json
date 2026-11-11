@@ -60,11 +60,15 @@
         "method": "仅使用现有 6 图临时联系表做可见特征及教学用途初筛，未修改图片。"
       },
       "remainingIssues": [
-        "尚未独立专业复核或亲子试读。",
-        "补图均为候选，尚未生成。"
+        "尚未独立专业复核或亲子试读。"
       ],
       "learningData": "src/data/learning/giant-panda.ts",
-      "deployment": "deployed"
+      "deployment": "deployed",
+      "teachingIllustrations": {
+        "status": "connected-in-source-not-yet-deployed",
+        "image": "./images/learning/giant-panda/paw-and-molar.webp",
+        "acceptance": "src/assets/source/learning/giant-panda/acceptance.json"
+      }
     },
     {
       "speciesId": "species-aptenodytes-forsteri",
@@ -120,11 +124,15 @@
         "method": "仅使用现有 6 图临时联系表做可见特征及教学用途初筛，未修改图片。"
       },
       "remainingIssues": [
-        "尚未独立专业复核或亲子试读。",
-        "补图均为候选，尚未生成。"
+        "尚未独立专业复核或亲子试读。"
       ],
       "learningData": "src/data/learning/emperor-penguin.ts",
-      "deployment": "deployed"
+      "deployment": "deployed",
+      "teachingIllustrations": {
+        "status": "connected-in-source-not-yet-deployed",
+        "image": "./images/learning/emperor-penguin/egg-on-feet.webp",
+        "acceptance": "src/assets/source/learning/emperor-penguin/acceptance.json"
+      }
     },
     {
       "speciesId": "species-danaus-plexippus",
@@ -182,11 +190,15 @@
         "method": "仅使用现有 6 图临时联系表做可见特征及教学用途初筛，未修改图片。"
       },
       "remainingIssues": [
-        "尚未独立专业复核或亲子试读。",
-        "补图均为候选，尚未生成。"
+        "尚未独立专业复核或亲子试读。"
       ],
       "learningData": "src/data/learning/monarch-butterfly.ts",
-      "deployment": "deployed"
+      "deployment": "deployed",
+      "teachingIllustrations": {
+        "status": "connected-in-source-not-yet-deployed",
+        "image": "./images/learning/monarch-butterfly/life-cycle.webp",
+        "acceptance": "src/assets/source/learning/monarch-butterfly/acceptance.json"
+      }
     },
     {
       "speciesId": "species-octopus-vulgaris",
@@ -248,11 +260,15 @@
       },
       "remainingIssues": [
         "保护评估的旧种界与现行狭义种必须继续区分。",
-        "尚未独立专业复核或亲子试读。",
-        "补图均为候选，尚未生成。"
+        "尚未独立专业复核或亲子试读。"
       ],
       "learningData": "src/data/learning/common-octopus.ts",
-      "deployment": "deployed"
+      "deployment": "deployed",
+      "teachingIllustrations": {
+        "status": "connected-in-source-not-yet-deployed",
+        "image": "./images/learning/common-octopus/arms-and-suckers.webp",
+        "acceptance": "src/assets/source/learning/common-octopus/acceptance.json"
+      }
     },
     {
       "speciesId": "woolly-mammoth",
@@ -278,7 +294,8 @@
         ],
         "foraging": [
           "W2",
-          "W4"
+          "W4",
+          "W1"
         ],
         "dailyLife": [
           "W1",
@@ -311,11 +328,15 @@
       },
       "remainingIssues": [
         "日常作息与完整生态作用资料不足，正文保留缺口。",
-        "尚未独立专业复核或亲子试读。",
-        "补图均为候选，尚未生成。"
+        "尚未独立专业复核或亲子试读。"
       ],
       "learningData": "src/data/learning/woolly-mammoth.ts",
-      "deployment": "deployed"
+      "deployment": "deployed",
+      "teachingIllustrations": {
+        "status": "connected-in-source-not-yet-deployed",
+        "image": "./images/learning/woolly-mammoth/tusk-and-molar.webp",
+        "acceptance": "src/assets/source/learning/woolly-mammoth/acceptance.json"
+      }
     }
   ],
   "deployment": {

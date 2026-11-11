@@ -39,6 +39,9 @@ export const learningProfile = {
           "name": "幼虫胸部的三对真足与腹部的腹足",
           "explanation": "帮助抓附；腹足是腹部的柔软附肢，不能因此把成虫画成许多条腿"
         }
+      ],
+      "images": [
+        "./images/species/monarch-butterfly/02-diagnostic-male-wing-pattern.webp"
       ]
     },
     {
@@ -49,6 +52,9 @@ export const learningProfile = {
       ],
       "sources": [
         "https://www.fws.gov/species/monarch-danaus-plexippus"
+      ],
+      "images": [
+        "./images/species/monarch-butterfly/06-oyamel-fir-overwintering.webp"
       ]
     },
     {
@@ -60,6 +66,9 @@ export const learningProfile = {
       "sources": [
         "https://monarchjointventure.org/monarch-biology/life-cycle",
         "https://www.fws.gov/species/monarch-danaus-plexippus"
+      ],
+      "images": [
+        "./images/species/monarch-butterfly/03-milkweed-caterpillar-feeding.webp"
       ]
     },
     {
@@ -82,6 +91,9 @@ export const learningProfile = {
       ],
       "sources": [
         "https://monarchjointventure.org/monarch-biology/life-cycle"
+      ],
+      "images": [
+        "./images/learning/monarch-butterfly/life-cycle.webp"
       ]
     },
     {
@@ -122,5 +134,14 @@ export const learningProfile = {
         "answer": "幼虫需要适宜的乳草，成蝶需要花蜜；迁徙种群还需要沿途和越冬环境。不同阶段的需要必须一起考虑。"
       }
     ]
-  }
+  },
+  "illustrations": [
+    {
+      "image": "./images/learning/monarch-butterfly/life-cycle.webp",
+      "alt": "AI 生命周期示意：帝王蝶的卵、背面朝上的条纹幼虫、裸露的绿色蛹和橙黑色成蝶，由箭头依次相连",
+      "title": "从卵到成蝶",
+      "caption": "卵、幼虫、蛹、成虫依次相连，各阶段不按比例。幼虫以背面示意，足部在身体下方。",
+      "credit": "Fauna Atlas · AI 生成解说示意图"
+    }
+  ]
 } as const satisfies SpeciesLearningProfile;

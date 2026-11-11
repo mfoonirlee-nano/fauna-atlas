@@ -200,13 +200,22 @@ export interface SpeciesLearningSection {
   readonly paragraphs: readonly string[];
   readonly bodyParts?: readonly { readonly name: string; readonly explanation: string }[];
   readonly curiosity?: string;
+  /** Public gallery images or accepted teaching illustrations, in reading order. */
+  readonly images?: readonly SpeciesGalleryImage['image'][];
   readonly sources: readonly string[];
+}
+
+export interface SpeciesLearningIllustration extends SpeciesGalleryImage {
+  readonly caption: string;
+  readonly credit: string;
 }
 
 /** Optional during migration. Never included in the browsing catalogue. */
 export interface SpeciesLearningProfile {
   readonly version: 1;
   readonly introduction: string;
+  /** Accepted diagrams; separate from the six canonical species images. */
+  readonly illustrations?: readonly SpeciesLearningIllustration[];
   readonly sections: readonly SpeciesLearningSection[];
   readonly observation: {
     /** References public cover/gallery paths, never pendingMedia or newly generated assets. */

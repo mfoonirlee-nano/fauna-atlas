@@ -37,6 +37,9 @@ export const learningProfile = {
           "name": "强壮的颌部和臼齿",
           "explanation": "颌部帮助用力咬，臼齿是嘴里用来磨碎食物的后部牙齿，可以压碎坚韧的竹子"
         }
+      ],
+      "images": [
+        "./images/learning/giant-panda/paw-and-molar.webp"
       ]
     },
     {
@@ -47,6 +50,9 @@ export const learningProfile = {
       ],
       "sources": [
         "https://nationalzoo.si.edu/animals/giant-panda"
+      ],
+      "images": [
+        "./images/species/giant-panda/03-mountain-habitat.webp"
       ]
     },
     {
@@ -59,7 +65,10 @@ export const learningProfile = {
         "https://nationalzoo.si.edu/animals/giant-panda",
         "https://www.forestry.gov.cn/c/www/dzw/506528.jhtml"
       ],
-      "curiosity": "动物分类中的“食肉目”和“主要吃肉”不是同一个意思。大熊猫属于食肉目，但它的主要食物是竹子；分类名称不能代替实际食谱。"
+      "curiosity": "动物分类中的“食肉目”和“主要吃肉”不是同一个意思。大熊猫属于食肉目，但它的主要食物是竹子；分类名称不能代替实际食谱。",
+      "images": [
+        "./images/species/giant-panda/02-bamboo-feeding.webp"
+      ]
     },
     {
       "key": "dailyLife",
@@ -79,6 +88,9 @@ export const learningProfile = {
       ],
       "sources": [
         "https://nationalzoo.si.edu/animals/giant-panda"
+      ],
+      "images": [
+        "./images/species/giant-panda/05-mother-and-cub.webp"
       ]
     },
     {
@@ -119,5 +131,14 @@ export const learningProfile = {
         "answer": "前掌帮助夹稳竹子，臼齿帮助磨碎食物。它们承担不同步骤；腕骨的具体结构不能只靠这张图判断。"
       }
     ]
-  }
+  },
+  "illustrations": [
+    {
+      "image": "./images/learning/giant-panda/paw-and-molar.webp",
+      "alt": "AI 解说示意：大熊猫前掌夹竹子、五趾与腕部伪拇指，以及磨碎竹子的臼齿",
+      "title": "前掌和牙齿，各有分工",
+      "caption": "前掌帮助稳住竹子，臼齿负责磨碎；局部结构为简化示意，不按比例。",
+      "credit": "Fauna Atlas · AI 生成解说示意图"
+    }
+  ]
 } as const satisfies SpeciesLearningProfile;

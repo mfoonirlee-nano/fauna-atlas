@@ -73,3 +73,7 @@
   .learning-reader__parts > div { grid-template-columns: 1fr; gap: 5px; padding: 14px; }
   .learning-reader__chapter { padding: 24px 0; }
 }
+
+.learning-reader figcaption strong { display: block; font-weight: 600; }
+.learning-reader figcaption > p { margin: 6px 0; font-size: 14px; line-height: 1.75; color: var(--ink-soft); }
+.learning-reader__chapter > .learning-reader__images { margin-bottom: 26px; }

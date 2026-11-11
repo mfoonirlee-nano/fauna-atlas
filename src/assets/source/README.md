@@ -16,9 +16,11 @@ PNG inputs are temporary and ignored by Git. Existing PNG filenames and hashes i
 
 ## Species image set rule
 
-Each species has exactly six retained images: one cover and five gallery images. The carousel and species profile use the same cover through `Species.media.image`. Replace an unsuitable cover in place and preserve the five gallery images unless the task also calls for changing them.
+Each species has exactly six retained cover/gallery images: one cover and five gallery images. The carousel and species profile use the same cover through `Species.media.image`. Replace an unsuitable cover in place and preserve the five gallery images unless the task also calls for changing them.
 
 Keep desktop and mobile presentation on that single cover. Do not add `hero-desktop`, `hero-mobile`, or other device-specific image variants. Temporary generation candidates stay outside the retained image set and leave the repository after acceptance.
+
+Children’s teaching illustrations are a separate, explicitly authorized set under `public/images/learning/<slug>/`, registered by `learning.illustrations`, with provenance under [learning](./learning/README.md). They do not replace the six cover/gallery images or enter the hero. Review both source and WebP against authoritative references; technical checks do not approve biology. Include AI/reconstruction credits, captions and alternative text.
 
 ## Withdrawn biological review
 
