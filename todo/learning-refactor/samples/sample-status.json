@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "updatedAt": "2026-11-11",
-  "scope": "首批 5 种儿童讲解已接入正式档案与详情页代码，未在本轮部署；专业复核与试读单独记录。",
+  "scope": "首批 5 种儿童讲解与五张 AI 解说图已接入正式档案及正文，并于 2026-11-11 部署至 Cloudflare；专业复核与试读单独记录。",
   "catalogueSourceCommit": "7f5ea0c0",
   "sampleCount": 5,
   "samples": [
@@ -10,7 +10,7 @@
       "slug": "giant-panda",
       "name": "大熊猫",
       "draft": "giant-panda.md",
-      "stage": "implemented-awaiting-independent-review",
+      "stage": "deployed-awaiting-independent-review",
       "draftedAt": "2026-11-11",
       "professionalReview": "pending",
       "familyReadThrough": "pending",
@@ -60,18 +60,22 @@
         "method": "仅使用现有 6 图临时联系表做可见特征及教学用途初筛，未修改图片。"
       },
       "remainingIssues": [
-        "尚未独立专业复核或亲子试读。",
-        "补图均为候选，尚未生成。"
+        "尚未独立专业复核或亲子试读。"
       ],
       "learningData": "src/data/learning/giant-panda.ts",
-      "deployment": "not-deployed-in-this-change"
+      "deployment": "deployed",
+      "teachingIllustrations": {
+        "status": "deployed",
+        "image": "./images/learning/giant-panda/paw-and-molar.webp",
+        "acceptance": "src/assets/source/learning/giant-panda/acceptance.json"
+      }
     },
     {
       "speciesId": "species-aptenodytes-forsteri",
       "slug": "emperor-penguin",
       "name": "帝企鹅",
       "draft": "emperor-penguin.md",
-      "stage": "implemented-awaiting-independent-review",
+      "stage": "deployed-awaiting-independent-review",
       "draftedAt": "2026-11-11",
       "professionalReview": "pending",
       "familyReadThrough": "pending",
@@ -120,18 +124,22 @@
         "method": "仅使用现有 6 图临时联系表做可见特征及教学用途初筛，未修改图片。"
       },
       "remainingIssues": [
-        "尚未独立专业复核或亲子试读。",
-        "补图均为候选，尚未生成。"
+        "尚未独立专业复核或亲子试读。"
       ],
       "learningData": "src/data/learning/emperor-penguin.ts",
-      "deployment": "not-deployed-in-this-change"
+      "deployment": "deployed",
+      "teachingIllustrations": {
+        "status": "deployed",
+        "image": "./images/learning/emperor-penguin/egg-on-feet.webp",
+        "acceptance": "src/assets/source/learning/emperor-penguin/acceptance.json"
+      }
     },
     {
       "speciesId": "species-danaus-plexippus",
       "slug": "monarch-butterfly",
       "name": "帝王蝶",
       "draft": "monarch-butterfly.md",
-      "stage": "implemented-awaiting-independent-review",
+      "stage": "deployed-awaiting-independent-review",
       "draftedAt": "2026-11-11",
       "professionalReview": "pending",
       "familyReadThrough": "pending",
@@ -182,18 +190,22 @@
         "method": "仅使用现有 6 图临时联系表做可见特征及教学用途初筛，未修改图片。"
       },
       "remainingIssues": [
-        "尚未独立专业复核或亲子试读。",
-        "补图均为候选，尚未生成。"
+        "尚未独立专业复核或亲子试读。"
       ],
       "learningData": "src/data/learning/monarch-butterfly.ts",
-      "deployment": "not-deployed-in-this-change"
+      "deployment": "deployed",
+      "teachingIllustrations": {
+        "status": "deployed",
+        "image": "./images/learning/monarch-butterfly/life-cycle.webp",
+        "acceptance": "src/assets/source/learning/monarch-butterfly/acceptance.json"
+      }
     },
     {
       "speciesId": "species-octopus-vulgaris",
       "slug": "common-octopus",
       "name": "普通章鱼",
       "draft": "common-octopus.md",
-      "stage": "implemented-awaiting-independent-review",
+      "stage": "deployed-awaiting-independent-review",
       "draftedAt": "2026-11-11",
       "professionalReview": "pending",
       "familyReadThrough": "pending",
@@ -248,18 +260,22 @@
       },
       "remainingIssues": [
         "保护评估的旧种界与现行狭义种必须继续区分。",
-        "尚未独立专业复核或亲子试读。",
-        "补图均为候选，尚未生成。"
+        "尚未独立专业复核或亲子试读。"
       ],
       "learningData": "src/data/learning/common-octopus.ts",
-      "deployment": "not-deployed-in-this-change"
+      "deployment": "deployed",
+      "teachingIllustrations": {
+        "status": "deployed",
+        "image": "./images/learning/common-octopus/arms-and-suckers.webp",
+        "acceptance": "src/assets/source/learning/common-octopus/acceptance.json"
+      }
     },
     {
       "speciesId": "woolly-mammoth",
       "slug": "woolly-mammoth",
       "name": "真猛犸象",
       "draft": "woolly-mammoth.md",
-      "stage": "implemented-awaiting-independent-review",
+      "stage": "deployed-awaiting-independent-review",
       "draftedAt": "2026-11-11",
       "professionalReview": "pending",
       "familyReadThrough": "pending",
@@ -278,7 +294,8 @@
         ],
         "foraging": [
           "W2",
-          "W4"
+          "W4",
+          "W1"
         ],
         "dailyLife": [
           "W1",
@@ -311,11 +328,27 @@
       },
       "remainingIssues": [
         "日常作息与完整生态作用资料不足，正文保留缺口。",
-        "尚未独立专业复核或亲子试读。",
-        "补图均为候选，尚未生成。"
+        "尚未独立专业复核或亲子试读。"
       ],
       "learningData": "src/data/learning/woolly-mammoth.ts",
-      "deployment": "not-deployed-in-this-change"
+      "deployment": "deployed",
+      "teachingIllustrations": {
+        "status": "deployed",
+        "image": "./images/learning/woolly-mammoth/tusk-and-molar.webp",
+        "acceptance": "src/assets/source/learning/woolly-mammoth/acceptance.json"
+      }
     }
-  ]
+  ],
+  "deployment": {
+    "status": "live",
+    "worker": "fauna-atlas",
+    "url": "https://fauna-atlas.mfoonirlee.workers.dev/",
+    "sourceCommit": "e3788b4d787b6bbc3534af59e97771f88b30aee1",
+    "versionId": "15a557fa-e9f2-468c-a94a-3b3672f494bd",
+    "deploymentId": "e555e82f-6195-4a66-90d1-4b682eeefa26",
+    "deployedAt": "2026-11-11T22:36:44.255477+08:00",
+    "trafficPercentage": 100,
+    "liveResourcesVerified": 19,
+    "verification": "HTTP 200 and SHA-256 match against local production build; includes all five learning profiles, five new teaching illustrations, reader assets and two retained gallery images."
+  }
 }

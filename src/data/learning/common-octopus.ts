@@ -43,7 +43,10 @@ export const learningProfile = {
         }
       ],
       "curiosity": "伪装不是变成“完全透明”。研究者观察普通章鱼时发现，它会利用附近物体的视觉特征组织花纹，不是把整个背景原样复制到身上。",
-      "lead": "下面介绍的是成体的身体，幼体的变化可以继续往后读。"
+      "lead": "下面介绍的是成体的身体，幼体的变化可以继续往后读。",
+      "images": [
+        "./images/learning/common-octopus/arms-and-suckers.webp"
+      ]
     },
     {
       "key": "habitat",
@@ -54,6 +57,9 @@ export const learningProfile = {
       "sources": [
         "https://www.institut-paul-ricard.org/?especes_aquarium=common-octopus&lang=en",
         "https://www.jstage.jst.go.jp/article/specdiv/21/1/21_31/_article"
+      ],
+      "images": [
+        "./images/species/common-octopus/03-rock-crevice-den-and-midden.webp"
       ]
     },
     {
@@ -65,6 +71,9 @@ export const learningProfile = {
       ],
       "sources": [
         "https://www.institut-paul-ricard.org/?especes_aquarium=common-octopus&lang=en"
+      ],
+      "images": [
+        "./images/species/common-octopus/04-crab-capture-and-sucker-use.webp"
       ]
     },
     {
@@ -89,6 +98,10 @@ export const learningProfile = {
         "https://www.institut-paul-ricard.org/?especes_aquarium=common-octopus&lang=en",
         "https://doi.org/10.1186/s12861-020-00212-6",
         "https://www.fao.org/fishery/docs/CDrom/ARTFIMED/ArtFiWeb/descript/Species/OCTOCVUL.HTML"
+      ],
+      "images": [
+        "./images/species/common-octopus/05-female-egg-brooding-and-ventilation.webp",
+        "./images/species/common-octopus/06-pelagic-paralarva.webp"
       ]
     },
     {
@@ -127,7 +140,16 @@ export const learningProfile = {
         "answer": "有些腕会弯曲、重叠或藏在身体后面。数不清不等于这种动物只有图上露出的几条腕；结构示意图与生活场景图用途不同。"
       }
     ]
-  }
+  },
+  "illustrations": [
+    {
+      "image": "./images/learning/common-octopus/arms-and-suckers.webp",
+      "alt": "AI 解说示意：普通章鱼的八条腕、外套膜及腕部两排吸盘的放大图",
+      "title": "八条腕与两排吸盘",
+      "caption": "沿着腕的根部辨认八条腕，再看局部放大的两排吸盘；放大图不代表多出一条腕。",
+      "credit": "Fauna Atlas · AI 生成解说示意图"
+    }
+  ]
 } as const satisfies SpeciesLearningProfile;
 
 export const learningSources = [

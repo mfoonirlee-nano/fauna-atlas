@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-11",
+  "kind": "ai-generated-teaching-illustration",
+  "generator": "image_gen.imagegen",
+  "runtime": {
+    "image": "./images/learning/common-octopus/arms-and-suckers.webp",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "15232d50004b4c0999dfc73e9cb62277d349162bf008f6fad3eb8c8215d554fb",
+    "bytes": 245884
+  },
+  "temporaryInput": {
+    "generatorFilename": "exec-ef59e486-29ad-479f-92c9-f4e98fb28992.png",
+    "sha256": "4bb6b57bd67907ce9dd23f0ea008c43c6aa1855136fa44d8f034dbe3f718ac70",
+    "retention": "临时转换副本验收后删除；工具生成的原文件留在工作区 generated_images，不提交 Git。"
+  },
+  "sourceReferences": [
+    {
+      "id": "O1",
+      "title": "Common octopus — Institut océanographique Paul Ricard",
+      "url": "https://www.institut-paul-ricard.org/?especes_aquarium=common-octopus&lang=en"
+    },
+    {
+      "id": "O3",
+      "title": "A practical staging atlas to study embryonic development of Octopus vulgaris under controlled laboratory conditions",
+      "url": "https://doi.org/10.1186/s12861-020-00212-6"
+    }
+  ],
+  "review": {
+    "method": "对照所列资料中的相关事实，目视检查源 PNG 及转换后的 WebP；结构示意不按比例。",
+    "reviewer": "本次助手参考对照与目视检查；不是独立专家复核。",
+    "decision": "accepted-for-described-teaching-scope",
+    "checks": [
+      "逐条追踪主体八条腕的根部与末端，两眼位于外套膜前方，未混入乌贼鳍或额外触手。",
+      "吸盘放大图为一段腕的局部，两排吸盘可辨认；不作为第九条腕。",
+      "外套膜、腕、两排吸盘标注分别指向相应结构。"
+    ],
+    "limitations": [
+      "尚未独立专业二审或亲子试读。",
+      "压缩、哈希和尺寸测试只验证技术属性，不能代替生物学审核。"
+    ]
+  },
+  "prompt": "Create a polished Chinese children's natural-history teaching illustration for ages 6–12. Landscape 3:2 composition, high resolution. Warm ivory paper background, restrained watercolor + precise fine ink lines, clean museum science-book design, natural proportions, generous whitespace, very clear close-up structures, accurate anatomy, realistic rather than cute cartoon, no anthropomorphic faces, no clothes, no logo, no watermark, no fake photographic or fossil evidence. Large clear simplified-Chinese labels only as specified, no extra title or paragraphs. Diagrams are explanatory schematics, not to scale. Keep everything comfortably inside the canvas, no cropped structures. Subject is adult Octopus vulgaris sensu stricto, not a squid or generic fantasy octopus. One large accurate adult on a quiet light rock, shown in a clear slightly elevated THREE-QUARTER view that reveals its bulbous soft mantle, TWO eyes at the base of the mantle, and EXACTLY EIGHT muscular arms with clearly traceable separate roots around the central head/arm crown. Arrange all eight arms in naturally curved distinct paths without interlocking or hiding their origins; no extra tentacles, no fins, no external shell. Warm muted brown skin with subtle natural papillae, not electric blue rings. On a couple of nearer arms, the visible underside MUST show TWO regular rows of rounded suckers, not a single row or four rows. A large separate magnified inset at the right shows a SHORT segment of ONE arm underside with exactly two parallel rows of suckers; this is a magnification, not a ninth arm. Fine leader from inset to the correct nearest arm. Three exact Chinese labels: “外套膜” pointing to the bulbous mantle, “腕” pointing to one clearly visible arm, “两排吸盘” on the arm inset. Keep the eight arms countable and fully contained. No fake internal organs or beak on top of mantle, no human expressions, no short squid-like crown, no larvae."
+}

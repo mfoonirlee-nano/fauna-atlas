@@ -9,6 +9,29 @@ interface Props {
   readonly onOpenImage: (index: number, trigger: HTMLButtonElement) => void;
 }
 
+function LearningImages({ images, frames, onOpenImage }: Pick<Props, 'frames' | 'onOpenImage'> & { readonly images: readonly string[] }) {
+  return <div className="learning-reader__images">
+    {images.map((image) => {
+      const frameIndex = frames.findIndex((frame) => frame.image === image);
+      const frame = frames[frameIndex];
+      if (!frame) return null;
+      return <figure key={image}>
+        <button type="button" className="learning-reader__image" data-frame-kind={frame.kind}
+          onClick={(event) => onOpenImage(frameIndex, event.currentTarget)}
+          aria-label={`${frame.kind === 'learning' ? '放大解说图' : '放大观察'}：${frame.title}`}>
+          <AtlasImage src={frame.image} alt={frame.alt} loading="lazy" decoding="async" />
+          <span>放大观察</span>
+        </button>
+        <figcaption>
+          <strong>{frame.title}</strong>
+          {frame.kind === 'learning' && <p>{frame.caption}</p>}
+          {frame.credit && <small>{frame.credit}</small>}
+        </figcaption>
+      </figure>;
+    })}
+  </div>;
+}
+
 export default function SpeciesLearningReader({ item, frames, onOpenImage }: Props) {
   const learning = item.learning;
   if (!learning) return null;
@@ -38,6 +61,7 @@ export default function SpeciesLearningReader({ item, frames, onOpenImage }: Pro
           <p className="learning-reader__number">{String(index + 1).padStart(2, '0')}</p>
           <h3 id={headingId(section.key)} tabIndex={-1}>{section.title}</h3>
           {section.lead && <p>{section.lead}</p>}
+          {section.images && <LearningImages images={section.images} frames={frames} onOpenImage={onOpenImage} />}
           {section.bodyParts && (
             <dl className="learning-reader__parts">
               {section.bodyParts.map((part) => (
@@ -67,21 +91,8 @@ export default function SpeciesLearningReader({ item, frames, onOpenImage }: Pro
         <p className="learning-reader__number">09</p>
         <h3 id={headingId('observation')} tabIndex={-1}>再观察一下</h3>
         <p>{learning.observation.prompt}</p>
-        <div className="learning-reader__images">
-          {learning.observation.images.map((image) => {
-            const frameIndex = frames.findIndex((frame) => frame.image === image);
-            const frame = frames[frameIndex];
-            if (!frame) return null;
-            return (
-              <figure key={image}>
-                <button type="button" className="learning-reader__image" onClick={(event) => onOpenImage(frameIndex, event.currentTarget)} aria-label={`放大观察：${frame.title}`}>
-                  <AtlasImage src={frame.image} alt={frame.alt} loading="lazy" decoding="async" />
-                  <span>放大观察</span>
-                </button>
-                <figcaption>{frame.title}{frame.credit && <small>{frame.credit}</small>}</figcaption>
-              </figure>
-            );
-          })}
+        <div className="learning-reader__observation-images">
+          <LearningImages images={learning.observation.images} frames={frames} onOpenImage={onOpenImage} />
         </div>
         <p className="learning-reader__image-note">{learning.observation.note}</p>
         <h4>想一想，再展开问题看看参考回答</h4>
