@@ -2,7 +2,7 @@ import type { Species } from '../types';
 
 export interface SpeciesImageFrame {
   readonly id: string;
-  readonly kind: 'cover' | 'gallery';
+  readonly kind: 'cover' | 'gallery' | 'learning';
   readonly image: NonNullable<Species['media']['image']>;
   readonly alt: string;
   readonly title: string;
@@ -40,5 +40,20 @@ export function buildSpeciesImageFrames(item: Species): readonly SpeciesImageFra
     }),
   );
 
-  return [...cover, ...gallery];
+  const frames = [...cover, ...gallery];
+  const seen = new Set(frames.map((frame) => frame.image));
+  const withdrawn = new Set([
+    item.pendingMedia?.assets.image,
+    ...(item.pendingMedia?.assets.gallery ?? []).map((image) => image.image),
+  ]);
+  for (const illustration of item.learning?.illustrations ?? []) {
+    if (seen.has(illustration.image) || withdrawn.has(illustration.image)) continue;
+    seen.add(illustration.image);
+    frames.push({
+      id: `${item.slug}:learning:${illustration.image}`,
+      kind: 'learning',
+      ...illustration,
+    });
+  }
+  return frames;
 }

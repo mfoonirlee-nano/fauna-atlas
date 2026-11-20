@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import test from 'node:test';
+import { createHash } from 'node:crypto';
 import { JSDOM } from 'jsdom';
 import { createServer } from 'vite';
 import { act, createElement } from 'react';
@@ -11,7 +12,7 @@ const selected = ['giant-panda', 'emperor-penguin', 'monarch-butterfly', 'common
 const keys = ['identity', 'body', 'habitat', 'foraging', 'dailyLife', 'growth', 'ecology', 'survival'];
 const get = (slug) => species.find((item) => item.slug === slug);
 
-test('only the five selected animals gain complete, sourced learning chapters and existing public images', async () => {
+test('five selected animals have sourced learning chapters, inline images and hash-bound teaching diagrams', async () => {
   assert.deepEqual(species.filter((s) => s.learning).map((s) => s.slug).sort(), [...selected].sort());
   for (const slug of selected) {
     const item = get(slug), learning = item.learning;
@@ -25,6 +26,19 @@ test('only the five selected animals gain complete, sourced learning chapters an
       for (const url of section.sources) assert.ok(urls.has(url), `${slug}: missing source ${url}`);
     }
     const publishedImages = new Set([item.media.image, ...item.media.gallery.map((m) => m.image)]);
+    const approvedImages = new Set([...publishedImages, ...(learning.illustrations ?? []).map((image) => image.image)]);
+    assert.equal(learning.illustrations.length, 1, `${slug}: one new teaching diagram`);
+    assert.ok(learning.sections.filter((section) => section.images?.length).length >= 3, `${slug}: illustrations belong in the prose`);
+    for (const section of learning.sections) for (const image of section.images ?? []) assert.ok(approvedImages.has(image), image);
+    for (const diagram of learning.illustrations) {
+      assert.match(diagram.credit, /AI/);
+      assert.ok(diagram.caption && diagram.alt);
+      assert.ok(learning.sections.some((section) => section.images?.includes(diagram.image)));
+      const file = await readFile(new URL(`../public/${diagram.image.slice(2)}`, import.meta.url));
+      const record = JSON.parse(await readFile(new URL(`../src/assets/source/learning/${slug}/acceptance.json`, import.meta.url), 'utf8'));
+      assert.equal(createHash('sha256').update(file).digest('hex'), record.runtime.sha256);
+      assert.deepEqual([record.runtime.width, record.runtime.height], [1536, 1024]);
+    }
     assert.ok(learning.observation.questions.length);
     for (const image of learning.observation.images) {
       assert.ok(publishedImages.has(image), image);
@@ -94,7 +108,8 @@ test('children can navigate chapters, reveal answers and follow scoped source li
   assert.ok([...document.querySelectorAll('.learning-background h4')].some((e) => e.textContent.includes('命名')));
   const section = survival.closest('section');
   assert.ok(section.querySelector(`a[href="${get('monarch-butterfly').learning.sections[7].sources[2]}"]`));
-  assert.equal(document.querySelectorAll('.learning-reader__image').length, 2);
+  assert.equal(document.querySelectorAll('.learning-reader__observation-images .learning-reader__image').length, 2);
+  assert.match(document.getElementById('learning-monarch-butterfly-growth').closest('section').querySelector('img.atlas-image__photo').getAttribute('src'), /life-cycle.webp$/);
   assert.doesNotMatch(document.querySelector('.detail-hero__status').textContent, /LC|无危/);
   await render('woolly-mammoth');
   assert.match(document.querySelector('.detail-hero__status').textContent, /灭绝/);
@@ -104,15 +119,21 @@ test('children can navigate chapters, reveal answers and follow scoped source li
 
 test('observation zoom uses the existing viewer and Escape restores focus before closing the profile', async (context) => {
   const state = await mount(context, 'giant-panda');
-  const trigger = document.querySelector('.learning-reader__image');
-  await act(() => trigger.click());
-  assert.match(document.querySelector('.image-viewer__stage .atlas-image__photo').getAttribute('src'), /02-bamboo-feeding.webp$/);
-  assert.equal(document.querySelector('.detail-panel').getAttribute('aria-modal'), 'false');
-  await act(() => document.dispatchEvent(new window.KeyboardEvent('keydown', { key: 'Escape', bubbles: true })));
-  await state.flushFrames();
-  assert.equal(document.querySelector('.image-viewer'), null);
-  assert.equal(document.activeElement, trigger);
-  assert.equal(state.closed(), 0);
+  for (const [selector, expected] of [
+    ['.learning-reader__image[data-frame-kind="learning"]', /paw-and-molar.webp$/],
+    ['.learning-reader__observation-images .learning-reader__image', /02-bamboo-feeding.webp$/],
+  ]) {
+    const trigger = document.querySelector(selector);
+    assert.ok(trigger);
+    await act(() => trigger.click());
+    assert.match(document.querySelector('.image-viewer__stage .atlas-image__photo').getAttribute('src'), expected);
+    assert.equal(document.querySelector('.detail-panel').getAttribute('aria-modal'), 'false');
+    await act(() => document.dispatchEvent(new window.KeyboardEvent('keydown', { key: 'Escape', bubbles: true })));
+    await state.flushFrames();
+    assert.equal(document.querySelector('.image-viewer'), null);
+    assert.equal(document.activeElement, trigger);
+    assert.equal(state.closed(), 0);
+  }
   await act(() => document.dispatchEvent(new window.KeyboardEvent('keydown', { key: 'Escape', bubbles: true })));
   assert.equal(state.closed(), 1);
 });

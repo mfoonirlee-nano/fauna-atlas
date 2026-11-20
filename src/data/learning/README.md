@@ -19,13 +19,19 @@
 
 `curiosity` 是可展开的深入解释。`sources` 记录本节引用的 URL，必须能在该物种的 `sources` 中找到。新增来源只补入缺少的记录，不替换旧的分类、命名或评估证据。
 
-`observation` 包含提示、现有图片路径、图片性质说明及理解题的参考回答。路径必须来自公开 `media.image` 或 `media.gallery`，不能使用 `pendingMedia`；不得为了接入讲解自动生成素材。图像放大复用现有查看器。
+`observation` 包含提示、现有图片路径、图片性质说明及理解题的参考回答。路径必须来自公开 `media.image` 或 `media.gallery`，不能使用 `pendingMedia`；新素材须另行授权、核对资料及验收。图像放大复用现有查看器。
+
+## 正文配图
+
+`illustrations` 登记单独验收的 AI 解说图，提供路径、标题、替代文本、图注和来源标识。`sections[].images` 引用该登记或现有公开图集，在对应章节内展示并复用查看器放大。解说图保存在 `public/images/learning/<slug>/`，验收记录在 `src/assets/source/learning/<slug>/acceptance.json`；不计入封面与五张图集，不读取待修复图片。
+
+首批各一张：熊猫前掌与臼齿、帝企鹅脚背托卵、帝王蝶生命周期、章鱼八腕和吸盘、真猛犸象象牙与臼齿。示意不按比例，猛犸象明确标为科学复原。
 
 ## 加载与兼容
 
 每个物种仅导入自己的学习模块。构建继续把完整档案按需加载，浏览摘要不携带 `learning`。讲解组件也单独延迟加载，避免增加首页脚本预算。
 
-原有 `description`、`storySections`、数据和来源保留为延伸阅读，不以这次接入替换独立专业复核或亲子试读。新增配图候选继续记录在[素材待办](../../../todo/learning-refactor/samples/media-todo.md)。
+原有 `description`、`storySections`、数据和来源保留为延伸阅读，不以这次接入替换独立专业复核或亲子试读。已验收的解说图及后续候选记录在[素材待办](../../../todo/learning-refactor/samples/media-todo.md)。
 
 ## 验证
 

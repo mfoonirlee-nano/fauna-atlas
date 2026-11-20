@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-11",
+  "kind": "ai-generated-teaching-illustration",
+  "generator": "image_gen.imagegen",
+  "runtime": {
+    "image": "./images/learning/monarch-butterfly/life-cycle.webp",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "5572025720071d31bdc8d7345aea88f17480ecaada55038f270a5dba954a8c2a",
+    "bytes": 133450
+  },
+  "temporaryInput": {
+    "generatorFilename": "exec-41971595-87f5-4092-bbf3-0fb046f6a88c.png",
+    "sha256": "379399b13c6632a93c3e7b2c30b117666cff7ded1d90d3a05826386650dff8cd",
+    "retention": "临时转换副本验收后删除；工具生成的原文件留在工作区 generated_images，不提交 Git。"
+  },
+  "sourceReferences": [
+    {
+      "id": "M1",
+      "title": "Monarch Life Cycle",
+      "url": "https://monarchjointventure.org/monarch-biology/life-cycle"
+    },
+    {
+      "id": "M2",
+      "title": "Monarch — USFWS",
+      "url": "https://www.fws.gov/species/monarch-danaus-plexippus"
+    }
+  ],
+  "review": {
+    "method": "对照所列资料中的相关事实，目视检查源 PNG 及转换后的 WebP；结构示意不按比例。",
+    "reviewer": "本次助手参考对照与目视检查；不是独立专家复核。",
+    "decision": "accepted-for-described-teaching-scope",
+    "checks": [
+      "卵位于叶片背面，幼虫有黑黄白条纹，蛹为裸露绿色蛹而非丝茧。",
+      "四阶段箭头按卵、幼虫、蛹、成虫的方向相连；不同阶段不按比例。",
+      "返修后的幼虫为背面视图，不露出未经可靠表达的足部；不用于真足和腹足计数教学。"
+    ],
+    "limitations": [
+      "尚未独立专业二审或亲子试读。",
+      "压缩、哈希和尺寸测试只验证技术属性，不能代替生物学审核。"
+    ]
+  },
+  "prompt": "Create a polished Chinese children's natural-history teaching illustration for ages 6–12. Landscape 3:2 composition, high resolution. Warm ivory paper background, restrained watercolor + precise fine ink lines, clean museum science-book design, natural proportions, generous whitespace, very clear close-up structures, accurate anatomy, realistic rather than cute cartoon, no anthropomorphic faces, no clothes, no logo, no watermark, no fake photographic or fossil evidence. Large clear simplified-Chinese labels only as specified, no extra title or paragraphs. Diagrams are explanatory schematics, not to scale. Keep everything comfortably inside the canvas, no cropped structures. Accurate lifecycle of Danaus plexippus, monarch butterfly, in FOUR separate equally-sized large vignettes arranged in one horizontal clockwise diagram with clear simple arrows linking egg to larva to pupa to adult and adult back to egg. Make each vignette large enough to inspect. 1 top left: ONE tiny pale ivory, vertically ribbed egg attached to UNDERSIDE of a milkweed leaf, enlarged diagram, exact label “卵”. 2 top right: ONE realistic monarch caterpillar on milkweed: black/yellow/white transverse bands, black head and paired thin black fleshy filaments near front and rear (these are not legs), THREE pairs of small true legs on thorax near head and FIVE pairs of abdominal prolegs, not dozens of legs. Exact label “幼虫”. 3 bottom right: ONE naked jade-green chrysalis with a delicate gold-dotted band, suspended by its black cremaster from a twig or leaf; NOT a silk cocoon, no cotton or shell, exact label “蛹”. 4 bottom left: ONE female adult monarch with exactly two pairs of orange wings, black veins, broad black borders with white spots, a butterfly body and antennae, true monarch pattern, NO viceroy transverse hindwing stripe. Exact label “成虫”. Add a discreet tiny note “不同阶段不按比例”. All four stages are the SAME species; do not show a caterpillar with small butterfly wings, a moth, a cocoon, arbitrary day counts, or a group of many butterflies. No adult shown emerging from caterpillar skin without a pupa.",
+  "revisions": [
+    {
+      "prompt": "Edit this existing monarch butterfly lifecycle infographic, preserving the same watercolor style, 3:2 layout, ALL four panels, Chinese labels, the egg, the jade chrysalis, the butterfly and ALL arrows exactly. Only correct the caterpillar's legs in the TOP RIGHT panel for biological clarity. The caterpillar faces RIGHT (black head at right, tail at left). It must have THREE small pairs of jointed TRUE LEGS on the thorax immediately behind the head; on the visible near side show three little dark jointed legs only near the head. There must be FOUR pairs of fleshy ABDOMINAL PROLEGS grouped in the middle, on abdominal segments A3 A4 A5 A6 (near side has FOUR separated small pads). The FIFTH pair is the ANAL PROLEGS at the far posterior segment A10, beside the tail at the LEFT end, clearly separated from the four middle prolegs by legless posterior segments A7 A8 A9. No fifth adjacent middle abdominal pad, no additional legs. Keep caterpillar black white yellow transverse stripes and two pairs of slender black fleshy filaments at its front and rear; those filaments are NOT legs. Natural side view on milkweed leaf. If far-side legs are not visible, do not invent extra limbs. Do not make the feet so huge that they dominate the stage. No new annotations or text. Preserve egg-larva-pupa-adult cycle and the '不同阶段不按比例' note.",
+      "result": "未采用：侧面足部排列仍有歧义。"
+    },
+    {
+      "prompt": "Edit ONLY the caterpillar vignette at top right of this monarch lifecycle infographic. Keep all other panels, Chinese text, arrows, colors and paper layout unchanged. The intended lesson is the four LIFE STAGES, not a leg-count diagram. Replace the current side-on caterpillar and its row of bulbous pale feet with an accurate directly TOP-DOWN / DORSAL VIEW of a monarch caterpillar resting lengthwise on a broad milkweed leaf. We see the striped BACK of the caterpillar, not its underside: all true legs and abdominal prolegs are underneath its body and naturally invisible from this view. Do NOT draw ANY pale dangling feet, pads or extra bumps along the sides. Black head at RIGHT, rear at LEFT. Show correct black/white/yellow transverse stripes and the thin black paired fleshy filaments at front and rear, clearly not legs. The entire body lies naturally on the broad leaf; no floating caterpillar. Keep exact label 幼虫 and other stage labels 卵, 蛹, 成虫 and note 不同阶段不按比例. Do not change egg, chrysalis, adult butterfly, plant colors, arrows or typography.",
+      "result": "采用：改为背面视图，生命周期图不承担足部计数。"
+    }
+  ]
+}

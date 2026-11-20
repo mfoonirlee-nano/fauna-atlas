@@ -42,6 +42,9 @@ export const learningProfile = {
           "name": "弯曲的象牙",
           "explanation": "与用来磨食物的臼齿不同，不能把象牙画成咀嚼草叶的部位"
         }
+      ],
+      "images": [
+        "./images/species/woolly-mammoth/02-observation.webp"
       ]
     },
     {
@@ -54,6 +57,9 @@ export const learningProfile = {
       "sources": [
         "https://www.nhm.ac.uk/discover/were-all-mammoths-woolly.html",
         "https://www.nps.gov/articles/mammoth-or-mastodon.htm"
+      ],
+      "images": [
+        "./images/species/woolly-mammoth/05-observation.webp"
       ]
     },
     {
@@ -64,9 +70,13 @@ export const learningProfile = {
       ],
       "sources": [
         "https://www.nps.gov/articles/mammoth-or-mastodon.htm",
-        "https://repository.naturalis.nl/pub/801838/Geel-2011-Palaeo-environmental-and-dietary-analysis-A.pdf"
+        "https://repository.naturalis.nl/pub/801838/Geel-2011-Palaeo-environmental-and-dietary-analysis-A.pdf",
+        "https://www.nhm.ac.uk/discover/were-all-mammoths-woolly.html"
       ],
-      "curiosity": "看到食物残留，不代表已经知道一只动物一生吃过的全部东西。研究者还需要判断这些残留来自哪个部位、哪个年龄的个体。"
+      "curiosity": "看到食物残留，不代表已经知道一只动物一生吃过的全部东西。研究者还需要判断这些残留来自哪个部位、哪个年龄的个体。",
+      "images": [
+        "./images/learning/woolly-mammoth/tusk-and-molar.webp"
+      ]
     },
     {
       "key": "dailyLife",
@@ -133,7 +143,16 @@ export const learningProfile = {
         "answer": "复原画面包含创作者的选择；这些问题要靠遗存和研究证据判断。"
       }
     ]
-  }
+  },
+  "illustrations": [
+    {
+      "image": "./images/learning/woolly-mammoth/tusk-and-molar.webp",
+      "alt": "AI 科学复原示意：真猛犸象的弯曲象牙，以及有平行薄板状咀嚼面的臼齿放大图",
+      "title": "象牙与臼齿不一样",
+      "caption": "显眼的象牙与磨碎草本食物的臼齿不同。这是科学复原与结构示意，不是化石照片，也不按比例。",
+      "credit": "Fauna Atlas · AI 生成科学复原示意"
+    }
+  ]
 } as const satisfies SpeciesLearningProfile;
 
 export const learningSources = [

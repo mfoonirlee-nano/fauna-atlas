@@ -15,6 +15,7 @@ export type {
   Species,
   LearningSectionKey,
   SpeciesLearningProfile,
+  SpeciesLearningIllustration,
   SpeciesLearningSection,
   SpeciesSummary,
   SpeciesDiet,

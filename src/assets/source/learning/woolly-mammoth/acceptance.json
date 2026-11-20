@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-11",
+  "kind": "ai-generated-teaching-illustration",
+  "generator": "image_gen.imagegen",
+  "runtime": {
+    "image": "./images/learning/woolly-mammoth/tusk-and-molar.webp",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "ef2258790836d24a11f53f90fdb3863536e2382b0965cb642fe321a07f9ede41",
+    "bytes": 265494
+  },
+  "temporaryInput": {
+    "generatorFilename": "exec-c26f717a-9b12-48af-99ba-0567057e760f.png",
+    "sha256": "42f0d7eb08f39faea3fd2fbc94d8cd749a02e855390247e6dc6c83963075f246",
+    "retention": "临时转换副本验收后删除；工具生成的原文件留在工作区 generated_images，不提交 Git。"
+  },
+  "sourceReferences": [
+    {
+      "id": "W1",
+      "title": "Were all mammoths woolly?",
+      "url": "https://www.nhm.ac.uk/discover/were-all-mammoths-woolly.html"
+    },
+    {
+      "id": "W2",
+      "title": "Mammoth or mastodon?",
+      "url": "https://www.nps.gov/articles/mammoth-or-mastodon.htm"
+    }
+  ],
+  "review": {
+    "method": "对照所列资料中的相关事实，目视检查源 PNG 及转换后的 WebP；结构示意不按比例。",
+    "reviewer": "本次助手参考对照与目视检查；不是独立专家复核。",
+    "decision": "accepted-for-described-teaching-scope",
+    "checks": [
+      "弯曲象牙与长鼻区分，头肩外形采用长毛、小耳、高肩的复原特征。",
+      "臼齿咀嚼面为密集平行板状纹理，未画成乳齿象的锥状齿冠。",
+      "图中明确写明科学复原、不按比例；不作为真实化石、幼体或牙齿尺寸证据。"
+    ],
+    "limitations": [
+      "尚未独立专业二审或亲子试读。",
+      "压缩、哈希和尺寸测试只验证技术属性，不能代替生物学审核。"
+    ]
+  },
+  "prompt": "Create a polished Chinese children's natural-history teaching illustration for ages 6–12. Landscape 3:2 composition, high resolution. Warm ivory paper background, restrained watercolor + precise fine ink lines, clean museum science-book design, natural proportions, generous whitespace, very clear close-up structures, accurate anatomy, realistic rather than cute cartoon, no anthropomorphic faces, no clothes, no logo, no watermark, no fake photographic or fossil evidence. Large clear simplified-Chinese labels only as specified, no extra title or paragraphs. Diagrams are explanatory schematics, not to scale. Keep everything comfortably inside the canvas, no cropped structures. Subject Mammuthus primigenius, woolly mammoth. Scientific reconstruction clearly distinguished from real fossils. LEFT a large natural side-view head and forequarters of a woolly mammoth: high shoulder, domed head, small rounded ears, long brown shaggy coat, ONE trunk, TWO curved spiralling ivory tusks from upper jaw; tusks are distinct from the trunk. Show natural stance on sparse steppe grass, no huge snow pile. Exact label with a fine leader pointing to the ivory tusk: “象牙”. RIGHT a large separate simplified teaching drawing of ONE mammoth lower molar, showing a broad flat worn chewing surface made of many closely-spaced parallel enamel plates/ridges. Make the tooth plate-rich like a mammoth molar, NOT conical mastodon cusps, not a human tooth, no sharp carnivore canines. A small green grass tuft beside it suggests food. Exact label “臼齿磨碎草本植物” with leader to molar chewing surface. The isolated tooth is clearly a drawing, not a photoreal fossil specimen or museum photo. Bottom small exact note “科学复原示意，不按比例”. No scene of extinct animals photographed in modern habitat, no geological claims or extinction cause drawn, no mammoth calf or DNA graphics."
+}

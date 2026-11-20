@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-11",
+  "kind": "ai-generated-teaching-illustration",
+  "generator": "image_gen.imagegen",
+  "runtime": {
+    "image": "./images/learning/emperor-penguin/egg-on-feet.webp",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "cb92cb4a15a8f04c375b0dc25566db1f054403e08971ba210b8ae45bc8197c5d",
+    "bytes": 184222
+  },
+  "temporaryInput": {
+    "generatorFilename": "exec-02be7521-a84d-45bd-a256-8a3550010316.png",
+    "sha256": "b58a0725e01ef53fd5b495d90e4c014a4b92a6c5c78ef7f629f74b05b339bb6e",
+    "retention": "临时转换副本验收后删除；工具生成的原文件留在工作区 generated_images，不提交 Git。"
+  },
+  "sourceReferences": [
+    {
+      "id": "E1",
+      "title": "Emperor penguin",
+      "url": "https://www.antarctica.gov.au/about-antarctica/animals/penguins/emperor-penguin/"
+    },
+    {
+      "id": "E2",
+      "title": "Emperor penguin breeding cycle",
+      "url": "https://www.antarctica.gov.au/about-antarctica/animals/penguins/emperor-penguin/breeding-cycle/"
+    }
+  ],
+  "review": {
+    "method": "对照所列资料中的相关事实，目视检查源 PNG 及转换后的 WebP；结构示意不按比例。",
+    "reviewer": "本次助手参考对照与目视检查；不是独立专家复核。",
+    "decision": "accepted-for-described-teaching-scope",
+    "checks": [
+      "单枚卵位于身体外、两脚上方，由脚背托起，不直接放在冰面。",
+      "腹部皮肤褶从上方覆盖卵，局部透视用于说明位置，不表达腹内育儿袋。",
+      "卵、脚背和皮肤褶的中文指引位置可辨认。"
+    ],
+    "limitations": [
+      "尚未独立专业二审或亲子试读。",
+      "压缩、哈希和尺寸测试只验证技术属性，不能代替生物学审核。"
+    ]
+  },
+  "prompt": "Create a polished Chinese children's natural-history teaching illustration for ages 6–12. Landscape 3:2 composition, high resolution. Warm ivory paper background, restrained watercolor + precise fine ink lines, clean museum science-book design, natural proportions, generous whitespace, very clear close-up structures, accurate anatomy, realistic rather than cute cartoon, no anthropomorphic faces, no clothes, no logo, no watermark, no fake photographic or fossil evidence. Large clear simplified-Chinese labels only as specified, no extra title or paragraphs. Diagrams are explanatory schematics, not to scale. Keep everything comfortably inside the canvas, no cropped structures. Subject Aptenodytes forsteri. Explain egg incubation on FEET with the abdominal brood fold. LEFT a complete adult male emperor penguin standing naturally upright on ice, black dorsal feathers, white belly, yellow ear/throat patches, two short webbed feet under the belly, maintaining a normal non-human posture. RIGHT a very large precise side-view close-up teaching schematic of the LOWER ABDOMEN and BOTH webbed feet: a SINGLE pear-shaped off-white egg is supported ON TOP OF THE FEET, lifted off the ice, with the loose lower abdominal skin fold draping down over the egg. Use a small cutaway/translucent portion of the fold ONLY to make the egg position visible. The egg remains outside the body, not inside a kangaroo pouch, not suspended mid-air and not on bare ice. All foot toes lie along the ground plane and support the egg from below; no hands, no extra feet. Three well-spaced large Chinese labels with fine leaders ending accurately: “腹部皮肤褶” pointing to the draped abdominal fold, “卵” pointing to the single egg, “脚背” pointing to upper surfaces of webbed feet below the egg. Small exact label “示意图” at lower right. No second egg, no babies in the fold, no exaggerated cartoon face, no internal organs."
+}

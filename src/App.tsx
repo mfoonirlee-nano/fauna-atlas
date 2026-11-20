@@ -415,7 +415,7 @@ function SpeciesImageViewer({
 
         <aside className="image-viewer__info">
           <p className="section-kicker">
-            {frame.kind === 'cover' ? 'COVER IMAGE · 封面影像' : 'IMAGE NOTE · 影像观察'}
+            {frame.kind === 'cover' ? 'COVER IMAGE · 封面影像' : frame.kind === 'learning' ? '解说示意图' : 'IMAGE NOTE · 影像观察'}
           </p>
           <p className="image-viewer__scientific">{item.scientificName}</p>
           <h2 id={viewerTitleId}>{item.names.zh}影像档案</h2>

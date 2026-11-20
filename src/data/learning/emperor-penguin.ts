@@ -37,6 +37,9 @@ export const learningProfile = {
           "name": "脚背和腹部的皮肤褶",
           "explanation": "雄鸟孵卵时用脚背托住卵，再用皮肤褶覆盖，帮助卵保持温暖"
         }
+      ],
+      "images": [
+        "./images/learning/emperor-penguin/egg-on-feet.webp"
       ]
     },
     {
@@ -48,6 +51,9 @@ export const learningProfile = {
       "sources": [
         "https://www.antarctica.gov.au/about-antarctica/animals/penguins/emperor-penguin/",
         "https://iucn.org/press-release/202604/emperor-penguin-and-antarctic-fur-seal-now-endangered-due-climate-change-iucn"
+      ],
+      "images": [
+        "./images/species/emperor-penguin/03-fast-ice-habitat.webp"
       ]
     },
     {
@@ -59,7 +65,10 @@ export const learningProfile = {
       "sources": [
         "https://www.antarctica.gov.au/about-antarctica/animals/penguins/emperor-penguin/"
       ],
-      "curiosity": "潜得最深或最久的记录，不等于每次找食物都要达到这个程度。“最深”和“最久”可能来自不同下潜，不能把它们拼成一次经历。"
+      "curiosity": "潜得最深或最久的记录，不等于每次找食物都要达到这个程度。“最深”和“最久”可能来自不同下潜，不能把它们拼成一次经历。",
+      "images": [
+        "./images/species/emperor-penguin/05-under-ice-foraging.webp"
+      ]
     },
     {
       "key": "dailyLife",
@@ -81,6 +90,9 @@ export const learningProfile = {
       "sources": [
         "https://www.antarctica.gov.au/about-antarctica/animals/penguins/emperor-penguin/breeding-cycle/",
         "https://iucn.org/press-release/202604/emperor-penguin-and-antarctic-fur-seal-now-endangered-due-climate-change-iucn"
+      ],
+      "images": [
+        "./images/species/emperor-penguin/06-parent-and-chick.webp"
       ]
     },
     {
@@ -118,5 +130,14 @@ export const learningProfile = {
         "answer": "海水中有它的食物；许多繁殖群在海冰上孵卵和照顾幼鸟，成鸟换羽时也需要适合停留的冰面。"
       }
     ]
-  }
+  },
+  "illustrations": [
+    {
+      "image": "./images/learning/emperor-penguin/egg-on-feet.webp",
+      "alt": "AI 解说示意：帝企鹅用脚背托住一枚卵，腹部皮肤褶从上方覆盖卵",
+      "title": "卵托在脚背上",
+      "caption": "卵在身体外，由脚背托住；腹部的皮肤褶从上方覆盖，帮助保温。局部放大不按比例。",
+      "credit": "Fauna Atlas · AI 生成解说示意图"
+    }
+  ]
 } as const satisfies SpeciesLearningProfile;

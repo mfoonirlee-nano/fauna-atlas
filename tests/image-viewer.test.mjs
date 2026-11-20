@@ -24,7 +24,7 @@ test('image viewer frames keep the cover first and preserve gallery metadata', (
   for (const item of species) {
     const frames = buildSpeciesImageFrames(item);
     const coverOffset = item.media.image ? 1 : 0;
-    const expectedLength = coverOffset + (item.media.gallery?.length ?? 0);
+    const expectedLength = coverOffset + (item.media.gallery?.length ?? 0) + (item.learning?.illustrations?.length ?? 0);
 
     assert.equal(frames.length, expectedLength, item.slug);
     if (item.media.image) {
@@ -57,6 +57,7 @@ test('image viewer frames keep the cover first and preserve gallery metadata', (
   assert.ok(sample);
   const galleryOnlyFrames = buildSpeciesImageFrames({
     ...sample,
+    learning: undefined,
     media: {
       alt: sample.media.alt,
       credit: sample.media.credit,
@@ -68,6 +69,7 @@ test('image viewer frames keep the cover first and preserve gallery metadata', (
 
   const emptyFrames = buildSpeciesImageFrames({
     ...sample,
+    learning: undefined,
     media: { alt: sample.media.alt },
   });
   assert.deepEqual(emptyFrames, []);
@@ -101,4 +103,22 @@ test('viewer fills the viewport, preserves the whole photo and adapts on narrow 
   assert.match(stylesSource, /\.image-viewer--single\s*{[^}]*grid-template-rows:\s*70px minmax\(0, 1fr\)/s);
   assert.match(stylesSource, /\.image-viewer__main\s*{[^}]*grid-template-columns:\s*minmax\(0, 1fr\) clamp\(320px, 27vw, 420px\)/s);
   assert.match(stylesSource, /@media \(max-width: 760px\)[\s\S]*?\.image-viewer__main\s*{[^}]*grid-template-columns:\s*1fr/s);
+});
+
+
+test('accepted teaching diagrams append after gallery indexes without duplication or withdrawn assets', () => {
+  const sample = species.find((item) => item.slug === 'giant-panda');
+  const diagram = sample.learning.illustrations[0];
+  const withdrawn = { ...diagram, image: './images/learning/withdrawn.webp' };
+  const item = { ...sample,
+    learning: { ...sample.learning, illustrations: [diagram, diagram, { ...diagram, image: sample.media.image }, withdrawn] },
+    pendingMedia: { reason: 'not accepted', assets: { image: withdrawn.image, alt: 'withdrawn' } },
+  };
+  const frames = buildSpeciesImageFrames(item);
+  assert.equal(frames.length, 7);
+  assert.equal(frames[1].image, sample.media.gallery[0].image, 'existing gallery index is unchanged');
+  assert.equal(frames.at(-1).kind, 'learning');
+  assert.equal(frames.at(-1).image, diagram.image);
+  assert.equal(frames.at(-1).caption, diagram.caption);
+  assert.ok(!frames.some((f) => f.image === withdrawn.image));
 });
