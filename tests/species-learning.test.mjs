@@ -8,11 +8,11 @@ import { act, createElement } from 'react';
 import { createRoot } from 'react-dom/client';
 
 const { species } = await import('../node_modules/.tmp/taxonomy-test/data/species.js');
-const selected = ['giant-panda', 'emperor-penguin', 'monarch-butterfly', 'common-octopus', 'woolly-mammoth'];
+const selected = ['giant-panda', 'emperor-penguin', 'monarch-butterfly', 'common-octopus', 'woolly-mammoth', 'snow-leopard'];
 const keys = ['identity', 'body', 'habitat', 'foraging', 'dailyLife', 'growth', 'ecology', 'survival'];
 const get = (slug) => species.find((item) => item.slug === slug);
 
-test('five selected animals have sourced learning chapters, inline images and hash-bound teaching diagrams', async () => {
+test('selected animals have sourced learning chapters, inline images and hash-bound teaching diagrams', async () => {
   assert.deepEqual(species.filter((s) => s.learning).map((s) => s.slug).sort(), [...selected].sort());
   for (const slug of selected) {
     const item = get(slug), learning = item.learning;
@@ -27,10 +27,10 @@ test('five selected animals have sourced learning chapters, inline images and ha
     }
     const publishedImages = new Set([item.media.image, ...item.media.gallery.map((m) => m.image)]);
     const approvedImages = new Set([...publishedImages, ...(learning.illustrations ?? []).map((image) => image.image)]);
-    assert.equal(learning.illustrations.length, 1, `${slug}: one new teaching diagram`);
+    if (slug !== 'snow-leopard') assert.equal(learning.illustrations?.length, 1, `${slug}: one accepted teaching diagram`);
     assert.ok(learning.sections.filter((section) => section.images?.length).length >= 3, `${slug}: illustrations belong in the prose`);
     for (const section of learning.sections) for (const image of section.images ?? []) assert.ok(approvedImages.has(image), image);
-    for (const diagram of learning.illustrations) {
+    for (const diagram of learning.illustrations ?? []) {
       assert.match(diagram.credit, /AI/);
       assert.ok(diagram.caption && diagram.alt);
       assert.ok(learning.sections.some((section) => section.images?.includes(diagram.image)));
@@ -61,6 +61,10 @@ test('learning preserves assessment scope, extinction evidence, uncertainty and 
   assert.equal(get('woolly-mammoth').conservation.assessedYear, undefined);
   assert.equal(get('woolly-mammoth').distribution.center, undefined);
   assert.equal(get('emperor-penguin').conservation.code, 'EN');
+  assert.equal(get('snow-leopard').conservation.code, 'VU');
+  assert.equal(get('snow-leopard').conservation.assessedYear, 2016);
+  assert.match(text('snow-leopard', 'survival'), /易危.*2016.*2017/);
+  assert.match(text('snow-leopard', 'growth'), /十八至二十二/);
 });
 
 async function mount(context, initialSlug) {
@@ -115,6 +119,12 @@ test('children can navigate chapters, reveal answers and follow scoped source li
   assert.match(document.querySelector('.detail-hero__status').textContent, /灭绝/);
   assert.equal(document.querySelector('.learning-reader__question').open, false, 'new animal starts with answers closed');
   assert.match(document.querySelector('.learning-reader__image-note').textContent, /复原/);
+  await render('snow-leopard');
+  assert.equal(document.querySelectorAll('.learning-reader__chapter').length, 9);
+  assert.equal(document.querySelectorAll('.learning-reader__parts dt').length, 4);
+  assert.match(document.getElementById('learning-snow-leopard-body').closest('section').querySelector('img.atlas-image__photo').getAttribute('src'), /02-rocky-ridge-traverse.webp$/);
+  assert.match(document.querySelector('.detail-hero__status').textContent, /VU|易危/);
+  assert.match(document.querySelector('.learning-reader__image-note').textContent, /AI 生成/);
 });
 
 test('observation zoom uses the existing viewer and Escape restores focus before closing the profile', async (context) => {

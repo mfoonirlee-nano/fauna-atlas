@@ -1,10 +1,11 @@
+import { learningProfile, learningSources } from '../learning/snow-leopard.js';
 import type { Species } from '../../types/species.ts';
 
 import { CONTENT_DATE, animalTaxonomy, conservation, taxon } from './shared.js';
 
 const SNOW_LEOPARD_SOURCE_DATE = '2026-08-14' as const;
 
-const SNOW_LEOPARD_CONTENT_DATE = '2026-08-14' as const;
+const SNOW_LEOPARD_CONTENT_DATE = '2026-11-22' as const;
 
 const profile = {
     id: 'species-panthera-uncia',
@@ -53,6 +54,7 @@ const profile = {
     tags: ['高山生态系统', '顶级捕食者', '旗舰物种', '国家一级保护野生动物', 'CITES 附录 I', 'CMS 附录 I'],
     summary: '雪豹在亚洲十二国的高山岩脊间活动，主要捕食野生有蹄类动物，也是高山生态保护的旗舰物种。',
     description: '雪豹利用亚洲高山的岩壁、碎石坡、草原与灌丛，分布从阿尔泰较低的山地延伸到喜马拉雅高寒带。浓密冬毛、宽大足掌和粗长尾巴帮助它应对寒冷、深雪与陡坡。保护雪豹需要维护野生猎物和跨境通道，也需要与当地牧民共同减少牲畜损失。',
+    learning: learningProfile,
     storySections: [
       {
         key: 'adaptation',
@@ -163,6 +165,7 @@ const profile = {
       ],
     },
     sources: [
+      ...learningSources,
       {
         title: 'IUCN Red List — Panthera uncia (2016 assessment, published 2017)',
         url: 'https://doi.org/10.2305/IUCN.UK.2017-2.RLTS.T22732A50664030.en',
